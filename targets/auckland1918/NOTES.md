@@ -1,5 +1,7 @@
 # Auckland 1918: Consul-General Winslow and the US Navy, cables on unknown wireless signals (catalogue 757)
 
+Status: read (Brice Dudout, 28 Oct 2026; every word of both cables read, counted in letters: outgoing cable 94 of 94 letters certain; reply 305 of 305 letters read in their sense, 297 certain, 8 restored from their word (6 transmission errors, 2 overstruck letters), 0 unresolved; the final "OK" and the number 17527 are not interpreted; Daniel Bourdeau's 95% rule).
+
 Contributed by Brice Dudout (Europe chiffrée), 28 Oct 2026. Published write-up:
 https://bdudout.github.io/europe-chiffree/en/documents.html#auckland-1918
 
