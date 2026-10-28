@@ -1,4 +1,4 @@
-# Group-by-group decryption with key K5 (= frozen key K4 + glosses of the held-out letter, added after validation).
+# Group-by-group decryption with key K6 (frozen; 490 values from the glosses of seven 1779-1780 letters). 163, 586, 257 are nulls.
 # <n> = group absent from the key. Readings by sense are given in reading.md, not here.
 
 ## COL C8 A 77 fol. 88, no. 238, 17 Sept 1778 (IREL image FRANOM23_C8A_077_0141)
@@ -15,7 +15,7 @@ au 1er de ce mo is j' at te n d' s avec d' autant plus d'
 à an non ce que le vu <568> de hu it cent di x sept hommes
 
 807.240.809.513.321.110.146.350.482.403.143.160.634.494.185.
-ne me per met pas d' <146> pren dre encore sur quelque isles anglois es
+ne me per met pas d' entre pren dre encore sur quelque isles anglois es
 
 807.836.103.619.770.443.513.81.777.268.481.361.845.666.195.
 ne po u va nt y met tre un garnison <481> de ga r ni
@@ -36,7 +36,7 @@ situation de la garnison d' e ce t te der ni er e isles qui est fo
 u r ni e mo it i e par la-martinique et mo i ti e par
 
 428.819.23.303.705.26.185.819.23.320.285.622.
-la-guadeloupe <819> en troupes re <26> es <819> en mi li ces
+la-guadeloupe soit en troupes re <26> es soit en mi li ces
 
 ## COL C8 A 77 fol. 101, no. 259, 5 Dec 1778 (image 0162)
 208.250.837.361.57.147.1.250.287.361.694.381.
@@ -46,10 +46,10 @@ la-guadeloupe <819> en troupes re <26> es <819> en mi li ces
 troupes de la-martinique au 1er de ce mo is et celui de
 
 587.268.361.138.607.817.577.619.103.91.45.587.580.705.
-la garnison de la-dominique le s <577> va u x pour la su re
+la garnison de la-dominique le s tra va u x pour la su re
 
 398.361.270.44.398.661.17.353.182.832.786.770.361.
-te de ce t te dernier e colonie ap pro che nt de
+te de ce t te dernier e colonies ap pro che nt de
 
 772.678.266.284.187.400.270.309.245.23.287.361.
 leur <678> et elle est dans ce mo ment en état de
@@ -62,10 +62,10 @@ défen ce
 situation de la garnison de la-dominique au 1er de ce m bre mi l' sept cent sept ant e hu it fo u r ni e par le s garnison s de la-martinique et la-guadeloupe
 
 404.116.610.345 453.67.81
-ar ma <610> c cent qua tre
+ar ma gna c cent qua tre
 
 636.1.218 67.81
-au er <218> qua tre
+au er rois qua tre
 
 331.23.265.815 641.453.67.81.331.339.776.44
 vi en no is deux cent qua tre vi n g t
@@ -77,16 +77,44 @@ la-martinique <257> cent non ant e sept
 la-guadeloupe cent qua ra nt e ci n q
 
 38.740.417.12.705.817.361.189.298.607 67.81.331.339.776.44.777
-vo lon ta i re s de <189> il le qua tre vi n g t un
+vo lon ta i re s de bou il le qua tre vi n g t un
 
 848 267 331.339.776.44.709.91 428 81.12.206 81.339.398.11
-<848> la-martinique vi n g t si x la-guadeloupe tre i ze tre n te neuf
+artillerie la-martinique vi n g t si x la-guadeloupe tre i ze tre n te neuf
 
 320.285.622.361.428 402.91
 mi li ces de la-guadeloupe di x
 
 701.361.243.108.772 267 819.73.210.17.67.81 428 67.81.331.339.776.44.777 138 819.73.491.398.538 641.453.331.339.776.44.641
-<701> de co <108> leur la-martinique <819> <73> ant e qua tre la-guadeloupe qua tre vi n g t un la-dominique <819> <73> an te sept deux cent vi n g t deux
+<701> de co <108> leur la-martinique soit xa ant e qua tre la-guadeloupe qua tre vi n g t un la-dominique soit xa an te sept deux cent vi n g t deux
 
 44.635.181 454.538.210.17.641
 t ot al mille sept ant e deux
+
+## COL C8 A 77 fol. 101, second return attached to no. 259 (image 0164); one line per row, cells separated by |
+709.368.5.12.564.381.303.255.267.636.104.361.270.135.651.320.250.538.453.538.491.398.479.585
+si tu at i on des troupes à la-martinique au 1er de ce m bre mi l' sept cent sept an te hu qu'
+
+101.817.381.796 | 490.817: 491.167.23.817.679.250.110.5.817 | 558.412.309.815.491.398.598.387 | 255.250.78.508.44.181.412.19 | 361.417.786.451.138 | 133.44.181 | 135.491.56.636.243.135.627.44 | 309.398.323.607.309.815.210.1.12.387: 163.583.590.402.185 | 361.586.806.398 | 309.707.817 | 116.587.381.23.683.817.366.23.80 | 257.133.417.250
+nom s des corps présent s an ci en s so l' d' at s recrues du mo is an te ri eur à l' hô pi t al du lieu de ta che à la-dominique to t al m an que au co m ple t mo te pendant le mo is ant er i eur <163> con ge di es de <586> ser te mo <707> s ma la des en voye s je en france <257> to ta l'
+
+636.1.218 | 454.538.210.17.67.81 | 777 | 453.81.770.17.777 | 67.81 | 766.103.206.453.402.91 | 516.815.453.538.491.398 | - | 516.815 | 81.12.206 | - | 305.272.206
+au er rois mille sept ant e qua tre un cent tre nt e un qua tre do u ze cent di x tro is cent sept an te tro is tre i ze se i ze
+
+331.23.265.815 | 538.453.67.81.331.339 | - | 453.709.91 | 641.453.67.81.331.339.776.44 | 564.206.819.78.210.17.11 | 67.81.564.206 | - | - | 11 | - | 807.103.614
+vi en no is sept cent qua tre vi n cent si x deux cent qua tre vi n g t on ze soit hô ant e neuf qua tre on ze neuf ne u f
+
+267 | 454.641 | - | 279.210.162.516.815 | 453.265.612.770.17.538 | 766.192.206.453.279.210.162.641 | 453.67.81.331.339.776.44 | 641 (*) | 361.103.91 | 402.91.11 | - | 331.339.776.44.516.815
+la-martinique mille deux non ant e tro is cent no na nt e sept do u ze cent non ant e deux cent qua tre vi n g t deux de u x di x neuf vi n g t tro is
+
+848.361.80 | 453.538.210.17.67.81 | 192.339 | 402.91.11 | 305.12.206 | 641.453.402.91 | 67.767.398.709.91 | - | - | 516.815 | - | 44.218
+artillerie de france cent sept ant e qua tre u n di x neuf se i ze deux cent di x qua ran te si x tro is t rois
+
+586.848.361.267 | 453.167.339.618.17.167.339.197 | - | 564.206 | 402.91 | 453.538.210.162.709.91 | 331.339.776.44.67.81 | - | - | 777 | - | 103.339
+<586> artillerie de la-martinique cent ci n quand e ci n q on ze di x cent sept ant e si x vi n g t qua tre un u n
+
+163.133.417.250.586 | 516.815.454.453.67.81.331.339.776.44.479.545 | 641 | 516.815.453.819.73.770.17 | 167.339.197.453.538 | 67.81.454.167.339.618.162.538 | 454.81.339.398.777 | 361.103.91 | 167.339.197 | 67.767.398.167.339.197 | - | 167.339.618.505.641
+<163> to ta l' <586> tro is mille cent qua tre vi n g t hu it deux tro is cent soit xa nt e ci n q cent sept qua tre mille ci n quand e sept mille tre n te un de u x ci n q qua ran te ci n q ci n quand e deux
+
+(*) 777.331.305.400.250.848.266.777.590.770.298.37.666.147.17
+un vi se dans l' artillerie et un ge nt il hommes r envoi e

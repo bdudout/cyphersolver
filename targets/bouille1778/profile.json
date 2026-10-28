@@ -39,7 +39,7 @@
   {
    "id": "anom-c8a-77-f101",
    "read": "read",
-   "shelfmark": "ANOM, COL C8 A 77, fol. 101 (letter no. 259 and its first return, images 0162-0163)",
+   "shelfmark": "ANOM, COL C8 A 77, fol. 101 (letter no. 259 and its two returns, images 0162-0164)",
    "date": "5 and 9 December 1778",
    "year": 1778,
    "country": "France",
@@ -49,7 +49,7 @@
     "to": "Versailles"
    },
    "language": "French",
-   "pages": 2,
+   "pages": 3,
    "cleartext_in_document": "interspersed",
    "plaintext": {
     "location": [
@@ -58,7 +58,7 @@
     "source": "IREL record: \"Lettre et pièces jointes chiffrées non décryptées\"; no gloss."
    },
    "length": {
-    "tokens": 221,
+    "tokens": 578,
     "unit": "code groups",
     "measured": true,
     "file": "transcription.txt"
@@ -67,7 +67,7 @@
     "by": "llm from images",
     "source": "IREL images (ANOM)",
     "image_quality": "good",
-    "notes": "The second attached return (image 0164) is a separate piece, not covered by this folder."
+    "notes": "Both attached returns (images 0163-0164) transcribed and read."
    }
   }
  ],
@@ -142,11 +142,20 @@
   },
   {
    "date": "2026-10-28",
+   "kind": "control",
+   "technique": [
+    "plaintext matching"
+   ],
+   "what": "Enlarged frozen key K6 on held-out letter no. 415 against its modern translation: 0.894 words / 0.897 characters vs max 0.182 / 0.174.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-28",
    "kind": "reading",
    "technique": [
     "contextual inference"
    ],
-   "what": "Letters nos. 238 and 259 and the first return read; return checked by its sums (total 1,072 men).",
+   "what": "Letters nos. 238 and 259 and both returns read; returns checked by their sums (1,072 and 4,057 men).",
    "result": "worked"
   }
  ],
@@ -159,9 +168,9 @@
    "transcription",
    "key recovered"
   ],
-  "fraction_read": 0.988,
+  "fraction_read": 0.993,
   "fraction_read_method": "measured",
-  "fraction_read_source": "257/260 words read in their sense (237 certain, 16 probable, 4 restored); second return (image 0164) not read.",
+  "fraction_read_source": "455/458 words read in their sense (437 certain, 11 probable, 7 restored, 3 unresolved).",
   "first_break": true,
   "verification": [
    "statistical test",
@@ -193,14 +202,14 @@
    },
    {
     "doc": "anom-c8a-77-f101",
-    "label": "Bouillé to the minister, 5 Dec 1778 (no. 259) and the return of the Dominica garrison, 9 Dec 1778",
+    "label": "Bouillé to the minister, 5 Dec 1778 (no. 259) and its two returns (Dominica garrison; troops in Martinique), 9 Dec 1778",
     "transcription": "transcription.txt",
     "decryption": "decryption.txt",
     "reading": "reading.md",
     "translation": "translation.md",
     "language": "fr",
     "state": "read",
-    "summary": "Works at Dominica nearly finished; garrison of Dominica on 1 Dec 1778: 1,072 men by corps."
+    "summary": "Works at Dominica nearly finished; Dominica garrison 1,072 men; troops in Martinique 4,057 present, 1,031 short."
    }
   ],
   "key_file": "key.tsv",
