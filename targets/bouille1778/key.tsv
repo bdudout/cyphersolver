@@ -1,0 +1,404 @@
+# Bouillé cipher 1778-1782 (Windward Islands), key K5: number<TAB>value<TAB>votes from the 1779 pencil glosses.
+# K4 (frozen, SHA-256 85adc39b...4a06, 379 values) + held-out letter no. 363 added after validation.
+1	er	{'er': 10.0, 'è': 1.0}
+3	gi	{'gi': 1.0}
+5	at	{'at': 1.0}
+10	quintaux	{'quintaux': 1.0}
+11	neuf	{'neuf': 4.0}
+12	i	{'i': 19.0}
+17	e	{'e': 25.0, 're': 1.0, 'é': 6.0}
+19	lieu	{'lieu': 1.0}
+23	en	{'en': 24.0}
+25	même	{'même': 5.0}
+27	hollandais	{'hollandais': 2.0}
+28	vivres	{'vivres': 12.0}
+30	lai	{'lai': 1.0}
+34	vois	{'vois': 3.0}
+37	hommes	{'hommes': 6.0}
+38	vo	{'vo': 11.0}
+40	igno	{'igno': 1.0}
+44	t	{'t': 31.0}
+45	pour	{'pour': 20.0}
+46	avec	{'avec': 4.0}
+52	z	{'z': 12.0}
+56	que	{'que': 21.0}
+57	vous	{'vous': 9.0}
+59	pu	{'pu': 2.0}
+66	bâtiments	{'bâtiments': 4.0}
+67	qua	{'qua': 9.0}
+70	ke	{'ke': 1.0}
+72	fort	{'fort': 1.0}
+75	venir	{'venir': 2.0}
+78	hô	{'hô': 2.0, 'ho': 1.0}
+79	la-grenade	{'la-grenade': 2.0}
+80	france	{'france': 1.0}
+81	tre	{'tre': 14.0, 'tres': 1.0, 'très': 0.5}
+82	ju	{'ju': 5.0}
+84	mes	{'mes': 2.0}
+85	objet	{'objet': 1.0}
+87	ainsi	{'ainsi': 4.0}
+88	je	{'je': 2.0}
+89	malheur	{'malheur': 1.0}
+91	x	{'x': 14.0}
+93	sa	{'sa': 1.0}
+94	utile	{'utilité': 1.0, 'utile': 2.0}
+95	sa	{'sa': 4.0}
+100	o	{'o': 1.0}
+101	nom	{'nom': 1.0}
+102	ca	{'ca': 6.0}
+103	u	{'u': 5.0, 'teu': 1.0}
+104	1er	{'1er': 7.0}
+105	roient	{'roient': 2.0}
+107	vent	{'vent': 5.0}
+109	évènement	{'évènement': 3.0}
+110	d'	{"d'": 17.0, 'd': 6.0}
+114	bateaux	{'bateaux': 1.0}
+116	ma	{'ma': 7.0}
+118	paix	{'paix': 1.0}
+119	vu	{'vu': 3.0}
+121	amérique	{'amérique': 1.0}
+124	suffi	{'suffi': 1.0}
+126	que	{'qui': 0.5, 'que': 14.0}
+128	mains	{'mains': 1.0}
+130	couv	{'couv': 1.0}
+131	lui	{'lui': 2.0}
+133	to	{'to': 1.0}
+135	m	{'m': 19.0, "m'": 5.0}
+136	m	{'m': 0.5}
+138	la-dominique	{'la-dominique': 1.0}
+143	sur	{'sur': 8.5}
+147	envoi	{'envoi': 3.0}
+148	secours	{'secours': 3.0}
+150	fortifi	{'fortifi': 1.0}
+151	tom	{'tom': 1.0}
+160	quelque	{'quelque': 5.0}
+162	e	{'se': 0.5, 'e': 5.5, 'te': 1.0, 'è': 1.0, 'é': 3.0}
+167	ci	{'ci': 6.0}
+169	habit	{'habit': 1.0}
+172	cri	{'cri': 2.0}
+173	peu	{'peu': 6.0, 'peut': 2.0}
+178	bien	{'bien': 1.0}
+179	cha	{'cha': 4.0}
+181	al	{'al': 3.0}
+182	ap	{'ap': 2.0}
+184	int	{'int': 1.0}
+185	es	{'es': 21.0, 'és': 2.0, 'ez': 1.0}
+186	ren	{'ren': 2.0}
+187	est	{'est': 20.0}
+191	j'	{"j'": 6.0}
+192	u	{'u': 2.0}
+194	temps	{'temps': 1.0}
+195	ni	{'ni': 6.5}
+197	q	{'q': 5.0}
+198	tri	{'tri': 1.0}
+200	roi	{'roi': 4.0}
+201	ab	{'ab': 4.0}
+203	ac	{'ac': 2.0}
+205	vr	{'vr': 2.0}
+206	ze	{'ze': 1.0}
+207	équip	{'équip': 2.0}
+210	ant	{'ant': 2.0, 'an': 1.0}
+211	tout	{'tout': 6.0}
+214	of	{'of': 1.0}
+225	rer	{'rer': 3.0}
+226	ent	{'ent': 3.0}
+228	offre	{'offre': 1.0}
+233	obligé	{'obligé': 2.0}
+240	me	{'me': 4.0}
+243	co	{'co': 12.0, 'ment': 0.5}
+245	ment	{'ment': 19.0}
+246	qui	{'qui': 11.0}
+247	environ	{'environ': 4.0}
+250	l'	{"l'": 22.0, 'l': 6.0}
+251	ai	{'ai': 7.0}
+252	nécessaire	{'nécessaire': 1.0}
+255	a	{'a': 11.0, 'à': 10.0}
+256	gne	{'gne': 2.0}
+261	am	{'am': 1.0}
+262	particulier	{'particulier': 1.0}
+264	nos	{'nos': 3.0}
+265	no	{'no': 1.0}
+266	et	{'et': 44.0, 'êt': 1.0, 'ét': 1.0}
+267	la-martinique	{'la-martinique': 4.0}
+268	garnison	{'garnison': 2.0}
+270	ce	{'ce': 29.0, 'cé': 1.0}
+271	armé	{'armé': 1.0, 'arme': 1.0, 'armés': 1.0}
+272	i	{'i': 4.0, 'ti': 1.0}
+278	escadre	{'escadre': 6.0}
+279	non	{'non': 1.0}
+282	trou	{'trou': 2.0}
+283	e	{'e': 0.5}
+284	elle	{'elle': 2.0}
+285	li	{'li': 2.0}
+286	qui	{'qui': 4.0}
+287	état	{'état': 10.0, 'états': 2.0}
+289	ns	{'ns': 3.0}
+292	tion	{'tion': 6.0, 'tions': 4.0}
+294	contraire	{'contraire': 1.0}
+295	oc	{'oc': 2.0}
+298	il	{'il': 20.0, 'ils': 2.0}
+303	troupes	{'troupes': 10.0, 'troupe': 1.0}
+304	vaisseaux	{'vaisseaux': 2.0, 'vaisseau': 1.0}
+305	se	{'se': 21.0, 'sé': 2.0}
+307	ba	{'ba': 5.0}
+309	mo	{'mo': 17.0}
+310	canons	{'canons': 1.0}
+316	été	{'été': 8.0}
+317	ici	{'ici': 4.0}
+320	mi	{'mi': 7.0, 'mais': 0.5}
+321	pas	{'pas': 3.0}
+322	tour	{'tour': 1.0}
+323	es	{'es': 0.5}
+325	rs	{'rs': 2.0}
+326	qui	{'qui': 5.0}
+328	pres	{'pré': 1.5, 'pre': 1.0, 'pres': 2.0, 'te': 0.5, 'près': 1.0}
+330	livre	{'livre': 3.0}
+331	vi	{'vi': 17.0}
+339	n	{'n': 39.0, "n'": 4.0}
+342	ter	{'biscuits': 0.5, 'ter': 2.0}
+343	certain	{'certain': 3.0, 'c': 1.0}
+344	employé	{'employé': 2.0}
+345	c	{'c': 3.0}
+350	pren	{'pren': 1.0}
+351	projets	{'projets': 1.0}
+352	cu	{'cu': 2.0, 'çu': 1.0}
+353	colonie	{'colonie': 6.0, 'colonies': 4.0}
+355	gu	{'gu': 1.0}
+358	p	{'p': 2.0}
+360	neutres	{'neutres': 1.0}
+361	de	{'de': 125.0, 'dé': 4.0}
+362	bri	{'bri': 1.0}
+368	tu	{'tu': 3.0}
+369	saint	{'saint': 1.0}
+373	commerce	{'commerce': 3.0}
+377	expédi	{'expédi': 3.0}
+380	terre	{'terre': 1.0}
+381	des	{'des': 34.0, 'dès': 1.0}
+382	ble	{'ble': 3.0}
+383	cependant	{'cependant': 1.0}
+388	sieur	{'sieur': 1.0}
+391	après	{'après': 2.0}
+393	celle	{'celle': 2.0, 'celles': 1.0}
+395	ront	{'ront': 3.0, 'tout': 0.5}
+397	eu	{'eu': 10.0}
+398	te	{'te': 24.0, 'tes': 6.0, 'té': 1.0, 'tés': 2.0}
+399	voir	{'voir': 1.0}
+400	dans	{'dans': 14.0}
+402	di	{'di': 3.0}
+403	encore	{'encore': 1.0}
+404	ar	{'ar': 8.0}
+408	nous	{'nous': 1.0}
+409	cour	{'cour': 1.0}
+411	reçu	{'reçu': 1.0}
+412	du	{'du': 15.0}
+417	ta	{'ta': 11.0, 'tai': 1.0}
+426	étrange	{'étrange': 1.0}
+428	la-guadeloupe	{'la-guadeloupe': 2.0}
+430	mu	{'mu': 2.0}
+431	sans	{'sans': 3.0, 'à': 1.0}
+432	suis	{'suis': 1.0}
+436	ger	{'ger': 1.0}
+439	nu	{'nu': 1.0}
+440	toujours	{'toujours': 2.0}
+443	y	{'y': 12.0}
+446	être	{'être': 2.0}
+448	plus	{'plus': 6.0}
+449	pe	{'pè': 3.0, 'pe': 4.0}
+451	à	{'a': 9.0, 'à': 11.0}
+453	cent	{'cent': 13.0, 'cents': 2.0}
+454	mille	{'mille': 6.0}
+456	eux	{'eux': 1.0}
+459	nu	{'nu': 3.0}
+463	cho	{'cho': 1.0}
+464	ar	{'ar': 1.0}
+467	monseigneur	{'monseigneur': 1.0}
+469	lu	{'lu': 4.0}
+473	dis	{'dis': 1.0}
+475	autres	{'autres': 1.0}
+478	fond	{'fonds': 1.0, 'fond': 2.0}
+479	hu	{'hu': 4.0}
+482	dre	{'dre': 7.0}
+483	bonne	{'bonne': 1.0, 'bon': 1.0}
+486	bo	{'bo': 4.0}
+488	nous	{'nous': 13.0}
+489	farine	{'farine': 6.0}
+490	présent	{'présent': 2.0}
+491	an	{'an': 2.0, 'ans': 1.0}
+494	anglois	{'anglois': 2.0}
+496	roit	{'roit': 3.0}
+497	rien	{'rien': 1.0}
+503	par	{'par': 24.0, 'part': 2.0}
+505	e	{'e': 5.0, 'é': 4.0, 'è': 1.0}
+507	ou	{'oû': 1.0, 'ou': 5.0, 'où': 3.0}
+508	pi	{'pi': 8.0}
+509	rai	{'rai': 3.0}
+513	met	{'met': 4.0}
+516	tro	{'tro': 4.0}
+517	fois	{'fois': 1.0}
+522	son	{'sont': 4.0, 'son': 5.0}
+525	ve	{'vé': 5.0, 've': 9.0, 'vés': 2.0}
+527	fait	{'fait': 4.0}
+529	magasins	{'magasins': 4.0}
+531	autant	{'autant': 3.0}
+533	m.	{'monsieur': 1.0, 'm.': 16.0}
+538	sept	{'sept': 7.0}
+543	instru	{'instru': 4.0}
+545	it	{'it': 8.0}
+551	celui	{'celui': 2.0}
+554	port	{'port': 5.0, 'por': 1.0}
+556	fré	{'fré': 4.0}
+557	garde	{'garde': 1.0}
+558	recrues	{'recrues': 2.0, 'recrue': 2.0}
+563	charge	{'charge': 2.0}
+564	on	{'ons': 3.0, 'on': 6.0}
+566	je	{'je': 3.0}
+569	ir	{'ir': 3.0}
+572	ag	{'ag': 1.0}
+578	u	{'u': 1.0}
+580	su	{'su': 5.0}
+581	dépen	{'dépen': 3.0}
+582	cha	{'cha': 1.0}
+583	con	{'con': 8.0}
+585	qu'	{'que': 1.0, "qu'": 7.0, 'qu': 1.0}
+587	la	{'la': 38.0}
+590	ge	{'ge': 12.0}
+594	ef	{'ef': 1.0}
+595	hai	{'hai': 1.0}
+597	nouvelle	{'nouvelle': 1.0}
+598	ri	{'ti': 1.0, 'ri': 7.0}
+599	jusques	{'jusque': 1.0, 'jusques': 2.0}
+605	vient	{'vient': 3.0}
+607	le	{'le': 73.0}
+611	tenir	{'tenir': 1.0}
+612	na	{'na': 9.0}
+613	ordre	{'ordres': 2.0, 'ordre': 3.0}
+614	f	{'f': 5.0}
+616	que	{'que': 5.0}
+618	quant	{'quant': 2.0, 'quand': 2.0}
+619	va	{'va': 1.0}
+621	dro	{'dro': 3.0}
+622	ces	{'ces': 7.0, 'cés': 1.0}
+624	trans	{'trans': 1.0}
+625	or	{'or': 2.0}
+627	ple	{'ple': 2.0}
+631	défen	{'défen': 2.0, 'deffen': 2.0}
+632	cer	{'cer': 3.0}
+633	jour	{'jour': 2.0}
+634	isles	{'isles': 3.0, 'isle': 1.0}
+635	ot	{'ot': 2.0}
+636	au	{'au': 20.0, 'aux': 3.0}
+640	ro	{'ro': 0.5}
+641	deux	{'deux': 7.0}
+643	ont	{'ont': 7.0}
+645	fo	{'fo': 1.0}
+646	be	{'be': 2.0}
+648	augment	{'augment': 2.0}
+650	détach	{'détach': 1.0}
+651	bre	{'bre': 2.0}
+652	barils	{'barils': 6.0}
+655	grand	{'grand': 1.0}
+657	ient	{'ient': 2.0}
+658	fé	{'fé': 1.0, 'fe': 1.0}
+661	dernier	{'dernier': 2.0}
+663	moyens	{'moyens': 1.0}
+665	pa	{'pa': 5.0}
+666	r	{'r': 17.0, 'er': 1.0}
+668	je	{'je': 1.0}
+669	provision	{'provision': 2.0}
+670	brest	{'brest': 1.0}
+671	considé	{'considé': 1.0}
+674	moins	{'moins': 3.0}
+675	saint-domingue	{'saint-domingue': 5.0}
+676	notre	{'notre': 6.0}
+679	so	{'so': 8.0}
+680	votre	{'votre': 1.0}
+682	dont	{'dont': 6.0}
+683	voye	{'voye': 1.0}
+684	ses	{'ses': 9.0}
+687	vous	{'vous': 3.0}
+689	vain	{'vain': 1.0}
+694	situation	{'situation': 9.0}
+697	fra	{'fra': 1.0}
+705	re	{'re': 32.0, 'ré': 4.0, 'rès': 1.0}
+706	g	{'g': 1.0}
+708	xi	{'xi': 1.0}
+709	si	{'si': 17.0}
+710	guerre	{'guerre': 1.0}
+713	mon	{'mon': 1.0}
+718	a	{'a': 17.0, 'à': 10.0}
+719	ver	{'ver': 8.0}
+721	écrit	{'écrit': 1.0}
+724	vouloir	{'vouloir': 1.0}
+727	em	{'em': 1.0}
+730	dépêche	{'dépêche': 1.0}
+734	pla	{'pla': 1.0}
+735	sou	{'sou': 2.0, 'sous': 2.0}
+737	faut	{'faut': 3.0}
+738	sept	{'sept': 0.5}
+739	der	{'der': 1.0}
+740	lon	{'lon': 3.0}
+742	desti	{'desti': 3.0}
+744	subsistance	{'subsistance': 2.0}
+748	gra	{'gra': 7.0}
+750	pui	{'qui': 0.5, 'pui': 1.0}
+752	sainte-lucie	{'sainte-lucie': 1.0}
+754	ti	{'ti': 16.0}
+756	dou	{'dou': 1.0}
+758	flû	{'flû': 1.0, 'flu': 1.0}
+761	dres	{'dres': 2.0}
+763	oit	{'oit': 1.0}
+766	do	{'do': 1.0}
+767	ran	{'ran': 2.0}
+768	ins	{'ins': 1.0}
+769	vous	{'vous': 8.0}
+770	nt	{'nt': 8.0}
+772	leur	{'leur': 6.0}
+775	quel	{'quel': 5.0, 'quelle': 1.0}
+776	g	{'g': 10.0}
+777	un	{'une': 6.0, 'un': 7.0}
+781	cause	{'cause': 1.0}
+784	nouvelle-angleterre	{'nouvelle-angleterre': 1.0}
+786	che	{'che': 5.0, 'ches': 1.0}
+787	pri	{'pri': 2.0}
+789	hazard	{'hazard': 1.0}
+794	comme	{'comme': 1.0}
+796	corps	{'corps': 2.0}
+798	qu'il	{'ri': 1.0, "qu'ils": 1.0, "qu'il": 5.0}
+799	ru	{'ru': 2.0}
+801	ra	{'ra': 13.0}
+802	jo	{'jo': 1.0}
+803	fi	{'fi': 1.0}
+806	ser	{'ser': 4.0}
+807	ne	{'ne': 19.0, 'n': 1.0, 'né': 4.0}
+809	per	{'per': 2.0}
+810	compte	{'compte': 2.0}
+815	is	{'is': 17.0}
+817	s	{'s': 95.0}
+822	saint-vincent	{'saint-vincent': 1.0}
+827	lettres	{'lettres': 2.0, 'lettre': 1.0}
+832	pro	{'pro': 7.0}
+836	po	{'po': 5.0}
+837	honneur	{'honneur': 1.0}
+839	pli	{'pli': 3.0}
+840	faire	{'faire': 6.0}
+841	barqué	{'barqué': 1.0}
+842	donn	{'donn': 4.0}
+843	extra	{'extra': 2.0}
+845	ga	{'ga': 3.0}
+# values given by sense in the targets (not glossed)
+208	j'ai	sense
+495	minist	sense
+481	sans	sense (homophone of 431)
+667	im	sense
+568	ide	sense
+146	entre	sense
+819	soi	sums of the return (819.73.ante = soixante)
+73	x	sums of the return
+26	gl	sense
+577	tra	sense
+678	fin	sense
+610	gna	sense (Armagnac)
+218	rois	sense (Auxerrois)
+189	bou	sense (Volontaires de Bouillé)
+108	u	sense (couleur)
+701	gens	sense
