@@ -277,7 +277,7 @@
     "role": "solution",
     "date": "2026-10-27",
     "source": "pull request #163",
-    "note": "20 Nov 1526: the lower 21 lines of p. 105 completed and the whole of p. 106 (35 ciphered lines, not treated before) read with Tomokiyo's table as re-measured here; about 98% of words; agrees with the project's p. 105 decode at 95.6% of letters"
+    "note": "20 Nov 1526: the lower 21 lines of p. 105 completed and the whole of p. 106 (35 ciphered lines, not treated before) read with Tomokiyo's table as re-measured here; 593 of 597 words read in their sense (99.3%, Daniel Bourdeau's 95% rule: 572 certain, 13 probable, 8 from the sense, 4 unresolved; recounted 28 Oct 2026); agrees with the project's p. 105 decode at 95.6% of letters"
    },
    {
     "who": "dudout",

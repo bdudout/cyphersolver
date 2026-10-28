@@ -360,7 +360,7 @@ Lead from research/patterns/DEEPER.md: Lasry's GL.htm tables. GL.htm itself list
 
 ## 20 Nov 1526 letter: p. 105 completed and p. 106 read, Brice Dudout (28 Oct 2026)
 
-p. 106 (Gallica view 55, left page) is a whole page in cipher continuing the 20 Nov letter; read with the same table, together with the lower 21 lines of p. 105 (agreement with trans/residue1526_reading.md: 95.6 % of letters). About 98 % of words read; open: word signs absent from the table (ℓ°, three small squares, ϖ, ⋒, ⫝, a large C). See `dudout/README.md`.
+p. 106 (Gallica view 55, left page) is a whole page in cipher continuing the 20 Nov letter; read with the same table, together with the lower 21 lines of p. 105 (agreement with trans/residue1526_reading.md: 95.6 % of letters). Count by your 95 % rule (script, recounted 28 Oct): 597 words, 572 certain, 13 probable, 8 from the sense (ℓ° ×3 the Emperor, three small squares ×2 France, ϖ Madame, escri[pt], [en]), 4 unresolved (⋒, ⫝, a large C ×2), i.e. 593 read in their sense (99.3 %). See `dudout/README.md`.
 
 ## 13 May 1526 letter: whole ciphered part verified, Brice Dudout (28 Oct 2026)
 
