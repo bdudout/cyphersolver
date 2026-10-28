@@ -124,9 +124,12 @@
   },
   {
    "date": "2026-10-28",
-   "kind": "literature search",
-   "what": "Group 392 searched in glossed letters of AE/B/I/223, 225, 227: not found.",
-   "result": "partial"
+   "kind": "verification",
+   "technique": [
+    "plaintext matching"
+   ],
+   "what": "OCR sweep of glossed cipher letters 1717-1730 (AE/B/I/223-240): 392 = service in three glosses (1725, 1730).",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -140,7 +143,7 @@
   ],
   "fraction_read": 1.0,
   "fraction_read_method": "measured",
-  "fraction_read_source": "35/35 words read in their sense; 32 certain (91%), 3 probable (dernie{r}, déci{dé}: ends in the binding; [service]: group 392 by sense).",
+  "fraction_read_source": "35/35 words read in their sense; 33 certain (94%), 2 probable (dernie{r}, déci{dé}: ends in the binding); 392 = service attested in glossed letters of 1725 and 1730.",
   "first_break": true,
   "verification": [
    "contemporary decipherment",

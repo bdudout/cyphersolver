@@ -1,6 +1,6 @@
 # Partyet 1721: the consul at Cadiz to the Conseil de Marine, 7 April 1721 (catalogue 541)
 
-Status: read (Brice Dudout, 28 Oct 2026; 35 of 35 words read in their sense, 32 certain, 3 probable; Daniel Bourdeau's 95% rule).
+Status: read (Brice Dudout, 28 Oct 2026; 35 of 35 words read in their sense, 33 certain, 2 probable; Daniel Bourdeau's 95% rule).
 
 Contributed by Brice Dudout (Europe chiffrée), 28 Oct 2026. Published write-up:
 https://bdudout.github.io/europe-chiffree/en/documents.html#partyet-1721
@@ -32,19 +32,21 @@ as the numbers, so the transcription was not fully blind.
 
 ## Reading
 
-First published decipherment, to our knowledge. 77 cipher numbers, 35 words. Published under Daniel Bourdeau’s rule: 95% of the words read in their sense. Here: 35 of 35 words read in their sense (100%), of which 32 certain (91%) and 3 probable: dernie{r} and déci{dé}, whose endings are lost in the binding, and [service], restored (see the notes). No word unresolved.
+First published decipherment, to our knowledge. 77 cipher numbers, 35 words. Published under Daniel Bourdeau’s rule: 95% of the words read in their sense. Here: 35 of 35 words read in their sense (100%), of which 33 certain (94%) and 2 probable: dernie{r} and déci{dé}, whose endings are lost in the binding (see the notes). The code word 392 = “service” is attested by three contemporary decipherments in the same table (1725, 1730). No word unresolved.
 
 Files: `transcription.txt`, `decryption.txt`, `reading.md`, `translation.md`, `key.tsv`.
 
 ## Notes
 
 - Who is “the latter”? Grammatically the last named is “this general”, Pedro de los Ríos; the reproach may also be aimed at Dormay, who has just been mentioned. The cipher does not settle it. José Patiño was then intendant general of the Spanish navy at Cadiz; the company of the marine guards (the cadets’ academy) had been founded there in 1717.
-- The three probable words. (1) dernie{r}: the last number of the line (141.42.307.8.4‹·›) is lost in the binding; 141 de, 42 r, 307 ni, 8 e are certain. (2) déci{dé}: the line ends with 141.96 (“dé ci”) at the edge of the binding; the last syllable is not visible. (3) [service]: the number 392, underlined like the code words, does not occur in any deciphered letter we have read (registers AE/B/I/223, 225, 226 and 227). Two arguments: the phrase “pour le bien du s…”, common in this correspondence (“le bien du service” is written in clear in 1717), and the place of 392 in the table, which is in alphabetical order: after 385 sa, 386 se, 387 si, 388 so, 389 su come the words in s-, before 412 ta. 392 is therefore a word in s-.
+- The two probable words, and “service”. (1) dernie{r}: the last number of the line (141.42.307.8.4‹·›) is lost in the binding; 141 de, 42 r, 307 ni, 8 e are certain. (2) déci{dé}: the line ends with 141.96 (“dé ci”) at the edge of the binding; the last syllable is not visible. (3) service: the number 392, underlined like the code words, is absent from the glossed letters of 1717–1722; first published as a restoration (the phrase “pour le bien du s…” and the place of 392 among the s- words of the alphabetical table, after 385–389 sa…su, before 412 ta), it is then attested in three glossed letters in the same table (registers AE/B/I/230 and 239): “pour le bien du service” = 347.261.80.144.392 (Gibraltar, 7 June 1725, the same sequence as in our dispatch); “au service du Roy” = 50.392.144.377 (28 November 1730); “au service de Sa M. C.” = 50.80.144.392… (12 December 1730).
 - The other values. All are attested by contemporary decipherments: 80 = bien (“homme de bien”, 1722; “bien”, 31 March 1721), 106 = comme (“com·me·rce”, 6 January 1721), 212 = gi (“conta·gi·on”, 23 February 1721), 285 = ment (“arme·ment”), 280.30.372.30 = Ma·d·ri·d.
 - Prior work. The inventory of the Archives nationales notes “[suite en chiffre, non transcrite]”; the register holds no decipherment of this passage, whereas the neighbouring letters carry one. As of 28 October 2026 Daniel Bourdeau’s repository holds only the catalogue entry.
 
-## Open point
+## Group 392 = service (attested)
 
-Group 392 ("service") is underlined like the code words and was not found in the glossed letters of AE/B/I/223 (1717),
-225 (1720), 226 and 227 (1722) that we read. It is given by the phrase "pour le bien du s..." and by its place in the
-alphabetical table (after 385-389 sa..su, before 412 ta: the words in s-). A glossed occurrence would settle it.
+Group 392 is absent from the glossed letters of 1717-1722 (OCR sweep of 61 letters, ~6,700 numbers). It was first
+restored from the phrase "pour le bien du s..." and its place among the s- words of the alphabetical table, and is now
+attested in three glossed letters in the same table: "pour le bien du service" = 347.261.80.144.392 (AE/B/I/230,
+Gibraltar, 7 June 1725, the very same sequence), "au service du Roy" = 50.392.144.377 (AE/B/I/239, 28 Nov 1730),
+"au service de Sa M. C." = 50.80.144.392... (AE/B/I/239, 12 Dec 1730).
