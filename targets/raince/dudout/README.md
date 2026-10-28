@@ -33,5 +33,20 @@ Prior work, checked on 28 October 2026. Daniel Bourdeau’s catalogue (no. 5) li
 
 ## Not done
 
-The 13 May 1526 residue (pp. 29-31) was not re-read in this pass. Files: `decryption.txt` (line by line),
+(See below for the 13 May 1526 residue, added later the same day.) Files: `decryption.txt` (line by line),
 `reading.md` (established French text and English translation).
+
+# 13 May 1526: whole ciphered part verified sign by sign (Brice Dudout, 28 Oct 2026)
+
+Write-up: https://bdudout.github.io/europe-chiffree/en/documents.html#raince-mai
+
+First complete reading of the ciphered part to be published, to our knowledge. 85 ciphered lines, 1,114 words. Mechanical count: 96.7 % of words read (96.1 % certain, 0.6 % probable), 1.8 % word signs absent from the table read from the sense only and left in ‹ › in the text, 1.5 % unresolved. Every line was re-read sign by sign on the full-resolution image. Starting point: Daniel Bourdeau’s partial reading (“v3”, 5 October 2026, classed by him as “decoded, not read”, about 85 % of words); none of his readings of full words was contradicted, his gaps were filled on some twenty lines (e.g. “deux bendes en la court”, “conduict en Sivile”, “a la venue de Herrera avec l’Empereur”, “par les gens de Ferrare”, “leur donneroit a congnoistre la fin a quoy il tend”) and a few words corrected (“sans eulx”, not “sans seulx”; “gens de Ferrare”, not “?ens le fera”); the large delta he read as “the Emperor” on p. 31 is a separate word sign.
+
+- Starting point: your `trans/reading_v3.txt`. All 85 lines were checked against the image (half-line crops at about
+  1.4x of IIIF `full/max`), so this is not a blind reading. None of your full-word readings was contradicted.
+- New held-out check, on another witness than p. 33 / p. 17: p. 34 lines 1-2 (9 June 1526) read blind with the frozen
+  table before looking at the clear copy on p. 17: 0.939 of characters (controls: windows of p. 106 at most 0.586,
+  200 permutations p99 0.535).
+- Word signs absent from the table are kept as signs in the French text; the identifications below are from the sense only.
+
+Files: `may1526_decryption.txt` (line by line), `may1526_reading.md` (established French text, English translation, notes).

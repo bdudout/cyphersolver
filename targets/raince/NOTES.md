@@ -361,3 +361,7 @@ Lead from research/patterns/DEEPER.md: Lasry's GL.htm tables. GL.htm itself list
 ## 20 Nov 1526 letter: p. 105 completed and p. 106 read, Brice Dudout (28 Oct 2026)
 
 p. 106 (Gallica view 55, left page) is a whole page in cipher continuing the 20 Nov letter; read with the same table, together with the lower 21 lines of p. 105 (agreement with trans/residue1526_reading.md: 95.6 % of letters). About 98 % of words read; open: word signs absent from the table (ℓ°, three small squares, ϖ, ⋒, ⫝, a large C). See `dudout/README.md`.
+
+## 13 May 1526 letter: whole ciphered part verified, Brice Dudout (28 Oct 2026)
+
+All 85 lines of pp. 29-31 re-read sign by sign on the full-resolution images, starting from trans/reading_v3.txt; no full-word reading of v3 contradicted, gaps filled (e.g. "deux bendes en la court", "conduict en Sivile", "par les gens de Ferrare"). 96.7 % of words read (mechanical count). Word signs absent from the table, from the sense only: ℓ° the Emperor (or his party), the large delta the Duke of Ferrara, ʍ Raince's Roman contact (perhaps Giberti); the "two-crossbar stem" [X] and the circled cross with two rings are nulls. Held-out check p. 34 vs clear p. 17: 0.939. See `dudout/README.md`.
