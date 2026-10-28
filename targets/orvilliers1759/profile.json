@@ -149,6 +149,15 @@
     "language": "fr",
     "state": "read",
     "summary": "Cipher passages not translated at the time: the garrison naked and starving, finances, munitions, defences."
+   },
+   {
+    "doc": "C14",
+    "label": "D'Orvilliers to Maurepas, Cayenne, [June] 1746 (C14 19 fols. 15v-16), cipher passage, reading by Brice Dudout",
+    "transcription": "dudout/transcription_1746.txt",
+    "reading": "dudout/reading_1746.md",
+    "language": "fr",
+    "state": "read",
+    "summary": "Dutch ship awaited with munitions; lack of men and artillery; request for the King's ship with recruits and guns."
    }
   ]
  }

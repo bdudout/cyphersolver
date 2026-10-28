@@ -1,6 +1,6 @@
 # D'Orvilliers to the Navy minister, Cayenne, 10 June 1761 (ANOM C14 25 fol. 36): read (Brice Dudout, 28 Oct 2026)
 
-Status: read (Brice Dudout, 28 Oct 2026; about 247 of 250 words read in their sense, 3 groups open).
+Status: read (Brice Dudout, 28 Oct 2026; about 247 of 250 words read in their sense, 2 groups open).
 
 Write-up: https://bdudout.github.io/europe-chiffree/en/documents.html#cayenne-1761
 
@@ -44,3 +44,13 @@ Key correction after validation. K1 alone was validated, frozen, on a held-out l
 Files: `transcription_1760-*.txt`, `reading_1760-*.md`. In C14 24 (1757-1759) every cipher passage we saw is glossed or a duplicate of a glossed copy.
 
 Files: `transcription.txt`, `decryption.txt`, `key.tsv`, `reading.md`.
+
+## Update (C06): 1746 letter, key K4, 347 = tranquille
+
+An older letter, of [June] 1746 (C14 19 fols. 15v–16, “passage chiffré non traduit”, addressed to “Your Greatness”, Maurepas): the same code is already in use. ≈ 150 numbers, ≈ 105 words: ≈ 99% read in their sense, ≈ 93% certain; 6 restored, 1 probable, 1 unresolved (the ship’s name, read letter by letter but uncertain).
+
+- 1746: restorations. [votre] lettre (89), [malheur]eusement (173), nous [fe]rions (158), le [vaisseau] (308: the same value as “les [vaisseau]x [neutre]s” in 1760) du [Roy] (1; 468 = roy elsewhere), une très [forte] recrue (156; the glossed letter of 18 February 1746 writes “nous envoyer une forte recrue”, with “forte” in clear); Zeylema{k}er (406 = k probable). The ship’s name reads f·ro·ni·ca·le, its division uncertain. M. de l’Isle Adam is named in clear. The glossed letter of 18 February 1746 (C14 19 fol. 18, images 021–022) was transcribed and added to the key (K4), which was revalidated on a second glossed letter held out (14 January 1758, C14 24 fols. 23–24, 252 numbers, 107 words): 0.970 of letters (controls p99 0.423), 0.626 of words (p99 0.103).
+
+- 10 June 1761: 347 is now read "tranquille" ("Jugez, Monseigneur, si je dois être tranquille"), the same formula glossed in the letter of 18 February 1746; open groups there are now 150 and 351.
+
+Files: `transcription_1746.txt`, `reading_1746.md`, `key_K4.tsv` (sha256 66d001de5f710c67e12fc01fc9e2eee1f6f48b9cce514e9c6cc2233a790e02f9; frozen before the second held-out check).
