@@ -172,7 +172,7 @@
   ],
   "fraction_read": 0.989,
   "fraction_read_method": "measured",
-  "fraction_read_source": "94 words in the cipher portion: 90 certain, 2 probable, 1 restored from the sense, 1 unresolved (code 197).",
+  "fraction_read_source": "94 words in the cipher portion (“V. M.” counted as two): 89 certain, 3 probable (marqués, me, faltando), 1 restored from the sense (haciendo), 1 unresolved (code 197).",
   "first_break": true,
   "verification": [
    "matched control",

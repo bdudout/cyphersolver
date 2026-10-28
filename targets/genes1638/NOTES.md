@@ -1,6 +1,6 @@
 # Count of Siruela to Philip IV, Genoa, 19 May 1638 (catalogue 755, item EST,LEG,3594,156)
 
-Status: read (contributed by Brice Dudout).
+Status: read (Brice Dudout, 28 Oct 2026; 93 of 94 words read in their sense, 89 certain, 3 probable, 1 restored, 1 unresolved; Daniel Bourdeau's 95% rule).
 
 Contributed by Brice Dudout (Europe chiffrée), 28 Oct 2026. Published write-up:
 https://bdudout.github.io/europe-chiffree/en/documents.html#genes-1638
@@ -39,7 +39,7 @@ Further check: applied unchanged to 3594,147, the previous key version recovered
 
 ## Reading
 
-First published decipherment, to our knowledge (no plain-text copy found among items 3594,110–242). Rule applied: Daniel Bourdeau’s, 95% of the words read from the sense. Cipher part: 94 words; certain 90 (95.7%), probable {x} 2 (2.1%), restored from the sense [x] 1 (1.1%), unresolved ‹…› 1 (1.1%); read from the sense: 93/94 = 98.9%.
+First published decipherment, to our knowledge (no plain-text copy found among items 3594,110–242). Rule applied: Daniel Bourdeau’s, 95% of the words read from the sense. Cipher part: 94 words (“V. M.” counted as two); certain 89 (94.7%), probable {x} 3 (3.2%: marqués, me, faltando), restored from the sense [x] 1 (1.1%), unresolved ‹…› 1 (1.1%); read from the sense: 93/94 = 98.9%.
 
 Files: `transcription.txt`, `decryption.txt` (each line and its token values), `reading.md` (Spanish), `translation.md` (English).
 
