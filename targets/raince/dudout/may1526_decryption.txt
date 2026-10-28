@@ -3,7 +3,8 @@
 # Every line re-read sign by sign on the full-resolution Gallica images (IIIF max) with the table of CALIBRATION.md, starting from reading_v3.
 # [word sign] = sign of the table expanded; [l empereur ℓ°], [duc de ferrare] (large delta), [le dataire ʍ], [le roy ℒ], [france ✱] = word signs
 # absent from the table, read from the sense only; ‹x› unresolved; {x} probable; (con) = the con sign; nulls dropped.
-p29.01	e??r ce ? sicy ??? peuent et qu il soit ainsi le ?? ict ?er
+# C08 (28 Oct 2026): p.29 l.01, p.30 l.34-35 and p.31 l.04-05 re-read sign by sign; ‹U› = word sign (open U), unresolved.
+p29.01	‹ψϙƀv4› {ceux} icy s ilz peuent et qu il soit ainsi ledict her
 p29.02	era a encores dict (con)me s est bien sceu que [l empereur ℓ°] est tout cler ain
 p29.03	tention du [l empereur ℓ°] estre tout au (con)traire de la capitulation fai
 p29.04	cte entre eulx mais qu il luy fera tant de guerre et a ses
@@ -61,13 +62,13 @@ p30.30	que ledict [le dataire ʍ] n a sceu nier mais (con)fesse qu ilz le (con)g
 p30.31	tendent bien tout ainsi
 p30.32	mon seigneur iay sceu hyer soir de bon lieu que de mantoue
 p30.33	a este donne aduis a ceulx de [l empereur ℓ°] icy que ung gentilhomme du [duc de ferrare] qu on a{pe}
-p30.34	le francesco de {sore} qu il avoit envoye deuers ‹⊿› a ‹…›
-p30.35	ardi a son retour et a dict avoir sceu en court tout ce qui se
+p30.34	le francesco de {sore} qu il avoit envoye deuers ‹⊿› a pase p
+p30.35	ar la a son retour et a dict avoir sceu en court tout ce qui se
 p31.01	traicte entre [le pape] et [duc de ferrare] et en a dict tant de particularitez qu ‹…› l a approche
 p31.02	pres de la verite et c est ceste nuyt passee les dictz de [l empereur ℓ°] en ont
 p31.03	donne aduis au (con)te de sainct seuerin et (con)seil de ‹Ꝑ› par la poste et
-p31.04	ont despesche ung courier ? a toute diligence a la ?? a c
-p31.05	‹che› tant que iay peu d en entendre plus outre et ay sceu que l ambassadeur
+p31.04	ont despesche ung courier a toute diligence a ‹U› iay cer
+p31.05	che tant que iay peu d en entendre plus outre et ay sceu que l ambassadeur
 p31.06	dudict [duc de ferrare] a faict entendre de semblable au duc de sesse et
 p31.07	pour ce qu il ne luy pouoit parler a cause de quelque suspect de
 p31.08	peste qui est au logis dudict duc il m a este dict qu il le luy

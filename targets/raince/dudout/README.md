@@ -1,3 +1,5 @@
+Status: read (Brice Dudout, 28 Oct 2026; 13 May 1526, pp. 29-31: 1,102 of 1,112 words read in their sense, 1,074 certain, 8 probable, 20 from the sense, 10 unresolved; Daniel Bourdeau's 95% rule).
+
 # Raince, 20 Nov 1526: p. 105 completed and p. 106 read (Brice Dudout, 28 Oct 2026)
 
 Write-up: https://bdudout.github.io/europe-chiffree/en/documents.html#raince-1526
@@ -40,7 +42,7 @@ Prior work, checked on 28 October 2026. Daniel Bourdeau’s catalogue (no. 5) li
 
 Write-up: https://bdudout.github.io/europe-chiffree/en/documents.html#raince-mai
 
-First complete reading of the ciphered part to be published, to our knowledge. 85 ciphered lines, 1,114 words. Mechanical count: 96.7 % of words read (96.1 % certain, 0.6 % probable), 1.8 % word signs absent from the table read from the sense only and left in ‹ › in the text, 1.5 % unresolved. Every line was re-read sign by sign on the full-resolution image. Starting point: Daniel Bourdeau’s partial reading (“v3”, 5 October 2026, classed by him as “decoded, not read”, about 85 % of words); none of his readings of full words was contradicted, his gaps were filled on some twenty lines (e.g. “deux bendes en la court”, “conduict en Sivile”, “a la venue de Herrera avec l’Empereur”, “par les gens de Ferrare”, “leur donneroit a congnoistre la fin a quoy il tend”) and a few words corrected (“sans eulx”, not “sans seulx”; “gens de Ferrare”, not “?ens le fera”); the large delta he read as “the Emperor” on p. 31 is a separate word sign.
+First complete reading of the ciphered part to be published, to our knowledge. 85 ciphered lines, 1,112 words. Rule applied: Daniel Bourdeau’s, “95 % of words read in their sense”; here 99.1 % of words are read in their sense. Mechanical count (script): 1,074 certain words (96.6 %); 8 probable {x} (0.7 %); 20 restored from the sense (1.8 %), which are word signs absent from the table, left under their sign ‹ › in the text; 10 unresolved ‹…› (0.9 %). Certain and probable alone: 97.3 %. Every line was re-read sign by sign on the full-resolution image. Starting point: Daniel Bourdeau’s partial reading (“v3”, 5 October 2026, classed by him as “decoded, not read”, about 85 % of words); none of his readings of full words was contradicted, his gaps were filled on some twenty lines (e.g. “deux bendes en la court”, “conduict en Sivile”, “a la venue de Herrera avec l’Empereur”, “par les gens de Ferrare”, “leur donneroit a congnoistre la fin a quoy il tend”) and a few words corrected (“sans eulx”, not “sans seulx”; “gens de Ferrare”, not “?ens le fera”); the large delta he read as “the Emperor” on p. 31 is a separate word sign.
 
 - Starting point: your `trans/reading_v3.txt`. All 85 lines were checked against the image (half-line crops at about
   1.4x of IIIF `full/max`), so this is not a blind reading. None of your full-word readings was contradicted.
