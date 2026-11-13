@@ -1,6 +1,6 @@
-# este1585: two cipher pages in Cardinal Luigi d'Este's cipher, Rome 1584-85 (BnF Cinq Cents de Colbert 338, pp. 517 and 523; catalogue 1572)
+# este1585: four cipher passages in Cardinal Luigi d'Este's cipher, Rome 1584-85 (BnF Cinq Cents de Colbert 338, pp. 513, 517-518 and 523; catalogue 1572)
 
-Status: **p. 517 read** (Brice Dudout, 13 Nov 2026; 223 of 231 words = 96.5%; key K-C02 validated by one pre-registered held-out measurement, M5 0.509 against 0.067). **p. 523 read in part** (5 Nov 2026; 177 of 200 words = 88.5%; key K-C01, partial by our protocol, M5 0.457 against 0.078).
+Status: **p. 517 read** (Brice Dudout, 13 Nov 2026; 223 of 231 words = 96.5%; key K-C02 validated by one pre-registered held-out measurement, M5 0.509 against 0.067). **p. 523 read in part** (5 Nov 2026; 177 of 200 words = 88.5%; key K-C01, partial by our protocol, M5 0.457 against 0.078). **p. 518** (end of the p. 517 letter, 13 Nov 2026): 101 of 107 words = 94.4%, so the **letter pp. 517-518 is read (324 of 338 words = 95.9%)**. **p. 513** (cipher block of a letter of 2 January 1585, 13 Nov 2026): 43 of 47 words = 91.5%, read in part; its margin carries a contemporary decipherment, which agrees with our reading.
 
 Contributed by Brice Dudout (Europe chiffrée), with Claude Opus 5.5 agents. Catalogue entry 1572 (BAM sweep: "Luigi, card.le
 d'Este, 9 lettres en partie chiffrées"). **The key is not ours**: it is Satoshi Tomokiyo's reconstruction of "Cardinal
@@ -59,9 +59,9 @@ be told, and that no one learn the news came from him, since it reaches him thro
 3. **The barred dumbbell is e in our key and a null in Tomokiyo's**: not settled; it touches lines 1 and 22.
 4. **One reader**: an AI agent transcribed and read; Brice Dudout answered the shape sheet only. No palaeographer checked
    the page.
-5. **Only pp. 517 and 523 are read** (p. 517 added 13 Nov 2026, see below). pp. 435-438, 453-454 and 504 were used to fix the
-   shapes (their ciphers read as French, but they were deciphered at the time and we do not count them); pp. 513 and 518, and the
-   other letters of entry 1572 (pp. 433, 459, 491, 503, 511 ff.), are **not read**. Entry 1572 stays open apart from pp. 517 and 523.
+5. **Only pp. 513, 517-518 and 523 are read** (p. 517 added 13 Nov 2026; pp. 518 and 513 the same evening, see below). pp. 435-438, 453-454 and 504 were used to fix the
+   shapes (their ciphers read as French, but they were deciphered at the time and we do not count them); the
+   other letters of entry 1572 (pp. 433, 459, 491, 503, 511 ff.) are **not read**. Entry 1572 stays open apart from pp. 513, 517-518 and 523.
 6. **p. 517 thresholds changed before its test**: 0.45 instead of 0.60 for M5, declared in the pre-registration with the reasons
    (validation.txt, section 3). Under the old 0.60, p. 517 (0.509) would also be "partial".
 
@@ -70,7 +70,7 @@ be told, and that no one learn the news came from him, since it reaches him thro
 - 22 unresolved words, mostly line 1 (the prince's name: code word y, two barred dumbbells) and the ends of lines 3-4 - blocker: open-codes; y has no value in the table or in our key.
 - The barred dumbbell (e or null; p. 517 L1 and L29 favour null) and the Venus sign (o, a or [faire]) - blocker: open-codes; needs a separate, hashed key amendment and a fresh glossed page.
 
-Not gaps of this reading: pp. 513, 518 and the other letters of entry 1572 (pp. 433, 459, 491, 503, 511 ff.). They are other documents of the volume, not transcribed in this round (no reserve with a literal gloss is left in this volume to test a new key); this target is pp. 517 and 523 only.
+Not gaps of this reading: the other letters of entry 1572 (pp. 433, 459, 491, 503, 511 ff.). They are other documents of the volume, not transcribed in this round (no reserve with a literal gloss is left in this volume to test a new key); this target is pp. 517 and 523 only.
 
 ## Escalation
 
@@ -119,6 +119,38 @@ Poigny's mission has calmed him, as the levy of 4,000 foot in the State of Milan
 Clermont-de-Lodève in 1584 found nothing printing this advice. Tomokiyo's table is again the key; we claim only the transcription, the
 added values and the reading.
 
+## pp. 518 and 513 (added 13 Nov 2026)
+
+**Documents.** p. 518 (view 273, left page): lines 1-16 in cipher, the end of the p. 517 letter (490 signs), then two nulls and a
+postscript in clear Italian. p. 513 (view 270, right page): a letter of 2 January 1585 signed by Luigi d'Este, in clear French
+except a cipher block from the end of line 7 to line 13 (208 signs); the left margin carries a contemporary decipherment of that block,
+partly lost in the binding.
+
+**Transcription.** Two passes for each page: pass A by one AI agent, pass B by a second AI agent working blind (own crops, no key,
+no access to pass A); 17 differences on p. 518 and 11 on p. 513, settled on zoomed crops (sense used only as a tie-break, declared).
+The margin of p. 513 was not looked at until the transcription was frozen and the no-test decision recorded.
+
+**Key.** The pages were decrypted with K-C02 **unchanged** (`decryption-p518.txt`, `decryption-p513.txt`). Values for the shapes K-C02
+leaves open or contradicts were gathered from p. 517 (after its test) and p. 518 and listed in `key-p518-513.tsv`: Venus sign = o,
+barred dumbbell = null, y = [Espagne], and four new shapes of p. 518 (X with a curved stroke = o, f crossed by a double = = f, plain long s
+= u, three tight loops = p) each from one place. They were frozen as key K-C03 with a pre-registration naming p. 513 as held-out block, but
+that block has 208 signs, under the 300 the pre-registration required, so **no test was run** and these values are **probable only**
+(validation.txt, section 4).
+
+**Reading.** p. 518 (`reading-p518.md`, `translation-p518.md`): 107 words, 87 certain, 14 probable, 1 restored, 5 unresolved = 94.4%
+(grade B as a page); with p. 517 the letter is 324/338 = 95.9%. The writer asks that the news be referred to His Majesty, doubts the
+pacification with Montmorency will succeed, then reports his audience: discussing Languedoc with the Pope, who ordered him to do all he
+can so that the King comes to terms with Marshal de Montmorency to calm the troubles. p. 513 (`reading-p513.md`, `translation-p513.md`):
+47 words, 38 certain, 5 probable, 4 unresolved = 91.5%: according to the sieur de Longlée, in [Spain] they are scheming in case the Church
+changes its shepherd, strengthening their designs and weakening the others', and express orders have been sent to Rome. The margin
+decipherment reads "…oy qu'en Espaigne [le sieur] de Longlée [m'a]dvise qu'ilz font [pra]tiques si l'eglise [chan]geoit de pasteur …
+ordre exprès … pour le service du Roy", which also gives **Spain for the code word y** (restored by sense only on p. 517).
+
+**Prior work.** p. 513 was deciphered at the time (margin), so its text is not new; we add the transcription and the check of the key.
+p. 518: no gloss, no edition found (three web searches on Luigi d'Este's letters to Henri III / Villeroy, Longlée in 1585, and Desjardins'
+*Négociations diplomatiques de la France avec la Toscane*, whose tome IV prints the Florentine envoys' dispatches, not d'Este's French
+letters; not checked page by page). Tomokiyo's table is again the key.
+
 ## Credits
 
 - `tomokiyo`: key or decipherment used (the table; we do not claim the key).
@@ -127,4 +159,4 @@ added values and the reading.
 
 ## Files
 
-`transcription.txt`, `decryption.txt`, `key.tsv`, `validation.txt`, `reading.md`, `translation.md`, `profile.json`; for p. 517: `transcription-p517.txt`, `decryption-p517.txt`, `key-p517.tsv`, `reading-p517.md`, `translation-p517.md`.
+`transcription.txt`, `decryption.txt`, `key.tsv`, `validation.txt`, `reading.md`, `translation.md`, `profile.json`; for p. 517: `transcription-p517.txt`, `decryption-p517.txt`, `key-p517.tsv`, `reading-p517.md`, `translation-p517.md`; for pp. 518 and 513: `transcription-p518.txt`, `decryption-p518.txt`, `reading-p518.md`, `translation-p518.md`, `transcription-p513.txt`, `decryption-p513.txt`, `reading-p513.md`, `translation-p513.md`, `key-p518-513.tsv` (probable values).
