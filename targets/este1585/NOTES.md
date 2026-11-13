@@ -1,6 +1,6 @@
 # este1585: four cipher passages in Cardinal Luigi d'Este's cipher, Rome 1584-85 (BnF Cinq Cents de Colbert 338, pp. 513, 517-518 and 523; catalogue 1572)
 
-Status: **p. 517 read** (Brice Dudout, 13 Nov 2026; 223 of 231 words = 96.5%; key K-C02 validated by one pre-registered held-out measurement, M5 0.509 against 0.067). **p. 523 read in part** (5 Nov 2026; 177 of 200 words = 88.5%; key K-C01, partial by our protocol, M5 0.457 against 0.078). **p. 518** (end of the p. 517 letter, 13 Nov 2026): 101 of 107 words = 94.4%, so the **letter pp. 517-518 is read (324 of 338 words = 95.9%)**. **p. 513** (cipher block of a letter of 2 January 1585, 13 Nov 2026): 43 of 47 words = 91.5%, read in part; its margin carries a contemporary decipherment, which agrees with our reading.
+Status: **p. 517 read** (Brice Dudout, 13 Nov 2026; 223 of 231 words = 96.5%; key K-C02 validated by one pre-registered held-out measurement, M5 0.509 against 0.067). **p. 523 read in part** (5 Nov 2026; 177 of 200 words = 88.5%; key K-C01, partial by our protocol, M5 0.457 against 0.078). **p. 518** (end of the p. 517 letter, 13 Nov 2026): 103 of 108 words = 95.4% (after a blind shape sheet, 14 Nov 2026), so the **letter pp. 517-518 is read (326 of 339 words = 96.2%)**. **p. 513** (cipher block of a letter of 2 January 1585, 13 Nov 2026): 43 of 47 words = 91.5%, read in part; its margin carries a contemporary decipherment, which agrees with our reading.
 
 Contributed by Brice Dudout (Europe chiffrée), with Claude Opus 5.5 agents. Catalogue entry 1572 (BAM sweep: "Luigi, card.le
 d'Este, 9 lettres en partie chiffrées"). **The key is not ours**: it is Satoshi Tomokiyo's reconstruction of "Cardinal
@@ -137,8 +137,10 @@ barred dumbbell = null, y = [Espagne], and four new shapes of p. 518 (X with a c
 that block has 208 signs, under the 300 the pre-registration required, so **no test was run** and these values are **probable only**
 (validation.txt, section 4).
 
-**Reading.** p. 518 (`reading-p518.md`, `translation-p518.md`): 107 words, 87 certain, 14 probable, 1 restored, 5 unresolved = 94.4%
-(grade B as a page); with p. 517 the letter is 324/338 = 95.9%. The writer asks that the news be referred to His Majesty, doubts the
+**Reading.** p. 518 (`reading-p518.md`, `translation-p518.md`): 108 words, 87 certain, 16 probable, 1 restored, 4 unresolved = 95.4%
+(grade B as a page); with p. 517 the letter is 326/339 = 96.2%. **Shape sheet (14 Nov 2026)**: three doubtful signs (p. 518 L1 "6",
+p. 513 L8 "r2" and its first sign) were shown blind to Brice Dudout as shape thumbnails (no values, two controls, both right): "6" = plain o
+(d), giving "[pour] estre de la nature" (was 101/107 = 94.4%, letter 95.9%); p. 513: N and the section sign, no change in the count. The writer asks that the news be referred to His Majesty, doubts the
 pacification with Montmorency will succeed, then reports his audience: discussing Languedoc with the Pope, who ordered him to do all he
 can so that the King comes to terms with Marshal de Montmorency to calm the troubles. p. 513 (`reading-p513.md`, `translation-p513.md`):
 47 words, 38 certain, 5 probable, 4 unresolved = 91.5%: according to the sieur de Longlée, in [Spain] they are scheming in case the Church

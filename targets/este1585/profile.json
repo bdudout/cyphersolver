@@ -283,7 +283,7 @@
   {
    "date": "2026-11-13",
    "kind": "reading",
-   "what": "p. 518 read by sense with K-C02 and the probable values: 107 words, 87 certain, 14 probable, 1 restored, 5 unresolved (94.4%); the letter pp. 517-518 together 324/338 = 95.9%.",
+   "what": "p. 518 read by sense with K-C02 and the probable values: 108 words, 87 certain, 16 probable, 1 restored, 4 unresolved (95.4%, after a blind shape sheet of 14 Nov 2026; 94.4% before); the letter pp. 517-518 together 326/339 = 96.2%.",
    "result": "worked"
   },
   {
@@ -304,7 +304,7 @@
   ],
   "fraction_read": 0.93,
   "fraction_read_method": "measured",
-  "fraction_read_source": "Daniel's rule (certain + probable; restored not counted), counted by script on the word lists: p. 523 177/200 (88.5%), p. 517 223/231 (96.5%), p. 518 101/107 (94.4%; letter pp. 517-518 324/338 = 95.9%), p. 513 43/47 (91.5%); all 544/585 = 93.0%.",
+  "fraction_read_source": "Daniel's rule (certain + probable; restored not counted), counted by script on the word lists: p. 523 177/200 (88.5%), p. 517 223/231 (96.5%), p. 518 103/108 (95.4%; letter pp. 517-518 326/339 = 96.2%), p. 513 43/47 (91.5%); all 546/586 = 93.2%.",
   "verification": [
    "statistical test",
    "historical consistency"
@@ -327,7 +327,7 @@
    {
     "who": "dudout",
     "role": "transcription",
-    "note": "p. 523 transcribed and read in part (88.5%) with Tomokiyo's table; shape names and values aj = f, large looped rho = a, newt = nn added; one held-out measurement (partial); p. 517 transcribed and read (96.5%) with key K-C02 (sig = m, A = [fait]), one held-out measurement validated (13 Nov 2026); p. 518 (94.4%, letter pp. 517-518 95.9%) and the cipher block of p. 513 (91.5%, confirmed by its contemporary margin decipherment) transcribed in two passes and read, with probable values for new shapes",
+    "note": "p. 523 transcribed and read in part (88.5%) with Tomokiyo's table; shape names and values aj = f, large looped rho = a, newt = nn added; one held-out measurement (partial); p. 517 transcribed and read (96.5%) with key K-C02 (sig = m, A = [fait]), one held-out measurement validated (13 Nov 2026); p. 518 (95.4%, letter pp. 517-518 96.2%) and the cipher block of p. 513 (91.5%, confirmed by its contemporary margin decipherment) transcribed in two passes and read, with probable values for new shapes",
     "date": "2026-11-13"
    },
    {
@@ -382,14 +382,14 @@
     "reading": "reading-p518.md",
     "translation": "translation-p518.md",
     "language": "fr",
-    "state": "read in part",
-    "read_share": 0.944,
+    "state": "read",
+    "read_share": 0.954,
     "summary": "End of the p. 517 letter: the writer asks that the news be referred to His Majesty and doubts it bodes well for the pacification with Montmorency; going to his audience before closing his letters, he discussed Languedoc with the Pope, who ordered him to do all he can so that the King comes to terms with Marshal de Montmorency to calm the troubles.",
     "reading_review": {
      "grade": "B",
      "by": "Claude Opus 5.5 (for Brice Dudout)",
-     "date": "2026-11-13",
-     "note": "Read as sentences 13 Nov 2026 by one AI reader: 87 certain, 14 probable, 1 restored, 5 unresolved of 107 words (94.4%); each probable word justified in reading-p518.md; new shapes take probable, unvalidated values. With p. 517 the letter is 95.9%. No palaeographer checked the page."
+     "date": "2026-11-14",
+     "note": "Read as sentences 13 Nov 2026 by one AI reader, updated 14 Nov 2026 after a blind shape sheet answered by Brice Dudout (L1 '6' = plain o): 87 certain, 16 probable, 1 restored, 4 unresolved of 108 words (95.4%); each probable word justified in reading-p518.md; new shapes take probable, unvalidated values. With p. 517 the letter is 96.2%. No palaeographer checked the page."
     }
    },
    {
