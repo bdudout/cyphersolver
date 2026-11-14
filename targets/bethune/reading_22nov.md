@@ -15,17 +15,21 @@ passages below are a substance, not a reading.
 
 ## f. 46r (canvas 99), 31 lines — complete
 
+Corrected 14 Nov 2026 from the image (canvas 99) in three places that Brice Dudout's comparison with Halphen 1889
+pointed to (`halphen_check.md`): l. 4 *que des com.ns que je vous ay faict*, l. 10 *et pareillement*, l. 24 *que je veux*.
+Other errors against the print remain; the print's text is not in the repository.
+
 ```
 L01  Mons.r de Béthune, le xbiii.e de ce mois j'ay receu vostre lettre du xxix.e du passé
 L02  par laquelle j'ay sceu « 73 g m t f q m 4 71 i: 12 x Z g , m r b LS m c b S ff g PH Z Z » les contentements
 L03  quilz ont receuz tant de la asseurance que vous leur avez donné de la continuation de
-L04  mon amitié [et] de la confiance que j'ay de la leur, que de la com.[munication] que de vous ay faict
+L04  mon amitié [et] de la confiance que j'ay de la leur, que des com.ns [commandemens] que je vous ay faict
 L05  « t: f, r 63 g o Z b h p ff ) x: g n Z p r » durant de[?] legation. Dequoy j'ay esté tres aise, [et] le[ur]
 L06  [de]siray que vous conserviez « i: n Z x Z f e Z S ff j LS Cm b t r PH Cm g o t ff m 4 LS p EP g , m x Z g b 63 71 » que
 L07  je vous ay recommandé ainsy que vous « f, p r f ff y S , x Cm r ff x 4 e , q x ff g , 73 » de
 L08  me retrancheray aussy envers « f, c r g PH Cm r p Cm q ff c r g » des courtoisies p[our] faudra
 L09  que vous en avez receu[es]. Au reste j'ay bien consideré ce que « f, S 12 72 4 S i: r 4 S + »
-L10  « x LS ff g 4 x 4 S PH r 4 8 r + LS m 63 PH » [et] par consequent « r 44 ff g , x Cm r 4 g ff x ff m f LS b f, f 4 g »
+L10  « x LS ff g 4 x 4 S PH r 4 8 r + LS m 63 PH » et pareillement « r 44 ff g , x Cm r 4 g ff x ff m f LS b f, f 4 g »
 L11  « x 63 g q + g x 63 PH » Je vous ay [de]ja desiré avoir esté adverty « g , p t a ff x 28 » que les bons
 L12  [?] les autres ont « + Cm q ff g : : x o r x m g i: 7 f, g o y: Cm + g g b h y LS y LS ff Cm y + x 4 g ff ff r i: g + r »
 L13  « x 63 r , q S ff x g q ff g q i: f , g 4 i: i: f 4 4 g » Ce qui m'a esté confirmé depuis du mesme
@@ -39,7 +43,7 @@ L20  « f, m Cm g 63 g » au respect de la suite « x b t g q ff x , g ff p ff b
 L21  sera maintenant « q 63 g Cm Cm x r b Cm f, + 63 g : : ff r g Cm r » Mais mieu[x] qu'ainsy [je]
 L22  [et] que « b x ff f, g PH Cm ff g r q f r + x y: f, g PH 4 S ff ff 4 x 63 u n f, ff i: Z 4 ff f, S x + g 4 f, f u g »
 L23  « x 63 » ainsy que vous a dit led. « n x ff f, 48 + Cm Z + 63 g ff i: S , S , o + g ff r x , S d : : ff i: ff g »
-L24  « 66 q g , ff » Sur cela j'ay pensé d'adjouster a « f, : : Cm g x + r 63 : : f q » que 2 deux « 4 0 63 g »
+L24  « 66 q g , ff » Sur cela j'ay pensé d'adjouster a « f, : : Cm g x + r 63 : : f q » que je veux « 4 0 63 g »
 L25  « i: S 63 o 63 x Cm 63 4 69 i: g q , g b Cm ff S 4 r b S ff : : Cm g x , + r Cm ff g q g PH 2 Z x ff f, r Z g x , + b f, r »
 L26  « x + g q ff S 4 : : PH Z r x g ff i: p q ff q ff S q ff : : f o 63 g , q r q S g x ff b q ff q ff g x + ff J S ff : : a Z f, »
 L27  « ff r q x Z r S ff g , x 4 x g ff g i: q ff r u g Cm b LS 61 g S 63 g i: 4 x Cm g q ff i: x u 63 b + x PH 4 q x 4 »
@@ -222,7 +226,7 @@ Open, with the frames that constrain them:
 | `S 12` | 46r L09, L15; 46v L02; 47r L26 | with `20`, one of two persons "douez de toute prudence" |
 | `20` | 46r L15 | the other of the two |
 | `28` | 46r L11; 46v L29; 47v L03 | *"ce[luy] m'a escrit de [28]"* — a place written from |
-| `44` | 46r L10; 46v L28 | after "et par consequent" |
+| `44` | 46r L10; 46v L28 | after "et pareillement" (corrected 14 Nov 2026 from the image; 44 = Prince, from the frame quoted from Halphen) |
 | `72` | passim | **proposed *vous*** (unconfirmed): `x , 72` = *que vous* four times, line-initial three times, and on f. 53r the verbatim gloss's *"que vous pressiez"* sits over `x , 72 , T 63 , r S Z`. Counter-indication: D1 on f. 49v ends `… 63 72` against a gloss ending *"a luy en parler"* |
 | `2`, `5`, `6`, `8`, `9`, `66`, `67`, `69`, `80`, `31` | passim | unframed |
 
