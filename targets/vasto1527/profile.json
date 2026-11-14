@@ -11,7 +11,10 @@
    "year": 1527,
    "country": "Spain (Charles V)",
    "route": "Rome -> Charles V",
-   "places": {"from": "Rome", "to": "Burgos"},
+   "places": {
+    "from": "Rome",
+    "to": "Burgos"
+   },
    "language": "Spanish",
    "pages": 3,
    "cleartext_in_document": "separate passages",
@@ -195,6 +198,12 @@
    "kind": "verification",
    "what": "New contexts for the open no. 6 groups, value set frozen (SHA-256) before counting: rar is the destination of the imperial army's march (f. 40v, where Lasry's 'de no de' is [rar]; f. 42r 'procuraremos que se vaya la buelta de [rar]'), Florencia or Toscana; cnt 'salir en [cnt] manera' (alguna or otra); bnq 'si [bnq]'; dnh 'la [der] [dnh] que tienen'. None settled; car, cny, bny, beb, bnc, ge+ do not occur in ff. 41r-42r. No. 6 count unchanged (0.980).",
    "result": "partial"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "what": "Integration check of PR #600 (Brice Dudout). Hashes match; the pre-registered run reproduces (612 groups, 232 letter-only words, 0.591 against 200 shuffled keys, mean 0.045, best 0.164: pass); order of events by the contributor's record. Gallica view 80 at full size: 50 groups of lines 1-5 compared with n19_transcription.txt, 49 agree, mffttb in 41r.03 doubtful. View 79 (f. 40v line 5): the group is [rar], not Lasry's 'no'. The 0.923 is the contributor's count by sense on a letter-level stream; 403 of 612 groups (0.66) are syllable signs, valued code groups or lexicon words without a reader. No edited reading of ff. 41r-42r exists: decoded, not read; no. 6 and the class are unchanged.",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -263,7 +272,7 @@
     "detail": "Signs transcribed but the syllable-sign values do not make sense there; Lasry's labels probably merge different glyphs. Needs glyph-level retranscription."
    }
   ],
-  "notes": "No. 6 read (98.0% measured, 22 Sept 2026; was 'read' unmeasured on 18 Sept). Grades: 34 values inferred from context (24 code groups, 8 syllable signs, 2 switch markers); Lasry's letter key is taken as it stands. Until 14 Oct 2026 this target also held no. 10 (Cipher 1) and no. 20 with the Ranzo letters (now targets/ranzo1528/). 14 Nov 2026: no. 19 ff. 41r-42r transcribed (612 groups) and decoded with Lasry's key unchanged; pre-registered held-out check passed (lexicon share 0.591 vs best of 200 shuffled keys 0.164); portion read 0.923 by sense; no new code value, no. 6 unchanged.",
+  "notes": "No. 6 read (98.0% measured, 22 Sept 2026; was 'read' unmeasured on 18 Sept). Grades: 34 values inferred from context (24 code groups, 8 syllable signs, 2 switch markers); Lasry's letter key is taken as it stands. Until 14 Oct 2026 this target also held no. 10 (Cipher 1) and no. 20 with the Ranzo letters (now targets/ranzo1528/). 14 Nov 2026: no. 19 ff. 41r-42r transcribed (612 groups) and decoded with Lasry's key unchanged; pre-registered held-out check passed (lexicon share 0.591 vs best of 200 shuffled keys 0.164); the contributor counts 0.923 of its groups read by sense (0.66 without a reader); no edited reading of it yet, so decoded, not read; no new code value, no. 6 unchanged.",
   "provenance": "project",
   "credits": [
    {
@@ -272,6 +281,13 @@
     "note": "Gasto-Charles V Cipher 2 key and preliminary decryption of no. 6 (and f. 40), cryptiana GL.htm",
     "date": "2026",
     "source": "https://cryptiana.web.fc2.com/code/GL.htm"
+   },
+   {
+    "who": "dudout",
+    "role": "transcription",
+    "note": "no. 19 ff. 41r-42r transcribed (612 groups) and Lasry's Cipher 2 key checked on them with a declared test (0.591 against 0.164); f. 40v line 5 [rar] for Lasry's 'no'; PR #600",
+    "date": "2026-11-14",
+    "source": "https://github.com/dbourdeau/cyphersolver/pull/600"
    }
   ],
   "texts": [
