@@ -1,6 +1,8 @@
 # Fra Giovanni di Lucca to the Emperor, 30 May 1644 (DECODE R2159, ÖStA HHStA Staatskanzlei Interiora, Chiffrenschlüssel Kt. 20 Fasc. 27 ff. 18-19) — NOTES
 
-**Verdict: read.** The cipher paragraph is a 24-figure alphabet with no polyphonic figure (19 = s; three places where t is wanted are the writer's slips, per G. Lasry 21 Sept 2026: apparent polyphony is encipherment or transcription error), groups
+Status: read (14 Nov 2026; read in part from 24 Oct to 14 Nov 2026, see "Verification and integration check, 14 Nov 2026" at the end).
+
+**Verdict: read.** The cipher paragraph is a 23-figure alphabet (24 until 14 Nov 2026: the one "32" is a 21) with no polyphonic figure (19 = s; three places where t is wanted are the writer's slips, per G. Lasry 21 Sept 2026: apparent polyphony is encipherment or transcription error), groups
 delimited by dots, plaintext Italian. All 231 groups read; one spelling is odd (`ogn modo`). *Corrected 22 Sept 2026
 against the DECODE images (§7): the "17 = n" of the first session was ten transcription errors for 14, so 17 is only
 i, `Bogodania` and `non l'habi` are confirmed, and the clear frame names the speaker as Koniecpolski.* Tomokiyo's unsolved page lists the item under "Variable-length
@@ -136,7 +138,8 @@ Tomokiyo's article quotes only the cipher.
 - ~~The images (DECODE, login) to check the 4/7 question~~ done 22 Sept 2026 (§7). Still open: the *s* question
   (does 19 = s hide a different figure?), *Transiuania* without *l*, *ogn* without *i*: the images show `19` in both
   places of *Transiuania* and no extra group, so the spellings look like the writer's; a closer look at the two
-  shapes of 19 is the remaining check.
+  shapes of 19 is the remaining check. (Done 14 Nov 2026 by Brice Dudout: the shape does not follow the value; see the
+  last section.)
 - A full transcription of the clear frame (ff. 18–19), read only in outline in §7.
 - The other two items in the same article, R1408 (Warsaw, 24 December 1627, Italian, two-digit groups with letter
   pairs) and R2179 (undelimited digits), are different ciphers and were not attempted.
@@ -174,3 +177,32 @@ So the speaker of the cipher paragraph is **Koniecpolski**, the §5 inference co
 Checked: transcription counts, crib consistency, convergence over seeds, shuffled controls, word-level Italian.
 Checked 22 Sept 2026: the cipher against the manuscript images (§7). Read in outline only: the cleartext frame. User must verify: the
 historical attribution in §5 before it is repeated anywhere.
+
+## Verification and integration check, 14 Nov 2026 (PR #598)
+
+Brice Dudout re-read the cipher on the DECODE images (R2159, with his DECODE access) and audited the reading; his
+report is `VERIFY_dudout_20261114.md`, his decoder `verify_dudout_20261114.py`. What it changes:
+
+- **Group 79 is 21, not 32.** Figure 32 ("r = 32 once", §4) does not exist; the key has 23 figures and 21 = r occurs 15
+  times. `ct.txt`, `texts/key.md` and the line in `validation.tsv` are corrected; the scores of 11 Oct were not re-run
+  (they were computed with 24 types; the letter is the same).
+- **The two shapes of 19** (the open point of §6): seven are written with a plain 1 and two with a dotted 1, and the
+  shape does not follow the value. There is no second sign; the three *t* stay writer's slips.
+- **The brackets of `plaintext.txt` were wrong.** `Transil[u]ania` and `Bog[o]dania` bracket letters that are in the
+  cipher, while the supplied *l*, and the three places where 19 is read *t*, carried no mark. `plaintext.txt` is kept
+  as the normalised text; the reading is now `texts/reading.md`, the diplomatic text with every emendation marked.
+
+Checked here before merging: his script re-run (231 groups, 23 figures, 226 of 231 letters as in `plaintext.txt`); a
+second decoder written from `texts/key.md` gives the same 231 letters and the counts of the key table match `ct.txt`;
+the diplomatic text gives the cipher letters exactly. The DECODE images need a login and were not seen here. On the
+snip of f. 18r published on the page (`docs/lucca_f18r_cipher.jpg`, 1,100 px) the first three lines agree with
+`ct.txt` and the end of line 3 reads `19·3·21·7·6·18`: group 79 is 21. The shapes of 19 and the other places rest on
+the contributor's record.
+
+**Count and class.** The tool gave 53 of 56 words (0.946) on `plaintext.txt` because of its three brackets, and the
+target was read in part from 24 Oct. The rule since 14 Nov 2026: a word read from the cipher with an in-word
+emendation stays read; a standalone supplied word is a hole. `texts/reading.md` has 56 words and no hole: **1.0, read**.
+For the record, 52 of the 56 words need no emendation (0.929, the contributor's strict figure); the four others are
+*{-s}{+T}ransi{+l}uania*, *ogn{+i}*, *riuol{-s}{+t}are* and *humilia{-s}{+t}o*. Nothing is unresolved.
+
+Still not done: the clear text of ff. 18-19 is summarised (§7), not transcribed.
