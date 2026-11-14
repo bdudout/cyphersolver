@@ -1114,7 +1114,7 @@
  },
  "gonzaga1549": {
   "claims": "2026-11-14",
-  "digest": "51a27cee7d8bc6e80d72b77e3819092598d7eb6c",
+  "digest": "0c11fd62c783fa24f3c365d39eabc1521c137819",
   "reviewed": "2026-11-14"
  },
  "gonzaga1590": {
@@ -1654,7 +1654,7 @@
  },
  "marignano1546": {
   "claims": "2026-11-14",
-  "digest": "e7c53db6443d05f3b38001ab8518beb1aaaad91a",
+  "digest": "b8d5efc00a5dd4c5310e6c5694ea4f9a60b4039a",
   "reviewed": "2026-11-14"
  },
  "marmont1812": {
@@ -1839,8 +1839,8 @@
  },
  "muzio1550": {
   "claims": "2026-11-12",
-  "digest": "bf049d7c63910bedbdad27b0446fa803763cf0e0",
-  "reviewed": "2026-11-12"
+  "digest": "8b60d0e63f0f8442dc7d6f646cc08d0e8268f4bb",
+  "reviewed": "2026-11-14"
  },
  "nanking1930": {
   "claims": "2026-11-12",
@@ -3019,7 +3019,7 @@
  },
  "vargas1552": {
   "claims": "2026-11-14",
-  "digest": "fb56ef83b74f5973715665c85610fc6854f3d19d",
+  "digest": "367f44f27fae0b43c8e53c16701bbe78acae2c1a",
   "reviewed": "2026-11-14"
  },
  "vasto1527": {

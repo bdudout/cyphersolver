@@ -49029,39 +49029,35 @@
    "id": 1561,
    "counted": true,
    "year": 1551,
-   "date": "25 Jun 1546 - 16 Jun 1563",
-   "title": "Prince/King Philip (II) → Ferrante Gonzaga, Spanish letters partly in cipher; six without decipherment, two deciphered",
+   "date": "25 Jun 1546 - 14 Mar 1553",
+   "title": "Prince Philip → Ferrante Gonzaga, three Spanish letters partly in cipher, decoded with the Imperial Cipher table but not read (25 Jun 1546, 14 Mar 1553, and one catalogued 16 Jun 1563)",
    "correspondents": "Philip, prince of Spain, later Philip II → Ferrante I Gonzaga",
    "place": "Spain / Low Countries",
    "language": "Spanish",
    "region": "Spain",
    "period": "1497-1559",
-   "shelfmark": "Biblioteca Estense Universitaria, Modena, Autografoteca Campori: Lettera F, Felipe II, rey de España, sfasc. II, cc. 5-6; Lettera F, Felipe II, rey de España, sfasc. I, cc. 10-11; Lettera F, Felipe II, rey de España, sfasc. I, cc. 26-27; Lettera F, Felipe II, rey de España, sfasc. I, cc. 28-29; Lettera F, Felipe II, rey de España, sfasc. I, cc. 35-40; Lettera F, Felipe II, rey de España, sfasc. II, cc. 24-25; Lettera F, Felipe II, rey de España, sfasc. II, cc. 9-11; Lettera F, Felipe II, rey de España, sfasc. I, cc. 12-14",
-   "folio_note": "25-06-1546: Lettera F, Felipe II, rey de España, sfasc. II, cc. 5-6 (In spagnolo. Lettera parzialmente cifrata.); 04-08-1548: Lettera F, Felipe II, rey de España, sfasc. I, cc. 10-11 (In spagnolo. Lettera parzialmente cifrata.); 24-11-1551: Lettera F, Felipe II, rey de España, sfasc. I, cc. 26-27 (In spagnolo. Lettera parzialmente cifrata.); 24-11-1551: Lettera F, Felipe II, rey de España, sfasc. I, cc. 28-29 (In spagnolo. Lettera parzialmente cifrata.); 14-03-1553: Lettera F, Felipe II, rey de España, sfasc. I, cc. 35-40 (In spagnolo. Lettera parzialmente cifrata.); 16-06-1563: Lettera F, Felipe II, rey de España, sfasc. II, cc. 24-25 (In spagnolo. Lettera parzialmente cifrata. Luogo di incerta lettura.); 23-05-1547: Lettera F, Felipe II, rey de España, sfasc. II, cc. 9-11 (In spagnolo. Lettera parzialmente cifrata, decifrata alla c. 11.); 08-03-1549: Lettera F, Felipe II, rey de España, sfasc. I, cc. 12-14 (In spagnolo. Lettera parzialmente cifrata, decifrata alla c. 14r.)",
+   "shelfmark": "Biblioteca Estense Universitaria, Modena, Autografoteca Campori: Lettera F, Felipe II, rey de España, sfasc. II, cc. 5-6; Lettera F, Felipe II, rey de España, sfasc. I, cc. 35-40; Lettera F, Felipe II, rey de España, sfasc. II, cc. 24-25",
+   "folio_note": "25-06-1546: Lettera F, Felipe II, rey de España, sfasc. II, cc. 5-6 (In spagnolo. Lettera parzialmente cifrata.); 14-03-1553: Lettera F, Felipe II, rey de España, sfasc. I, cc. 35-40 (In spagnolo. Lettera parzialmente cifrata.); 16-06-1563: Lettera F, Felipe II, rey de España, sfasc. II, cc. 24-25 (In spagnolo. Lettera parzialmente cifrata. Luogo di incerta lettura.)",
    "cls": "A",
-   "status": "Estense catalogue (Lodovico Media Library / Estense Digital Library): In spagnolo. Lettera parzialmente cifrata, decifrata alla c. 11. | In spagnolo. Lettera parzialmente cifrata, decifrata alla c. 14r. | In spagnolo. Lettera parzialmente cifrata. | In spagnolo. Lettera parzialmente cifrata. Luogo di incerta lettura. No decipherment mentioned in the record. Not on DECODE, not in the repo (known.py (your repo + DECODE + Cryptoole list) on the names: no hits). Undeciphered (as catalogued): 25 Jun 1546, 4 Aug 1548, 24 Nov 1551 (two letters), 14 Mar 1553, 16 Jun 1563 (Ferrante I died 1557: recipient to be checked). Deciphered: 23 May 1547 (clear at c. 11), 8 Mar 1549 (clear at c. 14r).",
+   "status": "Estense catalogue (Lodovico Media Library / Estense Digital Library): In spagnolo. Lettera parzialmente cifrata, decifrata alla c. 11. | In spagnolo. Lettera parzialmente cifrata, decifrata alla c. 14r. | In spagnolo. Lettera parzialmente cifrata. | In spagnolo. Lettera parzialmente cifrata. Luogo di incerta lettura. No decipherment mentioned in the record. Not on DECODE, not in the repo (known.py (your repo + DECODE + Cryptoole list) on the names: no hits). Undeciphered (as catalogued): 25 Jun 1546, 4 Aug 1548, 24 Nov 1551 (two letters), 14 Mar 1553, 16 Jun 1563 (Ferrante I died 1557: recipient to be checked). Deciphered: 23 May 1547 (clear at c. 11), 8 Mar 1549 (clear at c. 14r). Narrowed 14 Nov 2026: the letters of 4 Aug 1548 and 24 Nov 1551 (two) are read in part, and those of 23 May 1547 and 8 Mar 1549 are covered by their contemporary decipherments, in targets/gonzaga1549 (WAINUT's work, folder wainut/, formerly targets/gonzaga1549/wainut; Imperial Cipher of 1544-1554, the same key as Charles V's letters to Ferrante). The three letters left here were decoded there from one rough blind pass and are not read. The letter catalogued 16 Jun 1563 opens 'El Principe' and is addressed to Ferrante, who died in 1557, so it is earlier than January 1556 (WAINUT). Two more Philip letters in the same cipher, not transcribed: sfasc. I cc. 15-17 (cipher with a clear slip) and cc. 32-34 (Monzón, 6 Oct 1552, cipher only), pointed out by Brice Dudout (issue #615).",
    "why": "Philip's own ciphered correspondence with the governor of Milan during his regency and the 1548-51 'felicísimo viaje'; deciphered siblings in the same file.",
    "importance": 4,
    "solvability": 5,
    "difficulty": 2,
    "score_note": "Scored from the archive description during the Oct 2026 Italy sweep; not viewed",
-   "verify": "View scans; build the key from the two deciphered siblings; compare with Charles V's cipher to Ferrante (same file family)",
+   "verify": "Make a sign-by-sign pass of the three letters in a named sign set (WAINUT's key.tsv or the sign table of targets/gonzaga1549), then decode; c. 36 of the 1553 letter is a contemporary Italian summary of its topics and serves as a crib.",
    "links": [
     {
      "label": "25-06-1546 record",
      "href": "https://lodovico.medialibrary.it/media/schedadl.aspx?id=68f59b4c-c5e3-431f-9226-00927538c698"
     },
     {
-     "label": "04-08-1548 record",
-     "href": "https://lodovico.medialibrary.it/media/schedadl.aspx?id=96578a9c-2963-4448-8786-5fa35a3c44e7"
+     "label": "14-03-1553 manifest",
+     "href": "https://edl-jarvis.cultura.gov.it/meta/iiif/6990ecfe-8ee7-4994-b2d6-3ccc332ee9e2/manifest"
     },
     {
-     "label": "24-11-1551 record",
-     "href": "https://lodovico.medialibrary.it/media/schedadl.aspx?id=3f4f51da-b3b0-4159-9824-f22958c248dd"
-    },
-    {
-     "label": "24-11-1551 record",
-     "href": "https://lodovico.medialibrary.it/media/schedadl.aspx?id=9ad3b749-cbac-4adc-94cd-b080227c220f"
+     "label": "16-06-1563 (as catalogued) manifest",
+     "href": "https://edl-jarvis.cultura.gov.it/meta/iiif/499ee545-fcd1-4afe-9776-a21cdbf0efb4/manifest"
     }
    ],
    "seen": "image",
@@ -49092,7 +49088,8 @@
     "duplicates": "known.py 'Felipe II', 'Ferrante Gonzaga': only lead 1560 (Charles V) and the Gonzaga leads of this batch; no entry.",
     "verdict": "open"
    },
-   "repository": "estense"
+   "repository": "estense",
+   "outcome": "attempted, open"
   },
   {
    "id": 1563,
@@ -65716,9 +65713,9 @@
      "edition": "Not found in print: Varo Zafra, Cartas (Granada 2016), Vazquez and Rose, Algunas cartas de don Diego Hurtado de Mendoza (Yale 1935), Losi 1998 and Bertomeu Masia 2009 were not opened for this letter (no online full text; HathiTrust stops at a bot check, not clicked), so whether this letter is printed with the cipher expanded is unknown. Bertomeu Masia 2009 prints the Mendoza letter of 1548 deciphered (see targets/mendoza1548).",
      "literature": "Bucure, 'Napoles 1547: cartas cifradas y secretos de Estado', Estudios Romanicos 34 (2025), found by web search; per targets/mendoza1548 it gives the cipher system and cites Bertomeu Masia 2009 pp.152-153 for its use between Granvelle, Mendoza and Ferrante Gonzaga. No study reading this letter of 3 April 1549 turned up."
     },
-    "key_check": "Not tried here. The same Spanish chancery syllabary (Bucure's 'cifra de Napoles 1547') is rebuilt in targets/mendoza1548 (key values for 99% of the signs) and used in targets/ferrante1549 for other Campori letters to and from Ferrante Gonzaga; whether the signs on c.44r are drawn from that system was judged by eye only (similar letter-like families), not tested.",
-    "key_held": "targets/mendoza1548 key (decryption/d1_decode.txt) and the Ferrante 1549 key in targets/ferrante1549: held, not tested on this letter. Neither blocks the lead: no decipherment of c.44r is on record.",
-    "duplicates": "known.py 'e02077fa', 'Campori', 'Hurtado de Mendoza', 'Gonzaga, Ferrante' on 4 Nov 2026: no other record of this uuid or of Mendoza cc.40-46; the nearby targets/ferrante1549 covers Charles V and Philip letters to Ferrante, not this Mendoza letter; catalogue 1554-1556 are other Campori items.",
+    "key_check": "Not tried here. The same Spanish chancery syllabary (Bucure's 'cifra de Napoles 1547') is rebuilt in targets/mendoza1548 (key values for 99% of the signs) and used in targets/gonzaga1549/wainut for other Campori letters to and from Ferrante Gonzaga; whether the signs on c.44r are drawn from that system was judged by eye only (similar letter-like families), not tested.",
+    "key_held": "targets/mendoza1548 key (decryption/d1_decode.txt) and the Ferrante 1549 key in targets/gonzaga1549/wainut: held, not tested on this letter. Neither blocks the lead: no decipherment of c.44r is on record.",
+    "duplicates": "known.py 'e02077fa', 'Campori', 'Hurtado de Mendoza', 'Gonzaga, Ferrante' on 4 Nov 2026: no other record of this uuid or of Mendoza cc.40-46; the nearby targets/gonzaga1549/wainut covers Charles V and Philip letters to Ferrante, not this Mendoza letter; catalogue 1554-1556 are other Campori items.",
     "verdict": "open"
    },
    "repository": "estense"
@@ -65791,7 +65788,7 @@
       "result": "Biographical pages and Palermo studies of the viceroyalty; nothing on this enclosure."
      }
     ],
-    "key_check": "None held for Mantua in the 1530s. targets/ercole1544 and ferrante1549 are later systems of other shapes and were not applied. The Mantuan cipher ledgers in ASMn were not reached.",
+    "key_check": "None held for Mantua in the 1530s. targets/ercole1544 and gonzaga1549/wainut (formerly ferrante1549) are later systems of other shapes and were not applied. The Mantuan cipher ledgers in ASMn were not reached.",
     "duplicates": "known.py on 'Federico II Gonzaga' and the uuid: no catalogue entry or target holds this letter.",
     "verdict": "open"
    },

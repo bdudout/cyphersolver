@@ -1,3 +1,5 @@
+> Folded into `targets/gonzaga1549/` on 14 Nov 2026 (owner's decision on issue #618; one key, one entry). This file is WAINUT's NOTES.md of `targets/ferrante1549/` as it stood, with the sections the project added on 14 Nov; paths in it are relative to this folder (`wainut/`), and `targets/gonzaga1549/` is now the parent folder. Current state, gaps and escalation: `../NOTES.md`.
+
 # Ferrante Gonzaga 1549: letters of Charles V (catalogue 1560) and Prince Philip (catalogue 1561), Biblioteca Estense, Autografoteca Campori
 
 Status: in progress. Not yet written up: no site page or README row. Read in part, or not read, with escalation steps still open (see its status below, Remaining gaps and Escalation). The status below is the contributor's.
