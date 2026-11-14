@@ -21505,17 +21505,17 @@
    "id": 753,
    "counted": true,
    "year": 1551,
-   "date": "1551-1585",
-   "title": "Unattributed cipher letters filed in the AGS Estado Genoa legajos (1551, 1577, 1585)",
+   "date": "1551, 1585",
+   "title": "Unattributed cipher letters filed in the AGS Estado Genoa legajos (1551, 1585)",
    "correspondents": "unknown (no sender in the catalogue title) → Philip II / Juan de Idiáquez",
    "place": "Genoa (filed with the Genoa embassy papers)",
    "language": "Spanish (probably)",
    "region": "Italy",
    "period": "1497-1559",
-   "shelfmark": "AGS, EST,LEG,1381,143; EST,LEG,1381,180; EST,LEG,1410,77; EST,LEG,1410,135; EST,LEG,1418,47; EST,LEG,1418,50; EST,LEG,1418,81; EST,LEG,1418,82",
-   "folio_note": "8 items; images online",
+   "shelfmark": "AGS, EST,LEG,1381,143; EST,LEG,1381,180; EST,LEG,1418,47; EST,LEG,1418,50; EST,LEG,1418,81; EST,LEG,1418,82",
+   "folio_note": "6 items; images online",
    "cls": "C",
-   "status": "PARES hits (27 Oct 2026, \"carta cifrada\"/\"cifrada\"): titles \"Carta cifrada.\" (EST,LEG,1381,143 and 180, 1551), \"Carta completamente cifrada.\" / \"Carta totalmente cifrada.\" (EST,LEG,1410,135 and 77, 1577), \"Duplicado de carta cifrada.\" / \"Copia de carta cifrada.\" (EST,LEG,1418,47, 50, 81, 1585) and a duplicate for Juan de Idiáquez (1418,82). PARES full-text search matches words, not the phrase, so a term hit is a pointer; the hit-list title says the letter is in cipher, not whether a decipherment is filed with it. Not in the repo (known.py: no hits for the legajos).",
+   "status": "PARES hits (27 Oct 2026, \"carta cifrada\"/\"cifrada\"): titles \"Carta cifrada.\" (EST,LEG,1381,143 and 180, 1551), \"Carta completamente cifrada.\" / \"Carta totalmente cifrada.\" (EST,LEG,1410,135 and 77, 1577), \"Duplicado de carta cifrada.\" / \"Copia de carta cifrada.\" (EST,LEG,1418,47, 50, 81, 1585) and a duplicate for Juan de Idiáquez (1418,82). PARES full-text search matches words, not the phrase, so a term hit is a pointer; the hit-list title says the letter is in cipher, not whether a decipherment is filed with it. Not in the repo (known.py: no hits for the legajos). Narrowed 14 Nov 2026 from eight items to six: EST,LEG,1410,77 (6 Aug 1577) and 1410,135 (7 Aug 1577) are cipher copies of letters from Don John of Austria to the ambassadors in Genoa, and their contemporary decipherments are filed in the same legajo as 1410,111 and 1410,110, not linked by PARES (Brice Dudout, PR #593; targets/idiaquez1577/donjuan/). The pairing was not seen on the images by the checking session (PARES 429).",
    "why": "Wholly enciphered letters with no sender named in the archive description: if no decipherment is filed with them, they are open ciphertexts in a series whose keys (Philip II Italian cipher) are partly known.",
    "importance": 3,
    "solvability": 3,
@@ -21530,14 +21530,6 @@
     {
      "label": "PARES 3572428 (EST,LEG,1381,180)",
      "href": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/3572428"
-    },
-    {
-     "label": "PARES 3576845 (EST,LEG,1410,77)",
-     "href": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/3576845"
-    },
-    {
-     "label": "PARES 3578951 (EST,LEG,1410,135)",
-     "href": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/3578951"
     },
     {
      "label": "PARES 3581180 (EST,LEG,1418,47)",
@@ -21572,7 +21564,8 @@
     "date": "2026-11-02",
     "by": "claude frame check p02"
    },
-   "repository": "ags"
+   "repository": "ags",
+   "outcome": "attempted, open"
   },
   {
    "id": 754,

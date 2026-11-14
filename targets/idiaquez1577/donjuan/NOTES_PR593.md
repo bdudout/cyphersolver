@@ -1,3 +1,7 @@
+> Folded into `targets/idiaquez1577` on 14 Nov 2026 (one key, one entry: the 1577 Genoa embassy syllabary, same legajo and same
+> correspondents). This file is the NOTES.md of the folder `targets/donjuan1577` as PR #593 sent it, kept as the record; its
+> "Status" line is the contributor's. The current state is in `../NOTES.md`, section "Don John's letters of 6 and 7 August 1577".
+
 # donjuan1577: Don John of Austria to the ambassadors in Genoa, Namur, 6 and 7 August 1577 (catalogue 753, AGS Estado 1410,77 and 1410,135)
 
 Status: already solved (contemporary decipherments found in the same legajo); key of the 1577 Genoa syllabary checked on a fresh pair.

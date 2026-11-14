@@ -106,6 +106,43 @@ from this letter), and reran Dan's `docs/_check_reading.py` (clean share 0.727).
 Changes made after it: the 11/14 shape above (two repairs became verbatim readings), and the English of the first
 sentence made to follow the reading's punctuation.
 
+## Don John's letters of 6 and 7 August 1577 (`donjuan/`, PR #593, folded in 14 Nov 2026)
+
+Brice Dudout (PR #593, 14 Nov 2026) found that two "wholly enciphered" items of the same legajo, listed as open in
+catalogue row 753, are cipher copies of letters from Don John of Austria at Namur to the same two ambassadors, and that
+their contemporary decipherments are filed as separate items which PARES does not link:
+
+- AGS Estado 1410,135 (PARES 3578951, 7 Aug 1577, 1 p.) is deciphered in 1410,110 (PARES 3577630; Charlemont).
+- AGS Estado 1410,77 (PARES 3576845, 6 Aug 1577, 3 pp.) is deciphered in 1410,111 (PARES 3577649); matched by the
+  contributor on the first and last words. No transcription of 1410,77 or 1410,111 is in the folder.
+
+Both letters are therefore read from an existing (contemporary) decipherment; nothing new is deciphered. What the
+work adds is the pairing, the transcription of the 15 cipher lines of 1410,135 and a key check on that fresh pair.
+
+Why here (one key, one entry): `donjuan/key_frozen.json` is the Genoa table of this folder with the copyist's
+conventions and more code words. Of the 31 syllabary signs it shares with `key_frozen.tsv`, 30 have the same value
+(8 = b as in the Genoa table, not g as in Pérez's hand); the one that differs, 26 (v, from 1410,77), turned out to be
+*fi* in 1410,135 as in the Genoa table. Same legajo, same year, same correspondents in the other direction.
+`targets/perez1578` holds Antonio Pérez's variant of the table (5 of 69 shared values differ) and stays the published
+page for his letter. Precedent: claiborne1806 folded into morris1813 (14 Nov 2026).
+
+Key check on 1410,135 against 1410,110 (the contributor's one measurement, `donjuan/scripts/heldout.py`): 80.2% of
+106 words and 89.2% of 437 characters; 200 controls at most 18.9% and 47.8%; the criterion written beforehand
+(characters >= 0.85 and >= best control + 0.30) is met. This is a check of the key, not a read share: the text is the
+1577 decipherment. An earlier test on 1410,77 page 3 against 1410,111 (28 Oct 2026, old transcription at 1011 px)
+gave 57.9% of words and 72.7% of characters (controls at most 27.1 / 49.2): partial, recorded in the profile. The
+contributor states one limit: some ambiguous signs of 1410,135 were settled by sense while transcribing, before the
+decipherment was opened, so the test measures key and reader together. The order of events (key frozen, then
+transcription frozen, then 1410,110 opened) is by the contributor's record.
+
+Integration check (14 Nov 2026): `heldout.py` rerun, same figures (0.802 / 0.892; controls 0.189 / 0.478); both
+SHA-256 values match (key 529dd45a..., transcription 3558ee69...); a second decoder written for this check from
+`key_frozen.json` gives a decryption identical to `donjuan/decryption_1410_135.txt`; the decryption read against
+`plaintext_1410_110.txt` is the same letter line by line, with the three extra words "que cada dia" in the cipher.
+Not checked: the images (PARES answered 429 to the checking session, twice; not retried), so neither the
+transcription of 1410,135 nor the pairing 1410,77 / 1410,111 was seen on the source; the derivation of the added key
+values cannot be rerun, because the 1410,77 transcription it used is not in the folder.
+
 ## Remaining gaps
 
 - Images 3-6 (about 105 cipher lines) - blocker: not-attempted; not transcribed in this round. The same key should
@@ -124,6 +161,10 @@ sentence made to follow the reading's punctuation.
   bar (RECONCILE.md). Neither changes a word.
 - Blind check - blocker: not-attempted; the only blind check is the reviewer's 4 lines (68 signs); no full
   independent blind transcription; no human palaeographer.
+- Don John's letters (`donjuan/`): 1410,77 has no transcription in the folder and 1410,111 is not transcribed
+  (blocker: not-attempted; the letter is read from 1410,111 on the contributor's word); signs of the copyist not in
+  the key (3 with a loop above = *tres*, small 2 above 8, underlines) - blocker: open-codes; the transcription of
+  1410,135 and the two pairings have not been compared with the images by a second reader (PARES 429 on 14 Nov 2026).
 
 ## Escalation
 
