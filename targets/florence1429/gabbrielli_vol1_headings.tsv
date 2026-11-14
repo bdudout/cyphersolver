@@ -1,0 +1,51 @@
+# Headings of the keys in Gabbrielli, Chiavi delle cifre delle lettere ai Dieci di Balìa dal 1424 al 1530, vol. 1 (ASF, 1863-64), on Ilardi microfilm reel 58 (Yale Dataverse doi:10.60600/YU/XKVOWE).
+# Read by Brice Dudout on 110 dpi renders and sent in issue #610 (14 Nov 2026); copied as sent (French column words, question marks and all). A 19th-century hand on microfilm: check a heading before relying on it.
+# frame = file 58-<frame>.pdf of the dataset. checked = what the project read on the frame itself (14 Nov 2026, 200 dpi); empty = not checked here. The rows as sent number 47, with keys 9 bis and 14 bis counted and no row for frames 10 and 31 (keys 8 and 27).
+frame	key	year	holder (as read)	filze of the Dieci	checked
+3	1	1424	Galeotto Fibindacci da Ricasoli	1,2,3,7	heading read here: "Cifra di Galeotto Fibindacci da Ricasoli", filze 1.2.3.7, an. 1424
+4	2	1424	Fibindacci (de) Karolus commissarius	1 nos 128,157 ; 2 no 156	
+5	3	1424	Johannes	7	
+6	4	1424	Zaninus et Conradinus	7	
+7	5	1430	Fibindaccius (de) ... de Ricasolis, commissarius	8	heading read here: an. 1430, "Fibindaccius (de) Bindaccius de Ricasolis", filza 8
+8	6	(1430)	Ulisse? (de) Johannes Lucinius? comm.	8?	
+9	7	1430	Zenobius? de Pisa, commissarius	8	
+11	9	1430	Petruccius (de) Antonius	8	
+12	9 bis	1431	Medici Bernardo ; Medici Lorenzo ; Ridolfi Lorenzo	9	
+13	10	1432 (21 giugno)	Cuni? Albericus, comes	100?	
+14	11	1425? (6 maggio)	(sans nom)	7 a 69?	
+15	12	?	Soderini Niccolò	?	
+16	13	1483	Vespuccius Guidantonius ; Alamanni Piero	27,31,33 (29,32?)	
+17	14	1484-85 (1483)	Oricellarius (de) Bernardus = Rucellai Bernardo	28,30,33	heading read here: an. 1484-85 (1483), "Oricellarius (de) Bernardus / Rucellai Bernardo", filze 28, 30, 33
+18	14 bis	?	F. B.	?	
+19	15	?	Bettini (de) Sforza	33	
+20	16	1485	Lanfredinus Johannes orator	33,34,35,36	heading read here: an. 1485, "Lanfredinus Johannes Orator", filze 33, 34, 35, 36
+21	17	1485-6	Victorius filius Petrus? comm. gen.	33,35,36,37	
+22	18	?	(Vettori ? Leonardo ?)	?	
+23	19	1485	Burrotti? comes	35	
+24	20	1485	B. Episcopus Regiensis	35	
+25	21	1486	Victorius filius Petrus? comm.	36,37	
+26	22	?	Capponius Petrus comm. gen.	36,37	
+27	23	1486	Lanfredinus Johannes orator	36,37	
+28	24	1486	Capponius Petrus	37	
+29	25	1492	Alamannis (de) Petrus	39	heading read here: an. 1492, "Alamannis (de) Petrus", filza 39
+30	26	1495	Vespucci Guidantonio	39	
+32	28	1495	Vespucci Guidantonio	39	
+33	29	1495	Capponius Nerius	39	
+34	30	1494-5	Gualterottis (de) Franciscus	39,47,56?	
+35	31	1495-6	Capponius Johannes? 	39,52	
+36	32	1495	Oratores apud Regem Francorum	40	
+37	33	1495	Berti? Thomas	40	
+38	34	1495	Johannes Berti? de Rydolfis	40,42,43	
+39	35	1495	Vespucci (de) Guidantonius	41	
+40	36	1495	Morelli (de) Laurentius	41	
+41	37	1495	Tranchedini? / Tornasius? Hieronymus	43	
+42	38	1495	Anonimo	43	
+43	39	1496	Pazzi (de) Andreas	45,50,52	
+44	40	1496	Bentivolius? Jacopo da Bologna	46	
+45	41	1496	Lanfranchi? Mariotto	?	
+46	42	1496-7	Bracci Alexander	46,52,55	
+47	43	1496-98-99	Soderinis (de) Petrus et Franciscus	56,59	
+48	44	1496	Gherardo? Bonsignori? conte di Santa Fiora	51	
+49	45	1496-98	Gualterottis (de) Franciscus	51,56,63	
+50	46	1496	Coluber? (Antonius?)	54	
+51	47	1496	Zeno Antonius	47?	

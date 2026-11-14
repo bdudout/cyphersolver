@@ -179,6 +179,15 @@
    "kind": "verification",
    "what": "The contributor asked to count 60 = Y. On the clearer image of the telegram of 23 July the sequence 15 60 17 is legible beside the typed 'vaya' (the 58 is under the watermark); 15 and 17 are a in the strict count, so 60 = y. Counted as the 29th strict value, one occurrence like 7 = z and 13 = b (VERIFICATION.md section 6). The contributor's packet still says 28.",
    "result": "worked"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "key matching"
+   ],
+   "what": "Issue #606 (Brice Dudout): the telegram of 19 July 1909, DLI.39.7681.1, carries a pencil gloss 'mañana publicará carta Club iniciador'. Read here on the public CEHM image: 47 56 14 32 19 24 15 37 17 and 24 32 57 14 decrypt with key.tsv to publicara and club. 14 = B and 19 = I, until now fixed by one word of the letter each, are given by a contemporary clear; eleven occurrences of strict values confirmed; nothing contradicted. The public image of the letter of 15 July was fetched too: its 77 groups agree with transcription_7680.txt.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -206,6 +215,13 @@
     "role": "solution",
     "note": "proposed key (28 supported values, 60 = Y provisional) and evidence packet, issue #245 and pull request #308; Zenodo report doi 10.5281/zenodo.23934776",
     "date": "2026-11-06"
+   },
+   {
+    "who": "dudout",
+    "role": "pointer",
+    "note": "telegram DLI.39.7681.1 (19 July 1909) with a contemporary pencil gloss: it checks 14 = B and 19 = I of Alberto Garvía García's key",
+    "date": "2026-11-14",
+    "source": "https://github.com/dbourdeau/cyphersolver/issues/606"
    }
   ],
   "gaps": [
@@ -225,9 +241,9 @@
     "detail": "46 and 42 rest on one word; the handwriting above the cipher is faint even on the clearer images"
    },
    {
-    "item": "the numbers were checked on screenshots (phone, then a clearer set from a computer) by an AI reader only; a human check on the CEHM originals is still wanted",
+    "item": "the numbers were first checked on screenshots by an AI reader; the letter of 15 July was read again on the public CEHM image on 14 Nov 2026; a human check on the CEHM originals is still wanted",
     "blocker": "needs-physical-access",
-    "detail": "the screenshots are private and not redistributable; cehm.org.mx is not reachable from the project environment"
+    "detail": "the screenshots are private and not redistributable; the public image of the letter (visor.cehm.org.mx, plain http) agrees with the transcription; the two control telegrams and the note of 29 July were not fetched again"
    }
   ],
   "notes": "Key proposed by Alberto Garvía García (28 strict values in his count; the project counts 60 = Y too, 29), checked against the CEHM images by an AI reader on 6 Nov 2026 (VERIFICATION.md). Read in part: the letter of 15 July (segment C tentative) and the names in the note of 29 July.",

@@ -1001,6 +1001,15 @@
    ],
    "what": "Integration check of PR #500 (round 6): count_twelve.py and agreement_twelve.py reproduce every figure byte for byte; an own labeller and an own decoder from key.tsv and key_v5.tsv reproduce S and unit counts of the twelve letters and all 48 decryptions; five of the eight new gloss rows (309, 307, 310, 163, 82) confirmed on the Rigsarkivet images of unit 261294. Shuffle controls not re-run.",
    "result": "worked"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "key matching"
+   ],
+   "what": "Issue #607 (Brice Dudout) reports an independent key T2 from the glosses of images 338, 377, 401, 421, 429, 461 and 561, with a held-out agreement of 0.885 against 0.295 for shuffled keys and a reading of image 573. No files were sent, so the figures are not verified. Compared here with key_v5.tsv: of 29 shared attested values 28 agree and one differs (88: Roy d'Espagne in T2, l'Espagne here); eight attested and four rank-only values of T2 are not in the key (134 Stockholm among the open numbers). Recorded as reported; nothing added to the key or the counts.",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -1071,6 +1080,13 @@
     "role": "pointer",
     "note": "the TKUA sweep of 11 Nov 2026 that listed the Petkum leaves and unit 261294",
     "date": "2026-11-11"
+   },
+   {
+    "who": "dudout",
+    "role": "pointer",
+    "note": "reported an independent key T2 and nomenclator values for image 573 (issue text only, no files): reported, not verified; a file pull request is asked for",
+    "date": "2026-11-14",
+    "source": "https://github.com/dbourdeau/cyphersolver/issues/607"
    }
   ],
   "gaps": [

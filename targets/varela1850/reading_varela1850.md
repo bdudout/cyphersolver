@@ -1,7 +1,7 @@
 # Reading of catalogue 1500 (Benito Varela to the Consul General of Paraguay in Rio de Janeiro, Asunción, 13 February 1850)
 #
-# Status: read in part. The clear letter is complete; of its 14 cipher words 9 are read verbatim from the signs,
-# 2 with a marked repair (marks_varela1850.md), 3 are holes [...]; six lone numbers ([25] twice, [1] twice, [116],
+# Status: read in part. The clear letter is complete; of its 14 cipher words 10 are read verbatim from the signs,
+# 2 with a marked repair (marks_varela1850.md), 2 are holes [...]; six lone numbers ([25] twice, [1] twice, [116],
 # [98]) and one sign are not identified. Cipher words are in italics. Abbreviations of the letter (V.S.I., S.E.,
 # Excmo., pp., m. a.) are written out. Clear-text doubts: [?ayer] and [?Provincia]. See NOTES.md.
 # Image: ANA Asunción, Colección Rio Branco, ANA-AHRP-PY-558-1-31, PDF images 41-42 (0-based), sheets 586-587.
@@ -15,7 +15,7 @@ Corte del Rio Janeyro.
 
 El infrascrito ha recibido orden del Excelentísimo Señor Presidente de la República para avisar recibo á Vuestra Señoría Ilustrísima de sus
 notas del 17 de Octubre, y 21 de Noviembre últimos, con los periódicos adjuntos á ellas; de quedar impuesto de las
-noticias que se ha servido transmitirle; y sobre todo de la *contrata* Ingles [...] Montevideo [...], y de que ese
+noticias que se ha servido transmitirle; y sobre todo de la *contrata* Ingles [...] Montevideo *Leite*, y de que ese
 recibió los *pesos*.
 
 Estaba con cuidado Su Excelencia por la carta de 12 de Noviembre próximo pasado que Vuestra Señoría Ilustrísima le avisaba en la precitada del 21,

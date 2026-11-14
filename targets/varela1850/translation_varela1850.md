@@ -14,7 +14,7 @@ the Court of Rio de Janeiro.
 The undersigned has received the order of His Excellency the President of the Republic to acknowledge to Your
 Lordship receipt of your notes of 17 October and 21 November last, with the newspapers enclosed with them; that he
 has taken note of the news you were good enough to pass on to him; and above all of the English *contract* [...]
-Montevideo [...], and that that one received the *pesos*.
+Montevideo *Leite*, and that that one received the *pesos*.
 
 His Excellency was anxious about the letter of 12 November last that Your Lordship announced to him in the above
 letter of the 21st, and at last Hopkins arrived, from whom he received it with the newspapers mentioned in it. His

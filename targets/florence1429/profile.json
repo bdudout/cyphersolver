@@ -276,6 +276,12 @@
       "technique": ["other"],
       "what": "Method restored: key obtained by Gabbrielli's 1863 key, extended from his glosses on the siblings (read with known key); text not read, class stays not read. The 22-24 Oct reading audit had set the method to not solved because the class was not read; George Lasry (24 Oct 2026) separates the two.",
       "result": "partial"
+    },
+    {
+      "date": "2026-11-14",
+      "kind": "literature search",
+      "what": "Issue #610 (Brice Dudout): headings of the keys of Gabbrielli vol. 1 on Ilardi reel 58 (frames 58-3 to 58-51), filed as gabbrielli_vol1_headings.tsv. Checked here: the dataset has 54 files; five headings read on the frames (keys 1, 5, 14, 16, 25) agree with the list; 41 rows not checked. Key 5 (58-7, 1430, filza 8) is Bindaccio Fibindacci's, another alphabet: no fuller key for no. 171 in the volume.",
+      "result": "worked"
     }
   ],
   "outcome": {
@@ -333,7 +339,8 @@
     "credits": [
       {"who": "gabbrielli", "role": "key or decipherment used", "note": "1863 key and interlinear glosses on no. 171 and siblings", "date": "1863"},
       {"who": "meister", "role": "key or decipherment used", "note": "printed Gabbrielli's key, 1902 p. 50", "date": "1902"},
-      {"who": "lasry", "role": "pointer", "note": "suggested the sibling letters could give the full key", "date": "2026-09-21"}
+      {"who": "lasry", "role": "pointer", "note": "suggested the sibling letters could give the full key", "date": "2026-09-21"},
+      {"who": "dudout", "role": "pointer", "note": "inventory of the key headings of Gabbrielli vol. 1 on Ilardi reel 58 (gabbrielli_vol1_headings.tsv); five headings checked by the project", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/issues/610"}
     ],
     "texts": [
       {

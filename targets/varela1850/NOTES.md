@@ -1,6 +1,7 @@
 # varela1850: Benito Varela to the Consul General of Paraguay in Rio de Janeiro, Asunción, 13 February 1850 (catalogue 1500)
 
-Status: in progress (read in part; the sibling letters of the file are not yet paged, so no write-up yet).
+Status: in progress (read in part; the file 558-1-31 was paged on 14 Nov 2026 and holds no other cipher, see the
+section of 14 Nov 2026; the write-up is the owner's next decision).
 
 ## Document
 
@@ -64,10 +65,12 @@ against the repo's Spanish lexicon `lang/lexicons/es.json.gz`.
 `marks_varela1850.md` (each cipher item against the signs). `scripts/check_marks.py` rebuilds the decryption and
 checks every mark; it passes.
 
-Word counts (cipher only): 14 cipher words. 9 verbatim from the signs (contrata, pesos, ocupacion, Olinda twice,
-Paulino, de twice, ministerial), 2 with a marked repair (declarac{+i}on, ocupa{g/c}ion), 0 from a gloss, 3 holes
-(R02 `soñ`, R03 `leite`, R12 tail `lg`). Verbatim share 9/14 = 64.3%. Seven further items are lone numbers or a sign,
-not identified (25 twice, 1 twice, 116, 98, the barred circle); counted with them as holes the share is 9/21 = 42.9%.
+Word counts (cipher only), since 14 Nov 2026: 14 cipher words. 10 verbatim from the signs (contrata, Leite, pesos,
+ocupacion, Olinda twice, Paulino, de twice, ministerial), 2 with a marked repair (declarac{+i}on, ocupa{g/c}ion), 0
+from a gloss, 2 holes (R02 `soñ`, R12 tail `lg`). Verbatim share 10/14 = 71.4%. Seven further items are lone numbers
+or a sign, not identified (25 twice, 1 twice, 116, 98, the barred circle); counted with them as holes the share is
+10/21 = 47.6%. Until 14 Nov R03 `leite` was a third hole (9/14 = 64.3%, 9/21 = 42.9%); the sections below that are
+dated 13 Nov keep the figures of their day.
 
 Dan's checker (`docs/_check_reading.py --file`, re-run on origin/main 65cdcd9d5, 13 Nov 2026): reading_varela1850.md
 clean share 0.536 (15 of 28 sentences, es); translation_varela1850.md 0.561 (23 of 41 sentences, en; the notes at
@@ -115,10 +118,6 @@ An AI language-model agent that did not take part in the solve reviewed the fold
 - R02 `43.9.35` (soñ) after "Ingles" - blocker: open-codes; decodes letter by letter but gives no sense (an
   abbreviation or a name?). The first group was read 49 in the first pass and settled as 43 on an 8x crop; neither
   gives sense. The blind reviewer also read 43 on the image.
-- R03 `27.5 / 7.45.5` (le / ite) after "Montevideo" - blocker: open-codes; decodes, no sense found in place. The
-  blind reviewer suggests it may be the surname Leite, a person who received the money ("y de que ese recibió los
-  pesos"), to be offered as `[?Leite]` in a later round. Not tested; kept as a hole. The ANA file description of
-  558-1-31 (items 4-6) names a merchant Joaquín Leite de Amaral Coutinho; whether he is meant here is not checked.
 - R12 tail `98.15.5.27.19` (98 de lg) - blocker: open-codes; 98 is outside the table, `de lg` not read, and the
   last group has a line through it.
 - Clear-text doubts - blocker: illegible; the word after "ese" on sheet 587 (read "ayer") and the abbreviated word
@@ -126,13 +125,15 @@ An AI language-model agent that did not take part in the solve reviewed the fold
 - Image resolution - blocker: illegible; only the PDF's embedded images (about 690 px wide) are online;
   a better scan from the ANA would help on R02, R10 and R12.
 - Held-out test - blocker: too-short; 76 groups, crib and rule chosen by the solver with the clear context visible.
-- Sibling letters - blocker: not-attempted; the other Varela letters of 558-1-31 and sibling files were not paged
-  through for more cipher in the same table; they could settle the lone numbers.
+- Sibling files - blocker: no-key-material; the file 558-1-31 itself was paged on 14 Nov 2026 (98 images) and holds
+  no other cipher, no key and no decipherment. Other files of the Colección Rio Branco with López-era
+  correspondence were not paged; none is known to hold cipher.
 
 ## Escalation
 
-- [ ] siblings: only PDF images 38-45 of 558-1-31 were opened (catalogue vetting, 28 Oct 2026); the other letters
-  of the file and sibling files are not paged through
+- [x] siblings: all 98 images of 558-1-31 paged (Brice Dudout, issue #605, 14 Nov 2026; repeated here the same day
+  on contact sheets of the ANA PDF): item 13 is the only letter with cipher, no key, no decipherment. Other files
+  of the collection not paged
 - [x] clear-pages: images 38-45 checked for a decipherment, interlining or key on or with the letter; none
 - [x] known-keys: no key of this series or of the Paraguayan foreign ministry of the period found (DECODE dumps,
   Cryptiana, Lasry's list, web searches, 28 Oct and 12 Nov 2026); nothing to try
@@ -140,7 +141,8 @@ An AI language-model agent that did not take part in the solve reviewed the fold
 - [ ] key-rebuild: the letter table is complete (27 entries); the lone numbers (4 distinct numbers and one sign) are
   not rebuilt, context guesses only
 - [x] retry: R02, R03 and the R12 tail re-read on the images by the blind reviewer (13 Nov 2026) and decoded with
-  the frozen key; signs confirmed, still no sense (R03 possibly Leite, open)
+  the frozen key; signs confirmed; R03 read as Leite on 14 Nov 2026 from the file's own letters, R02 and the R12
+  tail still without sense
 
 ## Prior art
 
@@ -186,3 +188,30 @@ reviewer checked 64 group occurrences).
 - Not done and workable (so in progress, no page): the other letters of 558-1-31 (98 images) were not paged for
   more cipher in the same table, which could settle 25, 1, 116 and 98.
 
+
+## Siblings paged; R03 is Leite (issue #605, 14 Nov 2026)
+
+Brice Dudout (issue #605) paged the whole ANA PDF of 558-1-31 and pointed to the letters of the same file that name
+the man of run R03. Checked here on the same PDF (downloaded again with plain curl, 6.3 MB, 98 images):
+
+- Siblings. The 98 images were looked through on contact sheets (each page about 440 px wide, enough to see a run
+  of dot-separated numbers: the runs of item 13 show clearly at that size). Only PDF pages 42-43 (1-based; sheets
+  586-587, item 13) carry cipher. The other number-heavy pages are accounts (item 7, a list of sums in onzas; the
+  last item, a debit and credit account). No key and no decipherment in the file. This agrees with the issue. The
+  check here is at contact-sheet size, not a page-by-page reading.
+- Leite. Item 4 (PDF page 16; consul Manuel Moreira de Castro to the President, Rio de Janeiro, 6 November 1849),
+  read here at 130 dpi: "acoroçoei o Sr. Joaquim Leite do Amaral Coutinho, negociante de Cuyabá, e pessoa digna de
+  todo o conceito, a tentar uma viagem á Assumpção por Mato Grosso, com o fim de levar algum armamento e munições
+  de guerra para vender ao governo da Republica"; its second page has the advance "cinco mil pesos fortes". The
+  copy (item 5) is endorsed "Contrata de armas con Leite". Item 6 is his signed receipt of 9 November 1849. Item 14
+  (PDF page 44; Rio de Janeiro, 20 April 1850) begins "Em consequencia do fallecimento do Snr Leite". The spelling
+  of the name in the letters is Joaquim Leite do Amaral Coutinho (the ANA description has "Joaquín Leite de").
+- Consequence. The sentence of sheet 586 is "y sobre todo de la *contrata* Ingles [...] Montevideo *Leite*, y de
+  que ese recibió los *pesos*": the contract, Leite, and that he received the pesos, which is the matter of items
+  4 to 6. R03 `27.5 / 7.45.5` gives l-e-i-t-e from the signs with no repair, so it is counted as read verbatim:
+  10 of 14 letter-table words (71.4%), 10 of 21 items by the strict count (47.6%, was 42.9%). Class unchanged:
+  read in part. `marks_varela1850.md`, the reading, the translation and `profile.json` follow;
+  `scripts/check_marks.py` passes. The issue reads the clear word before "recibió" as "este"; the reading here
+  keeps "ese" (not re-read).
+- Still open: R02 `43.9.35` (soñ), the R12 tail, 25, 1, 116, 98 and the sign. The issue reports that none of the
+  lone numbers recurs in the file.

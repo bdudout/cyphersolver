@@ -90,14 +90,14 @@ I not matched" should go. Date: Tortosa, 28 Dec. 1495. Direction: Ferdinand and 
 
 ## Remaining gaps
 
-- The cipher copy beyond the sample (most of pp. 1-4) - blocker: not-attempted; the extant key would give a full reading, but it would only add the wording differences Bergenroth mentions, so it was not done
+- The cipher copy beyond the sample (most of pp. 1-4) - blocker: not-attempted; the extant key would give a full reading, but it would only add the wording differences Bergenroth mentions, so it was not done. Since 14 Nov 2026 a Spanish clear minute is reported (AGS PTR leg. 52 doc. 129, PARES 2207852; issue #609, record not opened here: PARES answered HTTP 429): with it a full reading could be checked against Spanish, not only against the English abstract
 - Groups 883, 1374, 1335, 1813, 852, 868, 1221 and the "xxix" on p. 2 l. 1 have no value yet - blocker: open-codes; the key is online (AGS PTR leg. 52 doc. 33, PARES show/2207755), but in the review of 27 Oct 2026 PARES answered HTTP 429 to every request from about 11:45 to 13:10, so key images 3-9, 47-51, 70-75, 78-84 and 110-113 (where interpolation from the images already read puts these numbers: 852/868/883 on images 47-51, 1221 near 72, 1335/1374 near 80-83, 1813 near 112, 29 near 5) could not be opened. Tomokiyo's published values do not include any of them. Fill them on the next session that can reach PARES.
 - Whether the ring over the C ligature ever adds a C - blocker: open-codes; the rule from the 616 key images is applied, but it was not checked group by group here
 
 ## Escalation
 
 - [x] siblings: puebla1496 (catalogue 616, same code and key); CSP I nos. 117, 121, 130 for the couriers
-- [x] clear-pages: the clear words of pp. 1-2 used for the identification
+- [x] clear-pages: the clear words of pp. 1-2 used for the identification; a separate Spanish clear minute, AGS PTR leg. 52 doc. 129 (PARES 2207852, 20 images), reported by Brice Dudout on 14 Nov 2026 (issue #609), not opened and not transcribed
 - [x] known-keys: AGS PTR leg. 52 doc. 33, key images 20, 24, 49, 51-53, 55, 60, 66, 80, 100, 103-106, 111
 - [x] print: CSP Spain I pp. 57-107 (BHO), nos. 113-114; the 1868 Supplement starts in 1498
 - [n/a] key-rebuild: the key is extant and needs no rebuilding
@@ -121,3 +121,26 @@ The key images for the open groups could not be opened (PARES HTTP 429 all sessi
 - `sample_reading.txt`, `sample_translation.txt`: the sample as sentences, and in English
 
 No images are in the folder. The pages are on PARES (links above).
+
+## A Spanish clear minute reported: AGS PTR leg. 52 doc. 129 (issue #609, 14 Nov 2026)
+
+Brice Dudout (issue #609) reports that AGS, Patronato Real, leg. 52, doc. 129 (PARES description 2207852, 20 images)
+is a Spanish minute in clear with the same "commercial" drafting as doc. 124, signed Fernand Álvarez, at Tortosa, and
+that its "fagamos ... guerra al Rey de Francia" corresponds to doc. 124 image 1 line 22. The issue is a pointer only:
+doc. 129 is not transcribed.
+
+- Not verified here. One request to the PARES description page on 14 Nov 2026 was answered HTTP 429 (Too Many
+  Requests), the block this folder met on 27 Oct; it was not retried and not got round. Nothing of the record (title,
+  date, extent, signature) has been seen by the project. PARES needs a browser session.
+- Not checkable against this folder's files either: the sample here is p. 1 ll. 6-8 and p. 2 ll. 1-6; line 22 of
+  image 1 is not transcribed, so the correspondence the issue names cannot be tested from what is here.
+- In the repository: no file mentioned PARES 2207852 or doc. 129 before this section (`git grep`, 14 Nov 2026).
+- What it would change if it holds. Bergenroth's no. 113 is an English abstract of "the clear draft"; a Spanish clear
+  text of the same despatch in the same legajo would be that draft or a copy of it (not established: the old mark
+  on doc. 129 has not been read). The reason given above for not reading doc. 124 in full (the content is known only
+  through the English abstract, and a full reading would add only wording differences) would no longer hold as it
+  stands: doc. 124 could be decrypted in full with the key of doc. 33 and compared group by group with a Spanish
+  clear, which would also give values for the open groups (883, 1374, 1335, 1813, 852, 868, 1221) independently of
+  the key images. The outcome method would stay "read with known key"; the clear minute would serve as the check.
+- Next step (not done): open PARES 2207852 in a browser, confirm date, place, signature and old mark, transcribe the
+  minute, then decrypt doc. 124 in full and align the two. Status stays "no write-up" until then.

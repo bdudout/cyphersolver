@@ -43,13 +43,25 @@ Research documentation offered for incorporation under CC BY 4.0, with attributi
 - The special codes 79 and 77 - blocker: open-codes; each occurs once, no context narrows them (79 is faintly aligned to "Sr. Presidente" in the 15 July telegram)
 - Segment C (28 23 24 54 2) is read as quejándose only by assuming 24 is a slip for an o code (contributor's proposal) - blocker: needs-physical-access; the original must show whether a number was corrected or mistyped
 - The second name in the 29 July note (24 46 42 1 31, CREEL?) and the faint handwritten plaintext above it - blocker: illegible; 46 and 42 rest on one word; the handwriting above the cipher is faint even on the clearer images
-- A check on the CEHM originals by a human - blocker: needs-physical-access; the screenshots are private and cehm.org.mx is not reachable from the project environment
+- A check on the CEHM originals by a human - blocker: needs-physical-access; the first check was on private screenshots. Since 14 Nov 2026 the public CEHM image of the letter (visor.cehm.org.mx over plain http) has been read here too and agrees (section of 14 Nov 2026); the two control telegrams and the note were not fetched again; no human has checked the originals
 
 ## Escalation
 
-- [x] siblings: the telegrams of 15 and 23 July (DLI.39.7677.1, DLI.39.7696.1) used as controls; the 29 July note read; other López Portillo ciphers in the fonds not opened
+- [x] siblings: the telegrams of 15 and 23 July (DLI.39.7677.1, DLI.39.7696.1) used as controls; the 29 July note read; the telegram of 19 July (DLI.39.7681.1, with a pencil gloss) opened on 14 Nov 2026 after issue #606: it checks 14 = B and 19 = I. Whether the fonds holds further López Portillo ciphers was not searched
 - [x] clear-pages: the typed plaintext below the 23 July telegram and the typed line on the 29 July note checked; neither is a decipherment of the letter
 - [x] known-keys: the contributor's structural comparison with a 1895 key sheet (not seen by the project); no other key for this correspondence known
 - [x] print: the contributor's Zenodo report (doi 10.5281/zenodo.23934776); a web search on 6 Nov 2026 (López Portillo, Reyes, 1909, clubs, Limantour, Creel) found no edition of these telegrams
 - [x] key-rebuild: the 29 strict values extended with values from the 15 July telegram (26, 41, 20, 11) and from the letter's own words (key.tsv)
 - [x] retry: segment C retried with the extended key (n-d-c-s-e) and again with the contributor's proposed slip (n-d-o-s-e, quejándose) on the clearer images of 6 Nov 2026; kept tentative
+
+## A third glossed telegram: DLI.39.7681.1, 19 July 1909 (issue #606, 14 Nov 2026)
+
+Brice Dudout (issue #606) pointed to a further López Portillo telegram of the same fonds with a contemporary clear written on it. Checked here on the public CEHM image (`http://visor.cehm.org.mx/assets/docx/fondos/jzd/DLI/39/7681/1/DLI.39.7681.1.0001.jpg`, 1949 x 2559, plain http, no login; not in git).
+
+- The sheet: a telegram in pencil, "Sr. Gral. Dn. B. Reyes, Galeana", signed José López Portillo y Rojas, stamped 7681. Text: "Cumpliré tus encargos = mañana 47-56-14-32-19-24-15-37-17 Carta 24-32-57-14 iniciador". Below the signature, in another pencil hand: "mañana publicará carta Club iniciador". The date and the place of sending (the issue gives 19 July 1909) are in the faint heading and were not read here.
+- The 13 groups read here on the image are the 13 the issue gives, 15 included (the issue says an earlier unpublished transcription had 13 there).
+- With `key.tsv`: 47 P, 56 U, 14 B, 32 L, 19 I, 24 C, 15 A, 37 R, 17 A = publicara; 24 C, 32 L, 57 U, 14 B = club. Both words are the words of the gloss. No value of the key is contradicted.
+- What changes: 14 = B and 19 = I were "letter-word" values (each fixed by one word of the letter of 15 July, so not independent of the key). A contemporary clear now gives them; `key.tsv` marks them `telegram7681`. 14 stands twice in this telegram (publicara, club). The other eleven group occurrences (15, 17, 24 twice, 32 twice, 37, 47, 56, 57) are strict values confirmed on a text that was not used to build the key.
+- The counts are kept as they were defined. The strict count stays 29: the contributor's 28 from the seven control sequences, and 60 = Y. Outside it, values that a contemporary clear gives are now six: 26, 41, 20, 11 (telegram of 15 July, 11 partly cut off on the screenshot) and 14, 19 (this telegram). The issue's "31 instead of 29" adds 14 and 19 to the strict count; by the same reasoning the four of 15 July would be added as well (35). The line in `reading.md` on "certain" groups (every value in the strict set) is not recounted.
+- The same day the public image of the letter of 15 July was fetched by the same route (`.../DLI/39/7680/2/DLI.39.7680.2.0001.jpg`, 1934 x 2557): the 77 groups of `transcription_7680.txt` agree with it, the typed s after 77 included. The check of 6 Nov was on private screenshots because the project environment did not reach the CEHM then; the image host answers over plain http (found for duron1911).
+- Credit for the key stays with Alberto Garvía García; Brice Dudout is credited for the pointer.

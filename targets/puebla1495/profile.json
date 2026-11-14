@@ -162,6 +162,12 @@
    "kind": "verification",
    "what": "Maintainer review (Claude for Daniel Bourdeau): sample read as sentences, graded B; outcome changed from 'already solved' to 'read in part' (sample) because Bergenroth's no. 113 is an abstract of the clear draft, not a decipherment of the cipher copy; his credit role changed from 'prior solution' to 'pointer'; prior_solution.exists set to 'partial'. Decided: no write-up.",
    "result": "worked"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "access",
+   "what": "Issue #609 (Brice Dudout): a Spanish clear minute of the despatch is reported at AGS PTR leg. 52 doc. 129 (PARES 2207852, 20 images; 'fagamos ... guerra al Rey de Francia' said to match doc. 124 image 1 line 22). One request to the PARES record was answered HTTP 429 and not retried; the record was not seen and the minute is not transcribed. Recorded as a reported pointer, not verified.",
+   "result": "failed"
   }
  ],
  "outcome": {
@@ -235,6 +241,13 @@
     "role": "key or decipherment used",
     "note": "the key itself, AGS PTR leg. 52 doc. 33",
     "source": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/show/2207755"
+   },
+   {
+    "who": "dudout",
+    "role": "pointer",
+    "note": "reported a Spanish clear minute of the despatch, AGS PTR leg. 52 doc. 129 (PARES 2207852); not yet verified here (PARES HTTP 429)",
+    "date": "2026-11-14",
+    "source": "https://github.com/dbourdeau/cyphersolver/issues/609"
    }
   ],
   "key_file": "key_excerpt.tsv",
