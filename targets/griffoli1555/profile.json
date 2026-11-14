@@ -234,7 +234,8 @@
    ],
    "what": "Held-out test at letter level by script (scripts/heldout.py): 89 of 98 gloss letters matched in order (90.8%); 1,000 shuffled keys mean 49.9%, max 69.4%. Added after the independent check.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-11-14", "kind": "verification", "technique": ["key matching", "contextual inference"], "what": "Issue #613 (Brice Dudout): six readings for open places of 443 c. 315 (r09 fermi, r20 fidano, v01 riesendo, v02 fugira, v03 scoprira, v04 stan) tested against key.tsv and the ASF image (2000 px, crops enlarged, one reader). All six are the key values of the units already transcribed once one stray digit is dropped; on the image r09 looks like 7433 (not 74533) and v02 like 74 0 23 (not 72423); the extra 2 of the joined 2_2 form can be dropped at four of four places. The verso then runs on with two futures (si fugira, si scoprira). Files and word counts not changed yet: the three digit corrections need a second pass.", "result": "partial"}
  ],
  "outcome": {
   "class": "read in part",
@@ -280,7 +281,8 @@
     "role": "verification",
     "note": "one independent AI reader, blind on 8 lines; no human palaeographer",
     "date": "2026-11-06"
-   }
+   },
+   {"who": "dudout", "role": "pointer", "note": "six readings for open places of 443 c. 315 from his own transcription (fermi, fidano, riesendo, fugira, scoprira, stan); tested here against the key and the image", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/issues/613", "published": true}
   ],
   "texts": [
    {
