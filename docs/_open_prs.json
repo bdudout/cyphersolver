@@ -6,6 +6,18 @@
    "login": "bdudout",
    "name": "Brice Dudout"
   },
+  "number": 620,
+  "title": "beatrice1482 / beatrice1486: 1482 key rebuilt from Vestigia's cipher/clear pairs, held-out check, print gap and 1486 markers explained",
+  "updatedAt": "2026-11-14T12:22:21Z",
+  "url": "https://github.com/dbourdeau/cyphersolver/pull/620"
+ },
+ {
+  "author": {
+   "id": "MDQ6VXNlcjM2ODc1MzQ=",
+   "is_bot": false,
+   "login": "bdudout",
+   "name": "Brice Dudout"
+  },
   "number": 619,
   "title": "ferdinand1473: BNE MSS/20211/61 (Alcalá, 13 Mar 1473) is a sibling in the 1473 cipher; Brackx's key tested on its glossed runs",
   "updatedAt": "2026-11-14T12:13:08Z",
