@@ -47,7 +47,7 @@
 </div>
 
 <section class="hero solve">
-  <p class="kicker"><a href="catalogue.html">Unsolved Catalogue</a> · no. 2350 · class A · priority 8.4 · open</p>
+  <p class="kicker"><a href="catalogue.html">Unsolved Catalogue</a> · no. 2350 · class A · priority 8.4 · in progress</p>
   <h1>Bernardo Rucellai, Florentine orator in Milan, July-September 1482: four bare letters in his sign cipher, with three glossed siblings in the same filza</h1>
   <p class="sub">A run of cipher despatches from Milan in the War of Ferrara (1482), with three glossed letters of the same system beside them: a key can be rebuilt and the four bare letters (and lead 2323) read.</p>
   <dl class="facts">
@@ -61,6 +61,7 @@
 </section>
 
 <main>
+<div class="callout blue"><p><strong>In progress here.</strong> <a href="https://github.com/dbourdeau/cyphersolver/blob/main/targets/rucellai1482/NOTES.md" rel="noopener">targets/rucellai1482</a> is working on this cipher (status: in progress. Folder integrated 14 Nov 2026 without a page: the key has no validation figure and the gaps are workable (strict shares of sure words 25-61% per letter; see Integration check).). Read its NOTES.md before you start, and hand it to your agent with this page: it records what was transcribed, tried and ruled out, and the next step.</p></div>
 <h2>Hand this page to your AI agent</h2>
 <p>Give your agent (Claude, ChatGPT or any assistant that can open web pages) this address and ask it to do the task on the page:</p>
 <p class="urlline">https://cyphersolver.com/solve/2350.html</p>
@@ -69,6 +70,10 @@
 This page: https://cyphersolver.com/solve/2350.html
 
 You are helping a public research project read historical cipher letters that nobody has read yet.
+
+START HERE: the project is already working on this cipher. Read these notes before anything else and
+build on them; they record what was transcribed, tried and ruled out, and the next step:
+  https://github.com/dbourdeau/cyphersolver/blob/main/targets/rucellai1482/NOTES.md  (status: in progress. Folder integrated 14 Nov 2026 without a page: the key has no validation figure and the gaps are workable (strict shares of sure words 25-61% per letter; see Integration check).)
 
 THE CIPHER
   Title:          Bernardo Rucellai, Florentine orator in Milan, July-September 1482: four bare letters in his sign cipher, with three glossed siblings in the same filza
@@ -106,19 +111,20 @@ THE CIPHER
 
 WHAT IS KNOWN
   Status: Key not validated (Brice Dudout, 6 Nov 2026): a letter table built from the pair 207/208 decodes the cipher passages of 204 to 0.6018 character agreement against 205 (best of 200 shuffled keys 0.2281; threshold 0.85), so nothing is read. The key is largely right (it gives 'noi dubitiamo qui', 'contento', 'di parmignana', 'duca francesco', 'liberalita'); the limits are the 1272 px transcription and the nulls and homophones. Prior art not seen: R. M. Comanducci, Il carteggio di Bernardo Rucellai: inventario (Olschki 1996), pp. XXIX-XXXI and Appendix III (Rucellai's keys, printed). In Lettere VI-VII (Mallett) only 204-205 are cited (VII p. 61). Earlier note: Bare: no interlinear or marginal decipherment on 196, 200, 202 or 206 (900 px, crops). Key material in the same run: 201 (15 Jul) carries interlinear glosses over many cipher groups; 205 is the clear text of 204 (30 Aug; it opens with the same words, "Noi diremo che noi contraffacciamo ..."); 208 is the decipherment of 207 (inventory "Decifrato della n. 207"). Lead 2323 (LXXII 211) is the 3 June 1482 letter of this series (inventory attribution to Rucellai).
-  Outcome so far: not yet attempted by the project
+  Outcome so far: In progress here, in targets/rucellai1482/.
   Prior-art check: open as far as checked (6 Nov 2026): known.py finds nothing on the filza or document; not flagged as cipher in the MAP inventory; DECODE dumps in the repo have no ASF MAP ciphertext record; Tomokiyo and Lasry not searched in this run. Marco Vito (Vienna) works on encrypted MAP letters of 1486-1491 (research/medici_bia/README.md): check overlap.
   Check first: Rebuild the sign table from 204/205, 207/208 and the glosses on 201; apply to 196, 200, 202, 206 and lead 2323 (211); compare with the 1483 Rucellai cipher of XLVIII 214 (catalogue), said to use a different sign set.
   Class A: a sibling letter with a decipherment is in the same volume or series, so matching it is the first move.
+  Project notes (read these before anything else; they record what was tried and ruled out): https://github.com/dbourdeau/cyphersolver/blob/main/targets/rucellai1482/NOTES.md
   Project notes (read these before anything else; they record what was tried and ruled out): https://github.com/dbourdeau/cyphersolver/blob/main/targets/gramont1529/NOTES.md
 
 STEPS
 0. Set up. If you can run a shell, fork and clone the repository and work inside it:
      git clone https://github.com/dbourdeau/cyphersolver.git
    Then read, in this order: CONTRIBUTING.md (how a contribution is sent and credited); README.md, sections
-   "Repository layout" and "Conventions" (how readings are measured and named); targets/gramont1529/NOTES.md (everything
+   "Repository layout" and "Conventions" (how readings are measured and named); targets/rucellai1482/NOTES.md (everything
    already tried on this cipher, with the files it used); and lang/README.md (shared language models).
-   Put all your work in targets/gramont1529/: transcription, key, decipherment, scripts. Add your findings to its NOTES.md
+   Put all your work in targets/rucellai1482/: transcription, key, decipherment, scripts. Add your findings to its NOTES.md
    under a dated heading, without rewriting what is there. Keep WORKLOG.md there too:
    one dated line per step (transcription, hypothesis, solver run, crib, key found, control), failures included.
    Do not edit docs/ (the site is generated and rebuilt on merge) and do not commit large images: link them.
@@ -159,7 +165,7 @@ STEPS
      - not applicable: Not a cipher (clear text, shorthand, a key sheet, instructions), or the item could not be reached.
 
 REPORT BACK
-With a clone: open a pull request with your targets/gramont1529/ folder. Say in the description how you want to be
+With a clone: open a pull request with your targets/rucellai1482/ folder. Say in the description how you want to be
   credited (name, initials or handle, and a link) and include the same points as the issue below.
 Without one: open an issue: https://github.com/dbourdeau/cyphersolver/issues/new?template=solution.yml&amp;title=Solution%3A+catalogue+2350&amp;target=catalogue+2350
 (other kinds of contribution: https://github.com/dbourdeau/cyphersolver/issues/new/choose). Include:
@@ -178,9 +184,9 @@ If you cannot open issues or pull requests, write this report for your human to 
 
 
 <p><b>Status and prior art.</b> Key not validated (Brice Dudout, 6 Nov 2026): a letter table built from the pair 207/208 decodes the cipher passages of 204 to 0.6018 character agreement against 205 (best of 200 shuffled keys 0.2281; threshold 0.85), so nothing is read. The key is largely right (it gives 'noi dubitiamo qui', 'contento', 'di parmignana', 'duca francesco', 'liberalita'); the limits are the 1272 px transcription and the nulls and homophones. Prior art not seen: R. M. Comanducci, Il carteggio di Bernardo Rucellai: inventario (Olschki 1996), pp. XXIX-XXXI and Appendix III (Rucellai's keys, printed). In Lettere VI-VII (Mallett) only 204-205 are cited (VII p. 61). Earlier note: Bare: no interlinear or marginal decipherment on 196, 200, 202 or 206 (900 px, crops). Key material in the same run: 201 (15 Jul) carries interlinear glosses over many cipher groups; 205 is the clear text of 204 (30 Aug; it opens with the same words, "Noi diremo che noi contraffacciamo ..."); 208 is the decipherment of 207 (inventory "Decifrato della n. 207"). Lead 2323 (LXXII 211) is the 3 June 1482 letter of this series (inventory attribution to Rucellai).</p>
-<p><b>Outcome so far.</b> Not yet attempted by the project. Prior-art check: open as far as checked (6 Nov 2026): known.py finds nothing on the filza or document; not flagged as cipher in the MAP inventory; DECODE dumps in the repo have no ASF MAP ciphertext record; Tomokiyo and Lasry not searched in this run. Marco Vito (Vienna) works on encrypted MAP letters of 1486-1491 (research/medici_bia/README.md): check overlap..</p>
+<p><b>Outcome so far.</b> In progress here, in targets/rucellai1482/. Prior-art check: open as far as checked (6 Nov 2026): known.py finds nothing on the filza or document; not flagged as cipher in the MAP inventory; DECODE dumps in the repo have no ASF MAP ciphertext record; Tomokiyo and Lasry not searched in this run. Marco Vito (Vienna) works on encrypted MAP letters of 1486-1491 (research/medici_bia/README.md): check overlap..</p>
 <p><b>Check first.</b> Rebuild the sign table from 204/205, 207/208 and the glosses on 201; apply to 196, 200, 202, 206 and lead 2323 (211); compare with the 1483 Rucellai cipher of XLVIII 214 (catalogue), said to use a different sign set.</p>
-<ul><li><a href="https://github.com/dbourdeau/cyphersolver/blob/main/targets/gramont1529/NOTES.md" rel="noopener">targets/gramont1529/NOTES.md</a>: what was tried and ruled out (<a href="https://github.com/dbourdeau/cyphersolver/tree/main/targets/gramont1529" rel="noopener">the folder</a>)</li></ul>
+<ul><li><a href="https://github.com/dbourdeau/cyphersolver/blob/main/targets/rucellai1482/NOTES.md" rel="noopener">targets/rucellai1482/NOTES.md</a>: what was tried and ruled out (<a href="https://github.com/dbourdeau/cyphersolver/tree/main/targets/rucellai1482" rel="noopener">the folder</a>)</li><li><a href="https://github.com/dbourdeau/cyphersolver/blob/main/targets/gramont1529/NOTES.md" rel="noopener">targets/gramont1529/NOTES.md</a>: what was tried and ruled out (<a href="https://github.com/dbourdeau/cyphersolver/tree/main/targets/gramont1529" rel="noopener">the folder</a>)</li></ul>
 
 
 <h2>Scores</h2>

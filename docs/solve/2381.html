@@ -85,20 +85,21 @@ THE CIPHER
     - image id 81736: https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81736
 
 WHAT IS KNOWN
-  Status: Bare (1272 px): no interlinear clear text. The same sign family is glossed in Niccolini's and Ridolfi's letters of 1492-94 in this filza; key sheet LXXII 178 is endorsed "Alamanni Piero" (his Naples cipher of 1489-92).
+  Status: Bare (1272 px): no interlinear clear text. The same sign family is glossed in Niccolini's and Ridolfi's letters of 1492-94 in this filza; key sheet LXXII 178 is endorsed "Alamanni Piero" (his Naples cipher of 1489-92). 14 Nov 2026 (Andrew Aymeloglu, issue #589): the key is MAP LXXII 183 (the Milan embassy sheet, as for Ridolfi's letters of October 1494, catalogue 2382), not Alamanni's Naples sheet LXXII 178; read in part, 11 of 91 cipher words unread; in progress in targets/milan1494/. Not tried: Gabbrielli's key no. 25 (Piero Alamanni, 1492; Ilardi microfilm reel 58, issue #610).
   Outcome so far: not yet attempted by the project
   Prior-art check: open as far as checked (6 Nov 2026): known.py finds nothing on the filza and document; not flagged as cipher in the MAP inventory (vol. 3, archive.org OCR); DECODE dumps in the repo have no ASF MAP ciphertext record; Tomokiyo and Lasry not searched in this run. Marco Vito (Vienna) works on encrypted MAP letters of 1486-1491 (research/medici_bia/README.md): check overlap.
-  Check first: Test LXXII 178 and the table rebuilt from the glossed LXXIV letters; read c. 220v-221v.
+  Check first: In progress in targets/milan1494/: the second threat on c. 221v and the run after name 22 on c. 220v; name number 22 (sheet: S. di Pesaro; a gloss in Ridolfi 107: S. Lodovico); try Gabbrielli's key no. 25.
   Class A: a sibling letter with a decipherment is in the same volume or series, so matching it is the first move.
+  Project notes (read these before anything else; they record what was tried and ruled out): https://github.com/dbourdeau/cyphersolver/blob/main/targets/milan1494/NOTES.md
 
 STEPS
 0. Set up. If you can run a shell, fork and clone the repository and work inside it:
      git clone https://github.com/dbourdeau/cyphersolver.git
    Then read, in this order: CONTRIBUTING.md (how a contribution is sent and credited); README.md, sections
-   "Repository layout" and "Conventions" (how readings are measured and named); and
-   lang/README.md (shared language models).
-   Put all your work in targets/&lt;writer&gt;&lt;year&gt;/ (a new folder, e.g. sega1593): transcription, key, decipherment, scripts. Write a NOTES.md that says
-   what the document is, the system, the key, the reading, and what is open and why. Keep WORKLOG.md there too:
+   "Repository layout" and "Conventions" (how readings are measured and named); targets/milan1494/NOTES.md (everything
+   already tried on this cipher, with the files it used); and lang/README.md (shared language models).
+   Put all your work in targets/milan1494/: transcription, key, decipherment, scripts. Add your findings to its NOTES.md
+   under a dated heading, without rewriting what is there. Keep WORKLOG.md there too:
    one dated line per step (transcription, hypothesis, solver run, crib, key found, control), failures included.
    Do not edit docs/ (the site is generated and rebuilt on merge) and do not commit large images: link them.
    If you cannot run a shell, do the same work in files you keep and send them with the issue below.
@@ -138,7 +139,7 @@ STEPS
      - not applicable: Not a cipher (clear text, shorthand, a key sheet, instructions), or the item could not be reached.
 
 REPORT BACK
-With a clone: open a pull request with your targets/&lt;writer&gt;&lt;year&gt;/ folder. Say in the description how you want to be
+With a clone: open a pull request with your targets/milan1494/ folder. Say in the description how you want to be
   credited (name, initials or handle, and a link) and include the same points as the issue below.
 Without one: open an issue: https://github.com/dbourdeau/cyphersolver/issues/new?template=solution.yml&amp;title=Solution%3A+catalogue+2381&amp;target=catalogue+2381
 (other kinds of contribution: https://github.com/dbourdeau/cyphersolver/issues/new/choose). Include:
@@ -156,10 +157,10 @@ If you cannot open issues or pull requests, write this report for your human to 
 <h2>What is known</h2>
 
 
-<p><b>Status and prior art.</b> Bare (1272 px): no interlinear clear text. The same sign family is glossed in Niccolini's and Ridolfi's letters of 1492-94 in this filza; key sheet LXXII 178 is endorsed "Alamanni Piero" (his Naples cipher of 1489-92).</p>
+<p><b>Status and prior art.</b> Bare (1272 px): no interlinear clear text. The same sign family is glossed in Niccolini's and Ridolfi's letters of 1492-94 in this filza; key sheet LXXII 178 is endorsed "Alamanni Piero" (his Naples cipher of 1489-92). 14 Nov 2026 (Andrew Aymeloglu, issue #589): the key is MAP LXXII 183 (the Milan embassy sheet, as for Ridolfi's letters of October 1494, catalogue 2382), not Alamanni's Naples sheet LXXII 178; read in part, 11 of 91 cipher words unread; in progress in targets/milan1494/. Not tried: Gabbrielli's key no. 25 (Piero Alamanni, 1492; Ilardi microfilm reel 58, issue #610).</p>
 <p><b>Outcome so far.</b> Not yet attempted by the project. Prior-art check: open as far as checked (6 Nov 2026): known.py finds nothing on the filza and document; not flagged as cipher in the MAP inventory (vol. 3, archive.org OCR); DECODE dumps in the repo have no ASF MAP ciphertext record; Tomokiyo and Lasry not searched in this run. Marco Vito (Vienna) works on encrypted MAP letters of 1486-1491 (research/medici_bia/README.md): check overlap..</p>
-<p><b>Check first.</b> Test LXXII 178 and the table rebuilt from the glossed LXXIV letters; read c. 220v-221v.</p>
-
+<p><b>Check first.</b> In progress in targets/milan1494/: the second threat on c. 221v and the run after name 22 on c. 220v; name number 22 (sheet: S. di Pesaro; a gloss in Ridolfi 107: S. Lodovico); try Gabbrielli's key no. 25.</p>
+<ul><li><a href="https://github.com/dbourdeau/cyphersolver/blob/main/targets/milan1494/NOTES.md" rel="noopener">targets/milan1494/NOTES.md</a>: what was tried and ruled out (<a href="https://github.com/dbourdeau/cyphersolver/tree/main/targets/milan1494" rel="noopener">the folder</a>)</li></ul>
 
 
 <h2>Scores</h2>

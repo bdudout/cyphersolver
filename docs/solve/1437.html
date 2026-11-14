@@ -47,7 +47,7 @@
 </div>
 
 <section class="hero solve">
-  <p class="kicker"><a href="catalogue.html">Unsolved Catalogue</a> · no. 1437 · class C · priority 5.0 · open</p>
+  <p class="kicker"><a href="catalogue.html">Unsolved Catalogue</a> · no. 1437 · class C · priority 5.0 · attempted, open</p>
   <h1>Sinclair Oil telegrams to J. W. Zevely and Bert W. Henry: three telegrams with code words (Teapot Dome period)</h1>
   <p class="sub">Sinclair Oil telegrams around the Teapot Dome lease; the commercial code books are online.</p>
   <dl class="facts">
@@ -83,20 +83,21 @@ THE CIPHER
     - G. T. S. to Henry, 21 Jan 1924: https://texashistory.unt.edu/ark:/67531/metapth1891736/
 
 WHAT IS KNOWN
-  Status: Seen 13 Nov 2026 by Andrew Beling (with AI agents): of the nine items the Portal tags 'telegraphic commercial code', three carry code words: Sinclair (Mexico City) to Zevely, 29 Apr 1922 (ordinary English words used as code); Wahlberg (New York) to Zevely at Cheyenne, 1 Oct 1923; G. T. S. (New York) to Bert W. Henry, 21 Jan 1924. The 1923-24 words are artificial code words of the kind in the 1901 Berne official vocabulary, so the code book is not identified; ANZUNDET occurs in both. A fourth item (metapth1891648, 13 Dec 1916) has two code names glossed in pencil (H. F. Sinclair, E. R. Kemp); the other five are plain English. No decoding on the leaves, in three volumes of the 1923-24 Senate oil-lease hearings, or in print.
-  Outcome so far: not yet attempted by the project
+  Status: Seen 13 Nov 2026 by Andrew Beling (with AI agents): of the nine items the Portal tags 'telegraphic commercial code', three carry code words: Sinclair (Mexico City) to Zevely, 29 Apr 1922 (ordinary English words used as code); Wahlberg (New York) to Zevely at Cheyenne, 1 Oct 1923; G. T. S. (New York) to Bert W. Henry, 21 Jan 1924. The 1923-24 words are artificial code words of the kind in the 1901 Berne official vocabulary, so the code book is not identified; ANZUNDET occurs in both. A fourth item (metapth1891648, 13 Dec 1916) has two code names glossed in pencil (H. F. Sinclair, E. R. Kemp); the other five are plain English. No decoding on the leaves, in three volumes of the 1923-24 Senate oil-lease hearings, or in print. Attempted 14 Nov 2026 by Brice Dudout (targets/sinclair1923/, PR #592): all four telegrams transcribed in full (168 words in the three coded ones, 89 of them code words); 23 commercial code books on archive.org screened against a 90% coverage criterion, best 6 of 67 words (1923-24) and 6 of 12 (1922), none fits; a HathiTrust full-text search finds three of the 1923 words together only in the 1901 Berne vocabulary. Nothing decoded.
+  Outcome so far: attempted, open
   Prior-art check: open as far as checked (13 Nov 2026, vetting block)
-  Check first: Transcribe the three telegrams; identify the code book behind the 1923-24 words (a commercial code built on the Berne vocabulary, or Sinclair's own).
+  Check first: Screen the code books not on archive.org (ABC 6th ed. 1920, Western Union Universal, Marconi 1919, Wright's Codigo brasileiro universal 1902, Peterson, Lombard, Scott's) or find a Sinclair private code; the transcription is in targets/sinclair1923/transcription.txt.
   Class C: no key and no deciphered sibling is known, so expect a ciphertext-only attack.
+  Project notes (read these before anything else; they record what was tried and ruled out): https://github.com/dbourdeau/cyphersolver/blob/main/targets/sinclair1923/NOTES.md
 
 STEPS
 0. Set up. If you can run a shell, fork and clone the repository and work inside it:
      git clone https://github.com/dbourdeau/cyphersolver.git
    Then read, in this order: CONTRIBUTING.md (how a contribution is sent and credited); README.md, sections
-   "Repository layout" and "Conventions" (how readings are measured and named); and
-   lang/README.md (shared language models).
-   Put all your work in targets/&lt;writer&gt;&lt;year&gt;/ (a new folder, e.g. sega1593): transcription, key, decipherment, scripts. Write a NOTES.md that says
-   what the document is, the system, the key, the reading, and what is open and why. Keep WORKLOG.md there too:
+   "Repository layout" and "Conventions" (how readings are measured and named); targets/sinclair1923/NOTES.md (everything
+   already tried on this cipher, with the files it used); and lang/README.md (shared language models).
+   Put all your work in targets/sinclair1923/: transcription, key, decipherment, scripts. Add your findings to its NOTES.md
+   under a dated heading, without rewriting what is there. Keep WORKLOG.md there too:
    one dated line per step (transcription, hypothesis, solver run, crib, key found, control), failures included.
    Do not edit docs/ (the site is generated and rebuilt on merge) and do not commit large images: link them.
    If you cannot run a shell, do the same work in files you keep and send them with the issue below.
@@ -136,7 +137,7 @@ STEPS
      - not applicable: Not a cipher (clear text, shorthand, a key sheet, instructions), or the item could not be reached.
 
 REPORT BACK
-With a clone: open a pull request with your targets/&lt;writer&gt;&lt;year&gt;/ folder. Say in the description how you want to be
+With a clone: open a pull request with your targets/sinclair1923/ folder. Say in the description how you want to be
   credited (name, initials or handle, and a link) and include the same points as the issue below.
 Without one: open an issue: https://github.com/dbourdeau/cyphersolver/issues/new?template=solution.yml&amp;title=Solution%3A+catalogue+1437&amp;target=catalogue+1437
 (other kinds of contribution: https://github.com/dbourdeau/cyphersolver/issues/new/choose). Include:
@@ -154,10 +155,10 @@ If you cannot open issues or pull requests, write this report for your human to 
 <h2>What is known</h2>
 
 
-<p><b>Status and prior art.</b> Seen 13 Nov 2026 by Andrew Beling (with AI agents): of the nine items the Portal tags 'telegraphic commercial code', three carry code words: Sinclair (Mexico City) to Zevely, 29 Apr 1922 (ordinary English words used as code); Wahlberg (New York) to Zevely at Cheyenne, 1 Oct 1923; G. T. S. (New York) to Bert W. Henry, 21 Jan 1924. The 1923-24 words are artificial code words of the kind in the 1901 Berne official vocabulary, so the code book is not identified; ANZUNDET occurs in both. A fourth item (metapth1891648, 13 Dec 1916) has two code names glossed in pencil (H. F. Sinclair, E. R. Kemp); the other five are plain English. No decoding on the leaves, in three volumes of the 1923-24 Senate oil-lease hearings, or in print.</p>
-<p><b>Outcome so far.</b> Not yet attempted by the project. Prior-art check: open as far as checked (13 Nov 2026, vetting block).</p>
-<p><b>Check first.</b> Transcribe the three telegrams; identify the code book behind the 1923-24 words (a commercial code built on the Berne vocabulary, or Sinclair's own).</p>
-
+<p><b>Status and prior art.</b> Seen 13 Nov 2026 by Andrew Beling (with AI agents): of the nine items the Portal tags 'telegraphic commercial code', three carry code words: Sinclair (Mexico City) to Zevely, 29 Apr 1922 (ordinary English words used as code); Wahlberg (New York) to Zevely at Cheyenne, 1 Oct 1923; G. T. S. (New York) to Bert W. Henry, 21 Jan 1924. The 1923-24 words are artificial code words of the kind in the 1901 Berne official vocabulary, so the code book is not identified; ANZUNDET occurs in both. A fourth item (metapth1891648, 13 Dec 1916) has two code names glossed in pencil (H. F. Sinclair, E. R. Kemp); the other five are plain English. No decoding on the leaves, in three volumes of the 1923-24 Senate oil-lease hearings, or in print. Attempted 14 Nov 2026 by Brice Dudout (targets/sinclair1923/, PR #592): all four telegrams transcribed in full (168 words in the three coded ones, 89 of them code words); 23 commercial code books on archive.org screened against a 90% coverage criterion, best 6 of 67 words (1923-24) and 6 of 12 (1922), none fits; a HathiTrust full-text search finds three of the 1923 words together only in the 1901 Berne vocabulary. Nothing decoded.</p>
+<p><b>Outcome so far.</b> attempted, open Prior-art check: open as far as checked (13 Nov 2026, vetting block).</p>
+<p><b>Check first.</b> Screen the code books not on archive.org (ABC 6th ed. 1920, Western Union Universal, Marconi 1919, Wright's Codigo brasileiro universal 1902, Peterson, Lombard, Scott's) or find a Sinclair private code; the transcription is in targets/sinclair1923/transcription.txt.</p>
+<ul><li><a href="https://github.com/dbourdeau/cyphersolver/blob/main/targets/sinclair1923/NOTES.md" rel="noopener">targets/sinclair1923/NOTES.md</a>: what was tried and ruled out (<a href="https://github.com/dbourdeau/cyphersolver/tree/main/targets/sinclair1923" rel="noopener">the folder</a>)</li></ul>
 
 
 <h2>Scores</h2>
