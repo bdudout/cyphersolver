@@ -39,3 +39,12 @@ DECODE images carry an archive-permission requirement for publication; images st
 ## Completed source identification
 
 See RESULT.md and readings/ for the record-by-record findings and earlier Italian texts. Eighteen images downloaded successfully. R1154 is 29 May 1505 and is plain Italian. R1143 has three written pages photographed five times, including views with slips moved. Four cipher letters have readings in MDE III (1877) and IV (1878); March 1486 editorial markers remain unexplained. Research write-up prepared in `.worktrees/beatrice1482/` on `codex/beatrice1482`. No manuscript images are included in the write-up.
+
+## 14 Nov 2026: key rebuilt from the Vestigia cipher/clear pairs (Brice Dudout, Claude Opus 5.5)
+
+Vestigia (https://www.vestigia.hu) publishes both letters with their period clear copies ("exemplum"): 1957 ↔ 1958
+(R1140) and 1960 ↔ 1961 (R1141). Blind glyph transcriptions of both letters, a key rebuilt from R1140 only and one
+pre-registered measurement on the whole of R1141 (648 signs): characters 0.900 against 0.290 for the best of 200 keys
+shuffled within value classes. The alphabet is the one of matthias1482 (17 shared values; 9 = d and 2 = g here
+against the figures in that key). R1141 has a cipher run the 1877 print leaves out, "Venetiani da sua offesa",
+restored from the copy's margin and the key (readings/R1141_reading.md). Details: [`vestigia/README.md`](vestigia/README.md).

@@ -1,0 +1,58 @@
+# Pass B (blind) — R1140 / v1957_p1.jpg — cipher-run transcription, shapes only (inventory INVENTAIRE-SIGNES.md)
+# Line numbers = manuscript lines counted from the top of the letter (l.1 "Illma Domina Soror...").
+# Lines 1, 2, 5 and 29-end contain no cipher. " / " = manuscript line break inside a run.
+# New labels:
+#   N1 = trident / Psi-like: two or three upward prongs joined at the base on a doubled stem (l.12 once; l.24 twice, there with a short crossbar)
+#   N2 = round c-curve whose upper end curls back inside and down to the right (G without bar, "ɕ"-like spiral), same height as the other signs, no tail (l.20, l.24 x2)
+#   N3 = upright T (⊤, bar on top) — distinct from T (⊥) (l.21)
+# Crops/scripts: /Volumes/SPOF_2/Archives-Veille-cyber/croisement-1411/g7a-autres/vestigia/work/passB-r1140/
+
+line 3-4 | before: Inteso | o 7 / U E R 3 C 7 o 7 3 n C 6 E n V T 3 G | after: non
+line 6-7 | before: vno | E X P E 9 3 E n T 3 7 P T 3 m 7 E T n E C E K 8 R 3 7 P E R o 7 F 8 1 7 R E E T / L 8 o 1 T E 9 E T 1 TT 8 o 8 o E 2 8 | after: Sua
+line 8 | before: mando | 8 o 3 L 1 3 Z 8 R 3 | after: ch'
+line 8 | before: smo | L 7 3 C 7 n F E 9 E R 8 T 3 | after: et
+line 9 | before: alcuny | C 8 P 3 T 8 n 3 9 E 9 E TT 3 L 1 3 Z 8 R 3 | after: et
+line 10 | before: fare | L P E L 8 9 E C E n T 7 m 3 o 3 8 9 1 C 8 T 3 | after: et
+line 10 | before: dela | L P E L 8 F 8 R 8 G | after: et
+line 11-13 | before: et | C 6 E L 3 8 P R E L T 7 F 8 R 8 C 6 E P E R T 1 C T 7 o 7 m E L E 9 8 2 7 L T 7 L 8 R 8 n 7 L E 9 E C 3 m 3 o 3 8 C 7 / m d 8 TT E n T 3 3 n d R E N1 8 n 8 E T 1 E R 7 n E L E m 7 n T R 8 W 9 E C E m 3 o 3 8 L 1 3 Z 8 R 3 E T L E 3 m 3 o 3 8 / C 8 1 8 3E 3 9 E G | after: preterea
+line 13 | before: tene | 3 n 7 R 9 3 n E P E R m 8 n 9 8 R 1 E C 3 n = 1 E C E n T 7 C 8 1 8 3E 3 | after: done
+line 14 | before: sono | C E n T 7 1 L 8 R 7 n 3 | after: ma
+line 14 | before: auisata | P E R C 6 E 1 3 8 1 E o 3 m 8 n 9 E R 8 | after: bisogna
+line 15 | before: questo | G m 8 n 9 8 m E 2 E R d 8 o 8 L 3 n C R 7 8 C 3 8 8 F 8 R E 2 E n T E | after: pure
+line 16 | before: per (end of l.15) | 1 7 L T R 7 F 8 1 7 R E | after: ma
+line 16-17 | before: altramente | C 7 n F E 9 E R 8 T 7 C 7 n 1 7 L T R 8 o E 2 8 n 7 / n L E 1 7 o E 9 E C o 8 R 8 R E | after: apertamente
+line 17 | before: apertamente | n E m 3 C 7 T E W | after: ma
+line 17 | before: decti | L 1 3 Z 8 R 3 | after: fazano
+line 17-18 | before: fazano | 2 1 E R 8 C 7 m E / L 7 o T 8 T 3 9 E o 8 o E 2 8 | after: et
+line 18 | before: loro | C 8 P 7 9 7 n F R E 9 E R 3 C 7 | after: et
+line 19 | before: Intrato | G 3 n 1 7 L T R 8 o E 2 8 | after: intende
+line 19 | before: apertamente | m 7 n L T R 8 R L E = E m 3 C 7 9 E W | after: et
+line 20 | before: ancora | L E 7 N2 E R E C 6 E L 3 o 8 o E 2 8 o 7 1 7 o E 8 3 T 8 R E | after: solamente
+line 20-21 | before: de | C E n T 7 m 3 o 3 8 V o T / R 3 9 1 C 8 T 3 N3 7 o E | after: Te.
+line 21-22 | before: de | m 7 o T 7 P 3 1 n 1 m E R 7 E F 8 R E 1 n 8 o T R 7 E 8 X / E R C 3 T 7 E T 9 8 R E 8 9 7 TT 7 8 W 9 8 o R 3 C 8 n T 3 | after: ch'
+line 23 | before: lega | 1 7 R 8 V d 7 n L E m m 7 8 3 T 8 R L E L E T R 8 R 8 d E n o PI m PI 9 7 | after: de
+line 23-24 | before: solamense | 9 3 1 E R T 3 / R E W 9 8 L 1 8 7 N2 E L 8 m 8 9 E E N1 3 E N1 E R n 7 7 N2 E L 3 | after: Confortan
+line 25 | before: effino | C 3 R C 8 o 7 L 1 U R 8 L C R P T 7 | after: et
+line 25 | before: intertanto | C 7 n L T 8 n T E m E n T E R E L 3 L T E R E | after: che
+line 26 | before: decto | = 1 8 n 9 o 8 o E 2 8 1 7 R 8 F 8 R E o 8 9 8 C T 8 L P E L 8 | after: quello
+line 27 | before: fanle (end of l.26) | G C E n E 1 7 o E m E C T E R E | after: molto
+line 27 | before: ch' | 8 o T R 7 T 8 n T 7 | after: per
+line 27-28 | before: ch' | W L E L E n T 8 m PI 9 8 n n 3 / F 3 C 8 T 3 | after: piu
+line 28 | before: de | 9 8 n n 3 F 3 C 8 R E 8 o T R 1 3 | after: Quanto
+
+# Confidence notes (doubtful signs)
+# General: C (round ɔ) vs m (square ⊐) is the main recurrent ambiguity — small open-left hooks drawn half-round/half-angular. I gave C when the back is curved, m when it has two clear corners. Least sure: l.4 2nd C (after n); l.9 1st C; l.11 C before "3 m 3 o 3" (~x1990, could be m); l.17 C in "8 C 7 m E" (could be m); l.21 C after "9 1" (could also be read 7); l.23 2nd m of "m m" (smaller, could be C).
+# General: U (rounded u) vs P (square ⊔): U only at l.4 (1st sign) and l.25 (after "L 1"); all other cups have a flat bottom -> P.
+# l.3: "o 7" — the circle's tail runs into the 7; o not sure.
+# l.4: the sign after "6 E" (x~865) is a ⊏ whose top bar curls upward into a flourish; could be L (L with a cap). A vertical grey stroke just before it is a paper crease, not ink. The "·" after the 2nd 7 is a crease too.
+# l.6: K = an x with an extra short tick (no clear dots); K by elimination, could be a new shape.
+# l.10 run 2: the 8 after F is small with an open bottom (loop on top, two short legs, δ-like); could be a variant shape rather than 8. A dot stands just before the C in run 1 (not transcribed).
+# l.12: N1 (x~905) is clearly not K/W. l.24 N1 x2 look like the same family (two stems, short prongs, crossbar) — could be a separate shape.
+# l.12: E after "d R" (x~870) has an extra hook on top; E most likely.
+# l.17 run 4: R = Ŧ-like (upright T with a second bar) with a looped ſ/£-like stroke above; might be a combination or a superscript. Doubtful.
+# l.19 run 2: "=" (x~1760) has a thin top bar and a faint joint at the left end; could be n (⊏).
+# l.21 run 2: the sign before X (x~2255) is blotted; looks like an 8 but low confidence.
+# l.22: TT is slanted (two oblique strokes, dot lower-left, dot upper-right).
+# l.27 / l.28: the second n in "n n 3" has a thick inner stroke (could read like ⊏ with a middle tick).
+# l.28: a "!"-like mark (short stroke above a dot) after the last 3, just before "Quanto", is taken as punctuation and NOT transcribed.
+# Anchors are clear words as they appear; spellings may be imperfect (palaeographic reading of the clear text was not attempted beyond anchoring).
