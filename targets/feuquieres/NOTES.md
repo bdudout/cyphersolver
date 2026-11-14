@@ -1,6 +1,6 @@
 # Feuquières → Catinat, Pignerol, 25 January 1691 — **read 2026-09-16** (586 of 601 tokens over the two letters in the code)
 
-Status: read in part (23 Oct 2026, verification 5): the d'Herleville letter reads; the Feuquières letter is decoded, not read (0.545). See "Verification 5" at the end.
+Status: read in part. The d'Herleville letter reads (0.918 of its words); the Feuquières letter is read in part since 14 Nov 2026 (0.905 of its words by the strict rule; it was decoded, not read, from 23 Oct). See "Verification 5", "Verification 14 Nov 2026" and "Integration check" at the end.
 
 Not to be confused with [targets/feuquieres1678](../feuquieres1678/NOTES.md): Louis XIV to the marquis de Feuquières,
 9 December 1678 (BnF NAF 22738), a different item, read by George Lasry (BnF cipher research, 10 Oct 2026).
@@ -19,15 +19,18 @@ groups used (`key_petit_chiffre_1690.tsv`) and the reading below (`reading.txt` 
 ## The Feuquières letter, as read (17th-century spelling kept; unread groups in brackets)
 
 > Je reçois, Monsieur, à dix heures du matin la lettre que vous me faites l'honneur de m'escrire du vingt-quatre,
-> avec le duplicata. Vous aurez veu [par] le retour du courrier que je vous dis [54 257]is [go] exécuter vos ordres.
-> [Par] cecy vous sçaurez que je suis tout prest, [333] qu'on ne pense [9 go ri 122] les [des] que vous [122]u les
+> avec le duplicata. Vous aurez veu [par] le retour du courrier que je me {?disposois} [à] exécuter vos ordres.
+> [Par] cecy vous sçaurez que je suis tout prest, {?et} qu'on ne pense [9 go ri 122] les dès que vous [122]u les
 > commencer. [À] Veillane, persuadé qu'ils enlèveront le [19] au bruit de l'attaque de Veillane, le peu de monde
-> qu'il y a et les moyens d'y entrer, tout doi[ven]t faire croire qu'ils ne viendront pas à le défendre
-> sérieusement. Je ne sçais du tout par où faire passer à Saint-Ambroise les quatre-vingts maistres que vous [vous]
-> demandez ; les chemins pour y aller du costé de Javan e[t] [a 132 257 l] vous coupe[s] [249 86]. En approchant de
-> Veillane on trouve deux chemins, dont l'un vous conduit au fauxbourg des Trois Couronnes, l'autre aux maisons [292]
-> et le long de l'estang. J'attaqueray [353] deux endrois, et surtout [mes se 271 se s] prendray garde que les dragons
-> ne puissent m'eschaper. [342 103 190]
+> qu'il y a et les moyens d'y entrer, tout doivent faire croire qu'ils ne viendront pas à le défendre
+> sérieusement. Je ne sçais du tout par où faire passer à Saint-Ambroise les quatre-vingts maistres que vous me
+> demandez ; les chemins pour y aller du costé de Javan et [ta 132 257 l] vous coupes. En approchant de
+> Veillane on trouve deux chemins, dont l'un me conduit au fauxbourg des Trois Couronnes, {?et} l'autre aux maisons [292]
+> et le long de l'estang. J'attaqueray {?par} deux endrois, et surtout [mes se 271 se s] prendray garde que les dragons
+> ne puissent m'eschaper.
+
+(Reading as of 14 Nov 2026, after Brice Dudout's verification; `{?word}` = a word standing on a probable value,
+counted as a hole. The reading of 16 Sept 2026 is in the git history.)
 
 What it says: Feuquières acknowledges Catinat's letter of the 24th (received at 10 a.m. with its duplicate), says he
 is ready and that the return of the courier carries his execution of Catinat's orders; the enemy will not defend
@@ -59,15 +62,16 @@ printed translation has *des nouvelles*. This is why every exact known-plaintext
 
 ## English translation
 
-> **Feuquières to Catinat, Pignerol, 25 January 1691.** I receive, Sir, at ten in the morning the letter you do me the
-> honour of writing on the twenty-fourth, with the duplicate. You will have seen [by] the return of the courier that I
-> tell you [...] to carry out your orders. [By] this you will know that I am quite ready, [and] that no one thinks [...]
-> the [...] that you [wish?] to begin them. [At] Veillane, persuaded that they will carry off the [post] at the noise
-> of the attack on Veillane, the few men there are and the ways of getting in all must make one believe that they will
-> not come to defend it seriously. I do not at all know by what way to pass the eighty troopers you ask [of us] to
-> Saint-Ambroise; the roads for getting there from the Javan side cut across [...]. Approaching Veillane one finds two
-> roads, one of which leads you to the faubourg of the Three Crowns, the other to the houses [...] and along the pond.
-> I shall attack [at] two points, and above all [...] shall take care that the dragoons cannot escape me. [...]
+> **Feuquières to Catinat, Pignerol, 25 January 1691** (verification of 14 Nov 2026). I receive, Sir, at ten in the
+> morning the letter you do me the honour of writing on the twenty-fourth, with the duplicate. You will have seen [by]
+> the return of the courier that I was preparing [to] carry out your orders. [By] this you will know that I am quite
+> ready, and that no one thinks [...] them as soon as you [...] to begin them. [At] Veillane, persuaded that they will
+> carry off the [...] at the noise of the attack on Veillane, the few men there are and the ways of getting in all must
+> make one believe that they will not come to defend it seriously. I do not at all know by what way to pass to
+> Saint-Ambroise the eighty troopers you ask of me; the roads for getting there from the Javan side and [...] cut you
+> off. Approaching Veillane one finds two roads, one of which leads me to the faubourg of the Three Crowns, and the
+> other to the houses [...] and along the pond. I shall attack at two points, and above all [...] shall take care
+> that the dragoons cannot escape me.
 
 > **Louvois to d'Herleville, Versailles, 6 September 1690.** [...] I am writing to M. de Catinat that the King
 > permitted you to demand the contribution of the country of Mondovì, and that if you believe it suits the King's
@@ -123,6 +127,9 @@ Saint-Ambroise, Villefranche = vi-l-le-f-ra-n-c-he, Mondevis = mon-de-vi-s).
    `show.py`, `ctx.py` and `reading.txt` are the working tools; `key_partial.txt` the working key.
 
 ## What remains
+
+(Updated 14 Nov 2026: six groups are unread, 9, 19, 122, 132, 271, 292; 54, 257, 333, 353 have probable values, 194 is
+taken as a null and 241 is *me*, see the sections at the end. The paragraph below is the state of 16 Sept 2026.)
 
 Twelve groups unread (singletons or doubletons: 9, 19, 54, 122, 132, 194, 257, 271, 292, 333, 353 and the
 opening/closing nulls), and a few units marked `?` in the key: *Trois Couronnes* (237 322 46 is 153 u ro n ne s;
@@ -257,7 +264,7 @@ read in part.
 
 ## Remaining gaps
 
-- Feuquières to Catinat, 25 Jan 1691: decoded, not read (0.545); groups 9, 19, 54, 122, 132, 194, 257, 271, 292, 333, 353 unread - blocker: no-key-material; each occurs once or twice, in no other text of the petit chiffre; the original (SHD A1 1079) is not digitised
+- Feuquières to Catinat, 25 Jan 1691: read in part (0.905 of words by the strict rule, 14 Nov 2026); groups 9, 19, 122 (twice), 132, 271, 292 unread, and 54, 257, 333, 353 carry probable values only - blocker: no-key-material; each occurs once or twice, in no other text of the petit chiffre; the original (SHD A1 1079) is not digitised
 
 ## Escalation
 
@@ -266,5 +273,62 @@ read in part.
 - [x] known-keys: Bazeries' Grand Chiffre table gives the design only; the petit chiffre table is not printed
 - [x] print: 1819 Mémoires de Catinat t. I-III searched (hOCR) for further petit-chiffre text
 - [x] key-rebuild: 167 of 179 groups from the two letters (key_petit_chiffre_1690.tsv)
-- [x] retry: re-read 23 Oct 2026 (v5); the original at the SHD (A1 1079) could settle printing slips but is not online
+- [x] retry: re-read 23 Oct 2026 (v5), and again 14 Nov 2026 by Brice Dudout (six groups valued, 241 corrected); the original at the SHD (A1 1079) could settle printing slips but is not online
 
+
+## Verification 14 Nov 2026 (Brice Dudout, with Claude Opus 5.5)
+
+Re-read of the open passages of the Feuquières letter on the MDZ page images (`img/t2_0317.jpg`, `img/t2_0318.jpg`):
+the groups around every gap (lines 6, 7, 9, 10, 12, 22-23 of p. 283; lines 2-7 of p. 284) were read again on the page
+image, one pass at page resolution: they agree with `ciphertext.txt`; no printing slip found by eye. Then context work on the gaps, with the values carried through both letters:
+
+| group | was | now | evidence |
+|---|---|---|---|
+| 241 | vous? | **me** | three contexts, all better with *me*: "que je **me** disposois", "les quatre-vingts maistres que vous **me** demandez" (Catinat's memoir of 19 Jan asks Feuquières for the horse; the old reading needed a supplied *[vous]*), "dont l'un **me** conduit". 316 = me already (*vous me faites*): a second homophone |
+| 54, 257 | unread | po, so (probable) | "que je me di-s-**po-so**-is", *disposois*; 280 = is is sure (*reçois, sçais, trois, endrois*). 257's second context (*Javan et ta 132 257 l*) does not read with *so*: kept probable |
+| 145 | go | go (unchanged) | sure from *dra-go-ns*; in "disposois 145 exécuter" the sense wants *à*: a clerk's or printer's slip, shown as supplied [à] |
+| 194 | unread | null (probable) | "ce _ cy" = *cecy* is complete without it |
+| 333 | unread | et (probable) | "tout prest, **et** qu'on ne pense"; "des Trois Couronnes, **et** l'autre aux maisons"; third homophone of *et* (258, 341) |
+| 353 | unread | par | "J'attaqueray **par** deux endrois" |
+
+Also: *doivent* (214 do i 150 ve 263 nt) and *dès* (237) are decoded, not supplied; `342 103 190` (closing) and `249 86`
+are the key's nulls and are left out of the reading body. Key: `key_petit_chiffre_1690.tsv`, SHA-256
+28de3e9662c35c5ea9e0f103d109786b3c5db6c7db186fcd3834887c97b817f3 (frozen before any count).
+
+**No measurement.** No portion of this code was left unseen: the two known letters (601 groups) were both used to build
+the key, so a held-out test (≥ 150 groups, 200 shuffled keys) is impossible. The new values rest on context only.
+
+**Count (v10 `share` rule, `texts/feuquieres1691_reading.md`):** 176 words, 14 holes, read_share **0.926** (it was
+0.875 on the 23 Oct reading: 168 words, 24 holes). Still under the 95 % bar: **read in part**. Groups still open:
+9, 122 (×2), 19, 132, 292, 271 (and 257's second context). Conjectures not used in the reading: 19 = *poste* or
+*quartier*; 292 = *qui*; `317 183 271 110 200` after *et sur tout* may hide *[toutes] choses* (271 = cho) but that
+would make 317 *es*, against *m'escrire*/*m'eschaper*; *Javan et ta-132-so-l* may hold a second road name (the memoir's
+Trane) or *estant ...*: none fits the groups cleanly.
+
+**Neighbour checked:** the Catinat letter of 15 Sept 1702 (`../catinat1702`) has the same design but another
+assignment (Norbert Biermann 2016; our test of this 1690 key on it, Nov 2026: rank 122 of 200 shuffled keys); it gives
+no value for this code.
+
+## Integration check, 14 Nov 2026 (PR #594)
+
+Brice Dudout's verification above was re-run here before it was merged.
+
+- **Key and decoder.** The SHA-256 of `key_petit_chiffre_1690.tsv` is the one stated (28de3e96...). A decoder written
+  here from the key file and `ciphertext.txt` (418 groups) gives the reading group for group; six groups have no value
+  (9, 19, 122 twice, 132, 271, 292), as stated.
+- **Images.** Both pages were fetched again from the MDZ (bsb10720287 scans 317 and 318, IIIF, 1,600 px wide) and
+  lines 2-27 of p. 283 and all eight lines of p. 284 (about 330 groups, every gap among them) were compared with
+  `ciphertext.txt`: all agree. The first line of p. 283 was not compared.
+- **241 = me** holds in its three places and removes the supplied *[vous]*. 316 is *me* as well (two homophones).
+- **Count.** The v10 rule on the contributor's reading gives his figure: 176 words, 14 holes, **0.926**. By the strict
+  rule of this project a word that stands on a probable value is a hole: *disposois* (54 *po*, 257 *so*, one context,
+  and 257 does not read in its other place), the two *et* on 333 (labelled probable above) and *par* on 353 (one
+  context). They are now marked `{?word}` in `texts/feuquieres1691_reading.md`: 172 words, 18 holes, **0.905**. Both
+  figures are under 95%: read in part either way.
+- **A caution on 353.** Group 52 (the key's full stop) stands directly before 353 (*J'attaqueray 52 353 deux
+  endrois*), in the middle of a sentence, and it also stands where the reading supplies *[par]* (*veu 52 le retour*),
+  *[Par]* (*ordres 52 cecy*) and *[À]* (*commencer 52 Veillane*). 52 may be more than a stop, and then 353 is not
+  *par*. Not settled; 353 stays probable.
+- `reading.txt` (the group alignment) now carries the six values. `validation.tsv` (11 Oct) was not rebuilt.
+- `fraction_read` stays 0.304 (183 of 601 code groups, the d'Herleville letter): the Feuquières letter is still not
+  read whole.

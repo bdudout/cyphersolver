@@ -1,5 +1,7 @@
 # Ormonde–Maltravers Cipher (1634–1635) — NOTES
 
+Status: read in part (24 Oct 2026; re-checked 14 Nov 2026, see the last two sections). The verdict below is that of 15 Sept 2026.
+
 **Verdict: SOLVED (alphabet recovered; every spelled word read; the nomenclator confirmed against Wentworth's own
 dispatches in Knowler's *Strafforde's Letters*, 1739 — seven of nine codes fixed, two person-codes in one clause
 (185, 149) still unidentified).**
@@ -100,7 +102,7 @@ with OCR line numbers in [knowler_excerpts.txt](knowler_excerpts.txt)):
   sent back as is advised." This is exactly Maltravers's sentence: *he was angry with the Lord Deputy; the King
   refused to see him because he brought no letters from the Lord Deputy.* So **143 = the King** and **113** is the
   connective between "angry" and "the Lord Deputy" ("with"/"against"; Wentworth's own word is "against").
-* **Ormonde and Crosby (letter 2).** Wentworth to Coke, Dublin 22 Dec. 1634, pp. 352–3, reporting who had served well
+* **Ormonde and Crosby (letter 2).** Wentworth to Coke, Dublin 16 Dec. 1634 ("22 Dec." until 14 Nov 2026; see the last section), pp. 352–3, reporting who had served well
   in the Parliament: "In the Higher House, there is my Lord of Ormond, that hath as much advantage of the rest in
   judgment and parts, as he hath in estate and blood; and one, who upon my observation since I came hither,
   expresseth very good affections to the Crown and Government; so as I hold him a person of consequence, and fit to
@@ -130,11 +132,11 @@ Nomenclator, as it now stands:
 | 174 | the Earl of Ormonde ("your lordship") | three uses; Knowler pp. 352–3 and Coke's marginal |
 | 221 | the Parliament (Irish, 1634) | "good carriage in" ↔ "in the Higher House" |
 | 143 | the King | "refused to see him" ↔ "his Majesty refuseth to admit him to kiss his hand" |
-| 218 | Mr Secretary Coke (or the King, through Coke) | addressee of the 22 Dec. dispatch |
+| 218 | Mr Secretary Coke (or the King, through Coke) | addressee of the 16 Dec. 1634 dispatch ("22 Dec." until 14 Nov 2026) |
 | 270 | Sir Piers Crosby | assigned in the text ("for whom 270 thus hereafter") |
 | 113 | with / against (connective) | "angry 113 the Lord Deputy" ↔ "in seeming displeasure against me" |
-| 185 | a person or body, not the Lord Deputy | "what 185 hath written unto 149 concerning Crosby"; see §5 |
-| 149 | a person or body, not the King or Lord Deputy | same clause |
+| 185 | the Lord Deputy (probable, 14 Nov 2026; "a person or body, not the Lord Deputy" before) | "what 185 hath written unto 149 concerning Crosby"; see §5 and the Verification of 14 Nov 2026 |
+| 149 | open (Coke under a second figure, Laud, or the King) | same clause |
 
 ## 5. Residual problems (honest list)
 
@@ -145,7 +147,7 @@ Nomenclator, as it now stands:
    Council", "the Queen"). Candidates from the Crosby affair: the Lord Treasurer (Portland), the Earl of Holland,
    Secretary Coke, the Lords of the Council. Not decidable from the text; Maltravers himself says he cannot answer
    the question, so no further letter of his will settle it either. Only the key sheet or an Ormonde letter *asking*
-   the question would.
+   the question would. (14 Nov 2026: 185 is now read as the Lord Deputy, probable; see the Verification section.)
 2. **26 in "angry".** The grid gives 26 = k, so the printed run reads a-n-g-k-y; r is 43–45. Since "angry" is the
    only sensible word, either Maltravers mis-enciphered or the HMC transcriber misread the MS (44/45 → 26). The
    figure is printed as 26 (scan checked), so this cannot be resolved without the manuscript.
@@ -197,3 +199,64 @@ clear text carrying them around short cipher runs. Kept read, grade B. It rests 
 adjacent clear text and the nomenclator matched against Knowler 1739; there is no manuscript, key sheet or
 contemporary decipherment.
 
+## Verification, 14 Nov 2026
+
+Brice Dudout (*L'Europe chiffrée*), with Claude Opus 5.5. Details in
+[texts/verification_20261114.md](texts/verification_20261114.md).
+
+* **The print checked again.** All 59 figures were compared with the HMC page images (IA n43, n44) and agree; 26 and
+  31 are clearly printed so. This check is not blind. The same pages hold two other Maltravers letters, 30 Sept 1634
+  and 10 July 1635, and neither has any figures.
+* **185 = the Lord Deputy (probable).** Three points support it. The clause "185 hath written unto 149 concerning
+  Crosby" is built like "186 hath written unto 218". In Knowler vol. I, Wentworth wrote on Crosby before 22 Jan 1635
+  only in the dispatch to Coke of 16 Dec 1634, and that dispatch also praises Ormond and proposes him for the Council.
+  And 185 sits next to 186, which fits the key's blocks of consecutive figures. **149** stays open: it could be Coke
+  under a second figure, or Laud (Wentworth sent him duplicates of the dispatch the same day), or the King.
+* **Date.** The Ormond dispatch is signed 16 Dec 1634 in Knowler. The letter of 22 Dec 1634 is to Cottington.
+* The vowel blocks are still not fixed: 5 each, or a = 3 and the others 6, the second making 89 = u. No measurement
+  is possible, since the text has 59 figures in all.
+* **Strict count:** 17 of 19 cipher units read as sense (12 sure, 5 probable, 2 unresolved: 149 and 31), 89.5%,
+  against 84.2% before. Still **read in part**.
+
+
+## Integration check, 14 Nov 2026 (PR #595)
+
+Brice Dudout's verification above was re-run here before it was merged.
+
+* **Print.** The two page images were fetched again (Internet Archive `calmarqormonde01greauoft`, n43 and n44, 1,560
+  px wide) and all 59 figures compared with `ciphertext.txt`: all agree, 26 and 31 included, and `174 99` has no comma.
+  The letter of 30 Sept 1634 printed between the two has no figures; the letter of 10 July 1635 was not looked at here.
+* **Knowler.** The OCR of vol. I was fetched again. The dispatch that proposes "the Exchange of the Earl of Ormond for
+  Sir Piers Crosby" is signed "Dublin-Castle this 16 of December, 1634" (OCR l. 41473-41474); the letter dated 22 Dec.
+  1634 further on is another one. The date is corrected in §4a, in `texts/key_nomenclator.md`, in the heading of
+  `knowler_excerpts.txt` and on the page. A search of the OCR for Crosby (Crosby, Crosbie, long s) finds, before 22
+  Jan 1635, only this dispatch (l. 41106-41324) and a 1620s land grant; the OCR may miss a mention.
+* **185.** The argument holds as a probable value: the parallel clause and the single dispatch carry it; the
+  adjacency of 185 and 186 depends on a block layout that is not fixed. The older objection (the Lord Deputy already
+  has 186, so 185 is another party) is answered only if the nomenclator gave two figures to one name, which this text
+  cannot show. So: probable, not sure.
+* **Count.** By the strict rule a probable value is a hole. On the contributor's own grades 12 of the 19 cipher units
+  are sure (63%); his 17 of 19 (89.5%) counts the five probable ones as read. On the words of
+  `texts/letters_reading.md` (clear text and cipher together, the figure the profile has carried since 24 Oct) the
+  count is now 121 words and 11 holes, **0.917**: *angry*, *with*, *letter[s]*, *the Lord Deputy* on 185 (three words),
+  149, *Secretary Coke* (two words), *Parliament* (221, graded probable in his table and now marked `[?PARLIAMENT]`)
+  and 31. The figure of 24 Oct was 0.938 with 185 as one unread code: the share is lower although more is known,
+  because a three-word probable name counts three holes. Read in part either way.
+* `outcome.key` is now recorded as partial (149 has no value, 1-6 and the vowel blocks are not fixed) and the gaps
+  are listed below.
+
+## Remaining gaps
+
+- code 149 (once) - blocker: open-codes; one occurrence, three candidates (Coke, Laud, the King), nothing in the text decides
+- figure 31 before 174 (once) - blocker: needs-physical-access; m by the grid and no sense; only the manuscript (National Library of Ireland, Ormonde Papers, not online) can show whether it is a slip of the writer or of the 1895 print
+- 26 in *angry*, 89 after *letter*, and the values that are probable only (113, 185, 218, 221) - blocker: too-short; 59 figures in two letters, no other text in this key is known
+- vowel block sizes and figures 1-6 - blocker: too-short; the same 59 figures
+
+## Escalation
+
+- [x] siblings: HMC Ormonde I pp. 28-29 hold four Maltravers letters; only two have figures (checked again on the page images, 14 Nov 2026)
+- [n/a] clear-pages: the calendar prints no decipherment and the manuscript is not online
+- [x] known-keys: Tomokiyo's early Stuart and Wentworth ciphers are of the same regular type; none is this key
+- [x] print: Knowler, Strafforde's Letters (1739) vol. I searched for Kildare, Crosby and Ormond; it fixed 143, 218, 113 and (14 Nov 2026) makes 185 probable
+- [x] key-rebuild: the block layout extended to every letter; the vowel blocks stay open in two variants
+- [x] retry: every open figure looked at again on 14 Nov 2026 (Brice Dudout); 185 moved to probable, 149 and 31 stay open
