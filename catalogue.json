@@ -44095,7 +44095,13 @@
    },
    "access": "online",
    "access_note": "online (set 4 Nov 2026 from vetting.seen, scan: Historic Newton record JHA-1809.53, https://historicnewton.catalogaccess.com/archives/10132, Image Viewer in C)",
-   "repository": "newton"
+   "repository": "newton",
+   "reserved": {
+    "by": "Jacob Houtrouw",
+    "since": "2026-11-14",
+    "until": "2026-11-28",
+    "kind": "claim"
+   }
   },
   {
    "id": 1437,
@@ -48400,7 +48406,13 @@
    },
    "access": "online",
    "access_note": "online (backfilled 28 Oct 2026 from the entry: seen: image)",
-   "repository": "bl"
+   "repository": "bl",
+   "reserved": {
+    "by": "Jacob Houtrouw",
+    "since": "2026-11-14",
+    "until": "2026-11-28",
+    "kind": "claim"
+   }
   },
   {
    "id": 1535,
