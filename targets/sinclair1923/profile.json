@@ -212,6 +212,12 @@
    ],
    "what": "Position of the code words in the clear frame: ANZUNDET after FOR twice (a place); ARROGANCE after days and hours (a time word); the 1923 telegram a quoted document with numbered paragraphs. Not decoded.",
    "result": "partial"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "what": "Integration check: the four Portal IIIF images (1500 px) fetched again and every word of the four transcriptions compared with the image (42, 96, 30 and 45 body words): all agree, including the three overstrikes left as alternatives and the two pencil glosses of 1916. Word counts recounted from transcription.txt: 42 / 96 / 30 with the operators' checks. The code book lists on archive.org were not re-downloaded; the coverage table is the contributor's.",
+   "result": "worked"
   }
  ],
  "outcome": {

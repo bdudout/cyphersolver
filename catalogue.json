@@ -44118,13 +44118,13 @@
    "shelfmark": "Rice University Woodson Research Center, MS 1052 (Teapot Dome Scandal, Sinclair Oil, and related company records), on the Portal to Texas History: metapth1891750, metapth1891738, metapth1891736",
    "folio_note": "nine telegrams, 1916-24, of which three carry code words (metapth1891736, 1891738, 1891750), one has two code names glossed in pencil (1891648), five are plain",
    "cls": "C",
-   "status": "Seen 13 Nov 2026 by Andrew Beling (with AI agents): of the nine items the Portal tags 'telegraphic commercial code', three carry code words: Sinclair (Mexico City) to Zevely, 29 Apr 1922 (ordinary English words used as code); Wahlberg (New York) to Zevely at Cheyenne, 1 Oct 1923; G. T. S. (New York) to Bert W. Henry, 21 Jan 1924. The 1923-24 words are artificial code words of the kind in the 1901 Berne official vocabulary, so the code book is not identified; ANZUNDET occurs in both. A fourth item (metapth1891648, 13 Dec 1916) has two code names glossed in pencil (H. F. Sinclair, E. R. Kemp); the other five are plain English. No decoding on the leaves, in three volumes of the 1923-24 Senate oil-lease hearings, or in print.",
+   "status": "Seen 13 Nov 2026 by Andrew Beling (with AI agents): of the nine items the Portal tags 'telegraphic commercial code', three carry code words: Sinclair (Mexico City) to Zevely, 29 Apr 1922 (ordinary English words used as code); Wahlberg (New York) to Zevely at Cheyenne, 1 Oct 1923; G. T. S. (New York) to Bert W. Henry, 21 Jan 1924. The 1923-24 words are artificial code words of the kind in the 1901 Berne official vocabulary, so the code book is not identified; ANZUNDET occurs in both. A fourth item (metapth1891648, 13 Dec 1916) has two code names glossed in pencil (H. F. Sinclair, E. R. Kemp); the other five are plain English. No decoding on the leaves, in three volumes of the 1923-24 Senate oil-lease hearings, or in print. Attempted 14 Nov 2026 by Brice Dudout (targets/sinclair1923/, PR #592): all four telegrams transcribed in full (168 words in the three coded ones, 89 of them code words); 23 commercial code books on archive.org screened against a 90% coverage criterion, best 6 of 67 words (1923-24) and 6 of 12 (1922), none fits; a HathiTrust full-text search finds three of the 1923 words together only in the 1901 Berne vocabulary. Nothing decoded.",
    "why": "Sinclair Oil telegrams around the Teapot Dome lease; the commercial code books are online.",
    "importance": 3,
    "solvability": 3,
    "difficulty": 3,
    "score_note": "Scored from the hub's catalogue description during the Oct 2026 DPLA/Smithsonian sweep (research/dpla_smithsonian/); not viewed",
-   "verify": "Transcribe the three telegrams; identify the code book behind the 1923-24 words (a commercial code built on the Berne vocabulary, or Sinclair's own).",
+   "verify": "Screen the code books not on archive.org (ABC 6th ed. 1920, Western Union Universal, Marconi 1919, Wright's Codigo brasileiro universal 1902, Peterson, Lombard, Scott's) or find a Sinclair private code; the transcription is in targets/sinclair1923/transcription.txt.",
    "links": [
     {
      "label": "Wahlberg to Zevely, 1 Oct 1923",
@@ -44186,7 +44186,8 @@
    },
    "access": "online",
    "access_note": "Portal to Texas History IIIF images answer curl (14 Nov 2026; an earlier robot check blocked the cloud)",
-   "repository": "unidentified"
+   "repository": "unidentified",
+   "outcome": "attempted, open"
   },
   {
    "id": 1445,
