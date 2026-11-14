@@ -1,0 +1,12 @@
+{
+ "cipher_tokens_in_glossed_runs": 232,
+ "gloss_letters": 166,
+ "gloss_words": 36,
+ "char_acc": 0.6807,
+ "words_found": 0.3056,
+ "ctrl_char_max": 0.3976,
+ "ctrl_char_mean": 0.307,
+ "ctrl_words_max": 0.1389,
+ "ctrl_words_mean": 0.0387,
+ "PASS": false
+}
