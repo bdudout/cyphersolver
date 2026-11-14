@@ -34,7 +34,9 @@ reading is accepted, it must show for each document (George Lasry, 22 Oct 2026):
 3. The decryption itself, line by line against the transcription, so the reading can be checked.
 
 A document counts as read only when 95% of its words read as sense (the README read bar); one that builds coherent
-sentences under that is marked "read in part". A document that decodes but does not yet build sentences can still be
+sentences under that is marked "read in part". In a code read with its surviving key, a group one digit away from the
+value the sense wants counts as read when it sits inside a word whose other groups are read from that key; mark it
+in the reading (`cer{+tain}ly`) and list it (README Conventions, 14 Nov 2026). A document that decodes but does not yet build sentences can still be
 sent, marked "decoded, not read": it is shown
 for others to improve, and is not counted as read. Key sheets, code lists and worksheets are marked "not prose".
 `python docs/_check_reading.py <folder>` measures the share of sentences without holes and shows the weak ones; please
