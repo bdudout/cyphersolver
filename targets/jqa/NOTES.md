@@ -256,5 +256,7 @@ Brice Dudout's verification above was re-run here before it was merged.
 
 - The original or duplicate of No. 88 (not on M35 reel 3) or JQA's letterbook copy at the MHS would restore the seven
   gutter-cut groups; with them the letter would be at about 98%.
-- 1185, 1508, 748 each need one more occurrence: the 1812 blocks of Nos. 77, 78, 81 and the remaining lines of No. 85
+- 1508, 1185 and 570 have sheet values that do not read (14 Nov 2026): a further occurrence would not help, only the
+  original, the duplicate or the letterbook copy could show the misread digit or slip. Still unaligned: the 1812
+  blocks of Nos. 77, 78, 81 and the remaining lines of No. 85
   (0196L 12-23) are not yet aligned.

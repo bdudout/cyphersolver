@@ -93,8 +93,8 @@ sentence with no hole. Both keep read, grade B. C03020059400 (its reading alread
 Brice Dudout reports from his own transcription of 28 Oct 2026 (digits and readings sent, no images): JACAR C09122800900,
 Tachibana, Taku, 6 Jun 1901 (frame 0152), `06192 72945 … 6810` beside 「隊数ノ変化上デ人事ハ如何」. Checked here with the
 table of `decode.py`: 06 19 27 29 45 = タイスウノ (隊数ノ) and 68 10 = ジン (人), 7 of 7; the 1901 serial table
-(`targets/army1901in/`) gives ダジウグテ and nothing for 68. If the digits stand on the image, the table was in use nine
-months before this target's earliest telegram (27 Mar 1902), and after the last serial-table telegram (22 Apr 1901), so
+(`targets/army1901in/`) gives ダジウグテ and nothing for 68. If the digits stand on the image, the table was in use more
+than nine months before this target's earliest telegram (27 Mar 1902), and after the last serial-table telegram (22 Apr 1901), so
 the change of table would fall between late April and early June 1901. Not checked: the digits on the image. JACAR
 answered 403 with its access-restriction page (アクセス制限のお知らせ) on 14 Nov 2026 and was left alone. Until the frame
 is seen the telegram is not added to this target's four, the dates on the page stay 1902-04, and the middle of the

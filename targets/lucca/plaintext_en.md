@@ -1,4 +1,4 @@
-<!-- English translation (Claude Opus 5.5, 23 Oct 2026) of plaintext.txt, the deciphered paragraph of R2159 (f. 18r), Fra Giovanni di Lucca, Brody, 30 May 1644, relaying the Grand Hetman's words. Same marks: [x] a letter supplied. Italian. -->
+<!-- English translation (machine translation, 23 Oct 2026) of plaintext.txt, the deciphered paragraph of R2159 (f. 18r), Fra Giovanni di Lucca, Brody, 30 May 1644, relaying the Grand Hetman's words. Same marks: [x] a letter supplied. Italian. -->
 
 # R2159, Fra Giovanni di Lucca, Brody, 30 May 1644, f. 18r cipher paragraph: English translation
 

@@ -45,8 +45,8 @@
   "reviewed": "2026-11-07"
  },
  "alessandrino1568": {
-  "claims": "2026-11-07",
-  "digest": "8b7383d1c4b68b807da7baa204ff981b3de8b8ba",
+  "claims": "2026-11-14",
+  "digest": "74ec1db6ffe110a8bf2337b76f90100de5b380be",
   "reviewed": "2026-11-14"
  },
  "alfonso1576": {
@@ -105,18 +105,18 @@
   "reviewed": "2026-11-07"
  },
  "army1901": {
-  "claims": "2026-11-10",
+  "claims": "2026-11-14",
   "digest": "8376ec4b4fc87987ccaffb7c7ea8ab410adacafa",
   "reviewed": "2026-11-14"
  },
  "army1901in": {
-  "claims": "2026-11-10",
+  "claims": "2026-11-14",
   "digest": "64d87c5260ce6dbee65f9d68325278104dad2331",
   "reviewed": "2026-11-14"
  },
  "army1902": {
-  "claims": "2026-11-07",
-  "digest": "196ab9d70a6143a4c0731d7bfe27b48a3f411e84",
+  "claims": "2026-11-14",
+  "digest": "c7e057b6ae5fa4dee4da1e09fdc827a6520ba549",
   "reviewed": "2026-11-14"
  },
  "asang1662": {
@@ -200,12 +200,12 @@
   "reviewed": "2026-11-07"
  },
  "beatrice1482": {
-  "claims": "2026-11-07",
+  "claims": "2026-11-14",
   "digest": "8deff022e5b3032b0da5ed94e5f06adff021627b",
   "reviewed": "2026-11-14"
  },
  "beatrice1486": {
-  "claims": "2026-11-07",
+  "claims": "2026-11-14",
   "digest": "6ee352a5aa7a0d2e95d39af8780848e0666baa42",
   "reviewed": "2026-11-14"
  },
@@ -250,8 +250,8 @@
   "reviewed": "2026-11-07"
  },
  "bethune": {
-  "claims": "2026-11-07",
-  "digest": "477b019844a2401380aa93e7600dfa9a758f33bd",
+  "claims": "2026-11-14",
+  "digest": "c4b8429329643451015f795bfb0b74a29d62759f",
   "reviewed": "2026-11-14"
  },
  "bethune1629": {
@@ -929,7 +929,7 @@
   "reviewed": "2026-11-07"
  },
  "ferdinand1473": {
-  "claims": "2026-11-07",
+  "claims": "2026-11-14",
   "digest": "b513ace5501bb0a82680ceb7a2894e20c4a87137",
   "reviewed": "2026-11-14"
  },
@@ -954,8 +954,8 @@
   "reviewed": "2026-11-07"
  },
  "feuquieres": {
-  "claims": "2026-11-07",
-  "digest": "ba14ad79b01a04fb44b6c766e8457bb5de0a8e83",
+  "claims": "2026-11-14",
+  "digest": "98164032fdb8ca8ae2223efb6229a25c0cdee80c",
   "reviewed": "2026-11-14"
  },
  "feuquieres1678": {
@@ -1108,8 +1108,8 @@
   "reviewed": "2026-11-07"
  },
  "gonzaga1549": {
-  "claims": "2026-11-07",
-  "digest": "6985f214aa96aec5b2e06d40f816c2007bdf52b9",
+  "claims": "2026-11-14",
+  "digest": "51a27cee7d8bc6e80d72b77e3819092598d7eb6c",
   "reviewed": "2026-11-14"
  },
  "gonzaga1590": {
@@ -1388,8 +1388,8 @@
   "reviewed": "2026-11-07"
  },
  "jqa": {
-  "claims": "2026-11-07",
-  "digest": "e189276eac171c0913d510bf22cfdd4b18dd8393",
+  "claims": "2026-11-14",
+  "digest": "a265ec183342b0ccbd8f53f0f039d90bb782df6d",
   "reviewed": "2026-11-14"
  },
  "juel1647": {
@@ -1528,7 +1528,7 @@
   "reviewed": "2026-11-14"
  },
  "limantour1909": {
-  "claims": "2026-11-07",
+  "claims": "2026-11-14",
   "digest": "e0b3468385efe2e6d479826dbe95aad81b6ee2dd",
   "reviewed": "2026-11-14"
  },
@@ -1573,7 +1573,7 @@
   "reviewed": "2026-11-07"
  },
  "lucca": {
-  "claims": "2026-11-07",
+  "claims": "2026-11-14",
   "digest": "d742d4b43723f9cb550c0af9b17410820625ff06",
   "reviewed": "2026-11-14"
  },
@@ -1678,8 +1678,8 @@
   "reviewed": "2026-11-14"
  },
  "matthias1482": {
-  "claims": "2026-11-07",
-  "digest": "1f0f9d049393987923d4c1d33809cc4120116bee",
+  "claims": "2026-11-14",
+  "digest": "74fe55269d87b13dae0786833168d693d9087985",
   "reviewed": "2026-11-14"
  },
  "mauborgne1915": {
@@ -1968,7 +1968,7 @@
   "reviewed": "2026-11-13"
  },
  "ormonde": {
-  "claims": "2026-11-07",
+  "claims": "2026-11-14",
   "digest": "adaa3f038f75bd619a94a444aeb5feddda75a309",
   "reviewed": "2026-11-14"
  },
@@ -2123,7 +2123,7 @@
   "reviewed": "2026-11-09"
  },
  "quemnovit1627": {
-  "claims": "2026-11-12",
+  "claims": "2026-11-14",
   "digest": "c3eaaa11951010353a74cd42ce122f623367f678",
   "reviewed": "2026-11-14"
  },
@@ -2363,8 +2363,8 @@
   "reviewed": "2026-11-07"
  },
  "reyes1886": {
-  "claims": "2026-11-12",
-  "digest": "3f2ba6926565e4139bba798d706df699fa3b0620",
+  "claims": "2026-11-14",
+  "digest": "be8af98dc38113b5c282265da832561aa7811e9d",
   "reviewed": "2026-11-14"
  },
  "richelieu": {
@@ -2378,7 +2378,7 @@
   "reviewed": "2026-11-12"
  },
  "riksarkivet1628": {
-  "claims": "2026-11-07",
+  "claims": "2026-11-14",
   "digest": "cd56d61d7c1ef4321b57b7e8518d3d310e65fcd2",
   "reviewed": "2026-11-14"
  },
@@ -2423,8 +2423,8 @@
   "reviewed": "2026-11-07"
  },
  "ronquillo1676": {
-  "claims": "2026-11-07",
-  "digest": "8180139e6fe880ce81b93f587e83e4e59fb83f21",
+  "claims": "2026-11-14",
+  "digest": "0b8d4ffc13d5ef2340078f152f6e277fc506c255",
   "reviewed": "2026-11-14"
  },
  "roosevelt": {
@@ -3013,13 +3013,13 @@
   "reviewed": "2026-11-07"
  },
  "vargas1552": {
-  "claims": "2026-11-07",
+  "claims": "2026-11-14",
   "digest": "fb56ef83b74f5973715665c85610fc6854f3d19d",
   "reviewed": "2026-11-14"
  },
  "vasto1527": {
-  "claims": "2026-11-07",
-  "digest": "692825d2029b9de46065e8b050bfd5f299b3b06a",
+  "claims": "2026-11-14",
+  "digest": "00b93095c6eb454f5f8d7aaee16d4a7fed6da62e",
   "reviewed": "2026-11-14"
  },
  "vatican": {

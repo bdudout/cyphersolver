@@ -943,7 +943,11 @@ def solve_page(e, shell):
                       f'(<a href="{REPO}/tree/main/targets/{f}" rel="noopener">the folder</a>)</li>' for f in target_folders(e))
     prog = ''.join(f' <a href="{notes_url(f)}" rel="noopener">targets/{f}</a> is working on this cipher (status: {esc(st)}).' for f, _, st in progress(e))
     rv = reserved(e)
-    if rv and not prog:
+    if rv and rv.get('kind') == 'claim' and not prog:
+        prog = (f'<div class="callout blue"><p><strong>Being worked on.</strong> {esc(rv["by"])} announced work on this cipher on '
+                f'{esc(rv["since"])}; the notice stands until {esc(rv["until"])}. It is there to avoid double work and holds nothing back: '
+                f'a verified result from anyone is still merged and credited.</p></div>\n')
+    elif rv and not prog:
         prog = (f'<div class="callout blue"><p><strong>Reserved until {esc(rv["until"])}.</strong> {esc(rv["by"])} found this cipher and '
                 f'asked to try it first (reserved {esc(rv["since"])}). Checking it against the vetting bar is still open to anyone; '
                 f'a decipherment attempt by someone else waits until the date has passed.</p></div>\n')

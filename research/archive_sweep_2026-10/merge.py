@@ -40,11 +40,11 @@ RESERVE_DAYS, RESERVE_MAX = 30, 10
 
 
 def live_reservations(entries, today):
-    """{holder, lower case: count} of reservations whose "until" has not passed."""
+    """{holder, lower case: count} of finders' reservations whose "until" has not passed (claims are counted apart)."""
     n = {}
     for e in entries:
         r = e.get('reserved')
-        if isinstance(r, dict) and r.get('by') and str(r.get('until', '')) >= today.isoformat():
+        if isinstance(r, dict) and r.get('by') and r.get('kind') != 'claim' and str(r.get('until', '')) >= today.isoformat():
             n[r['by'].strip().lower()] = n.get(r['by'].strip().lower(), 0) + 1
     return n
 

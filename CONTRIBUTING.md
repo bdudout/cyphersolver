@@ -72,7 +72,7 @@ can run one. You do not need to know the archive or solve anything; the reposito
 What you add that the project's own agents lack: another network (see "Tried and blocked" in the coverage list), your
 browser when a site asks whether you are human (the agent must not get round a bot check; you clear it), a reader's
 login, and your agent's tokens: it is the agent that pages through a volume leaf by leaf, and a long volume takes many. An empty search is merged and credited like a
-full one. To try a lead's decipherment yourself first, have the agent mark the row `"reserved": {"by": "<you>"}`: it is held for you for 30 days from the merge, at most 10 leads at a time ([research/SWEEP.md](research/SWEEP.md), "Reserving a lead"). A lead keeps its finder's name, and the write-up of a cipher that came from it credits the finder with the
+full one. To try a lead's decipherment yourself first, have the agent mark the row `"reserved": {"by": "<you>"}`: it is held for you for 30 days from the merge, at most 10 leads at a time ([research/SWEEP.md](research/SWEEP.md), "Reserving a lead"). To work on a catalogue entry you did not find, say so on the issue: it is marked as being worked on by you for 14 days, at most 3 at a time; this is a notice against double work and holds back nobody else's result ("Claiming a catalogue entry you did not find"). A lead keeps its finder's name, and the write-up of a cipher that came from it credits the finder with the
 role `new cipher`. A find made by hand goes on the same form.
 
 ## Vetting leads into the catalogue

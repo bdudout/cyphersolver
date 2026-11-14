@@ -548,6 +548,6 @@ The 9 Nov 1601 (f. 33) and 22 Nov 1601 cipher runs are decoded, not read (2,849 
 - [x] siblings: f. 36 minute read the 10 Nov letter; glossed leaves ff. 49v-50r, 53r, 56r-57r examined
 - [x] clear-pages: f. 36 is the clear minute of f. 34; marginal glosses on ff. 53r, 56r found verbatim
 - [x] known-keys: Bazeries 1901 key for Bethune 1599 compared: same design, different values
-- [ ] print: partly done - Halphen 1889 opened by the contributor on 14 Nov 2026 (pp. 8-42; by the contributor's record): prints 9 Nov f. 33 and the whole 22 Nov letter in clear; its text is not yet transcribed into the folder
+- [ ] print: partly done - Halphen 1889 opened by the contributor on 14 Nov 2026 (pp. 8-40, `halphen_check.md`: pp. 8-34, then 35-40; by the contributor's record): prints 9 Nov f. 33 and the whole 22 Nov letter in clear; its text is not yet transcribed into the folder
 - [ ] key-rebuild: partly done 14 Nov 2026 - f. 53r block 1 aligned (72, 6, 66 fixed); the f. 56r blocks and f. 53r block 2 not yet aligned
 - [ ] retry: not done - rerun em_align.py / decode2.py on f. 33 and ff. 46-47 after the gloss alignments

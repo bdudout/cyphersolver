@@ -354,6 +354,37 @@ class SuppliedMarkers(unittest.TestCase):
         self.assertEqual(self.h('actuellemen{+t} pro{-u}c {+s}se').split(), ['actuellement', 'proc', 'sse'])
 
 
+class CatalogueClaims(unittest.TestCase):
+    """research/SWEEP.md, "Claiming a catalogue entry you did not find": 14 days, 3 live, never over a finder's hold."""
+    def setUp(self):
+        import datetime, importlib
+        sys.path.insert(0, str(ROOT / 'docs'))
+        self.c = importlib.import_module('_check_catalogue')
+        self.day = datetime.date(2026, 11, 14)
+        self.tmp = pathlib.Path(tempfile.mkdtemp()) / 'catalogue.json'
+        ents = [{'id': i} for i in range(1, 7)]
+        ents[4]['reserved'] = {'by': 'Finder', 'since': '2026-11-10', 'until': '2026-12-10'}
+        self.tmp.write_text(json.dumps({'entries': ents}), encoding='utf-8')
+        self.old, self.c.CAT = self.c.CAT, self.tmp
+
+    def tearDown(self):
+        self.c.CAT = self.old
+
+    def entry(self, n):
+        return next(e for e in json.loads(self.tmp.read_text(encoding='utf-8'))['entries'] if e['id'] == n)
+
+    def test_claim_cap_and_finder_priority(self):
+        for n in (1, 2, 3):
+            self.assertEqual(self.c.claim(n, 'Someone', self.day), 0)
+        self.assertEqual(self.entry(1)['reserved'], {'by': 'Someone', 'since': '2026-11-14', 'until': '2026-11-28', 'kind': 'claim'})
+        self.assertEqual(self.c.claim(4, 'someone', self.day), 1)      # a fourth
+        self.assertEqual(self.c.claim(4, 'Other', self.day), 0)
+        self.assertEqual(self.c.claim(5, 'Other', self.day), 1)        # the finder's reservation stands
+        self.assertEqual(self.c.claim(1, 'Other', self.day), 1)        # already claimed
+        self.assertEqual(self.c.claim(1, '', self.day, release=True), 0)
+        self.assertNotIn('reserved', self.entry(1))
+
+
 class Reservations(unittest.TestCase):
     """research/SWEEP.md, "Reserving a lead": 30 days from the merge, at most 10 live per contributor."""
     def setUp(self):

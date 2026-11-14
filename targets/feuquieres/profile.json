@@ -84,7 +84,7 @@
   "fraction_read": 0.304, "fraction_read_source": "Re-measured 23 Oct 2026 (verification 5): tokens of the letters that read / all, 183 (d'Herleville 1690) of 601 code groups; the Feuquières letter (418) was decoded, not read (read in part since 14 Nov 2026, 0.905 of words; the figure is not changed).",
   "grades": "unknown",
   "verification": ["independent clear copy", "historical consistency", "key confirms", "statistical test"],
-  "notes": "586 of 601 tokens over the two letters (NOTES); 12 groups unread, singletons or nulls. 14 Nov 2026: six more groups valued (241 corrected to me); six still unread.",
+  "notes": "586 of 601 tokens over the two letters (NOTES); 12 groups unread, singletons or nulls. 14 Nov 2026: five more groups valued and 241 corrected to me; seven still without a value (173 in the d'Herleville letter, six in the Feuquières letter).",
   "credits": [
     {"who": "bazeries", "role": "key or decipherment used", "note": "Grand Chiffre de 1691 table (Le Masque de fer, 1893); gave the design"},
     {"who": "bazeries", "role": "prior solution", "note": "deciphered the petit chiffre despatch in 1893, never published", "date": "1893", "published": false},

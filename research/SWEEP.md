@@ -115,6 +115,19 @@ reserve every row by default). This is the one field allowed beyond the BRIEF sc
   is held. Before taking a lead or a catalogue entry to solve, check that it has no live `reserved` field.
 - **Earlier leads.** Leads merged before 14 Nov 2026 are not reserved by anyone.
 
+### Claiming a catalogue entry you did not find
+
+Anyone may announce that they are working on a catalogue entry found by someone else (a comment on the invitation issue,
+or the Solution form). The project records it with `python docs/_check_catalogue.py --claim <id> "<name or handle>"`:
+the entry's `reserved` field gets `"kind": "claim"`, and its catalogue page shows who is working on it and until when.
+
+- **How long.** 14 days. It is renewed only by sending work: a transcription, or a target folder with
+  `Status: in progress`, after which the catalogue's "in progress" tag takes over.
+- **How many.** At most 3 live claims per person, counted apart from the 10 finder's reservations.
+- **What it does.** It is a notice against double work, not a hold: a verified result from anyone else is still merged
+  and credited. A claim cannot be placed on an entry its finder has reserved.
+- **Release.** `--release <id>`, or the date passing.
+
 ## 5. Vet, if you can
 
 A lead enters the catalogue only when its `vetting` block is complete (README Conventions, "Catalogue vetting bar").

@@ -222,7 +222,7 @@ PAGES = [
 
     dict(slug='beatrice1482', label='Beatrice d&rsquo;Aragona 1482', year='1482', y=1482.4, place='Pozsony &rarr; Ferrara', st='found', stt='earlier readings found',
          title='Beatrice d&rsquo;Aragona to Eleonora, Pozsony, May&ndash;June 1482',
-         blurb='Two letters of the Queen of Hungary to her sister at Ferrara (DECODE R1140, R1141), whose cipher passages were printed deciphered in Magyar Diplom&aacute;cziai Eml&eacute;kek III (1877); the prints were matched to the manuscript images, and the key was rebuilt from the clear copies of the time by Brice Dudout. Matthias offers Swiss and cavalry against Venice if the league pays at Milan.',
+         blurb='Two letters of the Queen of Hungary to her sister at Ferrara (DECODE R1140, R1141), whose cipher passages were printed deciphered in Magyar Diplom&aacute;cziai Eml&eacute;kek III (1877); the prints were matched to the manuscript images, and the key was rebuilt from the letter of 31 May, its clear copy of the time and the print by Brice Dudout. Matthias offers Swiss and cavalry against Venice if the league pays at Milan.',
          quote='&ldquo;uno Jocare de balla cum retornare sempre ali principij&rdquo;',
          rights='Printed edition: Nagy and Ny&aacute;ry, 1877, public domain. ASMo manuscript: a detail reproduced with credit.'),
     dict(slug='beatrice1486', label='Beatrice d&rsquo;Aragona, March 1486', year='1486', y=1486.19, place='Buda &rarr; Ferrara', st='found', stt='earlier readings found',

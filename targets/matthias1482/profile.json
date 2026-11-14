@@ -154,7 +154,7 @@
    "technique": [
     "key matching"
    ],
-   "what": "Comparison with the key rebuilt for beatrice1482 (PR #620, Brice Dudout): seventeen letter values agree, three differ (d: 2 here, 9 there; g: hooked L here, 2 there; e: 5, 4, 9, ς here, one 5-like sign there). On R1141, held out, 9 = d and 2 = g give 0.900 against 0.833-0.843 for this key's values. Not settled for R1156: no sign-level transcription in this folder, images behind the DECODE login. Key left unchanged; open point in NOTES. Same key as beatrice1482 by the evidence; not folded (owner's decision).",
+   "what": "Comparison with the key rebuilt for beatrice1482 (PR #620, Brice Dudout): sixteen letter values and the sign for the King of Hungary agree (seventeen values), three differ (d: 2 here, 9 there; g: hooked L here, 2 there; e: 5, 4, 9, ς here, one 5-like sign there). On R1141, held out, 9 = d and 2 = g give 0.900 against 0.833-0.843 for this key's values. Not settled for R1156: no sign-level transcription in this folder, images behind the DECODE login. Key left unchanged; open point in NOTES. Same key as beatrice1482 by the evidence; not folded (owner's decision).",
    "result": "partial"
   }
  ],

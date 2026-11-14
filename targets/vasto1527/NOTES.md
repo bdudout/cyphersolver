@@ -77,8 +77,8 @@ current one.
 
 ## Remaining gaps
 
-- No. 6 code groups dnh, bnq, rar (x2), car, cny, bny, beb, bnc, ge+, and der at 17va.2 (11 tokens; 10 group types) - blocker: no-key-material; one or two contexts each, and none fits a single value. rar is Florencia or Luca ("ganar en el camino a [rar] y ponella debaxo el mando de V. M."). ge+ may be a stop. dnh ("segun la [dnh]") does not fit Roma. No. 19 ff. 41r–42r, transcribed 14 Nov 2026 by Brice Dudout (PR #600), give new contexts for rar, cnt, bnq and dnh and settle none; the other six groups do not occur there.
-- No. 6 stretches "y y por [mq]" at the head of f. 16v, "es [en de las los] que mas se ha de trabajar", "el duque de Urbino [es de] otro exercito", "servira [que de con] mil [cny]", "ira [que l] camino", "la principal de [der de] pais" (der = poca does not fit here), "en [cnt] parte" (ninguna or otra), "esperar [es] mas ventaja", "apuntamiento [es] [bnc]" (23 tokens besides the codes) - blocker: no-key-material; the signs are transcribed, but the syllable-code values that make sense elsewhere do not make sense here. Probably Lasry's labels merge different glyphs, as they do for es/en and con/tan/ellos. Needs a glyph-level retranscription of these words.
+- No. 6 code groups dnh, bnq, rar (x2), car, cny, bny, beb, bnc, ge+, and der at 17va.2 (11 tokens; 10 group types) - blocker: no-key-material; one or two contexts each, and none fits a single value. rar is Florencia or Luca ("ganar en el camino a [rar] y ponella debaxo el mando de V. M."). ge+ may be a stop. dnh ("segun la [dnh]") does not fit Roma. No. 19 ff. 41r–42r, transcribed 14 Nov 2026 by Brice Dudout (PR #600), give new contexts for rar, bnq and dnh (and for cnt, in the stretches below) and settle none; car, cny, bny, beb, bnc and ge+ do not occur there (der occurs on f. 41r, "la [der] [dnh]").
+- No. 6 stretches "y y por [mq]" at the head of f. 16v, "es [en de las los] que mas se ha de trabajar", "el duque de Urbino [es de] otro exercito", "servira [que de con] mil [cny]", "ira [que l] camino", "la principal de [der de] pais" (der = poca does not fit here), "en [cnt] parte" (ninguna, alguna or otra), "esperar [es] mas ventaja", "apuntamiento [es] [bnc]" (23 tokens besides the codes) - blocker: no-key-material; the signs are transcribed, but the syllable-code values that make sense elsewhere do not make sense here. Probably Lasry's labels merge different glyphs, as they do for es/en and con/tan/ellos. Needs a glyph-level retranscription of these words.
 
 ## Escalation
 
@@ -122,7 +122,7 @@ Images: Gallica btv1b90601558, views 79–82 (Source gallica.bnf.fr / BnF). View
 - The two passes differ in 4 lines, settled on the image (`gl` in 41r.05; `nnbtt` in 41r.28; `To qpsxb` = *inporta* in 41r.29; `LHpmhBttfo` = *holgasen* in 42r.08).
 - Pass B was made by the same reader, so it is not an independent transcription.
 
-**Held-out check of Lasry's key.** Neither his key nor this target's code values had ever seen these folios. A single pre-registered test was run (`PREREG_n19.md`, `n19_decode.py`, `n19_measure.md`):
+**Held-out check of Lasry's key.** His decryptions cover ff. 16v–17v and f. 40, not these folios (that his key never used them is the contributor's statement, not checked). One code value of this target (bet = dello) and the at/quia markers had been taken from ff. 41r–41v earlier (Escalation, siblings); the test scores letter-only words, so it is not affected. A single pre-registered test was run (`PREREG_n19.md`, `n19_decode.py`, `n19_measure.md`):
 - 232 letter-only words were scored against the repository Spanish lexicon;
 - Lasry's key: 0.591; 200 shuffled keys: best 0.164;
 - **PASS** (threshold ≥ 0.50 and ≥ best control + 0.30).

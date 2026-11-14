@@ -273,7 +273,7 @@ read in part.
 - [x] known-keys: Bazeries' Grand Chiffre table gives the design only; the petit chiffre table is not printed
 - [x] print: 1819 Mémoires de Catinat t. I-III searched (hOCR) for further petit-chiffre text
 - [x] key-rebuild: 167 of 179 groups from the two letters (key_petit_chiffre_1690.tsv)
-- [x] retry: re-read 23 Oct 2026 (v5), and again 14 Nov 2026 by Brice Dudout (six groups valued, 241 corrected); the original at the SHD (A1 1079) could settle printing slips but is not online
+- [x] retry: re-read 23 Oct 2026 (v5), and again 14 Nov 2026 by Brice Dudout (five groups valued, 241 corrected); the original at the SHD (A1 1079) could settle printing slips but is not online
 
 
 ## Verification 14 Nov 2026 (Brice Dudout, with Claude Opus 5.5)
@@ -329,6 +329,6 @@ Brice Dudout's verification above was re-run here before it was merged.
   endrois*), in the middle of a sentence, and it also stands where the reading supplies *[par]* (*veu 52 le retour*),
   *[Par]* (*ordres 52 cecy*) and *[À]* (*commencer 52 Veillane*). 52 may be more than a stop, and then 353 is not
   *par*. Not settled; 353 stays probable.
-- `reading.txt` (the group alignment) now carries the six values. `validation.tsv` (11 Oct) was not rebuilt.
+- `reading.txt` (the group alignment) now carries the six values (the five new ones and 241). `validation.tsv` (11 Oct) was not rebuilt.
 - `fraction_read` stays 0.304 (183 of 601 code groups, the d'Herleville letter): the Feuquières letter is still not
   read whole.

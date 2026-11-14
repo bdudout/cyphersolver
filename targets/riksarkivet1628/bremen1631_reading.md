@@ -9,8 +9,9 @@ Johann Friedrich, archbishop of Bremen, to Johan Adler Salvius, Swedish resident
 132 cipher words, 118 equal to their decode, 10 where the figures carry a clerk's slip and the interlinear gloss of the
 time gives the word, 4 holes; 0 unbracketed words not carried). Name numbers (written with a point) are substituted
 where a gloss of the time names them (4 wir/uns, 5 H. Christian, 7 H. Georg, 17 Tillische, 27 Zell, 32 Minden,
-59 Salvius / Ihr, 83 guter); `[?Landgraff zu Hessen]` (3), `[?Kön:]` (11), `[?conjungiren]` (75), `[?Unglück]` (81),
-`[?Stade]` (42) rest on glosses read with doubt; 18, 19, 31, 82, 86 and 42 in R4330 are left as numbers.
+59 Salvius / Ihr, 83 guter); `[?Landgraff zu Hessen]` (3), `[?Kön:]` (11), `[?conjungiren]` (75),
+`[?Stade]` (42) rest on glosses read with doubt; 18, 31, 82, 86 and 42 in R4330 are left as numbers (since 14 Nov
+2026, 81 is *Unglück* and 19 Cologne from their glosses, see the notes at the end).
 No printed edition found. Spelling as written; abbreviations kept.
 
 ## Reading

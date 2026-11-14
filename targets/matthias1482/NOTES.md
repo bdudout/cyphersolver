@@ -100,9 +100,9 @@ and the troops are to meet there.
 ## Open point (14 Nov 2026): three values against the key rebuilt for beatrice1482
 
 Brice Dudout (PR #620) rebuilt the key of the queen's letters of 31 May and 8 June 1482 to Eleonora
-(`targets/beatrice1482/vestigia/`) from their clear copies of the time. It is this alphabet: seventeen letter values
+(`targets/beatrice1482/vestigia/`) from their clear copies of the time. It is this alphabet: sixteen letter values
 are the same (a 8/V, b d, c reversed C, h 6, i 3, l σ, m ⊐, n ⊏/ϲ, o 7/Π/Λ, p ⊔, q =, r Ŧ, s L, t ⊥, u ⊤, tt ·ıı·)
-and both have a looped q-sign for the King of Hungary. Three values differ:
+and both have a looped q-sign for the King of Hungary, seventeen shared values in all. Three values differ:
 
 | letter | here (R1156) | beatrice1482 (R1140, R1141) |
 |---|---|---|

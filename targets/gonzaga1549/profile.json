@@ -569,7 +569,7 @@
   ],
   "gaps": [
    {
-    "item": "Code words in clear in the cipher: inta, em, vela/bela, nerp, gien, et ud, tu; Pollo and mus/mms taken from the sense only",
+    "item": "Code words in clear in the cipher: vela/bela (not on the Simancas list of 1866), et ud and tu (on the list, no sense here), nerp (France by sense; the list has nec). The list, checked 14 Nov 2026, gives Pollo Papa, mus/mms para, inta Su Santidad, em Franceses, gien Vuestra; these values are not yet carried into the reading files and the count is not redone",
     "blocker": "open-codes"
    },
    {

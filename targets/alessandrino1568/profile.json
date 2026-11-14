@@ -14,10 +14,7 @@
    "pages": 1,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["separate folio"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decipherment among the DECODE cleartext images (f. 8), found 23 Oct 2026 and used for the reading. Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -46,10 +43,7 @@
    "pages": 1,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["separate folio"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decipherment among the DECODE cleartext images (f. 45r), found 22 Oct 2026 and used for the reading. Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -78,10 +72,7 @@
    "pages": 1,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["separate folio"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decipherment among the DECODE cleartext images (f. 58r), found 22 Oct 2026 and used for the reading. Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -110,10 +101,7 @@
    "pages": 1,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["separate folio"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decipherment among the DECODE cleartext images (f. 80), found 23 Oct 2026 and used for the reading. Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -142,10 +130,7 @@
    "pages": 4,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["separate folio"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decipherment among the DECODE cleartext images (f. 90r-v), found 23 Oct 2026 and used for the reading. Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -174,10 +159,7 @@
    "pages": 1,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["separate folio"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decipherment among the DECODE cleartext images (f. 139), found 23 Oct 2026 and used for the reading. Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -206,10 +188,7 @@
    "pages": 2,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["separate folio"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decipherment among the DECODE cleartext images (after f. 169), found 23 Oct 2026 and used for the reading. Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -229,7 +208,7 @@
   },
   {
    "id": "R100",
-   "shelfmark": "ASV, Segreteria di Stato, Spagna 6/I, item 8, f. 789 (DECODE R100)",
+   "shelfmark": "ASV, Segreteria di Stato, Spagna 6/I, item 8, cited here as f. 280r (DECODE image 789.jpeg; DECODE R100)",
    "date": "unknown",
    "year": 1568,
    "country": "Papal State",
@@ -238,10 +217,7 @@
    "pages": 1,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["separate paragraph"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decipherment written under the cipher on the same page (cited here as f. 280r; DECODE image 789.jpeg), found 22 Oct 2026 and used for the reading. Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -270,10 +246,7 @@
    "pages": 2,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["none"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. No contemporary decipherment found among the DECODE cleartext images (22 Oct 2026; ff. 286v-293v are clear letters). Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -302,10 +275,7 @@
    "pages": 1,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["separate folio"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decipherment among the DECODE cleartext images (f. 307), found 23 Oct 2026 and used for the reading. Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -334,10 +304,7 @@
    "pages": 1,
    "cleartext_in_document": "unknown",
    "plaintext": {
-    "location": [
-     "none"
-    ],
-    "source": "No decipherment on DECODE; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decifrati and Serrano 1914 not checked.",
+    "location": ["separate folio"], "source": "No decipherment posted on DECODE as text; the record is 'partially decrypted' only in that Lasry's reconstructed key is attached. Contemporary decipherment among the DECODE cleartext images (with f. 641), found 23 Oct 2026 and used for the reading. Serrano 1914 not checked (not reachable).",
     "partial": false
    },
    "length": {
@@ -649,7 +616,7 @@
     "doc": "R115",
     "transcription": "decode/DOC_R115_D1685_1685.txt",
     "decryption": "texts/R115_decryption.txt",
-    "summary": "The writer asked Cardinal Alessandrino on 30 November to obtain from Philip II the nomination of Francisco de Reinoso, the Pope's scalco, to the see of Monreale, with the transfer of his pensions on the archdeaconry of Toledo; having no answer, the nuncio is to press the King; a business the King handles himself will satisfy the Pope. Of about the end of January 1572, and not written by Alessandrino, who was then away on his legation (archive description of ff. 584-674; integration check 14 Nov 2026).",
+    "summary": "The writer asked Cardinal Alessandrino on 30 November to obtain from Philip II the nomination of Francisco de Reinoso, the Pope's scalco, to the see of Monreale, with the transfer of his pensions on the archdeaconry of Toledo; having no answer, the nuncio is to press the King; a business the King handles himself will satisfy the Pope. Of about the end of January 1572, and not written by Alessandrino, to whom the writer says he wrote (archive description of ff. 584-674; integration check 14 Nov 2026).",
     "language": "it",
     "state": "read",
     "reading": "texts/R115_reading.md",
@@ -671,14 +638,14 @@
   "key": "recovered",
   "fraction_read": 1.0,
   "verification": ["historical consistency"],
-  "notes": "R93, R96-R99, R102, R115: beam-search readings under Lasry's key, sense continuous, single letters model choices. R94, R95, R100: read from the contemporary decipherments checked against the figures. R101: read on the figures with the extended key. 22 Oct 2026, reading audit: R94, R95, R100, R101 decoded, not read; same day re-read (batch aless) and class back to read. Serrano 1914 not reached (HathiTrust 403, not on archive.org). 23 Oct 2026 (verification 4) the seven beam readings demoted; same day (r2g) all seven read from their contemporary decipherments, class back to read. 14 Nov 2026 (verification): R99 and R115, under the 95% bar since 24 Oct, re-read on the DECODE images and decipherments: 0.989 and 0.974; all eleven letters read; codes 2020, 4050, 9070 and dotted 3 + 8 resolved; R115 probably of January 1572.",
+  "notes": "R93, R96-R99, R102, R115: beam-search readings under Lasry's key, sense continuous, single letters model choices. R94, R95, R100: read from the contemporary decipherments checked against the figures. R101: read on the figures with the extended key. 22 Oct 2026, reading audit: R94, R95, R100, R101 decoded, not read; same day re-read (batch aless) and class back to read. Serrano 1914 not reached (HathiTrust 403, not on archive.org). 23 Oct 2026 (verification 4) the seven beam readings demoted; same day (r2g) all seven read from their contemporary decipherments, class back to read. 14 Nov 2026 (verification): R99 and R115, under the 95% bar since 24 Oct, re-read on the DECODE images and decipherments: 0.989 and 0.974; all eleven letters read; codes 2020, 7020, 4050 and dotted 3 + 8 resolved (the old 9070 was a misdivision and does not occur). Integration check 14 Nov 2026: R115 is of about the end of January 1572 (archive description of Spagna 6/II ff. 584-674) and was not written by Alessandrino; writer not established.",
   "credits": [
     {"who": "lasry", "role": "key or decipherment used", "note": "reconstructed polyphonic key (DOC_R9x_D32xx) attached to R93-R102, R115; his tentative glosses kept", "date": "2020-10-24", "source": "DECODE R93-R102, R115"},
     {"who": "contemporary", "role": "key or decipherment used", "note": "decifrati of all eleven letters except R101, bound in the nunciature files: R94 f. 45r, R95 f. 58r, R100 f. 280r (found 22 Oct 2026); R93 f. 8, R96 f. 80, R97 f. 90r-v, R98 f. 139, R99 after f. 169, R102 f. 307, R115 with f. 641 (found 23 Oct 2026)", "date": "1567-1569", "source": "DECODE R93-R100, R102, R115 cleartext images"},
     {"who": "dudout", "role": "key corrected", "note": "R99 and R115 re-read on the DECODE images and decipherment leaves (0.947 -> 0.989, 0.885 -> 0.974); 2020 essendo, 7020 risposta, 4050 Monsignor Reverendissimo, dotted 3 + 8 quanto, dotted 2010 il Duca d'Alburquerque; R115 shown to be of 1572 and not by Alessandrino; PR #604", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/pull/604"}
   ],
-  "gaps": [{"item": "R93, R96-R99, R102, R115: short unread runs and codes inside the readings (R97 four runs, R99 [2020] and the opening of the Milan paragraph, R115 codes 4050, 2010, 9070 and four runs)", "blocker": "no-key-material", "detail": "the contemporary decipherers left these places blank or wrote words the figures do not carry; the codes occur nowhere else in the corpus"}, {"item": "R94, R95, R101: gaps listed in NOTES (Remaining gaps)", "blocker": "illegible", "detail": "burns and holes in the paper (R101); decipherment illegible at those words (R95); left blank by the decipherer (R94)"}, {"item": "Serrano, Correspondencia diplomatica ... Pio V (1914)", "blocker": "needs-physical-access", "detail": "HathiTrust full text 403 from here, not on archive.org"}],
-  "fraction_read_source": "23 Oct 2026 (r2g): all eleven letters read. R94, R95, R100, R101 on 22 Oct (3,519 items); R93, R96, R97, R98, R99, R102, R115 (7,036 items) on 23 Oct from their contemporary decipherments found on the DECODE cleartext images, checked against the figures. Items of letters that read / all = 10,555 / 10,555 = 1.0. Open inside the readings: short unread runs and codes (R94 2, R95 4, R101 5, R93 1, R97 4, R98 2, R99 2 runs, R115 codes 4050, 2010, 9070 and four runs).",
+  "gaps": [{"item": "R93, R96-R99, R102, R115: short unread runs and codes inside the readings (R93 one group; R96 the heretic's surname; R97 four runs; R98 two words; R102 three words; after the re-read of 14 Nov 2026 R99 has three single words open and R115 two words, the name after 'negocio de' and one group 5 2)", "blocker": "no-key-material", "detail": "the contemporary decipherers left these places blank or wrote words the figures do not carry; the codes occur nowhere else in the corpus; R99 and R115: slips, a blot and a burn hole (illegible)"}, {"item": "R94, R95, R101: gaps listed in NOTES (Remaining gaps)", "blocker": "illegible", "detail": "burns and holes in the paper (R101); decipherment illegible at those words (R95); left blank by the decipherer (R94)"}, {"item": "Serrano, Correspondencia diplomatica ... Pio V (1914)", "blocker": "needs-physical-access", "detail": "HathiTrust full text 403 from here, not on archive.org"}],
+  "fraction_read_source": "23 Oct 2026 (r2g): all eleven letters read. R94, R95, R100, R101 on 22 Oct (3,519 items); R93, R96, R97, R98, R99, R102, R115 (7,036 items) on 23 Oct from their contemporary decipherments found on the DECODE cleartext images, checked against the figures. Items of letters that read / all = 10,555 / 10,555 = 1.0. Open inside the readings: short unread runs and codes (R94 2, R95 4, R101 5, R93 1, R97 4, R98 2; R99 3 words and R115 4 holes after the re-read of 14 Nov 2026, which resolved R99 [2020] and the Milan opening and R115 codes 4050 and 2010; 9070 was a misdivision).",
   "fraction_read_method": "measured",
   "key_file": "texts/key.md"
  }

@@ -222,12 +222,50 @@ def audit():
     return len(fail)
 
 
+CLAIM_DAYS, CLAIM_MAX = 14, 3
+
+
+def live(r, today):
+    return isinstance(r, dict) and bool(r.get('by')) and str(r.get('until', '')) >= today
+
+
+def claim(n, who, today=None, release=False):
+    """A claim on a catalogue entry by someone who did not find it (research/SWEEP.md, "Claiming a catalogue entry"):
+    a 14-day notice that someone is working on it, at most 3 live per person, never over a finder's live reservation.
+    It holds nobody else's result back. --release removes it."""
+    import datetime
+    day = today or datetime.date.today()
+    cat, entries = load(CAT, 'entries')
+    e = next((x for x in entries if x['id'] == n), None)
+    if not e:
+        print(f'#{n}: not a catalogue entry'); return 1
+    r = e.get('reserved')
+    if release:
+        if not (isinstance(r, dict) and r.get('kind') == 'claim'):
+            print(f'#{n}: carries no claim'); return 1
+        del e['reserved']; save(CAT, cat); print(f'#{n}: claim released'); return 0
+    who = who.strip()
+    if live(r, day.isoformat()) and not (r.get('kind') == 'claim' and r['by'].lower() == who.lower()):
+        print(f"#{n}: already {'claimed' if r.get('kind') == 'claim' else 'reserved by its finder'} ({r['by']}, until {r['until']})"); return 1
+    held = sum(1 for x in entries if x is not e and live(x.get('reserved'), day.isoformat())
+               and x['reserved'].get('kind') == 'claim' and x['reserved']['by'].lower() == who.lower())
+    if held >= CLAIM_MAX:
+        print(f'#{n}: {who} already holds {CLAIM_MAX} live claims'); return 1
+    e['reserved'] = {'by': who, 'since': day.isoformat(),
+                     'until': (day + datetime.timedelta(days=CLAIM_DAYS)).isoformat(), 'kind': 'claim'}
+    save(CAT, cat)
+    print(f"#{n}: claimed by {who} until {e['reserved']['until']}")
+    return 0
+
+
 if __name__ == '__main__':
     sys.stdout.reconfigure(encoding='utf-8')
     a = sys.argv[1:]
     if a[:1] == ['--lead'] and len(a) == 2: sys.exit(1 if lead(int(a[1])) else 0)
     if a[:1] == ['--promote'] and len(a) >= 2: sys.exit(promote([int(x) for x in a[1:]]))
     if a[:1] == ['--close'] and len(a) == 4: sys.exit(close(int(a[1]), a[2], a[3]))
+    if a[:1] == ['--claim'] and len(a) == 3: sys.exit(claim(int(a[1]), a[2]))
+    if a[:1] == ['--release'] and len(a) == 2: sys.exit(claim(int(a[1]), '', release=True))
     if a[:1] == ['--audit']: sys.exit(1 if audit() else 0)
     if not a: sys.exit(1 if check() else 0)
     print(__doc__); sys.exit(2)

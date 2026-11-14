@@ -17,7 +17,7 @@ the three key values are kept.
 
 - Recount of `read/R982_reading.md` with `research/reading_audit/v10_relabel.share`: 330 words, 16 hole marks, 0.954,
   as the pull request says (before: 0.919). R984: 505 words, 16 marks, 0.969.
-- That figure counts each `[...]` as one word. Seven of the thirteen `[...]` of R982 cover more than one word by the
+- That figure counts each `[...]` as one word. Seven of the twelve `[...]` of R982 cover more than one word by the
   reading's own Notes and `read/R982.dec.txt`: the opening groups (M 182 491), "corra [...]" (do y is 55 ed 28 do:
   con, por, la and a noun), the words before "el dolor", "por el [...]" (dul + de bu-r-go-ma-y-ne), "critico [...] el
   estado", "persistan en [...]" (ten groups) and "sino [...]". Counted at the least number of words those groups hold,
@@ -135,7 +135,7 @@ of "?"), and its reading is gist only.
   troops from France, "en que me prometo persistirán". The preparations of the last months show that everything is
   in earnest. The discourses treat the peace as good as made.
 - **R982, Ronquillo, 19 Mar 1678** (ten days after the fall of Ghent). The congress; Flanders surprised; "nos
-  falta"; two months; the Brunswick princes; "estamos muy mal"; "melancólicas reflexiones".
+  falta"; two months; the Brunswick princes; "estamos muy mal puestos"; "melancólicas reflexiones".
 - **R984, Ronquillo, 26 Feb 1678.** On Fuenmayor's reports of the assembly of the northern allies. Everything hangs
   on the resolutions of the English parliament and on whether the King really breaks with France. The Danes
   complain about subsidy remittances. Brandenburg is in Pomerania. The Duke of Hanover's intrigue ("esta trama")
