@@ -76,8 +76,8 @@
   <dt>The cipher</dt><dd>A numbered syllabary of about 1,600 numbers (syllables, word-parts, common words), in which <em>the</em> is 1385 and <em>of</em> 1576. It is not the Armstrong code (<em>the</em> = 972), which the Madison editors name.</dd>
   <dt>How it was decrypted</dt><dd>The key was recovered to 1,166 numbers: from the clerk&rsquo;s pencil decodes on fourteen frames of the same reel, and by aligning coded blocks of 1811&ndash;1812 with the Department&rsquo;s decipherments that Ford prints.</dd>
   <dt>What it says</dt><dd>Chancellor Rumyantsev had opposed the Emperor&rsquo;s journey to Wilna, had two apoplectic strokes there, and could not stay long in office; France called Kurakin&rsquo;s note a proposal it &ldquo;had never thought of making to Russia even after the battle of Friedland&rdquo;.</dd>
-  <dt>Still open</dt><dd>Seven groups cut by the binding gutter on the film (need the original) and three single groups (1508, 1185, 570).</dd>
-  <dt>Credit</dt><dd>The State Department clerk&rsquo;s interlinear decodes of 1811&ndash;12 and Worthington Chauncey Ford&rsquo;s printed decipherments (1914) supplied the plaintext the key was rebuilt from.</dd>
+  <dt>Still open</dt><dd>Seven groups cut by the binding gutter on the film (need the original) and three single groups (1508, 1185, 570), whose values on the surviving code sheet give no sense. Counting only the words that are sure, the nine lines stand at 96.0% and the rest of the despatch at 91.0%.</dd>
+  <dt>Credit</dt><dd>The State Department clerk&rsquo;s interlinear decodes of 1811&ndash;12 and Worthington Chauncey Ford&rsquo;s printed decipherments (1914) supplied the plaintext the key was rebuilt from. In November 2026 Brice Dudout checked No. 88 against the surviving State Department code sheet (NARA M97 roll 13), which Andrew Beling transcribed.</dd>
 </dl>
 </div>
 <p>This page was split on 14 October 2026 from a combined page (<a href="legation.html">legation.html</a>) that also held George W. Erving&rsquo;s Madrid letter of 1807, which is in Pinckney&rsquo;s legation code, a different cipher with its own page: <a href="erving1807.html">Erving to Madison, 24 March 1807</a>.</p>
@@ -161,7 +161,7 @@ No. 73 (frame 0165, Ford 4:256). The group before <em>his illness</em> is 792 <e
 <em>stroke</em> (1586 <em>oke</em>), <em>second</em> (1077), <em>severe</em> (1091 <em>sever</em>), <em>remain much longer</em> (743 <em>rem</em>, 162 <em>much</em>,
 888 <em>long</em>), <em>mistake</em> (134 <em>mis</em>, clerk 0182), <em>announced</em> (479 <em>un</em>), <em>At all events</em> (283 <em>event</em>, clerk 0048),
 <em>foreign affairs</em> (68, 1517), and 1186 is attested as <em>will</em> and <em>Wil-</em> (clerk 0182, 0184). <em>Opposition</em> (83), the key word of the first
-sentence, is now grade C from No. 73. Four groups of the passage remain inferred (grade I): 1434 <em>journ</em> and 168 <em>ey</em>, 1479 <em>riv</em> and 1382 <em>th</em>. 1398 <em>thither</em> is graded M (code_table.tsv: <em>sthey</em>, also <em>thither</em>) and is not counted among them.</p>
+sentence, is now grade C from No. 73. Four groups of the passage remain inferred (grade I): 1434 <em>journ</em> and 168 <em>ey</em>, 1479 <em>riv</em> and 1382 <em>th</em>. 1398 <em>thither</em> is graded M (code_table.tsv: <em>sthey</em>, also <em>thither</em>) and is not counted among them. That was the state of 22 September. The code sheet (section 4.2) has since confirmed <em>journ</em> and <em>ey</em>, and gives 1398 as <em>thirty</em>: <em>thither</em> is withdrawn, and the word after <em>arrival</em> is a restored <em>[there]</em>.</p>
 
 <h3>3.1 What it says</h3>
 <p>&ldquo;He&rdquo; is Count Nikolai Rumyantsev (Adams&rsquo;s Romanzoff), Chancellor and minister for foreign affairs, who had gone to Wilna with Alexander. Adams
@@ -227,20 +227,39 @@ vol. 4 (1,926 pairs; No. 95 against the Department&rsquo;s clear copy), and re-t
 <tr><td>remainder, ll. 18&ndash;19</td><td>em-{927} the {ambass} the side-{res}</td><td>em-[pire] than [along] the sho-res of the Baltic</td><td>927 from the context only and 1540 in the slot after 1537 <em>alliance</em>, 1538 <em>ally</em> (I); 1383 <em>than</em> and 1097 <em>sho</em> are digits Adams overwrote (M); 748 <em>res</em> (M)</td></tr>
 </table>
 
+<h3>4.2 The check against the surviving code sheet, 14 November 2026</h3>
+<p>A sheet of this code survives: NARA M97 roll 13, frames 1056 (alphabetical) and 1057 (numerical), the code Ralph Weber prints as WE028. Andrew Beling transcribed
+it for the <a href="morris1813.html">Morris despatches</a> (1,600 entries). Brice Dudout applied it, unchanged, to No. 88. Before using it he tested it against the
+1,742 clerk-decoded pairs that the rebuilt table rests on, with the threshold written down first, by his record: 1,624 agree (0.932), and 200 shuffled keys reach at most 0.044.
+Re-run here, the script gives the same figures; it accepts a pair when one value begins with the other, and with exact matches only the share is 0.877 (1,528 pairs).
+Adams&rsquo;s code is therefore the code of that sheet, and the sheet is the better key: 138 of the 823 clerk-attested and Ford-fixed values of the rebuilt table differ from it, by Dudout&rsquo;s count.</p>
+<p>Decoded group by group with the sheet (<code translate="no">targets/jqa/we028_no88.tsv</code>), No. 88 changes in these places:</p>
+<ul>
+<li>Eight inferred values are confirmed: <em>moderate</em> (143), <em>fla</em> (350), <em>ib</em> (1403), <em>negociat</em> (426), <em>bat</em> (1309), <em>along</em> (1540), <em>journ</em> (1434), <em>ey</em> (168).</li>
+<li>Two groups of the remainder were mistranscribed: line 10 has <code translate="no">262</code> (<em>st</em>, demon-st-ration), not 252, and line 11 has <code translate="no">649</code> (<em>min</em>, de-ter-min-ed), not 549. Both were checked here on frame 0207 and are right.</li>
+<li>Six groups are one digit away from the value the sense wants (1864 for 1364 <em>tain</em>, 669 for 569 <em>to</em>, 588 for 568 <em>tle</em>, 508 and 818 for 518 <em>ect</em>, 1575 for 1515 <em>adv</em>): the words are probable, not sure.</li>
+<li>927 is <em>oud</em> on the sheet, so <em>pire</em> is withdrawn. Dudout reads 727 <em>rather</em>: &ldquo;to that centre of the em[pire] [rather] than along the shores of the Baltic&rdquo;, with <em>rather</em> restored and <em>empire</em> written only as <em>em</em>.</li>
+<li>1508, 1185 and 570 have sheet values that give no sense (<em>acious</em> or <em>account</em>, <em>wick</em>, <em>tol</em> or <em>toe</em>): each is more likely a slip or a misread digit than a missing value.</li>
+</ul>
+<p>The decipherments printed above in sections 03 and 04 are those of 22 September and keep their marks; the readings under &ldquo;Full texts&rdquo; are the revised ones.
+Dudout counts 172 of the 177 words of the remainder as giving sense (0.972: 161 sure, 11 probable) and 98 of 99 in the nine lines. This project counts a probable or restored word as a hole:
+161 of 177 (91.0%) in the remainder and 95 of 99 (96.0%) in the nine lines. The remainder is under 95%, so the extent stays partial. The transcription file
+<code translate="no">rem88.txt</code> and the rebuilt table have not yet been brought into line with the sheet.</p>
+
 <h2 id="open"><span class="num">05</span> What remains open</h2>
 <p>Grades as in section 02: <span class="H">H</span> clerk&rsquo;s decode, <span class="C">C</span> Ford-fixed, <span class="M">M</span> uncertain, <span class="I">I</span> inferred.
-No. 88 is decrypted; the groups below keep it from 100%. Measured on the words of the readings, the nine lines read at 98.0%, and the remainder builds coherent sentences but reads at 93.8%, under the 95% bar.</p>
+No. 88 is decrypted; the groups below keep it from 100%. Measured on the words of the readings as revised on 14 November 2026, with probable and restored words counted as holes, the nine lines stand at 96.0%, and the remainder builds coherent sentences but stands at 91.0%, under the 95% bar (93.8% on 24 October, before the words on gutter-cut groups and digit slips were marked).</p>
 <ul>
 <li><strong>Seven gutter-cut groups (needs the original).</strong> 142x, 21x, 15xx, 11xx, 10xx, 55x, 13xx: the last group of seven lines of the remainder
 lost digits in the binding gutter on the microfilm of frame 0207. Context restores most of them (<em>in-</em>, <em>pre-</em>, <em>sa-id</em>, <em>at-tem-p-t</em>),
 but they are counted as open. The original and the duplicate of No. 88 are not on reel 3, and Adams&rsquo;s letterbook copy at the Massachusetts Historical
 Society is not online; with either the letter would be at about 98%.</li>
-<li><strong>1508, remainder l. 5.</strong> <em>le/bable</em> (M) where &ldquo;as a pre[liminary]&rdquo; wants <em>a</em>; no other occurrence in the decoded pairs.</li>
-<li><strong>1185, remainder l. 9.</strong> &ldquo;He [took?] it as a demonstration&rdquo;: in no decoded frame or Ford block examined so far.</li>
-<li><strong>570, remainder l. 11.</strong> Valued <em>tol</em> (C) but it gives no sense in &ldquo;it tol he said&rdquo;; the image shows 570, not 500 <em>was</em>.</li>
+<li><strong>1508, remainder l. 5.</strong> <em>le/bable</em> (M) in the rebuilt table, <em>acious</em> or <em>account</em> on the code sheet, where &ldquo;as a pre[liminary]&rdquo; wants <em>a</em>; no other occurrence in the decoded pairs.</li>
+<li><strong>1185, remainder l. 9.</strong> &ldquo;He [took?] it as a demonstration&rdquo;: in no decoded frame or Ford block examined so far; <em>wick</em> on the code sheet. The image shows 1185 and a stroke cut by the gutter.</li>
+<li><strong>570, remainder l. 11.</strong> Valued <em>tol</em> (C; <em>tol</em> or <em>toe</em> on the code sheet) but it gives no sense in &ldquo;it tol he said&rdquo;; the image shows 570, not 500 <em>was</em>.</li>
 <li><strong>Inferred values (I) that the reading rests on.</strong> Nine lines: 1434 <em>journ</em>, 168 <em>ey</em>, 1479 <em>riv</em>, 1382 <em>th</em> (1398 <em>thither</em> is graded M in code_table.tsv, not I).
 Remainder: 1864 <em>tain</em>, 143 <em>mod</em>, 350 <em>fl</em>, 1403 <em>ib</em>, 815 <em>def</em>, 239 <em>sive</em>, 108 <em>comply</em>, 821 <em>dem</em>, 549 <em>min</em>,
-426 <em>negotiate</em>, 1309 <em>bat</em>, 432 <em>net</em>, 726 <em>rate</em>, 927 <em>pire</em>, 1540 <em>along</em>. Without them 362 of the 390 groups of No. 88 give sense (0.928).</li>
+426 <em>negotiate</em>, 1309 <em>bat</em>, 432 <em>net</em>, 726 <em>rate</em>, 927 <em>pire</em>, 1540 <em>along</em>. Without them 362 of the 390 groups of No. 88 give sense (0.928). This is the list of 22 September: the code sheet has since confirmed eight of these values and withdrawn <em>thither</em> and <em>pire</em> (section 4.2).</li>
 <li><strong>The route to the open groups.</strong> 1185 and 1508 each need one more occurrence: the 1812 blocks of Nos. 77, 78 and 81 and the remaining lines of
 No. 85 (frame 0196, left, lines 12&ndash;23) are not yet aligned with Ford. Frames 0056&ndash;57 are a clear decyphered copy, and 0228&ndash;0233 No. 95 in
 code only.</li>

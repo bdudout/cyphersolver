@@ -347,6 +347,12 @@
    ],
    "what": "Brice Dudout (with Claude Opus 5.5): the surviving State Department code sheet, NARA M97 roll 13 frames 1056-1057 (Weber WE028; Beling's transcription in ../morris1813, unchanged), tested first against all 1,742 grade-H clerk decode pairs of clerk_*.tsv with a frozen threshold: 1,624 agree (0.932), 200 shuffled keys at most 0.044. Then No. 88 decoded group by group with the sheet (we028_no88.tsv) and re-read on frames 0206-0207: eight grade-I values confirmed; 252 -> 262 st and 549 -> 649 min corrected on the image; one-digit slips fixed by the sheet (1864 tain 1364, 669 to 569, 588 tle 568, 508 ect 518, 818 ect 518, 1575 adv 1515); 927 is oud, read [rather] (727); 1398 is thirty, [there] restored. Remainder 172/177 words (0.972), Ford's nine lines 98/99 (0.990).",
    "result": "worked"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "what": "Integration check of PR #596: we028_measure.py re-run (1,742 pairs, 0.932, shuffled maximum 0.044; with exact matches only 1,528 of 1,742 = 0.877; 423 distinct codes); an own decoder from the sheet CSV gives every sheet value of we028_no88.tsv (390 rows: 369 sure, 15 probable, 3 restored, 3 unresolved); frame 0207 fetched from the National Archives Catalog and lines 8-12 and 14-17 of the remainder compared (about 95 groups agree with rem88.txt apart from the two corrections, 262 and 649, which are right on the image). Strict rule applied to the two readings: remainder 161 of 177 sure words = 0.910, nine lines 95 of 99 = 0.960. The class change to read proposed by the PR is not applied: the remainder is under 95% when probable and restored words are holes. rem88.txt, code_table.tsv and overrides.tsv still carry 252 and 549.",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -386,7 +392,7 @@
    "transcription",
    "key recovered"
   ],
-  "class": "read",
+  "class": "read in part",
   "key": "partial",
   "fraction_read_method": "measured",
   "fraction_read_source": "python measure.py (22 Sept 2026, third pass): 380 of 390 code groups of No. 88 read as sense = 0.974 (gap88 133/133 = 1.000, rem88 247/257 = 0.961; the 7 gutter-cut groups counted unread); 382/390 valued; 362/390 = 0.928 without the grade-I values. JQA's copying slips 1112 1433 read as intended (im-pa-ir-ed) per his catchword 1102 and No. 83's un-im-pa-ir-ed (sense88.tsv header). Second pass: 355/390 = 0.910. 14 Nov 2026, with the M97 code sheet (we028_no88.tsv): 384 of 390 groups sure or probable (0.985); words: remainder 172/177 = 0.972, gap 98/99 = 0.990.",
@@ -450,8 +456,13 @@
    {
     "who": "dudout",
     "role": "verification",
-    "note": "14 Nov 2026: the M97 roll 13 code sheet (WE028) checked against the clerk decodes (0.932, shuffled max 0.044) and applied to No. 88; two digits corrected on the image; remainder 0.938 -> 0.972 of words",
+    "note": "14 Nov 2026: the M97 roll 13 code sheet (WE028) checked against the clerk decodes (0.932, shuffled max 0.044) and applied to No. 88; two digits corrected on the image; remainder 0.938 -> 0.972 of words by his count (0.910 by the strict count)",
     "date": "2026-11-14"
+   },
+   {
+    "who": "ajbeling",
+    "role": "transcription",
+    "note": "transcription of the State Department code sheet, NARA M97 roll 13 frames 1056-1057 (in ../morris1813/beling/key/), used unchanged for the check of 14 Nov 2026"
    }
   ],
   "texts": [
@@ -470,8 +481,8 @@
     "language": "en",
     "reading": "texts/no88_gap_reading.md",
     "state": "read",
-    "read_share": 0.99,
-    "note": "14 Nov 2026: with the M97 code sheet, 98 of 99 words read as sense; 'thither' (grade I) withdrawn, 1398 is thirty on the sheet, the word is restored as [there]."
+    "read_share": 0.96,
+    "note": "14 Nov 2026: with the M97 code sheet, 98 of 99 words by Brice Dudout's count (0.990); 'thither' (grade I) withdrawn, 1398 is thirty on the sheet, the word is restored as [there]. Strict count: the three words on one-digit slips (expectation, advice, Alexander) and [there] are holes, 95 of 99 = 0.960; impaired is kept as read on the evidence of the catchword 1102."
    },
    {
     "doc": "no88-remainder",
@@ -487,9 +498,9 @@
     },
     "language": "en",
     "reading": "texts/no88_remainder_reading.md",
-    "state": "read",
-    "read_share": 0.972,
-    "note": "14 Nov 2026: 172 of 177 words read as sense with the M97 code sheet (161 sure, 11 probable; 2 restored, 3 unresolved: 1508, 1185, 570); was 0.938 (24 Oct 2026)."
+    "state": "read in part",
+    "read_share": 0.91,
+    "note": "14 Nov 2026, with the M97 code sheet: 177 words, 161 sure, 11 probable, 2 restored, 3 unresolved (1508, 1185, 570). Brice Dudout's count takes sure and probable as read: 172 of 177 = 0.972. By the strict rule of this project only the sure words count: 161 of 177 = 0.910 (the v10 tool gives 0.905, since it also counts the marker of the clear passage); under the 95% bar, so read in part. It was 0.938 on 24 Oct 2026, when the words on gutter-cut groups and one-digit slips were not marked."
    }
   ],
   "key_file": "code_table.tsv"

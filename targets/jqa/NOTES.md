@@ -6,7 +6,7 @@ Page split, 14 Oct 2026 (one key, one entry): this entry was shown on the combin
 pages: this one is `docs/jqa.html`; Erving's letter, a different cipher with its own page, is `docs/erving1807.html`
 (folder `../erving1807/`). `legation.html` is a stub pointing to both.
 
-Status: read (22 Sept 2026, third pass). No. 88, measured with `measure.py`: **380 of 390 code groups read as sense
+Status: read in part (24 Oct 2026; kept on 14 Nov 2026, see "Integration check"). The paragraph below is the group count of 22 Sept 2026 (third pass). No. 88, measured with `measure.py`: **380 of 390 code groups read as sense
 (0.974)**; the nine lines Ford left out 133/133 (1.000), the remainder 247/257 (0.961). 382/390 groups have a value;
 362/390 (0.928) without the grade-I values. Still open: 7 groups cut by the microfilm gutter (needs the original)
 and 3 single code groups (1508, 1185, 570).
@@ -204,10 +204,37 @@ such as 948 rus / Russia).
 
 **Counts (Daniel's rule, words; texts/no88_remainder_reading.md and texts/no88_gap_reading.md rewritten):** the
 remainder 172 of 177 words read as sense (161 sure, 11 probable; 2 restored, 3 unresolved) = **0.972**, up from 0.938,
-so **read**. Ford's nine lines 98 of 99 = 0.990 (one restored word). Groups: 384 of 390 sure or probable (0.985).
+so **read** (this is the contributor's count and proposal; the strict count and the class kept are in the Integration
+check below). Ford's nine lines 98 of 99 = 0.990 (one restored word). Groups: 384 of 390 sure or probable (0.985).
 
 No new value is proposed for the table; `code_table.tsv` is left as it is. The sheet is the better key for this code:
 where they differ, `we028_no88.tsv` gives the sheet's value.
+
+## Integration check, 14 Nov 2026 (PR #596)
+
+Brice Dudout's verification above was re-run here before it was merged.
+
+- **Held-out check.** `we028_measure.py` re-run: 1,742 pairs, 0.932, shuffled maximum 0.044, as stated. The script
+  counts a pair as agreeing when one value begins with the other; with exact matches only it is 1,528 of 1,742
+  (0.877). The 1,742 pairs are 423 distinct codes. That the sheet transcription was made without these decodes is
+  Andrew Beling's and the contributor's record. The conclusion stands: JQA's code is the State Department code of the
+  M97 sheet (as the morris1813 work had already found from the other side).
+- **Decoder.** A decoder written here from the sheet CSV gives the sheet value of each of the 390 rows of
+  `we028_no88.tsv` (369 sure, 15 probable, 3 restored, 3 unresolved).
+- **Image.** Frame 0207 was fetched from the National Archives Catalog (NAID 188725601) and lines 8-12 and 14-17 of
+  the remainder compared with `rem88.txt`: about 95 groups agree, and the two corrections are right, l.10 reads 262
+  and l.11 reads 649. `rem88.txt`, `code_table.tsv` (252 *str*, 549 *min*) and `overrides.tsv` still carry the old
+  digits: `we028_no88.tsv` is the corrected record until they are brought into line. Frame 0206 was not compared.
+- **Count and class.** By the strict rule of this project a probable or restored word is a hole. Remainder: 161 sure
+  words of 177, **0.910** (the contributor's 0.972 counts the 11 probable words as read). Nine lines: *expectation*,
+  *advice* and *Alexander* rest on one-digit slips and *[there]* is restored, 95 of 99, **0.960**; *impaired* is kept
+  as read because the catchword 1102 is written on the leaf. The two reading files now mark the probable words
+  `{?word}` and the unresolved groups `[n]`. The remainder is under 95%, so the target stays **read in part**; the
+  move to "read" proposed in the PR is not applied. The remainder was 0.938 on 24 Oct only because the words on
+  gutter-cut groups and digit slips were not marked then.
+- What the sheet settles: eight grade-I values confirmed, *thither* and *pire* withdrawn, and the three open groups
+  now have sheet values that do not read (1508 *acious*, 1185 *wick*, 570 *tol*), which points to a digit misread or a
+  writer's slip in each, not to a missing key value.
 
 ## Remaining gaps
 
