@@ -1,6 +1,6 @@
 # The Hungarian court cipher of 1482: Beatrice d'Aragona to Eleonora (DECODE R1140, R1141) and Matthias Corvinus to Ercole I d'Este (R1156), Pozsony, May–June 1482
 
-Status: found already in print (MDE III, 1877, nos. 10, 12 and 14; Fraknói 1895 no. 131). See RESULT.md for verification limits. Since 14 Nov 2026 the
+Status: found already in print (MDE III, 1877, nos. 10 and 12 for the queen's letters and no. 11 by Vestigia's record for the king's, not no. 14 as written here before: 14 is the page; Fraknói 1895 no. 131). See RESULT.md for verification limits. Since 14 Nov 2026 the
 1482 key is rebuilt from the period clear copies (Brice Dudout, PR #620; `vestigia/`), and one run of R1141 that the print
 leaves out is restored. The king's letter of 1 June 1482 (R1156, until 14 Nov 2026 the separate target `matthias1482`)
 is in the same key and was folded in here the same day: its folder is [`matthias1482/`](matthias1482/), with its old
@@ -100,7 +100,7 @@ this project before: DECODE's record and the earlier notes name only the origina
 IIIF manifest of 2626 states CC BY-NC-SA 4.0; the document pages state nothing).
 
 **What was done.** The cipher runs of 2626 were transcribed sign by sign from the web image with the clear copy
-beside it (not blind): 69 runs, 409 signs, of which 12 are name signs
+beside it (not blind): 69 runs, 409 signs, of which 10 are name signs and 2 are the large unread signs after *regina*
 (`matthias1482/vestigia/R1156_V2626_transcription.txt`). The earlier estimate was "about 15 runs, roughly 330
 signs". Labels are those of `vestigia/sign_inventory.md`. `matthias1482/vestigia/check_r1156.py` counts which sign
 stands for each letter of the copy and decodes the letter with the queen's key.

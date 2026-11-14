@@ -96,7 +96,7 @@
     "by": "llm from images",
     "source": "Vestigia 2626 (cipher original) with 2627 (period clear copy) beside it; matthias1482/vestigia/",
     "image_quality": "good",
-    "notes": "Sign transcription of 69 cipher runs (409 signs, 12 of them name signs) made 14 Nov 2026 from Vestigia's public web image, not blind: the runs were cut into words through the clear copy. The first reading of 19 Sept 2026 was from the DECODE images and kept no sign file."
+    "notes": "Sign transcription of 69 cipher runs (409 signs: 10 name signs and the 2 large unread signs after regina among them) made 14 Nov 2026 from Vestigia's public web image, not blind: the runs were cut into words through the clear copy. The first reading of 19 Sept 2026 was from the DECODE images and kept no sign file."
    }
   }
  ],
@@ -168,7 +168,7 @@
   {
    "date": "2026-09-19",
    "kind": "literature search",
-   "what": "R1156 (then the target matthias1482): Found the letter printed in full in MDE III (1877) no. 14 and Fraknoi II (1895) no. 131, from the Modena original.",
+   "what": "R1156 (then the target matthias1482): Found the letter printed in full in MDE III (1877) no. 14 and Fraknoi II (1895) no. 131, from the Modena original. [Note of 14 Nov 2026: \"no. 14\" was taken from Fraknói's reference \"III. 14.\", which is the page; the letter is no. 11 by Vestigia's record. The 1877 volume was not opened for this letter.]",
    "result": "worked"
   },
   {
@@ -275,7 +275,7 @@
   {
    "date": "2026-11-14",
    "kind": "transcription",
-   "what": "R1156: the cipher runs of Vestigia 2626 transcribed sign by sign with the clear copy beside it (not blind): 69 runs, 409 signs, 12 of them name signs (matthias1482/vestigia/R1156_V2626_transcription.txt).",
+   "what": "R1156: the cipher runs of Vestigia 2626 transcribed sign by sign with the clear copy beside it (not blind): 69 runs, 409 signs, 10 of them name signs and 2 the large unread signs after regina (matthias1482/vestigia/R1156_V2626_transcription.txt).",
    "result": "worked"
   },
   {
