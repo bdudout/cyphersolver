@@ -1,0 +1,10 @@
+# I 243,18 (Memoria de Madrid 425791, Lerma, 30 Apr 1610), glossed letter of the same table family: Brice Dudout's manual alignment
+# of cipher tokens with the interlinear gloss, made 3 Nov 2026 by his record and posted in issue #499 on 14 Nov 2026. token=value, one manuscript line per row;
+# ? = gloss not read; ~ = token with a mark above. Not checked against the image here (Memoria de Madrid refuses scripted requests). His caveat: aligned by hand
+# to learn a key; check against the image before relying on any value.
+34~=? 37=y 35=e 28=n fol=lo R=que clo=to 47=ca 20=a 26=l 30~=principe yal=? 54=de 15~=? du=conde p=os 15=a 75=v 35=e 0=is xol=go
+75=v mel=er 66=na 57=do gul=muy 51=co 28=n 18=f mel=or B=me 20=a fol=lo S=que je=se 35=e 33=s be=pe 72=ra 75=v 20=a
+54=de 255=vra 29=p 77=ru 54=de 28=n 49=ci N=a 37=y 99=assi p=os fol=lo 20=a 29=p 77=ru 35=e 75=v 55=o 37=y
+10=a 19=g 72=ra 54=de 33=s 51=co fla=mucho 37=y 20=a C=mi cli=ti 55=o 35=e 33=s 12=c 74=ri 75=v 55=o R=que
+69=no 51=co 28=n ji=si 35=e 28=n cla=ta R=que ja=sa 26=l yal=ga 54=de ba=pa fal=la 49=ci 55=o fal=la
+yal=? ja=sa 54=de du=conde ji=si 28=n 75=v 55=o ful=lu 28=n cla=ta 17=d 54=de ju=su A=ma 74=ri 57=do 55~=o
