@@ -1,6 +1,7 @@
 # Key of the López Portillo - Reyes cipher of 1909 (CEHM Archivo del General Bernardo Reyes), proposed by Alberto Garvía García (issue #245, PR #308; Zenodo doi 10.5281/zenodo.23934776), CC BY 4.0 as offered.
 # A numerical substitution with about three consecutive numbers per letter. The strict count is 29: the contributor's 28, plus 60 = Y, counted from 6 Nov 2026 (see VERIFICATION.md section 6).
 # Values marked telegram7677 and letter-word are our additions on 6 Nov 2026 (see VERIFICATION.md), not part of the contributor's count.
+# Values marked telegram7681 (14, 19) were letter-word values until 14 Nov 2026; a contemporary gloss on a third telegram now gives them (NOTES.md, section of 14 Nov 2026). They are outside the strict count of 29 too.
 number	letter	basis	note
 01	E	strict28	one of the 28 values of the contributor's strict count (A. Garvía García); checked on the CEHM images, 6 Nov 2026
 02	E	strict28	one of the 28 values of the contributor's strict count (A. Garvía García); checked on the CEHM images, 6 Nov 2026
@@ -12,12 +13,12 @@ number	letter	basis	note
 10	G	letter-word	fixed by one word of the letter of 15 July (inference, not independent of the key)
 11	O	telegram7677	first line of the 15 July telegram DLI.39.7677.1 reads 79 1 26 3 41 20 8 11 above (last number partly cut off at the screenshot edge) the plaintext 'enemigo'; read by us on the image; the contributor did not count it
 13	B	strict28	one of the 28 values of the contributor's strict count (A. Garvía García); checked on the CEHM images, 6 Nov 2026
-14	B	letter-word	fixed by one word of the letter of 15 July (inference, not independent of the key)
+14	B	telegram7681	one word of the letter of 15 July, and since 14 Nov 2026 the pencil gloss on the telegram of 19 July DLI.39.7681.1 (47 56 14 32 19 24 15 37 17 = publicara, 24 32 57 14 = club; pointed out by Brice Dudout, issue #606; read by us on the public CEHM image)
 15	A	strict28	one of the 28 values of the contributor's strict count (A. Garvía García); checked on the CEHM images, 6 Nov 2026
 16	A	strict28	one of the 28 values of the contributor's strict count (A. Garvía García); checked on the CEHM images, 6 Nov 2026
 17	A	strict28	one of the 28 values of the contributor's strict count (A. Garvía García); checked on the CEHM images, 6 Nov 2026
 18	I	strict28	one of the 28 values of the contributor's strict count (A. Garvía García); checked on the CEHM images, 6 Nov 2026
-19	I	letter-word	fixed by one word of the letter of 15 July (inference, not independent of the key)
+19	I	telegram7681	one word of the letter of 15 July, and since 14 Nov 2026 the pencil gloss on the telegram of 19 July DLI.39.7681.1 (47 56 14 32 19 24 15 37 17 = publicara, 24 32 57 14 = club; pointed out by Brice Dudout, issue #606; read by us on the public CEHM image)
 20	I	telegram7677	first line of the 15 July telegram DLI.39.7677.1 reads 79 1 26 3 41 20 8 11 above (last number partly cut off at the screenshot edge) the plaintext 'enemigo'; read by us on the image; the contributor did not count it
 22	D	strict28	one of the 28 values of the contributor's strict count (A. Garvía García); checked on the CEHM images, 6 Nov 2026
 23	D	letter-word	fixed by one word of the letter of 15 July (inference, not independent of the key)
