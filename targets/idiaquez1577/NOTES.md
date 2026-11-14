@@ -161,10 +161,11 @@ values cannot be rerun, because the 1410,77 transcription it used is not in the 
   bar (RECONCILE.md). Neither changes a word.
 - Blind check - blocker: not-attempted; the only blind check is the reviewer's 4 lines (68 signs); no full
   independent blind transcription; no human palaeographer.
-- Don John's letters (`donjuan/`): 1410,77 has no transcription in the folder and 1410,111 is not transcribed
-  (blocker: not-attempted; the letter is read from 1410,111 on the contributor's word); signs of the copyist not in
-  the key (3 with a loop above = *tres*, small 2 above 8, underlines) - blocker: open-codes; the transcription of
-  1410,135 and the two pairings have not been compared with the images by a second reader (PARES 429 on 14 Nov 2026).
+- Don John's letters (`donjuan/`), 1410,77 and 1410,111 - blocker: not-attempted; neither is transcribed in the
+  folder, the letter is read from 1410,111 on the contributor's word; the transcription of 1410,135 and the two
+  pairings have not been compared with the images by a second reader (PARES 429 on 14 Nov 2026).
+- Don John's copyist, signs not in the key - blocker: open-codes; 3 with a loop above (*tres*), small 2 above 8,
+  underlines.
 
 ## Escalation
 
