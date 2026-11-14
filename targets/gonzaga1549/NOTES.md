@@ -325,8 +325,8 @@ this folder's sign files have at the aligned places), `comparison_summary.json`.
 |---|---|
 | signs | 2,536 (reading 1) and 2,543 (reading 2); 2,523 places aligned; **2,312 carry the same value (91.6%)** |
 | words sure and the same in both | 725 |
-| sure in both, spelling or division differs | 25 |
-| sure in both, different words | 8 |
+| sure in both, close in their letters: spelling, division or one sign (ratificacion / gratificacion, hallarse / hallarnos, curar / procurar, seguro / segura are here) | 25 |
+| sure in both, unlike words (de / no five times, con / contra, bien / si, hasta / hastaqui, a division) | 8 |
 | sure in one, the other gives the same word with a mark (doubt, repair or proposal) | 77 |
 | sure in reading 1 only | 25 |
 | sure in reading 2 only | 36 |
@@ -373,7 +373,9 @@ Other points the comparison shows, none settled here:
   project first read "saber" there too). 30 Sep, first passage: the same text in both, Brissiuc / Brissiu, and one unread
   sign in reading 1. 20 Nov: reading 1's "‹qui si ss e [.] mos› mover guerra" stands where the margin has "que no
   queremos mouer guerra". WAINUT found seven marginal decipherments on the 30 Sep letter and six on 20 Nov; the project
-  had read one cipher block of 30 Sep and five passages of 20 Nov.
+  had read one cipher block of 30 Sep and five passages of 20 Nov. (Claims review, 14 Nov 2026: WAINUT's own files
+  disagree on 30 Sep. `wainut/reading_ch1549_0930_1120.md` lists seven; the status table of
+  `wainut/NOTES_ferrante1549.md` says six and `wainut/clear_margins_charles.txt` has six lines, M2 missing. Left as filed.)
 
 ### Code values carried into both readings
 

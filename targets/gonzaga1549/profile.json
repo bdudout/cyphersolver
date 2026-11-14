@@ -1050,7 +1050,7 @@
    }
   ],
   "notes": "Read by eye with the sense in view; values were chosen knowing what would make Spanish, so the readings are not a controlled test. The validation tests that a fitted key on shuffled text does worse; it does not check single words. No person has checked a passage against the image. Since 14 Nov 2026 the entry holds two readings made apart (the project's and WAINUT's); their comparison is the first cross-check either has had, and it was done on the files, not on the images.",
-  "fraction_read": 0.898,
+  "fraction_read": 0.831,
   "fraction_read_method": "measured",
   "codes_open": {
    "open": 3,
@@ -1387,6 +1387,6 @@
    }
   ],
   "provenance": "mixed",
-  "fraction_read_source": "Strict recount of 14 Nov 2026 (compare_readings.py, comparison_summary.json), sure words only, per document, never pooled. fraction_read is the higher of the two readings of the 14 Nov 1549 letter: WAINUT's, 817 of 910 words (89.8%) after the settled code words (811 before; WAINUT's own figure with marked repairs 864 of 910, 94.9%). The project's reading of the same letter: 837 of 1,007 tokens (83.1%; 129 tokens are sign values that do not form words). The earlier figure of this entry, 93.4%, was a share of signs given a value. Other documents: 13 May 45/45, 23 Dec 46/48, 30 Sep first passage 33/35, 20 Nov 49/65 (project, fitted to the contemporary decipherments); Philip c. 10r 75/80 (93.8%), c. 28r D-E 56/66 (84.8%), c. 26r 75/91 (82.4%) (WAINUT, verbatim count)."
+  "fraction_read_source": "Strict recount of 14 Nov 2026 (compare_readings.py, comparison_summary.json), sure words only, per document, never pooled. fraction_read is the project's own reading of the 14 Nov 1549 letter, the reading that outcome.method names: 837 of 1,007 tokens (83.1%; 129 tokens are sign values that do not form words). WAINUT's second reading of the same letter, stated beside it and not used for fraction_read: 817 of 910 words (89.8%) after the settled code words (811 before; WAINUT's own figure with marked repairs 864 of 910, 94.9%). Until the claims review of 14 Nov 2026 this field carried WAINUT's 0.898, which joined the project's method to WAINUT's share. The earlier figure of this entry, 93.4%, was a share of signs given a value. Other documents: 13 May 45/45, 23 Dec 46/48, 30 Sep first passage 33/35, 20 Nov 49/65 (project, fitted to the contemporary decipherments); Philip c. 10r 75/80 (93.8%), c. 28r D-E 56/66 (84.8%), c. 26r 75/91 (82.4%) (WAINUT, verbatim count)."
  }
 }
