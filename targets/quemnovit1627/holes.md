@@ -65,7 +65,7 @@ Tally by cause (a unit with g/q and another cause is counted under g/q):
   currentis: each needs one sign read differently. They stay counted not read.
 - **pi/Z/n class (4)** and **c/e (3).** Readers 2 and 3 used different classes for the pi-sign, the n-form and the
   omega-like sign, and did not see an eye in the first sign of wochen, wollen, worden.
-- **Codes 117 (x2), 118.** No code value is known. 118 is the place of writing (Venice is the likely reading, not proved).
+- **Codes 117 (x2), 118.** No code value is known. 118 stands in the dating line; it is not the place of writing (corrected 14 Nov 2026, see NOTES.md).
   The 1628 chancery decipherment sheet at image 447 (Schultetus's number code) does not list 117 or 118.
 - **Other single signs (3).** heute (m), umb (s/f: readers 2 and 3 read f), anno (d/u).
 

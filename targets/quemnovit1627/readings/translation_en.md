@@ -15,14 +15,15 @@ has now assigned *[?a] large one*, which arrived here yesterday, and on it H. *w
 [deducted] in [?future].*
 
 *For the rest, [117] has so far resolved [nothing] on* H.'s *proposal, but I have good [?hope] that* W. *[may] yet declare
-themselves somewhat better. Dated at* [118], *20 July of the current [year].*
+themselves somewhat better. Dated* [118], *20 July of the current [year].*
 
 "Whom you know." [in place of a signature]
 
 ## Notes
 
 - "H.", "E." and "W." are written in clear as abbreviations. E. is the addressee, addressed as king (Christian IV). H. is
-  the traveller; 118 is the place of writing; "Signoria" and the galleys point to Venice. None of this is proved.
+  the traveller; "Signoria" and the galleys point to Venice. None of this is proved. 118 stands in the dating line and is
+  not the place of writing (corrected 14 Nov 2026: it also dates the sibling letter of 25 July 1627, written elsewhere).
 - Writer: PROPOSED, NOT PROVED. One article (Bohemiae Occidentalis Historica 2/2019, read through a summariser only)
   has Christian Wilhelm of Brandenburg, Administrator of Magdeburg, reaching Venice in early July 1627 on his way to lead
   Danish forces in Silesia. A three-week wait for a galley on 20 July fits that journey, so the letter may be of 20 July

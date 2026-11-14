@@ -54,7 +54,7 @@ shape while reader 1 transcribed, so his "frozen before decoding" means before a
 
 ## What the letter says
 
-See `readings/reading_de.md` and `readings/translation_en.md` (holes marked in place). In short: H. has waited at [118]
+See `readings/reading_de.md` and `readings/translation_en.md` (holes marked in place). In short: H. has waited
 into a third week for a galley; nobody, [117] least of all, would advise the small ones; the Signoria has assigned a
 large one and he leaves today. He has borrowed another 3,000 thalers and asks the King to pay and deduct them later.
 [117] has resolved nothing on his proposal; he hopes W. will declare themselves better.
@@ -123,16 +123,49 @@ Venetian state papers.
 - One key, one entry: no other target uses this letter-sign key (zobel1629, same collection series, uses figures).
 - Write-up (page, manifest, ledgers, portraits, claims review) is not part of this commit; the writer is proposed, not proved.
 
+## Integration check (14 Nov 2026): the sibling letter and code 118 (PR #588)
+
+Malcolm McBratney's correction after Mark Vladimir Prizmic's comment on issue #450 (14 Nov 2026) and Prizmic's preprint,
+"Bethlen Gabor in Danish Cipher, 1627-1629: The Reports of Johann Schultetus and a New 'Quem novit' Letter in the Danish
+Rigsarkivet" (Zenodo, doi:10.5281/zenodo.24210516; version 2, doi:10.5281/zenodo.24213402, 14 Nov 2026).
+
+- Images 465 and 466 (api.rigsarkivet.dk/ao/v1/images/48900949 and 48900950, 4473 x 3436) fetched and looked at here.
+  Same hand and sign repertoire as image 443: one page on 465, a second page and a closing page on 466, signed
+  "Quem novit E.". The sweep of images 426-475 recorded on 12 Nov 2026 missed it.
+- key_B.txt, unchanged, reads what was tried by eye (about 12 cipher words; the body was not transcribed here): the
+  opening `PckqtPlmkf hdctP` = gnedigster konig; `tc qkc Ltkskcqkc mpPh` = in den siebenden tagk; `ekPkc` = wegen; and the
+  dating line `.118. qkc 25 tiatt pc[.] mpilkcqm 6. c. icqm nepcmntPh Ltkskc` = .118. den 25 iulii an[no] tausendt 6 c.
+  undt [z]want[z]igk sieben (the two bracketed letters are the sign n, below). The cipher date 25 July 1627 is on the image.
+- The one sign without a value (n, once on image 443, in `Lokfpcnm`): on image 466 it stands twice in the number word
+  `nepcmntPh`, which the key reads ?want?igk, so n = z gives "zwantzigk"; `ni` two lines above reads "zu". This agrees
+  with the value z that Brice Dudout reports. key_B.txt is left as stamped (it already has Z = z, and the pi/Z/n sign
+  class is disputed between the readers of image 443); on image 443 the unit would read "speranzt", still an emendation,
+  so no count changes.
+- Code 118: it stands before "den 20 Iulii" on image 443 and before "den 25 iulii" on image 466. The second letter
+  opens with H.'s arrival "alhier" on the seventh day, so the two were written at different places, and 118 cannot be the
+  place of writing. It is a word of the dating formula with no value. The earlier gloss (Venice likely) is withdrawn; that
+  the first letter was written at Venice still rests on the Signoria and the galleys, and is not proved.
+- Year: this leaf says only "anno currentis". The sibling's date and its content (arrival after a galley voyage, five
+  days after this letter's "he leaves today") point to 1627. That is an inference from the sequence, not a date on the leaf.
+- Not checked here: the rest of Prizmic's reading (Spalato as the place of the second letter, Bethlen Gabor, Peblis,
+  Schultetus as commissary), his identification of H. with Christian Wilhelm of Brandenburg from Roe's Negotiations (1740)
+  and the Calendar of State Papers Venice, and the preprint's other additions. They are his, in his preprint.
+- Reported on the issue by Brice Dudout (14 Nov 2026), no files sent, not checked: a key built independently on images
+  443 and 465 with 16 of 16 shared letter values equal to key_B, and the value z proposed for the one sign without a value.
+- The read share of this letter does not change (70 of 103 units): no hole is filled by the correction.
+
 ## Remaining gaps
 
 - codes 117 (twice) and 118 - blocker: no-key-material; three tokens. Corrected 14 Nov 2026: 118 also heads the sibling letter of 25 July 1627 (images 465-466), written at another place, so it is a dating word of the writer's own code, not the place of writing (M. V. Prizmic, issue #450 comment of 14 Nov 2026; doi:10.5281/zenodo.24210516). Our earlier gloss 'place of writing, Venice likely' is withdrawn.
 - g/q sign class (13 units), pi/Z/n and c/e classes (7 units) - blocker: illegible; the tails of g and q cannot be told apart at the resolution available here (image 443, 4473 x 3436), three readers split; a person comparing them at full size is needed
-Not unread cipher pieces, but open: the writer and the year (1627 or 1628) are not proved; the clear German was read by one
-reader only, and no person has compared any transcription with the image.
+Not unread cipher pieces, but open: the writer is not proved; the year is not written on this leaf (the sibling of 25 July
+1627 points to 1627, see the check of 14 Nov 2026); the clear German was read by one reader only, and no person has
+compared any transcription with the image. The sibling letter (images 465-466) is not transcribed in this folder: it is
+Mark Vladimir Prizmic's reading, and comes in only if he sends it.
 
 ## Escalation
 
-- [x] siblings: neighbouring leaves images 426-475 of unit 261377 swept; image 447 is a chancery sheet for Schultetus's number code, a different cipher. Corrected 14 Nov 2026: our sweep missed a sibling in this key. Images 465-466 (Rigsarkivet list ids 48900949-48900950) hold a second letter in the same hand, signed 'Quem novit E.', dated in cipher 25 July 1627, found and read by Mark Vladimir Prizmic (issue #450 comment of 14 Nov 2026; preprint doi:10.5281/zenodo.24210516). We checked only that key_B reads its opening unchanged ('gnedigster konig', 'siebenden'); its transcription and reading are his and are not in this folder.
+- [x] siblings: neighbouring leaves images 426-475 of unit 261377 swept; image 447 is a chancery sheet for Schultetus's number code, a different cipher. Corrected 14 Nov 2026: our sweep missed a sibling in this key. Images 465-466 (Rigsarkivet list ids 48900949-48900950) hold a second letter in the same hand, signed 'Quem novit E.', dated in cipher 25 July 1627, found and read by Mark Vladimir Prizmic (issue #450 comment of 14 Nov 2026; preprint doi:10.5281/zenodo.24210516). We checked only that key_B reads its opening unchanged ('gnedigster konig', 'siebenden'); its transcription and reading are his and are not in this folder. Open step: with his transcription the one sign without a value and the codes could be tried again on the longer text.
 - [x] clear-pages: no decipherment on or beside the leaf (images 442-449 seen)
 - [x] known-keys: zobel1629 (figures) and Schultetus's number code are different systems and do not apply; no other key of this series is a letter-sign substitution
 - [x] print: Danske Magazin, Christian IV's egenhaendige Breve, Danske Samlinger, Historisk Tidsskrift, Swedish Handlingar, DECODE, Cryptiana: nothing (thin: an anonymous letter cannot be searched by name)

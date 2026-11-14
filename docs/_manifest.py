@@ -337,7 +337,7 @@ PAGES = [
          blurb='A letter of the Count-Duke of Olivares, wholly in cipher, to the Duke of Alba, viceroy of Naples, on the deaths in his family and the future of his son-in-law. Brice Dudout read it with Philip IV&rsquo;s cipher A plus 20 values learnt on its first part: 95.2% of 1,001 words, with the key only partly confirmed.',
          quote='&ldquo;Su Majestad&rdquo;, read from three codes that the key does not give',
          rights='Letter: Biblioteca Nacional de Espa&ntilde;a, MSS/10249 ff. 13r&ndash;15r; reading by Brice Dudout, Europe chiffr&eacute;e'),
-    dict(slug='quemnovit1627', label='Quem novit to Christian IV 1627', year='1627&ndash;28', y=1627.55, place='[118] (Venice likely) &rarr; Copenhagen', st='partial', stt='read in part',
+    dict(slug='quemnovit1627', label='Quem novit to Christian IV 1627', year='1627&ndash;28', y=1627.55, place='Venice likely &rarr; Copenhagen', st='partial', stt='read in part',
          title='&ldquo;Quem novit&rdquo; to Christian IV, 20 July [1627 or 1628]',
          blurb='An unsigned German letter to the King of Denmark, with about 100 words in letter-like signs among clear German, found in the Rigsarkivet folder of Johann Schultetus&rsquo;s reports and signed &ldquo;Quem novit&rdquo;. Malcolm McBratney, working with AI agents, found the key from the ciphertext alone with a crib; 70 of 103 cipher units read when each sign takes the value that two of three independent readers give. The writer has waited into a third week for a galley and has borrowed 3,000 thalers. The g/q signs are disputed and the codes 117 and 118 are open; writer and year are not proved.',
          quote='&ldquo;Gn&auml;digster K&ouml;nig, H. lasset E. unverhalten sein&hellip;&rdquo;',
