@@ -53,3 +53,9 @@ Files in this folder: `leads-dudout-2026-10-29.json` (as sent), `already_in_dani
   Hungaricana, QDL, FranceArchives.
 - **Image rule**: when images arrive he sends them with the ar- number and a note on whether they may be shown. Rhineland (ar-293/294):
   not for now, publication needs a separate permission (Virmond deposit especially).
+
+## Added 14 Nov 2026 (issue #501)
+- `R5626_f154r_digits.txt`, `R5640_f237v_digits.txt`: his digit transcriptions of two leaves of Francia 346 (catalogue 880), posted as
+  text in issue #501. Decoded here with `targets/ceva1632/decode.py`: the text around the codes 951, 749 and 444 is the one he quotes
+  from the decipherment on f. 155 (not seen here), and the R5640 lines he quotes come out of his rows. Not compared with the images
+  (DECODE login). Recorded on catalogue 880; no value was added to `targets/ceva1632/cipher.py`.
