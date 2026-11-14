@@ -731,7 +731,7 @@
     "R99": {
      "decode_status": "Partially",
      "proposed": "Decrypted",
-     "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain. 23 Oct 2026 (reading audit): the record's 'cleartext' image the leaf after f. 169 (D1284) is the contemporary decipherment of this letter; read from it, checked against the figures. New code values (texts/key.md): 4010 = Re di Francia (Lasry's key has Sua Santità, which does not fit), 2010 = Imperatore.",
+     "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain. 23 Oct 2026 (reading audit): the record's 'cleartext' image the leaf after f. 169 (D1284) is the contemporary decipherment of this letter; read from it, checked against the figures. New code values (texts/key.md): 4010 = Re di Francia (Lasry's key has Sua Santità, which does not fit), 2010 = Imperatore. 14 Nov 2026 (Brice Dudout, PR #604): re-read on the images, 98.9% of words; 2020 = essendo; a dotted 2010 = il Duca d'Alburquerque (the decipherer's correction above a struck 'Imp.re').",
      "reading": [
       {
        "file": "targets/alessandrino1568/texts/R99_reading.md"
@@ -775,13 +775,17 @@
     "R115": {
      "decode_status": "Partially",
      "proposed": "Decrypted",
-     "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain. 23 Oct 2026 (reading audit): the record's 'cleartext' image the half-sheet with f. 641 (D1340) is the contemporary decipherment of this letter; read from it, checked against the figures. New code values (texts/key.md): 4010 = Re di Francia (Lasry's key has Sua Santità, which does not fit), 2010 = Imperatore.",
+     "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain. 23 Oct 2026 (reading audit): the record's 'cleartext' image the half-sheet with f. 641 (D1340) is the contemporary decipherment of this letter; read from it, checked against the figures. New code values (texts/key.md): 4010 = Re di Francia (Lasry's key has Sua Santità, which does not fit), 2010 = Imperatore. 14 Nov 2026 (Brice Dudout, PR #604): re-read on the images, 97.4% of words; 7020 = risposta, 4050 = Monsignor Reverendissimo, dotted 3 + 8 = quanto, 2010 = N.S. in this letter. Date and sender: the letter opens 'Scrissi a Monsignor Reverendissimo d'Alesandrino dua mesi sono, l'ultimo di novembre', so it is not by Alessandrino; f. 641 lies in the part of the volume the archive dates 3 Jan - 1 May 1572 (the record's own 'Comment from archive'), so it is of about the end of January 1572. The writer (Rusticucci or Gualterucci by the archive's description) is not established.",
      "reading": [
       {
        "file": "targets/alessandrino1568/texts/R115_reading.md"
       }
      ],
-     "sent": false
+     "sent": false,
+     "fields": {
+      "start_year": 1572,
+      "start_month": 1
+     }
     }
    }
   },

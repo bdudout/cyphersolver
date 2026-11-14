@@ -2,7 +2,7 @@
 
 **14 Nov 2026 (verification):** R99 and R115, the two letters under the 95% bar since 24 Oct, re-read on the DECODE images and decipherments: R99 94.7% -> 98.9%, R115 88.5% -> 97.4%; all eleven letters now read. Codes 2020, 4050 and 9070 resolved; R115 probably of January 1572. Section at the end.
 
-Status: read (23 Oct 2026, r2g: all eleven letters read; R93, R96-R99, R102, R115 from the contemporary decipherments found on their DECODE cleartext images). Not yet written up again for the site.
+Status: read (23 Oct 2026, r2g: all eleven letters read; R93, R96-R99, R102, R115 from the contemporary decipherments found on their DECODE cleartext images; 24 Oct 2026 R99 and R115 under the 95% bar; 14 Nov 2026 both re-read by Brice Dudout and over it, PR #604).
 
 **22 Oct 2026, reading audit** (George Lasry's test): R93, R96, R97, R98, R99, R102 and R115 build Italian sentences with scattered slips; **R94, R95, R100 and R101 are decoded, not read**: the beam search's digit choices corrupt words in most of their sentences (R94 "liberagemptume", R95 "desersaleaniosina", R100 ends in ??????, R101 "unmannifestsobismain"). Claim read -> read in part; 7,036 of 10,555 items (66.7%) in letters that read.
 
@@ -20,7 +20,7 @@ imprisoned. Readings + English: texts/R94|R95|R100|R101_reading.md, _en.md; clea
 0.84 (before 0.75, 0.89, 0.78, 0.81 on the garbled decodes). State decoded, not read -> read; class back to read.
 
 Catalogue items 253 (class B) and 254. ASV (AAV), Segreteria di Stato, Spagna 6/I, items 1–10 ("Lettere orig. e
-cifre del cardinale Alessandrino dal 16 gennaio 1568 …"), DECODE R93–R102; and Spagna 6/II item 13 (1569), DECODE R115.
+cifre del cardinale Alessandrino dal 16 gennaio 1568 …"), DECODE R93–R102; and Spagna 6/II item 13 (catalogued 1569; of early 1572, see the integration check of 14 Nov 2026), DECODE R115.
 Sender: Michele Bonelli, Cardinal Alessandrino, nephew and secretary of Pius V. Recipient: the nuncio at Madrid,
 Giovan Battista Castagna. The letters are undated on DECODE; folio order puts 6/I in 1568.
 
@@ -62,7 +62,7 @@ Lasry's list. Each page ends in a run of padding (strings like `fcpfbrpf`), whic
 - R101 (6/I/9, f. 291r–v): Naples census (the hackney and the feudal dues of St Peter's day), the investiture, the
   schism threatened by the ministers; the King's realms will be troubled if he does not remedy it.
 - R102 (6/I/10, f. 306r): a prelate "deputato in regno" failing in his office; the Pope might have made him cardinal.
-- R115 (6/II/13, f. 641r, 1569): pensions on a see, the King's nomination, a commission; the Council.
+- R115 (6/II/13, f. 641r, catalogued 1569, of early 1572): pensions on a see, the King's nomination, a commission; the Council.
 
 ## Grades and what is open
 
@@ -168,7 +168,7 @@ decipherer "lucadi", not carried), one 5 2. read_share 0.885 -> **0.974** (151 w
 asking him to obtain the nomination from the King: this fits Cardinal Alessandrino at the King's court on his legation
 of 1571-72, so the letter is probably of about late January 1572, like the clear letters on the record (ff. 639, 642),
 and its writer is not Alessandrino. A 2010 that means the Pope, not the Emperor as in 1568, fits a different list.
-Title and route left as they are for Daniel to decide.
+Title and route left as they are for Daniel to decide. [Decided at the integration check below: R115 dated 1572 from the archive's description of the volume.]
 
 **Measurement.** The new values (2020 essendo, 7020 risposta, 4050 Monsignor Reverendissimo, dotted 2010 il Duca
 d'Alburquerque, dotted 3 + 8 quanto) are read from the contemporary decipherments, not found by search; key frozen
@@ -176,3 +176,31 @@ d'Alburquerque, dotted 3 + 8 quanto) are read from the contemporary decipherment
 R99 and R115 the codes occur only once more (dotted 3 + 8 in R95, already read "quanto alla" there), far from 300 fresh
 signs. read_share as `research/reading_audit/v10_relabel.py` counts it.
 
+## Integration check, 14 Nov 2026 (PR #604, Brice Dudout)
+
+The class change to read is applied.
+
+- Recount with `research/reading_audit/v10_relabel.share`: R99 259 words and 3 holes, 0.989; R115 151 words and 4
+  holes, 0.974, as the pull request says. The other nine letters are between 0.968 (R101) and 1.0 (R100). In R99 and
+  R115 every hole is one word, so the count by marks is the count by words.
+- The new words were checked against DECODE's own transcriptions of 2016 (`decode/DOC_R99_D1670_1670.txt`,
+  `DOC_R115_D1685_1685.txt`) with a separate small decoder: in "stato ricerco da", "ma inteso", "usato", "valore di
+  esso", "fin", "alcuna", "poi con le prime", "lo tratta di costa" and "Alesandrino" every figure is one of the two
+  letters of its figure. The same figures also spell "tolto" for "usato", as the reading's note says.
+- Two code values rest only on the contributor's re-reading of the decipherer's hand, which had been read differently
+  on 23 Oct: dotted 2010 = il Duca d'Alburquerque (then "Della dalla Chiesa a Milano") and 4050 = Monsignor
+  Reverendissimo (then "Commendatore"). Counted as holes, R99 is at 0.977 and R115 at 0.968, still over the bar.
+- Not checked here: the images. DECODE gives the full-size images and the decipherment leaves (D1284, D1340) only to
+  an account ("Insufficient permissions"); the blind second pass is by the contributor's record.
+- **R115 is of 1572 and is not Alessandrino's.** The DECODE record of R115 carries the archive's description of
+  Spagna 6/II: "Lett. orig. dei cardinali Alessandrino, Rusticucci e di Ugolino Gualterucci al nunzio, dal 1 jan
+  1569 - 29 dec. 1570, ff. 341-581 ... dal 3 jan 1572 - 1 maggio 1572, ff. 584-674". The cipher is f. 641, in the 1572
+  part, between clear letters of January 1572 (ff. 639, 642). The cipher itself spells "Scrissi a [4050] Alesandrino
+  dua mesi sono, l'ultimo di novembre": the writer wrote to Alessandrino, so he is someone else, writing about two
+  months after 30 November 1571. The description names Cardinal Rusticucci and Ugolino Gualterucci beside Alessandrino
+  for this volume; which of the two wrote f. 641 is not established here. That Alessandrino was then on his legation
+  to Spain and Portugal, and that Rusticucci held the secretariat meanwhile, is background not checked against a source
+  here. `profile.json` documents: R115 year 1569 -> 1572. The page and the README row say so. The target's title is
+  unchanged: it names the ten letters of 6/I (November 1567 to summer 1569).
+- R115's 2010 = N.S. (Emperor in the letters of 1568) and its 4050 fit a revised list of codes; the letter figures and
+  the other codes (1010, 2060, 2090, 3010, 5020, 5090, 7090) are the same, so R115 stays in this target.

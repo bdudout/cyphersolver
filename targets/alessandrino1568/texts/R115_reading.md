@@ -1,4 +1,4 @@
-# R115 — Cardinal Alessandrino to the nuncio Castagna, cipher of [Rome, January 1569] (Spagna 6/II/13, f. 641r): reading
+# R115 — The papal secretariat (not Alessandrino) to the nuncio Castagna, cipher of [Rome, about the end of January 1572] (Spagna 6/II/13, f. 641r): reading
 
 Rests on: the contemporary decipherment on a half-sheet bound with the cipher (`R115_decifrato_f641bis.txt`, DECODE
 cleartext image DOC_R115_D1340), found 23 Oct 2026 (r2g), and on the figures, read word by word against it
@@ -20,8 +20,9 @@ d'Alessandrino", i.e. to Cardinal Alessandrino himself, on 30 November, asking h
 King: this fits only a time when Alessandrino was himself at the King's court, i.e. his legation to Spain and Portugal
 of 1571-72, not 1568-69.
 The letter is therefore probably of about late January 1572, like the clear letters on the record (ff. 639, 642),
-and its writer is not Alessandrino (not identified here). The heading's "[January 1569]" and "Cardinal Alessandrino"
-are kept as Daniel set them until he decides.
+and its writer is not Alessandrino (not identified here). Integration check, 14 Nov 2026: the archive's description
+of Spagna 6/II on the DECODE record puts ff. 584-674 in 3 January - 1 May 1572, so f. 641 is of 1572; the heading is
+changed accordingly (NOTES.md, integration check).
 Marks: [?word] partly carried, […] unread, [word] supplied, [NNNN] an unidentified code.
 
 ## Reading
