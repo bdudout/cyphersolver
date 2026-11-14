@@ -124,7 +124,11 @@ here as "83%" and "140 of 481": 481 was not a second count but a fault in `dechi
   to be checked against its length and structure.
 - Houssaye, *1814* (1888), quotes Caulaincourt's letters to Napoleon of 24 and 27 Feb and 1, 11 and 13 Mar 1814 from
   "Arch. des Affaires étrangères, fonds France, 668", probably Mémoires et documents, France 668 at La Courneuve, where
-  clear copies of the Châtillon correspondence may survive. Not checked.
+  clear copies of the Châtillon correspondence may survive. Not checked. **14 Nov 2026** (issue #612, Brice Dudout): Houssaye
+  also cites volumes 669 and 670. Checked here on the OCR text of the archive.org copy `1814houssaye00housuoft`: "Lettres
+  de Metternich, de Caulaincourt et de Bassano. Arch. des affaires étrangères, 668, 669, 670"; "Caulaincourt à Napoléon et
+  à Hauterive, 18 mars. Protocole de la séance des 18 et 19 mars. Arch. des aff. étrangères, 668 et 670"; "Hauterive à
+  Caulaincourt, 17 février … fonds France, 668 et 670". So the search at La Courneuve is France 668 to 670, not 668 alone.
 
 ## Integration check (12 Nov 2026) of PR #411
 
@@ -181,6 +185,26 @@ above and listed here.
   recorded no viewer on 28 Oct 2026); Fain no. 29 against no. 172; Houssaye's France 668.
 - **DECODE:** no DECODE record exists for these letters (catalogue vetting, 2 Nov 2026), so there is no queue entry.
 
+## 14 Nov 2026: issue #612 (Brice Dudout), more pieces of the same weeks in the inventory
+
+Brice Dudout lists, from the FranceArchives inventory of AF/IV/1676 (plaquettes 4/III and 4/IV), pieces that the
+escalation list below did not name. He has transcribed none of them; this is the inventory only:
+
+- **no. 144** (27 Feb 1814, f. 912), *lettre chiffrée*, no decipherment mentioned: a second undeciphered letter two days
+  after the target, if the inventory is right (no. 130 shows that the inventory misses decipherments written on the cipher);
+- cipher and decipherment pairs before 4 March: 103-105 (20 Feb), 114-115 (21 Feb), 125-126 (23 Feb), 128-129 (24 Feb),
+  136-137 (26 Feb), 145-146 (27 Feb), 140-141 (28 Feb), 149-150 (28 Feb), 151-152, 153-154 (1 Mar), 155-156 (2 Mar).
+
+Why it matters: eleven pairs dated 20 Feb to 2 Mar lie around no. 131 (25 Feb), against the six pairs of 3-9 March
+(161-177) already listed; pairs 128-129 and 136-137 are the day before and the day after it. Each pair in the same
+table adds firm values to a key that now gives 28.4% of the groups of no. 131.
+
+Not checked here: the inventory itself. francearchives.gouv.fr answers a script with a page that requires JavaScript and
+cookies (14 Nov 2026), and no browser was available in this session; the SIV site was not tried again (503 in the sweep
+of `research/archives_nationales/`). Not known from the list: the correspondents of each pair (the carton also holds
+Napoleon's and Bassano's letters to Caulaincourt, which may be in another table), the folios, and whether the pairs are
+separate leaves or interlinear. The numbers go into the Escalation list as items to photograph, nothing more.
+
 ## Remaining gaps
 
 - No. 131, the whole cipher (465 groups) - blocker: needs-physical-access; the key is too thin (28.4% of groups take a firm value); more decipherments in the same key are in the same carton (see Escalation)
@@ -188,7 +212,8 @@ above and listed here.
 - The no. 131 consensus does not rebuild from the committed files - blocker: needs-physical-access; the cipher-only extracts it was made from are with the contributor, not in the pull request; the 465 groups were confirmed by an independent count
 - No. 172 (6 Mar 1814) - blocker: needs-physical-access; not photographed, starts at f. 977; Fain no. 29 is a candidate for its plaintext
 - Nos. 191-192 (mid-March) - blocker: needs-physical-access; not photographed
-- Clear copies of the Châtillon letters (Houssaye's "fonds France, 668") - blocker: needs-physical-access; La Courneuve, not checked
+- No. 144 (27 Feb 1814, f. 912, *lettre chiffrée* per the inventory) and the eleven cipher and decipherment pairs of 20 Feb to 2 Mar (103-105 to 155-156; issue #612) - blocker: needs-physical-access; known from Brice Dudout's reading of the FranceArchives inventory only, not photographed, and the inventory could not be opened from this session
+- Clear copies of the Châtillon letters (Houssaye's "fonds France, 668", also 669 and 670) - blocker: needs-physical-access; La Courneuve, not checked
 - Digit readings of no. 170 - blocker: illegible; uncertain on the phone photographs for 17% of the slots; images exported from the reader should settle most
 
 ## Escalation
@@ -197,7 +222,11 @@ above and listed here.
 2. Photograph the interlinear decipherments of plaquette 4/IV: 169bis (f. 968), 179 (11 Mar), 185 and 187 (13 Mar),
    and the rest of no. 130 (f. 885).
 3. Photograph the cipher/decipherment pairs 161-162, 163-164, 165-166, 168-169, 173-174, 176-177.
+   Added 14 Nov 2026 (issue #612, Brice Dudout, from the inventory; first confirm each on the inventory, with its
+   correspondents): the earlier pairs 103-105, 114-115, 125-126, 128-129, 136-137, 145-146, 140-141, 149-150, 151-152,
+   153-154, 155-156 (20 Feb to 2 Mar), nearest the target first (128-129, 136-137, 125-126, 145-146); and no. 144
+   (27 Feb, f. 912), a cipher with no decipherment named, to be looked at for an interlinear one as on no. 130.
 4. Rerun `aligner_multi.py` with them; apply the key to no. 131 and fill the holes from context, marking every
    context value doubtful until it holds at each occurrence.
 5. Photograph no. 172 and test Fain no. 29 as its plaintext; photograph nos. 191-192.
-6. At La Courneuve, look for Mémoires et documents, France 668 (Houssaye's citation) and a 1814 cipher table.
+6. At La Courneuve, look for Mémoires et documents, France 668, 669 and 670 (Houssaye's citations) and a 1814 cipher table.

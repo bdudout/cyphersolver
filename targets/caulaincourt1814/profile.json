@@ -207,7 +207,8 @@
    ],
    "what": "Integration of PR #411 after an independent verification. Reproduced from the committed files: the three consensus files, the key table and alignment (aligner_multi.py, 2 minutes), the trial decode. No image exists outside the contributor's phone, so no transcription could be checked. Corrections: no. 131 has 465 groups, not 481 (tokenizer fixed); 443 glosses, not 440; no. 171 has 949 words, not 970; the no. 130 position lines around 669 corrected by one group and the aligner rerun: 581 numbers aligned, 108 with a firm value (582 and 105 as sent). Of the 108, 45 are seen exactly twice and 21 are contradicted by the only direct evidence there is (a pencil gloss or a no. 130 position); on the table as sent the verifier found 82 of 105 surviving a 170-only run with anchors and 25 of 105 a run without the glosses, so the key is carried by the glosses and positions, and a realistic firm core is about 40 to 60 numbers, mostly function words. Nos. 130 and 170-171 recorded as existing decipherments transcribed, not as readings made here. Catalogue entry 534 and archive requests ar-240 to ar-242 updated with what the visit found, marked as from the contributor's visit and not checked here.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-11-14", "kind": "literature search", "what": "Issue #612 (Brice Dudout): from the FranceArchives inventory of AF/IV/1676 he lists no. 144 (27 Feb 1814, f. 912, lettre chiffree, no decipherment named) and eleven cipher and decipherment pairs of 20 Feb to 2 Mar (103-105, 114-115, 125-126, 128-129, 136-137, 145-146, 140-141, 149-150, 151-152, 153-154, 155-156), none of them in the escalation list. The inventory could not be opened here (the site requires JavaScript and cookies; no browser in this session), so the list is recorded as his. His second point was checked on the OCR text of Houssaye, 1814 (archive.org 1814houssaye00housuoft): Houssaye cites Arch. des affaires etrangeres, fonds France 668, 669 and 670 for the Chatillon letters, not 668 alone. Nothing transcribed; nothing of no. 131 read.", "result": "partial"}
  ],
  "outcome": {
   "method": "not solved",
@@ -256,7 +257,8 @@
     "item": "Digit readings of no. 170",
     "blocker": "illegible",
     "detail": "phone photographs of the reader screen; 17% of slots uncertain (2/7, 4/8, 3/5). Exporting images from the reader should settle most"
-   }
+   },
+   {"item": "No. 144 (27 Feb 1814) and the eleven cipher and decipherment pairs of 20 Feb to 2 Mar (103-105 to 155-156)", "blocker": "needs-physical-access", "detail": "known from Brice Dudout's reading of the FranceArchives inventory (issue #612); not photographed; the inventory could not be opened from this session"}
   ],
   "notes": "In progress: archive request ar-240. Nothing of no. 131 is read.",
   "credits": [
@@ -271,7 +273,8 @@
     "who": "contemporary",
     "role": "key or decipherment used",
     "note": "the interlinear decipherment of no. 130, the pencil glosses of no. 170 and its separate decipherment no. 171 (AF/IV/1676), transcribed by the contributor"
-   }
+   },
+   {"who": "dudout", "role": "pointer", "note": "AF/IV/1676 no. 144 and eleven cipher and decipherment pairs of 20 Feb to 2 Mar 1814 from the inventory; Houssaye's France 670", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/issues/612", "published": true}
   ],
   "provenance": "mixed",
   "parts": [
