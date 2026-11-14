@@ -16,6 +16,10 @@ only. Every remaining gap has an outside blocker (see Remaining gaps).
 - **d56**, MSS/20211/56 (bdh0000186631), Dueñas, 12 Nov 1470: a third cipher (numbers and signs, probably
   syllabic) with a faint modern pencil decipherment; transcribed (`transcription/d56_transcription.md`), not
   attacked. Not in `profile.json` documents.
+- **d61**, MSS/20211/61, the same to the same, Alcalá, 13 March 1473: a sibling in the 1473 cipher of /64, found
+  by Brice Dudout (PR #619, 14 Nov 2026). Eighteen runs (279 signs) under interlinear notes; the 1473 key recovers
+  0.68 of the note letters against at most 0.40 for shuffled keys, under the 0.85 set beforehand, so the key is
+  not validated by it and no reading is claimed (see d61). Not in `profile.json` documents.
 
 Prior work: Galende Díaz, "La escritura cifrada durante el reinado de los Reyes Católicos y Carlos V", *Cuadernos
 de Estudios Medievales y Ciencias y Técnicas Historiográficas* 18-19 (1994) 159-178, lists /56 and /73 as ciphered
@@ -100,6 +104,25 @@ the key does not apply; not decoded.
 Files: `transcription/d61_transcription.md` (runs and notes), `decryption/d61_decode.txt` (machine decode, not a
 reading), `check61/` (runs, notes, `score61.py`, result).
 
+### Integration check (14 Nov 2026, PR #619)
+
+- `check61/score61.py` re-run on the committed runs and notes with `dec1473.py` unchanged: 0.6807 of 166 note
+  letters, 11 of 36 words, shuffled keys at most 0.3976 (mean 0.307), `PASS: false`; the figures of `result.json`
+  reproduce exactly. A second control with 1,000 other shuffles: at most 0.404, mean 0.309. Per run the score runs
+  from 0.55 (`R10b`, `R12b`) to 0.86 (`R09a`).
+- A second decoder written from the key string of `dec1473.py` gives the same decode for all 18 runs (279 signs).
+- **The test set beforehand as a validation failed**: 0.68 against the bar of 0.85 (the margin over the controls,
+  +0.28, is also under the +0.30 the script asks). It is published as failed. What stands is the identification:
+  the decode is far above every shuffled key and gives *el duque*, *quatro ... galeras*, *aquela ciudat*, *duque*
+  under the notes that say so. The key of /64 is Michael Brackx's (PR #195) and is unchanged; the identification of
+  /61 and the test are Brice Dudout's (PR #619, with AI agents).
+- The order of events (protocol and blind transcription before the decode) is by the contributor's record: one
+  commit, no protocol file with an outside time stamp.
+- **Image not seen at integration**: BNE Digital answered 403 (its security block) to the one request made, so the
+  18 runs were not sampled against the image. The transcription is the contributor's blind pass, kept as made.
+- /61 is not added as a document of the profile and has no reading; the class and the read share of the target are
+  unchanged.
+
 ## Tried and ruled out (do not repeat)
 
 - The 1473 key on /73 and /56: different alphabets.
@@ -114,6 +137,7 @@ reading), `check61/` (runs, notes, `score61.py`, result).
 - d64, the σ-like `6` (*a* in four words, *i/j* in *mios* and *juntos*) and the plain `p` (*c*, *o*, once *a*): values chosen by sense - blocker: illegible; the 1085-px scan does not separate the forms
 - d73, *rompido* (cipher first sign `2`, *c* elsewhere) and *promendo* (so in both texts; sense not settled) - blocker: illegible; a better image would settle the letters
 - d73, the place sign `fi` near *a Napols* (Barcelona in d64) and the signs met once or twice - blocker: too-short
+- d61 (MSS/20211/61), the 18 cipher runs: decoded by machine with the 1473 key, not read; the sign taken as `FI` in `R10a` under a struck note (*cadiz*?) - blocker: illegible; the 120-ppi image does not settle the signs (0.68 of the note letters recovered), and the notes above the runs are a decipherment of the time
 
 ## Escalation
 

@@ -215,6 +215,25 @@
    ],
    "what": "MSS/20211/61 (Alcalá, 13 Mar 1473), not in the earlier lists, carries cipher runs in lines 7-18 of the recto (18 runs, 279 signs, blind shape transcription) with contemporary interlinear notes. The 1473 key (dec1473.py, unchanged) was applied under a protocol written beforehand: 0.68 of the note letters recovered (semi-global edit distance, 166 letters, 232 signs under notes) against at most 0.40 for 200 shuffled keys (mean 0.31); 11 of 36 note words found exactly (shuffled at most 5). Same cipher as /64; below the 0.85 bar set for a validation, and the glossed portion is under 300 signs, so not a validation of the key. Files: transcription/d61_transcription.md, decryption/d61_decode.txt, check61/.",
    "result": "partial"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "control",
+   "technique": [
+    "statistical test"
+   ],
+   "what": "Validation test of the 1473 key on MSS/20211/61, bar set beforehand by the contributor (0.85 of the note letters and 0.30 over the best shuffled key; by the contributor's record): 0.68, and 0.28 over the best of 200 shuffled keys (0.40). Failed: the key of /64 is not validated by /61.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "key matching",
+    "statistical test"
+   ],
+   "what": "Integration check of PR #619: check61/score61.py re-run (0.6807 of 166 note letters, 11 of 36 words, shuffled keys at most 0.3976, mean 0.307: result.json reproduces); 1,000 further shuffles at most 0.404; an independent decoder gives the same 18 decodes. The sibling identification of /61 stands; the validation test is recorded as failed in the step before. Order of events by the contributor's record. BNE Digital answered 403, so the runs were not sampled against the image.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -260,8 +279,8 @@
    },
    {
     "who": "dudout",
-    "role": "verification",
-    "note": "Found that BNE MSS/20211/61 (Alcalá, 13 Mar 1473) is in the 1473 cipher of /64 and tested the published key on its glossed runs (14 Nov 2026).",
+    "role": "identification",
+    "note": "Found that BNE MSS/20211/61 (Alcalá, 13 Mar 1473) is in the 1473 cipher of /64 and tested Michael Brackx's key, unchanged, on its glossed runs (PR #619, 14 Nov 2026): 0.68 against a bar of 0.85, so a sibling identification, not a validation of the key.",
     "date": "2026-11-14"
    }
   ],
@@ -280,6 +299,11 @@
     "item": "d73: 'rompido' and 'promendo'",
     "blocker": "illegible",
     "detail": "a better image of the clear paragraph and the cipher would settle the letters"
+   },
+   {
+    "item": "d61 (MSS/20211/61): 18 cipher runs decoded by machine with the 1473 key, not read",
+    "blocker": "illegible",
+    "detail": "the 120-ppi image does not settle the signs (0.68 of the note letters recovered); the interlinear notes are a decipherment of the time"
    }
   ],
   "texts": [
