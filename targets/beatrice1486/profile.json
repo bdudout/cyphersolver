@@ -51,11 +51,11 @@
    "present": "unknown"
   },
   "nulls": {
-   "present": true
+   "present": "unknown"
   },
   "key_order": "unknown",
   "summary": "A graphic substitution alphabet, by the letter's own statement the old cipher between Beatrice and Eleonora, for passages on the first page; not reconstructed here.",
-  "notes": "The closing paragraph says this letter uses the cipher the correspondents had of old and encloses a new one; whether the old one is the 1482 alphabet (beatrice1482) is not established (RESULT.md: the 1482 and 1486 alphabets look different). The printed reading keeps 'Virtus', 'Fortis' and repeated 'M.', whose role is not established. 14 Nov 2026: the 1482 key does not read it (identity test, vestigia/README.md); the runs use Latin-looking signs. The printed Virtus, Fortis, M. and decus are decoy words written in Latin letters inside the cipher runs, underlined as such in the period copy (Vestigia 1998)."
+  "notes": "The closing paragraph says this letter uses the cipher the correspondents had of old and encloses a new one; whether the old one is the 1482 alphabet (beatrice1482) is not established (RESULT.md: the 1482 and 1486 alphabets look different). The printed reading keeps 'Virtus', 'Fortis' and repeated 'M.', whose role is not established. 14 Nov 2026: the 1482 key does not read it (identity test, vestigia/README.md); the runs use Latin-looking signs. The printed Virtus, Fortis, M. and decus are words written in Latin letters inside the cipher runs and underlined in the period copy (Vestigia 1998); probably nulls (decoy words), a code word not excluded."
  },
  "conditions": {
   "prior_solution": {
@@ -136,6 +136,15 @@
    ],
    "what": "Vestigia's cipher original (1967) and period clear copy (1998) compared. The Virtus/Fortis/M./decus markers of the 1878 print are Latin-letter decoy words inside the cipher runs (wrnſ, forts…, M), underlined by the period decipherer: nulls. Pre-registered identity test: the 1482 key (beatrice1482) on these runs gives characters 0.135 against best 0.253 of 200 shuffled keys, so the old cipher is not the 1482 alphabet (211 signs; identity test only).",
    "result": "worked"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "statistical test"
+   ],
+   "what": "Integration check of PR #620. Identity test re-run with beatrice1482/vestigia/measure.py: 0.135 against best 0.253 of 200 shuffled keys on 211 signs; weak by construction (105 of the 211 signs have no value in the 1482 key, 86 of them labelled as Latin letters or words). Vestigia image of the clear copy 1998 opened: Virtus, fortis, M. and decus are there and underlined, a word struck before 'preposta'. That they are nulls is the contributor's reading of the underlining; a code word is not excluded. Cipher image 1967 not sampled; Cremonini 2015/2018 and Berzeviczy 1908 (listed by Vestigia) not opened. The key of the old cipher is not rebuilt.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -176,7 +185,7 @@
    {
     "who": "dudout",
     "role": "identification",
-    "note": "decoy words of the printed reading identified on the Vestigia pair; 1482 alphabet ruled out for the old cipher",
+    "note": "PR #620: the Virtus / Fortis / M. / decus of the printed reading traced to words in Latin letters inside the cipher runs, underlined in the period clear copy (Vestigia 1998); the 1482 key shown not to read the letter; with AI agents",
     "date": "2026-11-14"
    }
   ],
@@ -193,8 +202,10 @@
     "reading": "readings/R1142_reading.md",
     "translation": "readings/R1142_en.md",
     "language": "it",
-    "read_share": 0.996
+    "read_share": 0.996,
+    "transcription": "vestigia/R1142_V1967_transcription.txt"
    }
-  ]
+  ],
+  "provenance": "mixed"
  }
 }

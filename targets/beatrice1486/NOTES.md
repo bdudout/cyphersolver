@@ -47,3 +47,23 @@ written in Latin letters inside the cipher runs (wrnſ, forts…, M, dealſ); th
 underlined them, so they are nulls. The 1482 key of beatrice1482 does not read these runs (characters 0.135 against
 0.253 for the best shuffled key; 211 signs, identity test only): the old cipher is a different alphabet, still to be
 rebuilt. Details: [`vestigia/README.md`](vestigia/README.md).
+
+### Integration check (14 Nov 2026, PR #620)
+
+- `../beatrice1482/vestigia/measure.py` on `vestigia/R1142_V1967_transcription.txt` against `ref_R1142_MDE4.txt`:
+  211 signs, characters 0.135, precision 0.114, words 0; best of 200 shuffled keys 0.253. Reproduced. The test is
+  weak by construction: 105 of the 211 signs have no value in the 1482 key (86 of them are labelled as Latin letters or
+  words, `l:e`, `l:p`, `{wrnſ}` ...). It shows that the 1482 key does not read the letter; several shapes (9, V, 6, 3, Π, the ϟ-sign) occur in
+  both, so a related alphabet is not excluded.
+- Vestigia's web image of 1998 (the clear copy) was opened (not kept): lines 1-5 read *per lo M.co Virtus andriolo
+  fortis M.*, *che voglia decus confortare ... andriolo fortis ad venire qua M. fortis*, with *Virtus*, *fortis*,
+  *M.* and *decus* underlined, and a struck word before *preposta*. As stated. The cipher image 1967 was not
+  sampled.
+- So the words of the 1878 print come from the letter itself, through the copy: they are not the editor's. That
+  they are nulls (decoy words) is the simplest reading of the underlining and is the contributor's; a code word
+  with a meaning the decipherer did not have is not excluded.
+- Vestigia's record of 1998 lists Berzeviczy 1908 and Cremonini 2015 and 2018 as publications: not opened. Whether
+  they discuss these words or the old cipher is not checked.
+- Open and workable: the key of the old cipher could be rebuilt from the pair 1967 / 1998 (211 signs with their
+  clear text). Not done in the PR or here. The text of the letter is in print, so the class is unchanged.
+- No image is committed; the shape transcription is the contributor's, the reference lines are from the 1878 print.

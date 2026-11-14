@@ -97,6 +97,32 @@ here stand for *quod* or *con-*. The clear verb before the first ꝗ looks like 
 gives as *significet*. Neither point changes the sense: Balázs is to tell the king as soon as a safe road is found,
 and the troops are to meet there.
 
+## Open point (14 Nov 2026): three values against the key rebuilt for beatrice1482
+
+Brice Dudout (PR #620) rebuilt the key of the queen's letters of 31 May and 8 June 1482 to Eleonora
+(`targets/beatrice1482/vestigia/`) from their clear copies of the time. It is this alphabet: seventeen letter values
+are the same (a 8/V, b d, c reversed C, h 6, i 3, l σ, m ⊐, n ⊏/ϲ, o 7/Π/Λ, p ⊔, q =, r Ŧ, s L, t ⊥, u ⊤, tt ·ıı·)
+and both have a looped q-sign for the King of Hungary. Three values differ:
+
+| letter | here (R1156) | beatrice1482 (R1140, R1141) |
+|---|---|---|
+| d | 2 (*disposituros*, *diverti*), ᑐ | 9 (33 places in R1140; held out on R1141) |
+| g | hooked L | 2 (10 places in R1140: *grande*, *liga*) |
+| e | 5, 4, 9, ς | one ϟ/5-like sign |
+
+On the 648 signs of R1141, which the beatrice key was not built on, 9 = d and 2 = g give 0.900 of the characters of
+the printed text; 9 = e with 2 = d gives 0.833 and with 2 = i 0.843 (integration check of PR #620). So for the
+queen's letters 9 = d and 2 = g hold. For R1156 it cannot be settled from this folder: no sign-by-sign
+transcription was kept, the images are git-ignored and behind the DECODE login, and the table above was drawn from
+about 330 signs, with "2 as i and d" already noted as doing double duty. The likely explanation, not checked, is
+labelling: the sign called 2 in *disposituros* and *diverti* may be the 9-shape, and the 9 read as *e* may be a
+form of the 5-like sign. **The key above is left as it was.** To settle: re-read the d, e and g places of R1156
+on the image against the beatrice sign inventory (`targets/beatrice1482/vestigia/sign_inventory.md`).
+
+Seventeen shared values, the same court, the same week and the same household at Ferrara make this one key with
+beatrice1482. The two targets are cross-referenced and **not folded**; the fold under the one-key rule is left to
+the owner.
+
 ## Files
 
 - `decode/rec1156.htm`, `decode/view1156.json`: DECODE record and metadata (jwt.txt git-ignored).
