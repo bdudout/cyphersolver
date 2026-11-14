@@ -93,6 +93,71 @@ on the image: 224 is m in "compter" (p.600) and n in "l'emprunt" (p.573), so it 
 Statistical validation (docs/_validate.py, validation.tsv: the drafts' own plain units plus the bare passages read with
 key_full_r3): pass, z 9.1 against random keys, 4.1 against refits to shuffled text.
 
+## Integration check (14 Nov 2026)
+
+Done for the project at integration of pull request #587; the contributor's text above and below is unchanged.
+
+| Claim | Contributor | At integration | How |
+|---|---|---|---|
+| T1, pp.604-605 from K1 | 139 of 146, shuffles max 15 | 139 of 146; 200 shuffles max 15; own 2,000 shuffles max 23 | scripts rerun; own scorer |
+| T2, ten held-out pairs | 8 of 10, max 3 | 8 of 10, max 3 | script rerun |
+| T3, p.608 held out | 64 of 65, max 7 | 64 of 65, max 7 | script rerun |
+| Key hashes | key/FREEZE.txt | all three equal | sha256 |
+| Full key | 204 numbers | 204, identical | own build from the pair files |
+| Bare passages, numbers | 43 + 18 + 7 | 68 of 68 agree with the images | frames 0428, 0363, 0364a |
+| B573 read share | 39 of 43 numbers, 91% | 13 of 18 words, 72% | strict rule, below |
+| B491 read share | 12 of 18 numbers, 67% (86% without four nulls) | 10 of 16 units, 62% | strict rule |
+| B492 read share | 5 of 7 numbers, 71% | 1 of 4 words, 25% | strict rule |
+
+- **Tests.** All three reproduce, and the key files rebuild byte for byte. Each passes the bar its plan sets (T2 exactly
+  at the bar). The order of events (plans written before the runs, keys frozen before scoring) is by the contributor's
+  record; the contributor says the same above.
+  - T1: K1 covers 146 of the 179 groups that have a unit in the draft, so 139 is 77.7% of all of them.
+  - T3: the truth file holds 69 pairs. On the image of p.608 at least 13 further groups stand over the French and are
+    not in it (313 in "connoisse", 32 290 85 60, 204 before "envie", 261 310 133, 88 74 61 230 248 164). T3 therefore
+    scores the pairs that were aligned, not the whole page. One of the groups left out, 204 for "l'", would be a miss.
+- **Second decoder.** A decoder written here from the pair files gives the same key and the same four decodes. One
+  difference: 136 has one vote for "à" and one for "au"; the frozen key holds "à", and letters/B573_decode.txt prints
+  "au". The reading needs "au", which the gloss on p.516 gives.
+- **Images** (National Archives Catalog, `.../M332/004/<frame>.jp2`, fetched by plain download). Frames for the drafts:
+  p.599 = 0449, p.600 = 0450, p.601 = 0451a, p.603 = 0452, p.604 = 0453, p.608 = 0455b.
+  - The three bare passages: every number agrees with letters/B*_groups.txt (68 of 68). The last number of p.573 looks
+    like 369.
+  - Key sources: about 60 of the 69 pairs of p.608, 35 pairs of p.600 and 40 pairs of p.599 were compared with the
+    numbers standing over the French; all agree. p.599 does carry the numbers over de Neufville's own words, and its
+    lower block spells the units out under the numbers, so T1 is scored against pairs that are on the leaf.
+  - On p.599 the number 30 stands over "re" in "encore" (47 30). "g" for 30 in "ar{g}ent" (B573) and "{G}rand" (B492) is
+    therefore against the key in both places. Both words are counted as holes.
+- **Identification.** Seen on the images: the index entry on p.3 ("12. Thirty-five ... Du Noyer, Bowdoin or Mad. D. Arras
+  (Private news from Paris, for use U.S. 1779-81.)", folio 148); the letter of 23 February 1779 signed "Baudouin" (frames
+  0366-0367b); the letter headed "A Paris le Lundy 7 mars 1779" (frames 0368-0369a) with "je me depesche de faire le
+  chiffre ... je vous en joins un petit icy ... ce n'est qu'un changement de noms", signed "Baudouin", and "à l'avenir je
+  signeray un des noms que je prends dans le petit chiffre cy joint"; the cover to "Monsieur Van Temmel chez Mr Jean de
+  Neufville negociant à Amsterdam". The hand of these letters and of the letters of January 1780 looks the same; that
+  was judged by eye, by an AI model, not by a person. 7 March 1779 was a Sunday, so "Lundy 7" is the writer's slip or
+  the letter is of the 8th.
+  - Not checked here: that Baudouin was Sartine's secretary, and the Franklin Papers notes (28:354 n.9; 29:5-7 n.4;
+    29:438). Founders Online answered scripted requests with an empty response on 14 Nov 2026 (a bot check); it needs a
+    browser.
+- **Strict read shares** (sure words only; an open number, an unread number and a unit set by the word against the key
+  are holes; counted in words carried by code numbers):
+  - B573: 13 of 18. Read: les, États, Généraux, a, retiré, aux, l'emprunt, un, emprunt, son, au, crédit, du. Holes: [3],
+    [58]rands, [227]er, ar{g}ent, [369/349]. "l'emprunt" reads exactly with 38 = ru (the p.526 gloss); "un emprunt"
+    needs 352 and 394 as "un" where the key has "une", and 224 = m (key/corrections_post_test.tsv).
+  - B491: 10 of 16. Read: Stadhouder (twice), à, la, cour, Monsieur, le, Pensionnaire, de, Amsterdammois. Not read: 507,
+    501, 405, 387, 390, 447. That the last four are nulls is the contributor's suggestion, not shown.
+  - B492: 1 of 4 ("ce"; [143], [162] and "{G}rand" are holes).
+  - Together 24 of 38 = 63%. The contributor's figure, in numbers with a key value, is 56 of 68 = 83%.
+- **Prior art and duplicates.** No entry for this file, de Neufville or Baudouin in `catalogue.json`, `research/leads.json`,
+  the ledgers or any other target (the other "Neufville" entries are Villeroy and Bordeaux-Neufville). The contributor's
+  searches were not repeated, except Founders Online, which was blocked as above. Not a DECODE record.
+- **Corrections made in profile.json:** the three bare passages are "read in part" with the strict shares (they were
+  "read" with 0.91, 0.67 and 0.71); the pooled share is 0.63; the system summary and one credit note no longer say that
+  de Neufville made the code (who composed it is not shown, as stated above).
+- **State.** Folder only, `Status: in progress`, as the contributor filed it. The open numbers have steps not yet tried
+  (the glossed letters pp.516-548 in full, the rest of Baudouin's letters pp.487-590 for the numbers 3, 58, 143, 162,
+  227, 501 and 507, and the value of 30 in Baudouin's own use), so no page is written yet.
+
 ## The bare passages
 
 Decoded with key/key_full_r3.json (204 numbers). In the readings, [n] marks a hole and {x} a unit settled by the word, not
@@ -227,12 +292,19 @@ Searches made:
 
 ## Remaining gaps
 
-- Numbers 3, 58, 227, 369/349, 507, 501, 143 and 162, the two lines of p.527, and the likely nulls 405, 387, 390 and 447.
-- The glossed letters pp.516-548 are transcribed as pairs only.
-- Baudouin's letters of February 1779 to November 1781 (pp.487-590) contain more clear intelligence that is not
-  summarised here.
+- Numbers 3, 58, 227, 369/349, 507, 501, 143 and 162, the two lines of p.527, and the likely nulls 405, 387, 390 and 447 - blocker: open-codes; not glossed or drafted in the pairs taken so far.
+- The glossed letters pp.516-548 are transcribed as pairs only - blocker: not-attempted; workable, and the place to look for the open numbers.
+- Baudouin's letters of February 1779 to November 1781 (pp.487-590) contain more clear intelligence that is not summarised here - blocker: not-attempted.
 
 ## Escalation
+
+Checklist added at integration (14 Nov 2026), from the contributor's list below:
+- [x] siblings: all 808 images of the file paged; code numbers only on pp.487-609
+- [x] clear-pages: de Neufville's plain drafts and glosses are the key source; no plain text of the bare passages found
+- [x] known-keys: neither table survives as a table; no other key of this correspondence is known
+- [x] print: Founders Online, HathiTrust full text, Cryptiana (see "In print")
+- [x] key-rebuild: three rounds (K1, K2, full key), each from more drafts and glosses
+- [ ] retry: the glossed letters in full and the rest of Baudouin's letters have not been worked for the open numbers
 
 Tried for the open numbers:
 - every glossed letter and draft in the file (all 808 images paged);
