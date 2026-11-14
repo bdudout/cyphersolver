@@ -33,7 +33,7 @@ Transcription jobs (a contemporary decipherment covers them; not breaks):
 | Charles 30 Sep 1549, all cipher | six marginal decipherments | one blind pass, not yet an edition; `reading_ch1549_0930_1120.md` |
 | Charles 20 Nov 1549, all cipher | marginal decipherments, including c. 64v | one blind pass, not yet an edition; same file; the test on it fails on runs of 4+ |
 
-Not started: Charles 15 Jul and 23 Dec 1549, 1 Jul 1552, 11 Aug 1542 (looks like a different sign set on a contact sheet, not tested). cc. 131-132 were not located.
+Not started: Charles 15 Jul and 23 Dec 1549, 1 Jul 1552, 11 Aug 1542 (looks like a different sign set on a contact sheet, not tested). cc. 131-132 were not located. (14 Nov 2026: cc. 131-132 are `targets/renard1549/`, 11 Aug 1542 is `targets/gonzaga1542/`, 23 Dec and 15 Jul 1549 are described in `targets/gonzaga1549/`; two more Philip letters, cc. 15-17 and cc. 32-34, are not started. See the section of 14 Nov 2026 below.)
 
 Corrections to the catalogue:
 
@@ -158,6 +158,42 @@ The two blind decryption files are unrepaired decodings of a rough shape pass an
 
 Catalogue 1561 was reopened with the aim of reaching the read bar. Nothing moved. c. 10r lines A1-A4, B1-B2, B4-B5 and c. 28r D1-D4 were viewed again at 0.55-0.62 scale (tiled IIIF crops, left and right halves). On c. 10r every line compared with `transcription_1548_c10r.txt` agrees to the eye; that look came after the transcription, so it is not an independent pass and does not lift the status. A fresh sign-by-sign pass of the 1546 letter (cc. 5r-5v, about 23 cipher lines of about 28 signs) was started and stopped after line 1: several signs there are not in `key.tsv` (a barred pi-like sign, a cross with a loop), and the blind pass names do not map to them. The unread letters (1546, 1553, "1563") still need a named sign set built on the images before any decryption is worth reading.
 
+## 14 Nov 2026: issue #615 (Brice Dudout), cc. 131-132, letters held elsewhere, two more Philip letters
+
+Four points from Brice Dudout's own work on the Campori letters, each checked here against the repository or the
+Lodovico images (plain requests, no bot check, one every two seconds).
+
+1. **cc. 131-132 are located and have their own target.** Karl V, sfasc. IV, cc. 131-132 is Lodovico record
+   e7e65c38-4c54-48b1-8003-6da1c5c2ba1b: `targets/renard1549/` (Ivan Sourvillo, issue #373, read in part, 10 Nov 2026;
+   the imperial ambassador in France to Charles V, a copy sent to Ferrante). Its notes say c. 132 is blank or address
+   only; Brice Dudout has 132r blank and 132v without an address. Another key: not part of this target.
+2. **Three "not started" letters are worked in other folders.** 11 Aug 1542 (cc. 109-110) is `targets/gonzaga1542/`
+   (Prabal Gupta, issue #318; a consonant sign with a vowel digit above, another cipher). Charles 23 Dec 1549
+   (cc. 76-78, with its decipherment on c. 77) and 15 Jul 1549 (cc. 40-42, a numeric cipher with its decipherment on
+   c. 41) are in `targets/gonzaga1549/` (23 Dec read there against c. 77, 15 Jul described), which also holds this project's own reading of the
+   14 Nov 1549 letter and of the 13 May, 30 Sep and 20 Nov passages: the same letters and the same cipher as the
+   Charles letters of this folder. The two tables (`key.tsv` here, the sign table of `targets/gonzaga1549/`)
+   have not been compared value by value; that comparison, and the one-key question, are taken up under issue #618.
+   1 Jul 1552 (sfasc. I cc. 81-84) is described there as another sign set with a decipherment on cc. 82-83; not started
+   anywhere.
+3. **Two Philip letters that the list above does not have.** Both records exist and were opened here:
+   - Felipe II, sfasc. I, **cc. 15-17**, record 50aa71f4-d965-41be-a5b9-b9bd4c31efb3 (18 Mar 1549 by his dating;
+     the date line was not looked for here). c. 15r: "El Principe", four clear lines, then ten lines of cipher in
+     this target's sign set (`dide`, `quod`, `tac` are written as on the other letters), then clear. c. 17r is a clear
+     slip of eight lines in another hand, "lo que despues ay que dezir es que oy ha llegado correo del emperador mi
+     señor con los despachos … sobre de la empresa contra Dergut arraez, en lo qual Su Magestad avisa al Ambaxador
+     Figueroa …": by its form the decipherment of the cipher of c. 15r, as c. 14r is for c. 12r ten days earlier.
+     He holds a frozen transcription of 242 tokens (not sent). A third cipher and clear pair for the key, and,
+     if kept out of the key, a second held-out test.
+   - Felipe II, sfasc. I, **cc. 32-34**, record 897e61b7-4957-4f07-b4d2-debae54659a1. c. 34r ends "De Monçon a vj de
+     octubre 1552", signed "Yo el Principe". Cipher on c. 32r (three passages, about twelve lines) and c. 34r (eleven
+     lines), same sign set; cc. 32v-33v not opened here. No decipherment seen on the two pages opened. He counts
+     about 50 lines, cipher only. A break candidate longer than c. 10r, c. 26r or c. 28r.
+4. He agrees that the letter catalogued 16 Jun 1563 is in the same table (his earlier sorting by eye had put it
+   under another cipher). No new evidence; the letter stays "decoded, not read".
+
+Neither new letter is transcribed here. They are added to the gaps and to the escalation list.
+
 ## Remaining gaps
 
 - 14 Nov, three holes (A03 `5 a a`, A14 `lalgunte`, A16 `et ud y tu`) and 43 proposals, among them `[?inoue]` (E02) and the words touched by `9`, `c`, `vela`, `inta`, `nep` - blocker: open-codes; no key sheet found, context alone does not settle them.
@@ -165,11 +201,13 @@ Catalogue 1561 was reopened with the aim of reaching the read bar. Nothing moved
 - c. 10r, c. 26r, c. 28r: one primary pass each; the vicariate passage on c. 26r needs a second pass before anyone relies on it - blocker: not-attempted; budget.
 - Philip 1546, 1553, "1563": need a proper pass in a named sign set - blocker: not-attempted; budget.
 - 30 Sep and 20 Nov: not yet editions; they need the line-by-line pass given to 14 Nov - blocker: not-attempted; budget.
-- Charles 15 Jul, 23 Dec 1549, 1 Jul 1552, 11 Aug 1542: not started; cc. 131-132 not located; catalogue 1563 (Juan Manrique 1554, Brezeno 1548) not tested - blocker: not-attempted; budget.
+- Charles 15 Jul, 23 Dec 1549, 1 Jul 1552: not started here (23 Dec and 15 Jul are described in `targets/gonzaga1549/`); 11 Aug 1542 and cc. 131-132 are other ciphers with their own targets (`gonzaga1542`, `renard1549`); catalogue 1563 (Juan Manrique 1554, Brezeno 1548) not tested - blocker: not-attempted; budget.
+- Philip, sfasc. I cc. 15-17 (cipher c. 15r, clear slip c. 17r; 18 Mar 1549 by Brice Dudout's dating) and cc. 32-34 (Monzón, 6 Oct 1552, cipher on cc. 32r and 34r, no decipherment seen): not transcribed (issue #615) - blocker: not-attempted; the first is a third pair for the key or a second held-out test, the second a break of about 50 lines.
 - Prior art: Corpus documental vol. III, Druffel and the Simancas minutes, before anyone calls any of this new - blocker: needs-physical-access; no full text found online.
 
 ## Escalation
 
+- [ ] siblings, 14 Nov 2026 (issue #615, Brice Dudout): two Philip letters were not in the list, sfasc. I cc. 15-17 (cipher with a clear slip) and cc. 32-34 (6 Oct 1552, cipher only); both opened, neither transcribed. The other Felipe II records of the search (39 in all) have not been opened one by one for more cipher
 - [x] siblings: all listed letters of both entries were fetched; the key was built on the siblings with a decipherment (c. 12r, cc. 9r-9v) and tested on c. 30r, 30 Sep and 20 Nov
 - [x] clear-pages: clear pages checked; marginal decipherments found on c. 28r and c. 64v that the catalogue does not list
 - [x] known-keys (6 Nov 2026): the repo keys were checked for a same-family key. `mendoza1548/key_1548.md` is the same Spanish chancery syllabary (Bucuré 2025, reconstructed from Neapolitan letters of 1547; Bertomeu Masiá 2009 places it in the correspondence of Granvela, Mendoza and Ferrante Gonzaga). Two code groups agree with `key.tsv`: `dide` = Su Majestad, and `nego:` = franceses, against our `em` franceses and doubtful `nep` Francia. Not done: a value-by-value comparison of the two tables, which could settle the doubtful `9`, `c`, `vela`, `inta`, `nep`, and Bucuré 2025 and Masiá 2009 themselves, which are not opened. The 1556 key cannot express these signs; `charles1536` is a different syllable system; `philip1574` and `gonzaga1590` are other letters. `gonzaga1549/` holds separate work on catalogue 1560 (its own tables of 13 May, 14 Nov, 20 Nov 1549).
