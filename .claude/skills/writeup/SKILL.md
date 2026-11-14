@@ -114,7 +114,9 @@ Then record the result in the folder's `NOTES.md`, which the checker parses:
 **Read or read in part?** Apply the read bar in README Conventions: at least 95% of cipher tokens read as sense
 (measured), no gap `not-attempted`, every document read, only scattered codes or externally blocked pieces open.
 Record `outcome.key` (recovered / partial / none) apart from the text class, `outcome.codes_open`, and each document's
-`read` state. `_check_writeup.py` checks the bar both ways (audit section F).
+`read` state. `_check_writeup.py` checks the bar both ways (audit section F). The read share counts holes by words
+(14 Nov 2026): a bare `[...]` is one unread word, a longer hole is written `[... n]` with n counted from the decode or
+transcription (an estimate is said to be one in the reading's notes); a mark whose extent the files do not show stays bare.
 
 Blockers: `no-key-material`, `too-short`, `illegible`, `needs-physical-access` count as outside the session.
 `open-codes` is allowed but keeps the target on the audit's list of workable partials (section E), and
