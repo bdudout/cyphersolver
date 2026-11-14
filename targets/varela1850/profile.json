@@ -151,6 +151,15 @@
    "kind": "verification",
    "what": "Integration check (13 Nov 2026): check_marks.py and heldout.py re-run with the repo lexicon (candidate A 49/76 groups, 64.5%; shuffles mean 9.1%, max 44.7%, none at or above A). Strict share 9 of 21 items = 42.9% (the 7 lone numbers and the sign count as holes); the text-level read_share is set to that figure (it was 0.643, the share of the 14 letter-table words only). Read in part. The other letters of 558-1-31 were not paged for more cipher in this table: workable, so the target stays in progress and has no page.",
    "result": "worked"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "contextual inference"
+   ],
+   "what": "Issue #605 (Brice Dudout): the 98 images of 558-1-31 paged, item 13 the only cipher; items 4, 5, 6 and 14 name Joaquim Leite do Amaral Coutinho, the arms contractor who received the consul's advance. Checked here on the ANA PDF (contact sheets for the whole file; items 4 and 14 read at 130 dpi). R03 27.5 / 7.45.5 = Leite counted as read: 10 of 21 items (47.6%).",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -162,9 +171,9 @@
    "transcription",
    "key recovered"
   ],
-  "fraction_read": 0.43,
+  "fraction_read": 0.48,
   "fraction_read_method": "measured",
-  "fraction_read_source": "scripts/reading.py: 9 of 14 cipher words verbatim (64.3%); 9 of 21 counting the seven unidentified lone numbers and sign as holes (42.9%). The clear text of the letter is read in full.",
+  "fraction_read_source": "scripts/reading.py: 10 of 14 cipher words verbatim (71.4%); 10 of 21 counting the seven unidentified lone numbers and sign as holes (47.6%). The clear text of the letter is read in full. R03 Leite counted as read since 14 Nov 2026 (issue #605).",
   "verification": [
    "matched control",
    "historical consistency"
@@ -182,6 +191,13 @@
     "role": "transcription",
     "note": "ANA-AHRP-PY-558-1-31 sheets 586-587 from the ANA PDF",
     "date": "2026-11-12"
+   },
+   {
+    "who": "dudout",
+    "role": "pointer",
+    "note": "paged all 98 images of ANA-AHRP-PY-558-1-31 (no other cipher, key or decipherment) and pointed to items 4, 5, 6 and 14 of the file, which name Joaquim Leite do Amaral Coutinho: run R03 read as Leite",
+    "date": "2026-11-14",
+    "source": "https://github.com/dbourdeau/cyphersolver/issues/605"
    }
   ],
   "texts": [
@@ -194,9 +210,9 @@
     "translation": "translation_varela1850.md",
     "language": "es",
     "state": "read in part",
-    "read_share": 0.429,
-    "summary": "Varela acknowledges the consul's notes of 17 October and 21 November 1849 with the newspapers, news of an English contract and of Montevideo (partly unread), and that 'that one' received the pesos. Hopkins has arrived with the consul's letter of 12 November. The President does not see why news of a concentration should please [25], unless [25] dreams of the occupation of [Rio] Grande. He has seen in print the business of Olinda with [1]; it is strange that Paulino should feel embarrassed by Olinda's declaration to [1] about the occupation of [Rio] Grande; he is tainted with ministerial perfidy. The contributor identifies Olinda and Paulino as very likely the Brazilian foreign ministers of 1849-50.",
-    "note": "Cipher words 14: 9 verbatim from the signs (64.3%), 2 with a marked repair, 0 from a gloss, 3 holes; 7 occurrences of lone numbers or signs (25 twice, 1 twice, 116, 98, barred circle; 5 distinct) not identified. Reading checker clean share 0.536 (15 of 28 sentences); translation 0.561 (23 of 41).",
+    "read_share": 0.476,
+    "summary": "Varela acknowledges the consul's notes of 17 October and 21 November 1849 with the newspapers, news of an English contract and of Montevideo (partly unread), Leite, and that 'that one' received the pesos. Hopkins has arrived with the consul's letter of 12 November. The President does not see why news of a concentration should please [25], unless [25] dreams of the occupation of [Rio] Grande. He has seen in print the business of Olinda with [1]; it is strange that Paulino should feel embarrassed by Olinda's declaration to [1] about the occupation of [Rio] Grande; he is tainted with ministerial perfidy. The contributor identifies Olinda and Paulino as very likely the Brazilian foreign ministers of 1849-50.",
+    "note": "Cipher words 14: 10 verbatim from the signs (71.4%), 2 with a marked repair, 0 from a gloss, 2 holes; 7 occurrences of lone numbers or signs (25 twice, 1 twice, 116, 98, barred circle; 5 distinct) not identified. R03 Leite read since 14 Nov 2026 (it was a hole at the blind review of 13 Nov). Reading checker clean share 0.536 (15 of 28 sentences); translation 0.561 (23 of 41).",
     "reading_review": {
      "grade": "B",
      "by": "independent AI language-model agent (blind review)",
@@ -213,9 +229,9 @@
     "detail": "A separate list for names or words; not identified. Context guesses (25 Rosas, 1 the Argentine envoy in Rio) untested and unused."
    },
    {
-    "item": "R02 43.9.35 (soñ) and R03 27.5 / 7.45.5 (le / ite)",
+    "item": "R02 43.9.35 (soñ)",
     "blocker": "open-codes",
-    "detail": "Decoded letter by letter, no sense found in place; first group of R02 read 49 in pass 1, 43 on an 8x crop, and 43 by the blind reviewer. The blind reviewer suggests R03 may be the surname Leite ([?Leite]); not tested, kept as a hole."
+    "detail": "Decoded letter by letter, no sense found in place; first group read 49 in pass 1, 43 on an 8x crop, and 43 by the blind reviewer. R03 (le / ite) was in this gap until 14 Nov 2026; it is the surname Leite."
    },
    {
     "item": "R12 tail 98.15.5.27.19",
@@ -233,9 +249,9 @@
     "detail": "76 groups; crib and rule chosen by the solver with the clear context visible."
    },
    {
-    "item": "Sibling letters",
-    "blocker": "not-attempted",
-    "detail": "Other images of 558-1-31 and the López-era files not paged through for more cipher in the same table."
+    "item": "Sibling files",
+    "blocker": "no-key-material",
+    "detail": "558-1-31 paged in full on 14 Nov 2026 (98 images): no other cipher, no key, no decipherment. Other files of the Colección Rio Branco not paged; none is known to hold cipher."
    }
   ]
  }

@@ -11,7 +11,7 @@ Marks: `{x/y}` the signs give x, read y; `{+a}` letter added; `[...=m]` hole, th
 ```marked
 R01: <de la> contrata <Ingles>
 R02: [...=soñ]
-R03: <Montevideo> [...=leite]
+R03: <Montevideo> Leite
 R04: <los> pesos
 N01: [25]
 N02: [25]
@@ -33,7 +33,9 @@ Notes on the marks:
 - R08: the signs give `declaracon`; the `i` (7) is missing, a slip of the writer. Marked `{+i}`.
 - R10: the sixth group was read as 19 (g) on the image; the same word in R05 has 13 (c). The blind reviewer also
   sees 19 on the image and takes it as a slip of the writer. Marked `{g/c}`.
-- R02 `soñ` (43.9.35) and R03 `le / ite` (27.5 / 7.45.5) give no sense in their place; left as holes.
+- R02 `soñ` (43.9.35) gives no sense in its place; left as a hole.
+- R03 `le / ite` (27.5 / 7.45.5) is the surname Leite, read verbatim since 14 Nov 2026: items 4, 5, 6 and 14 of the
+  same file name Joaquim Leite do Amaral Coutinho, who received the consul's advance (NOTES, section of 14 Nov 2026).
 - R12: `ministerial` is read verbatim; then the lone group 98 (outside the letter table), `de`, and `lg` (27.19,
   the 19 has a line through it), not read.
 - The lone numbers 25, 1, 116 and 98 stand by themselves inside clear text and are not letters of the table
