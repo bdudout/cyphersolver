@@ -11396,6 +11396,12 @@
     "verdict": "partly_read",
     "closed": "Tranchedini: 1584 f. 353 (copy f. 352, ~5 blanks), 1585 ff. 28 (copy f. 27, 2 blanks), 30 (copy f. 29, ~6 blanks), 35 (copy ff. 34-36, complete), 71 (15th-c. decipherment f. 70 'Ex cifra Nicodemi', complete). See ital1584_copies_B.md (29 Oct 2026).",
     "date": "2026-10-29"
+   },
+   "reserved": {
+    "by": "Brice Dudout",
+    "since": "2026-11-14",
+    "until": "2026-12-14",
+    "note": "building the 1448 table from BnF ital. 1585 ff. 27-30 (issue #616); he pointed out the pairs on 29 Oct 2026"
    }
   },
   {
