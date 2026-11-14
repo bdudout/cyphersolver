@@ -32,11 +32,18 @@ opposition; the fifth image continues the fourth.
 
 ## Open
 
-- The old cipher is not identified: whether it is the 1482 alphabet of beatrice1482 has not been tested (no glyph
-  transcription exists for either).
-- The Virtus/Fortis/M. markers of the 1878 print.
+- The old cipher's key is not rebuilt. It is not the 1482 alphabet of beatrice1482 (tested 14 Nov 2026, below).
+- The Virtus/Fortis/M. markers of the 1878 print: explained 14 Nov 2026 (decoy words, below).
 
 ## Files
 
 - `readings/r1142_mde4_ocr.txt`, `r1142_closing_mde3_ocr.txt`, `r1142_body_berzeviczy_ocr.txt`: uncorrected OCR extracts
   of the printed sources.
+
+## 14 Nov 2026: the markers and the old cipher (Brice Dudout, Claude Opus 5.5)
+
+Vestigia 1967 (cipher) and 1998 (period clear copy). The printed "Virtus", "Fortis", "M." and "decus" are decoy words
+written in Latin letters inside the cipher runs (wrnſ, forts…, M, dealſ); the period decipherer copied them and
+underlined them, so they are nulls. The 1482 key of beatrice1482 does not read these runs (characters 0.135 against
+0.253 for the best shuffled key; 211 signs, identity test only): the old cipher is a different alphabet, still to be
+rebuilt. Details: [`vestigia/README.md`](vestigia/README.md).

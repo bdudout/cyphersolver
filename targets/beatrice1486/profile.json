@@ -15,9 +15,10 @@
    "cleartext_in_document": "interspersed",
    "plaintext": {
     "location": [
+     "separate folio",
      "printed edition"
     ],
-    "source": "MDE IV (1878), supplement no. 45, pp. 367-368 (cipher passage); MDE III no. 54 p. 67 (closing); Berzeviczy 1914 no. LVI (plain body)",
+    "source": "MDE IV (1878), supplement no. 45, pp. 367-368 (cipher passage); MDE III no. 54 p. 67 (closing); Berzeviczy 1914 no. LVI (plain body); period clear copy Vestigia 1998",
     "partial": "unknown"
    },
    "length": {
@@ -29,7 +30,7 @@
     "by": "published",
     "source": "MDE IV (1878), supplement no. 45, pp. 367-368 (cipher passage); MDE III no. 54 p. 67 (closing); Berzeviczy 1914 no. LVI (plain body)",
     "image_quality": "good",
-    "notes": "Published reading located and selected passages matched to manuscript; no fresh exhaustive glyph transcript."
+    "notes": "Published reading located and selected passages matched to manuscript; no fresh exhaustive glyph transcript. Blind glyph transcription of the five cipher runs of p. 1 (211 signs) from Vestigia 1967, 14 Nov 2026 (vestigia/)."
    },
    "read": "read"
   }
@@ -50,11 +51,11 @@
    "present": "unknown"
   },
   "nulls": {
-   "present": "unknown"
+   "present": true
   },
   "key_order": "unknown",
   "summary": "A graphic substitution alphabet, by the letter's own statement the old cipher between Beatrice and Eleonora, for passages on the first page; not reconstructed here.",
-  "notes": "The closing paragraph says this letter uses the cipher the correspondents had of old and encloses a new one; whether the old one is the 1482 alphabet (beatrice1482) is not established (RESULT.md: the 1482 and 1486 alphabets look different). The printed reading keeps 'Virtus', 'Fortis' and repeated 'M.', whose role is not established."
+  "notes": "The closing paragraph says this letter uses the cipher the correspondents had of old and encloses a new one; whether the old one is the 1482 alphabet (beatrice1482) is not established (RESULT.md: the 1482 and 1486 alphabets look different). The printed reading keeps 'Virtus', 'Fortis' and repeated 'M.', whose role is not established. 14 Nov 2026: the 1482 key does not read it (identity test, vestigia/README.md); the runs use Latin-looking signs. The printed Virtus, Fortis, M. and decus are decoy words written in Latin letters inside the cipher runs, underlined as such in the period copy (Vestigia 1998)."
  },
  "conditions": {
   "prior_solution": {
@@ -73,9 +74,9 @@
    "GPT-6",
    "claude-opus-5-5"
   ],
-  "sessions": 2,
+  "sessions": 3,
   "first_date": "2026-09-20",
-  "last_date": "2026-10-14",
+  "last_date": "2026-11-14",
   "tools": [
    "Python urllib (authorized DECODE downloads)",
    "pypdf source extraction",
@@ -125,6 +126,16 @@
    "kind": "verification",
    "what": "Full texts listed in outcome.texts (George Lasry's request of 22 Oct 2026): the OCR extracts of the printed decipherment (MDE IV 1878, MDE III 1877) and of the plain body (Berzeviczy 1914) as decryptions; no glyph transcription of the cipher exists (project work).",
    "result": "partial"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "plaintext matching",
+    "statistical test"
+   ],
+   "what": "Vestigia's cipher original (1967) and period clear copy (1998) compared. The Virtus/Fortis/M./decus markers of the 1878 print are Latin-letter decoy words inside the cipher runs (wrnſ, forts…, M), underlined by the period decipherer: nulls. Pre-registered identity test: the 1482 key (beatrice1482) on these runs gives characters 0.135 against best 0.253 of 200 shuffled keys, so the old cipher is not the 1482 alphabet (211 signs; identity test only).",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -136,10 +147,11 @@
   "class": "already solved",
   "fraction_read": "unknown",
   "verification": [
-   "independent clear copy",
-   "historical consistency"
+   "contemporary decipherment",
+   "historical consistency",
+   "independent clear copy"
   ],
-  "notes": "Andriolo to be brought to Hungary (the editor links the negotiation to the Djem affair). The printed reading keeps unexplained Virtus/Fortis/M. markers. Split on 14 Oct 2026 from beatrice1482.",
+  "notes": "Andriolo to be brought to Hungary (the editor links the negotiation to the Djem affair). The printed reading keeps unexplained Virtus/Fortis/M. markers. Split on 14 Oct 2026 from beatrice1482. 14 Nov 2026: Virtus/Fortis/M. explained as decoy words (nulls) flagged in the period copy; the old cipher is not the 1482 alphabet.",
   "credits": [
    {
     "who": "nagy",
@@ -154,6 +166,18 @@
     "note": "1914 edition no. LVI prints the plain body of the letter",
     "date": "1914",
     "source": "Berzeviczy, Aragoniai Beatrix ... okiratok (1914)"
+   },
+   {
+    "who": "vestigia",
+    "role": "key or decipherment used",
+    "note": "document 1998, the period clear copy of R1142, with the cipher original 1967",
+    "source": "https://www.vestigia.hu/documents/1998"
+   },
+   {
+    "who": "dudout",
+    "role": "identification",
+    "note": "decoy words of the printed reading identified on the Vestigia pair; 1482 alphabet ruled out for the old cipher",
+    "date": "2026-11-14"
    }
   ],
   "texts": [

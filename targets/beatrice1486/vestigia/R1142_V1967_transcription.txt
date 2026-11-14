@@ -1,0 +1,33 @@
+# passB R1142 — blind glyph transcription, v1967_p1.jpg (1486), page 1 — shapes only, no decipherment
+# Line numbering: line 1 = "et poten Ducissa ..." (the "Ill^ma" heading above it = line 0). Cipher runs found on lines 6-7, 12-13, 14-15, 17-18, 20-22.
+# Labels: inventory INVENTAIRE-SIGNES.md + l:<letter>, {word}, N1-N5 (below). l:g^2 = g-shaped sign with a small superscript "2" written above it (one token).
+# Crops/scripts: /Volumes/SPOF_2/Archives-Veille-cyber/croisement-1411/g7a-autres/vestigia/work/passB-r1142/ (rot.png = page levelled by -2.3 deg)
+
+line 6 | before: dealſ | 3 V l:p 3 9 / N4 l:s E 3 6 V 8 9 7 E 2 l:e l:e l:k l:g^2 PI PI 9 {wrnſ} l:w l:e l:e V 9 9 l:B 9 {focns} l:M | after: et
+line 12 | before: dealſ | PI 9 l:e l:e l:g^2 9 V l:s l:x V 6 l:p l:x 9 E l:e l:e V V 9 9 l:B 9 {fornſ} l:x V N1 6 l:e l:e PI V l:p N2 N3 E l:M / {focns} | after: per
+line 14 | before: Mta | l:M N4 PI V 9 N1 6 / E V l:w l:e l:e V V PI 9 l:B 9 {fortſ} 3 V E l:g^2 E l:s 9 l:M | after: che
+line 17 | before: li | N5 3 E 2 E V l:x l:s N1 PI l:s l:w N2 N1 6 {fer} E N4 3 6 / N4 E PI l:e l:e 8 9 N1 6 l:e l:e l:k V l:p 6 l:s V 6 l:s 9 V l:e l:e E V 6 {wrnſ} | after: et
+line 20 | before: che | {wrnſ} l:x l:e l:e V V l:k 9 l:B 9 V 6 / PI 9 l:e l:e l:s 9 l:e l:e 6 l:e l:e l:s l:p N4 2 o 3 9 l:e l:e 2 E PI l:e l:e PI E 7 l:k l:e l:e 9 6 l:s N4 2 o l:e l:e l:p / N1 2 o 2 l:e l:e l:w N2 N1 E l:M N5 {forts} | after: che
+
+# New labels
+# N1 = ß-like: long stem descending well below the line, with a closed bow/loop at top right (long-s + b, ꞵ); distinct from l:B, which sits on the line (8-like bowls on a short stem).
+# N2 = "xo": a rising diagonal stroke from lower left crossing into a loop, joined to a small o on the right (ꭓo / ϰo), read as ONE sign.
+# N3 = small diamond / rhombus (◇), closed, with a slight hook at top (l.12 only).
+# N4 = "c+": open c joined to a cross/plus whose vertical descends below the line (looks like a ct/et ligature, but differs from the clear-text "et", which has a looped e). Could also be two signs c + "+".
+# N5 = m-like sign with a looped initial stroke and three humps ending in a long horizontal tail (ɱ); distinct from l:M (two humps with a hooked entry and a tail).
+
+# Shape conventions / confidence notes
+# - E = the hooked "Ϛ / ϟ" sign (hooked top stroke, diagonal down, curl at bottom-left); used for every such sign. l:s = small round s / 5 (flat-topped in places) — may be a digit 5.
+# - 9 covers both the q-like form (closed loop + straight descender) and the g-like form (curved tail); they alternate (e.g. "9 9" in "V 9 9 l:B 9"), may be two distinct signs.
+# - V covers both the pointed v and the rounded ʋ with a curled entry stroke (both occur, often side by side "V V").
+# - PI covers both the small round-topped π and the taller flat-topped ΤΤ-like π (l.7 "PI PI", l.21).
+# - l:x = cursive x / ∝-shaped loop with a long tail to lower left; the two l:x after l:p on l.12 have a short tail (lower confidence).
+# - o (l.21-22, after 2) = plain small circle joined to the foot of the preceding 2, no horizontal tail; not the σ-form of the inventory.
+# - Latin words inside runs: {wrnſ} (l.7, 18, 20; thin lead-in hairline, could be read vvrnſ/wrnf), {focns} (l.7, 13: f o c n s, 3rd letter c-shaped, 4th n, final round s with tick), {fornſ} (l.12: 3rd letter r, 4th n or t), {fortſ} (l.15, clear t), {forts} (l.22, 3rd letter c/r-shaped), {fer} (l.17). These look like variants of one word; transcribed as written.
+# - "dealſ" (end of l.6 and end of l.11, immediately before runs 1 and 2) is in Latin letters but not an obvious Italian word: it may belong to the cipher. Left as anchor, not counted.
+# - l.14: "Mta" read as clear (superscript ta); the following M = l:M (same shape as l.7/12/15/22).
+# - l.17: "li" before N5 taken as clear. The "e" in {fer} is a clear e.
+# - l.8: after "persune" there is an isolated "ch" with crossed ascender (ꝯħ-like) before "deside-": taken as the usual clear abbreviation, NOT transcribed as a run (check).
+# - l.14 end: a thin pale diagonal "/" after "6", lighter ink — not counted (ruling/later mark?). Several pale vertical strokes crossing lines 12, 17, 18 also ignored (show-through/ruling).
+# - Faint vertical ticks above 8 and 7 on l.7 are lighter ink (show-through), ignored.
+# - No "?" needed: every sign was legible at 4x zoom; the main uncertainty is label assignment (9 vs q-form, V vs ʋ, E vs l:s) rather than legibility.
