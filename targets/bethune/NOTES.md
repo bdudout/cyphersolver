@@ -443,6 +443,26 @@ d'Espaigne, Archiduc, Fuentes).
 Not in Tomokiyo (his Béthune ciphers are fr. 15975 for 1602–05 and fr. 15972 for 1606–08), not in DECODE
 (search "Bethune" returns only Charost 1673), not in Xivrey (t. V has no Béthune letter for Nov 1601).
 
+## Integration check (14 Nov 2026), pull request #597 (Brice Dudout)
+
+The f. 53r alignment (`f53r_alignment.md`) was checked here on the Gallica image (ark btv1b52523722c, canvas 113,
+`openapi.bnf.fr` IIIF route, 3909 x 5340 px, the eight cipher lines and the margin gloss cut at full size). About forty
+groups of lines 2, 3 and 5 to 8 were compared with the transcription, the anchors first:
+
+- **72** stands where the gloss has *vous* four times: l. 2 `x, 72 , T 63` (*que vous pre-*), l. 3 `g a x; 72` (*ny que
+  vous*), l. 7 `72` before the clear word (*vous [s]avez*), l. 8 `6 72` (*sa Saincteté vous*). All four seen. The repo's
+  own corpus already had a fifth: block D1 of f. 49v (`corpus_v2.txt`) runs `x, d, 72 4 d` under *que ie vous ay*.
+- **6** as a figure standing alone is seen three times (l. 3 after the line-head sign, l. 6 after the dotted cross,
+  l. 8 after the doubling sign), each where the gloss has *sa Sain.té*.
+- **66** is seen once, l. 3, before `p + S f ...` (*sa volonté*). One occurrence: medium, as the contributor grades it.
+- Small differences that change no value: the two marks the file gives as `. .` near the end of l. 7 look like a small
+  raised `a o`; the first sign of *sçavoir* (given as `9`) can also be read as the looped g.
+
+The pre-registered check on other glossed blocks found one occurrence (n = 1): **not conclusive, by the rule declared**,
+and the declaration's hash is stated in the file but the declaration itself is not in the repository, so its order of
+events is by the contributor's record. The values rest on the verbatim gloss, which is the stronger evidence here. The
+three probable readings in the 22 Nov runs are not counted as read. `python docs/_check_profile.py bethune`: valid.
+
 ## Remaining gaps
 
 The 9 Nov 1601 (f. 33) and 22 Nov 1601 cipher runs are decoded, not read (2,849 tokens; reading audit 22 Oct 2026); the two letter lines below carry their blockers. The glyph transcription (~70% accurate) caps the decode; re-transcribe on full-resolution crops, using the glossed leaves ff. 49v-50r, 53r, 56r to fix the confusable glyphs.

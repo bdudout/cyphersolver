@@ -293,6 +293,15 @@
    ],
    "what": "Verification pass (Claude Opus 5.5): the eight cipher lines of f. 53r block 1 transcribed and aligned with their verbatim marginal gloss (f53r_alignment.md): 72 = vous (four aligned occurrences; settles the earlier proposal and the D1 counter-indication), standalone 6 = Sa Saintete (three), 66 = sa (one), plus 3: = faire, +. = de, n, = nous. Pre-registered check (SHA-256 285ddb07...) on glossed blocks not used for the derivation (f. 56r, f. 50r): one locatable occurrence, agrees; not conclusive; the 200-shuffled-key measurement is not applicable to groups this rare. Three 22 Nov runs give sense (vostre negotiation; correspondance ... discretion; le respect), probable only. Halphen 1889 still behind HathiTrust's human check (403). 9 and 22 Nov stay decoded, not read.",
    "result": "partial"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "plaintext matching"
+   ],
+   "what": "Integration check of pull request #597 (Brice Dudout): the f. 53r alignment compared with the Gallica image (canvas 113, openapi.bnf.fr IIIF, full size), about forty groups of lines 2, 3 and 5-8: 72 seen at the four places the gloss has vous, standalone 6 at the three places it has sa Saincteté, 66 once before volonté; block D1 of f. 49v in corpus_v2.txt already had 'x, d, 72 4 d' under 'que ie vous ay'. The contributor's pre-registered check (n = 1) is not conclusive by its own rule and its declaration is not in the repository (hash only; by the contributor's record). No value changed.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -368,6 +377,13 @@
     "note": "1599 Béthune key printed 1901: same design; its doubling-sign rule applied (values differ)",
     "date": "1901",
     "source": "Bazeries 1901, pp. 28-29"
+   },
+   {
+    "who": "dudout",
+    "role": "key corrected",
+    "note": "f. 53r cipher lines transcribed and aligned with their verbatim gloss: 72 = vous, standalone 6 = Sa Sainteté, 66 = sa (pull request #597)",
+    "date": "2026-11-14",
+    "source": "targets/bethune/f53r_alignment.md"
    }
   ],
   "texts": [

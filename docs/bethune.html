@@ -68,7 +68,7 @@
 </section>
 
 <main>
-<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#documents">The documents</a><a href="#design">The design</a><a href="#reading">The 10 November letter</a><a href="#nov22">The 22 November letter</a><a href="#attack">The 9 November letter, and the ceiling on it</a><a href="#groups">The code groups, and one proposal with evidence…</a><a href="#finish">What would finish the 9 November letter</a><a href="#texts">Full texts</a><a href="#sources">Sources</a></nav>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#documents">The documents</a><a href="#design">The design</a><a href="#reading">The 10 November letter</a><a href="#nov22">The 22 November letter</a><a href="#attack">The 9 November letter, and the ceiling on it</a><a href="#groups">The code groups, and three fixed from the gloss…</a><a href="#finish">What would finish the 9 November letter</a><a href="#texts">Full texts</a><a href="#sources">Sources</a></nav>
 <div class="callout glance" data-term-ok>
 <p class="gl-top"><strong>At a glance</strong><span class="gl-res">Key from adjacent plaintext &middot; partial (20% of the cipher)</span></p>
 <dl>
@@ -77,7 +77,7 @@
 <dt>The cipher</dt><dd>The design Bazeries printed in 1901 for the elder brother, with other values: figures and letter-shaped symbols with homophones, marked common words in alphabetical series, and two-digit figures for names (48 = Cardinal, 17 = Aldobrandin).</dd>
 <dt>How it was read</dt><dd>The minute of 10 November was aligned with the cipher of f. 34 and the glossed passages of 8 November and 10 December by a statistical (EM) aligner seeded by hand checks.</dd>
 <dt>What it says</dt><dd>The King&rsquo;s payment to Cardinal Aldobrandini for the Peace of Lyon: ten thousand &eacute;cus through Sillery and ten thousand more promised for early 1602.</dd>
-<dt>Still open</dt><dd>22 November is transcribed, its cipher runs decrypted in fragments; 9 November decodes at about six words in ten, at its measured ceiling, and is decoded, not read; fifteen code groups (mostly two-digit syllables and short words, not known to be names) are open. Next step: open Halphen&rsquo;s 1889 edition (in full view on HathiTrust, not yet opened) to see whether it prints the two letters in clear; then Cinq cents de Colbert 346.</dd>
+<dt>Still open</dt><dd>22 November is transcribed, its cipher runs decrypted in fragments; 9 November decodes at about six words in ten, at its measured ceiling, and is decoded, not read; sixteen code groups are open (72 = <em>vous</em>, 6 = <em>Sa Sainteté</em> and 66 = <em>sa</em> were fixed from the gloss of f. 53r on 14 November 2026). Next step: open Halphen&rsquo;s 1889 edition (in full view on HathiTrust, not yet opened) to see whether it prints the two letters in clear; then Cinq cents de Colbert 346.</dd>
 </dl>
 </div>
 
@@ -149,8 +149,8 @@ pour convier sa S.té au baptesme de mon filz, lequel se faict tres bien nourrir
 The letter is dated “Escrit a St Germain en Laye le xxij.e jour de 9bre 1601”, and a postscript, signed again, countermands part of what precedes it.</p>
 <p>The eighty ciphered runs are in <code translate="no">targets/bethune/ct_22nov.txt</code>. Decrypted with the key they give fragments only (<em>le cardinal aldobrandin</em>,
 <em>attenter a este toute</em>, <em>suisses</em>, <em>octobre</em>, <em>saincteté au</em>), the same ceiling the 9 November letter meets, for
-the same reason. Two values are confirmed by their clear frames, 73 = <em>vostre</em> and the pair 48 17 = <em>Cardinal Aldobrandin</em>. Fifteen groups
-remain open; three of them have frames that constrain them, and one, 72, has a proposal against it as well as for it (see below).</p>
+the same reason. Two values are confirmed by their clear frames, 73 = <em>vostre</em> and the pair 48 17 = <em>Cardinal Aldobrandin</em>. Sixteen groups
+remain open; three of them have frames that constrain them. Three others (72, 6 standing alone, and 66) were fixed on 14 November 2026 from the gloss of f. 53r (see below).</p>
 
 <h2 id="attack"><span class="num">05</span> The 9 November letter, and the ceiling on it</h2>
 <p>The corpus of known plaintext (the 10 November pair, the six glossed passages of 8 November, the footnote passage of 10 December, about 1,650 letters)
@@ -194,21 +194,25 @@ open-tailed and a looped <em>g</em> for n and s, three <em>m</em>-shapes for g, 
 magnification separates them. The note in the repository that called the remainder “a day’s work, mechanical” has been corrected there, with the numbers; the
 two-digit names were not the obstacle.</p>
 
-<h2 id="groups"><span class="num">06</span> The code groups, and one proposal with evidence both ways</h2>
-<p>The groups that carry the substance of both open letters (2, 5, 6, 8, 9, 12, 20, 28, 31, 44, 66, 67, 69, 72, 80) occur only where there is no
+<h2 id="groups"><span class="num">06</span> The code groups, and three fixed from the gloss of f. 53r</h2>
+<p>The groups that carry the substance of both open letters (2, 5, 8, 9, 12, 20, 26, 27, 28, 31, 44, 45, 62, 67, 69, 80) occur only where there is no
 decipherment. Three have clear frames that constrain them: <em>S 12</em> and <em>20</em> are the two persons “douez de toute prudence”; <em>28</em> is a
 place, from “ce[luy] m’a escrit de [28]”; <em>44</em> follows “et par consequent”.</p>
-<p>One has a proposal, recorded here the way this project records unconfirmed things. <strong>72 = <em>vous</em></strong>: the collocation “x , 72”
-(<em>que</em> followed by 72) occurs four times across ff. 46r, 46v, 47r and 33; 72 opens a line three times; and on f. 53r, whose marginal decipherment is
-verbatim rather than a paraphrase, the gloss reads “…je ne suis pas d’auis <em>que vous pressiez</em> sa Sain.té…” exactly where the cipher runs
-<code translate="no">x , 72 , T 63 , r S Z</code>, which with the established T = p, 63 = re, r = s, Z = e gives <em>que · vous · p-re-s-s-e</em>. Against it: the block on
-f. 49v ends <code translate="no">… 63 72</code> while its footnote gloss ends “il sera meilleur de differer a luy en parler”, where a final <em>vous</em> is hard to place.
-Either the ciphered block runs on past the passage the footnote glosses, or 72 is something else. <strong>It stays unconfirmed</strong>, and is used in no
-decryption on this page.</p>
-<p>The glossed leaves can settle them. At full resolution ff. 53r and 56r are tractable: their decipherments are
-verbatim, and whole clear phrases sit <em>inside</em> the ciphered blocks (“discours d’aultruy. Il fault” on f. 53r, “Mais je ne croy pas quil le face”
-and “si ce n’est pour” on f. 56r), each also in the gloss, in the gloss’s own order. These give fixed anchors for an alignment. f. 53r contains 66 and 72;
-f. 56r’s margins name the King of Spain and Archduke Albert in clear. Neither block is transcribed.</p>
+<p>Three more were open until 14 November 2026, when Brice Dudout, working with an AI model, transcribed the eight cipher lines of the first block of
+f. 53r (24 December 1601) and aligned them with their marginal decipherment, which is verbatim rather than a paraphrase
+(<code translate="no">targets/bethune/f53r_alignment.md</code>). <strong>72 = <em>vous</em></strong>: the figure stands at the four places where the gloss
+has the word, “que <em>vous</em> pressiez” (<code translate="no">x , 72 , T 63 …</code>, with the established T = p, 63 = re), “ny que <em>vous</em> vous
+mettiez”, “<em>vous</em> avez” and “sa Sain.té <em>vous</em> en ordonner”. <strong>6, standing alone as a figure, = <em>Sa Sainteté</em></strong>, at the
+three places where the gloss names the Pope; inside a word 6 stays the letter <em>a</em>. <strong>66 = <em>sa</em></strong>, once, before
+<em>volonté</em>, and so of medium confidence. The three anchors were checked again here on the Gallica image (about forty groups of the block) and stand.
+This also settles the doubt recorded earlier on this page, a block on f. 49v that ends <code translate="no">… 63 72</code> where its footnote gloss ends
+“a luy en parler”: the same block has <code translate="no">x , d , 72 4 d</code> under “que ie <em>vous</em> ay”, so its tail either runs past the passage
+the footnote glosses or was misread. A check declared beforehand on the other glossed blocks (ff. 50r and 56r) found a single occurrence, which agrees:
+by its own rule that is not conclusive, and the values rest on the gloss of f. 53r.</p>
+<p>The other glossed blocks can settle more. On f. 56r the decipherments are also
+verbatim, and whole clear phrases sit <em>inside</em> the ciphered blocks (“Mais je ne croy pas quil le face”
+and “si ce n’est pour”), each also in the gloss, in the gloss’s own order; its margins name the King of Spain and Archduke Albert in clear. The f. 56r
+blocks and the second block of f. 53r are not yet aligned.</p>
 
 <h2 id="finish"><span class="num">07</span> What would finish the 9 November letter</h2>
 <p>The clear text of both open letters should exist in a copy register, and the search found the likely volume. <strong>BnF, Cinq
