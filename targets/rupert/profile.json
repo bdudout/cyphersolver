@@ -496,7 +496,7 @@
   "credits": [
     {"who": "contemporary", "role": "key or decipherment used", "note": "lower alphabet of the royalist key sheet f. 106 (DECODE R8727), and the partial interlinear gloss on f. 107 used as crib"},
     {"who": "lasry", "role": "key or decipherment used", "note": "reconstructed key TNA SP106-8 and his interlinear decipherment of R924 (DECODE, 2020), which decipher f. 104 in part"},
-    {"who": "aaymeloglu", "role": "identification", "note": "identified the key of Add MS 72438 f. 10 as Digby key no. 129 and fixed about 45 of its values (GitHub issue #554)", "date": "2026-11-13", "source": "https://github.com/dbourdeau/cyphersolver/issues/554", "published": true}
+    {"who": "aymeloglu", "role": "identification", "note": "identified the key of Add MS 72438 f. 10 as Digby key no. 129 and fixed about 45 of its values (GitHub issue #554)", "date": "2026-11-13", "source": "https://github.com/dbourdeau/cyphersolver/issues/554", "published": true}
   ],
   "texts": [
    {

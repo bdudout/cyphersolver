@@ -1,0 +1,282 @@
+{
+ "schema_version": 1,
+ "target": "milan1494",
+ "title": "Giovan Battista Ridolfi (Milan, October 1494) and Piero Alamanni (Vigevano, April 1494) to Piero de' Medici, in the key sheet ASF MAP LXXII 183",
+ "documents": [
+  {
+   "id": "map74-112-115",
+   "read": "read in part",
+   "shelfmark": "ASF, Mediceo avanti il Principato, LXXIV docs. 112 (c. 256r), 113 (c. 257r-v), 115 (c. 263r)",
+   "date": "16, 21 and 30 Oct 1494",
+   "year": 1494,
+   "country": "Italy",
+   "route": "Giovan Battista Ridolfi (Milan) -> Piero di Lorenzo de' Medici (Florence)",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; the contributor found none in print."
+   },
+   "length": {
+    "tokens": 1092,
+    "unit": "symbols",
+    "measured": false,
+    "file": "aaymeloglu/ridolfi-transcription.tsv"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "the contributor's transcription from the ASF MAP images (1272 px), made twice by AI agents (the second blind, frozen and hashed before reconciling), reviewed by a second model on 70 spot checks; the project compared line 4 of doc. 112 c. 256r with the image (about 45 signs agree)",
+    "image_quality": "fair",
+    "notes": "Three letters; 283 cipher words, 1,092 signs between clear passages, counted by aaymeloglu/own_decode.py."
+   },
+   "places": {
+    "from": "Milan",
+    "to": "Florence"
+   }
+  },
+  {
+   "id": "map74-96",
+   "read": "read in part",
+   "shelfmark": "ASF, Mediceo avanti il Principato, LXXIV doc. 96, cc. 220-221",
+   "date": "26 Apr 1494",
+   "year": 1494,
+   "country": "Italy",
+   "route": "Piero Alamanni (Vigevano) -> Piero di Lorenzo de' Medici (Florence)",
+   "language": "Italian",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the leaves; the contributor found none in print."
+   },
+   "length": {
+    "tokens": 371,
+    "unit": "symbols",
+    "measured": false,
+    "file": "aaymeloglu/alamanni-transcription.tsv"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "the contributor's transcription from the ASF MAP images (1272 px), made twice by AI agents (the second blind, frozen and hashed before reconciling), reviewed by a second model on 70 spot checks; the project compared line 4 of doc. 112 c. 256r with the image (about 45 signs agree)",
+    "image_quality": "fair",
+    "notes": "One letter; 91 cipher units, 371 signs (the contributor's provisional word count); cipher from c. 220v line 6 to c. 221v."
+   },
+   "places": {
+    "from": "Vigevano",
+    "to": "Florence"
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Homophonic sign alphabet with up to three signs a letter, word signs (et, che, per, io, tu, voi, noi, quando, come, titles), nulls and numbers from 10 for names, per the key sheet MAP LXXII 183; six signs for doubled consonants and a sign for non are not on the sheet.",
+  "symbol_kind": "digits and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "unknown",
+  "notes": "The sheet gives the sign with the dotted dash for both n and c; Ridolfi writes d and l alike."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "no",
+   "where": "None found by the contributor for docs. 112, 113, 115 and 96; Desjardins (1859) prints the glossed doc. 114 only. Not re-searched by the project.",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "key from archive"
+  ],
+  "attack": "key from archive",
+  "human_role": "Contributed result (GitHub issue #589, Andrew Aymeloglu): AI agents matched the glossed word pairs of Ridolfi 107 and 110 to the key sheets of filza LXXII, transcribed the letters twice and read them; a second model reviewed; the contributor reviewed the result. The project checked and filed it.",
+  "tools": [
+   "the contributor's verify.py (read, not run)",
+   "aaymeloglu/own_decode.py (the project's decoder and count)"
+  ],
+  "models": [
+   "unknown"
+  ],
+  "first_date": "2026-11-14",
+  "last_date": "2026-11-14"
+ },
+ "solution": [
+  {
+   "date": "2026-11-13",
+   "kind": "key from source",
+   "what": "Andrew Aymeloglu (issue #589): the glossed word pairs of Ridolfi's letters MAP LXXIV 107 and 110 compared with the key sheets of filza LXXII; LXXII 183 reproduces them (44 of 44 letters on eight words, his figure; not held out).",
+   "result": "worked",
+   "technique": [
+    "key matching"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "kind": "transcription",
+   "what": "The four letters transcribed twice from the 1272 px images by AI agents, the second pass blind and frozen before reconciling; alternatives recorded for every ambiguous sign (the contributor's record).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-11-13",
+   "kind": "reading",
+   "what": "The sheet applied to Ridolfi 112, 113, 115 and Alamanni 96; six signs for doubled consonants and non added from glosses and from the words they make. Words graded strict, forced, lenient, doubtful, unread: Ridolfi 104, 90, 85, 2, 2 of 283; Alamanni 37, 24, 19, 0, 11 of 91.",
+   "result": "partial",
+   "technique": [
+    "key matching",
+    "contextual inference"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "kind": "control",
+   "what": "The contributor's calibration: with the gloss of Ridolfi 107 c. 241v masked, the reader got 28 of 38 glossed words right (74%), 4 confidently wrong. His key-shuffle control: z = 18.5 (Ridolfi), 13.5 (Alamanni). Not repeated by the project.",
+   "result": "partial",
+   "technique": [
+    "statistical test"
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "control",
+   "what": "Brice Dudout (comment on issue #589; his report, no files sent): the published key.json applied unchanged to the glossed Ridolfi letter MAP LXXIV doc. 114 (865 signs, his own frozen transcription) against Desjardins's printed text: character agreement 0.774 against 0.397 for the best of 200 shuffled keys; his bar was 0.85, so the test failed by his own rule; 101 of 175 words exact.",
+   "result": "failed",
+   "technique": [
+    "statistical test"
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "what": "Integration check: aaymeloglu/own_decode.py, written from key.json and the transcriptions, gives the key output of reading.txt for all 283 and 91 cipher words and the contributor's tier counts. The key sheet (image 79536) and Ridolfi 112 c. 256r (image 81807) fetched from the ASF server: SHA-256 as in images.tsv; the sheet's alphabet is as key.json gives it; line 4 of c. 256r agrees with the transcription (about 45 signs). Other leaves not compared. Read share by the README rule set to the strict tier (36.7% and 40.7%).",
+   "result": "worked",
+   "technique": [
+    "key matching"
+   ]
+  }
+ ],
+ "outcome": {
+  "method": "read after matching with key from external sources",
+  "method_basis": "The key sheet MAP LXXII 183, filed in the same fonds, was matched to Ridolfi's glossed letters by the contributor and applied to four bare letters; the project re-ran the lookup with its own decoder.",
+  "contribution": [
+   "decipherment with ambiguous key",
+   "transcription"
+  ],
+  "class": "read in part",
+  "key": "partial",
+  "provenance": "contributed",
+  "fraction_read": 0.377,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "aaymeloglu/own_decode.py: cipher words with no ambiguous sign (the contributor's strict tier), 104 of 283 (Ridolfi) and 37 of 91 (Alamanni) = 141 of 374; with the forced words 255 of 374 (68.2%); the contributor's widest figure, every word with a proposed reading, is 98.6% and 87.9%.",
+  "verification": [
+   "matched control",
+   "historical consistency"
+  ],
+  "notes": "Reading and key work by Andrew Aymeloglu with AI agents; the project re-ran the lookup and compared two images. The connected text is a proposal: about a third of the words are free of a choice between sign values.",
+  "gaps": [
+   {
+    "item": "words that rest on ambiguous signs (the n/c sign, d and l alike, others at 1272 px): 175 forced or lenient in Ridolfi, 43 in Alamanni",
+    "blocker": "not-attempted",
+    "detail": "Ridolfi's glossed letters 101-110 and 114 have not been used to separate his letter forms; doc. 114 with Desjardins's text is a ready test"
+   },
+   {
+    "item": "two unread groups and two doubtful words in Ridolfi 113; 11 unread words in Alamanni 96",
+    "blocker": "not-attempted",
+    "detail": "Gabbrielli's keys nos. 25 (Piero Alamanni, 1492) and 34 (de Rydolfis, 1495) not tried"
+   },
+   {
+    "item": "name number 22 (sheet: S. di Pesaro; gloss in Ridolfi 107: S. Lodovico) and 15",
+    "blocker": "not-attempted",
+    "detail": "other letters in this key not searched for 22 and 15"
+   },
+   {
+    "item": "two person signs not on the sheet",
+    "blocker": "not-attempted",
+    "detail": "glossed siblings not searched for them"
+   },
+   {
+    "item": "higher-resolution images",
+    "blocker": "needs-physical-access",
+    "detail": "the ASF server serves 1272 px at most"
+   }
+  ],
+  "texts": [
+   {
+    "doc": [
+     "map74-112-115"
+    ],
+    "label": "Ridolfi to Piero de' Medici, Milan, 16, 21 and 30 October 1494",
+    "transcription": "aaymeloglu/ridolfi-transcription.tsv",
+    "decryption": "aaymeloglu/reading.txt",
+    "reading": "aaymeloglu/ridolfi-reading.md",
+    "translation": "aaymeloglu/ridolfi-reading.md",
+    "language": "it",
+    "state": "read in part",
+    "read_share": 0.367,
+    "summary": "Ridolfi reports from Milan as Charles VIII comes through Lombardy: the King received at Pavia castle by the Duchess Bona; the Pavia citizens' protest against the milling duty; on the day the death of Gian Galeazzo was announced, the King's night visit to Bona and Duchess Isabella's refusal to appear; opinion in Milan that Florence cannot resist the French.",
+    "note": "Reader's note (the project, 14 Nov 2026), not a review grade: Read the Italian and the English of the three letters as sentences: they hold together and fit the dated events. But only 104 of 283 cipher words are free of a choice between sign values, 85 were chosen by sense, and the contributor's own blind calibration got 74% of glossed words right; A connected proposal with a small secure part."
+   },
+   {
+    "doc": [
+     "map74-96"
+    ],
+    "label": "Alamanni to Piero de' Medici, Vigevano, 26 April 1494",
+    "transcription": "aaymeloglu/alamanni-transcription.tsv",
+    "decryption": "aaymeloglu/reading.txt",
+    "reading": "aaymeloglu/alamanni-reading.md",
+    "translation": "aaymeloglu/alamanni-reading.md",
+    "language": "it",
+    "state": "read in part",
+    "read_share": 0.407,
+    "summary": "Alamanni privately urges Piero de' Medici that the King of Naples's plan to turn Genoa is the one remedy, must not be delayed and must be entered only with enough preparation, that name 22 will never trust the King, and that Piero must tell no one; on the last leaf, Lodovico's three threats, the second unread.",
+    "note": "Reader's note (the project, 14 Nov 2026), not a review grade: Read the Italian and the English as sentences: the cipher passages fit the clear text around them, with 11 of 91 cipher words unread and 19 chosen by sense; 37 words are free of a choice between sign values."
+   }
+  ],
+  "key_file": [
+   "aaymeloglu/key.json"
+  ],
+  "credits": [
+   {
+    "who": "aymeloglu",
+    "role": "solution",
+    "note": "key sheet MAP LXXII 183 matched to Ridolfi's glossed letters and applied to four bare letters; transcriptions, reading and translation (GitHub issue #589)",
+    "date": "2026-11-14",
+    "source": "https://github.com/dbourdeau/cyphersolver/issues/589",
+    "published": true
+   },
+   {
+    "who": "contemporary",
+    "role": "prior solution",
+    "note": "the key sheet MAP LXXII 183 and the interlinear glosses of Ridolfi's letters LXXIV 107 and 110",
+    "source": "https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=79536"
+   },
+   {
+    "who": "dudout",
+    "role": "verification",
+    "note": "applied the published key unchanged to the glossed Ridolfi letter LXXIV 114 against Desjardins's printed text (0.774 against 0.397; below his 0.85 bar); pointer to Gabbrielli's keys nos. 25 and 34 (comments on issue #589)",
+    "date": "2026-11-14"
+   },
+   {
+    "who": "bourdeau",
+    "role": "pointer",
+    "note": "catalogue 2382 and 2381 pointed to the bare letters and to Ridolfi's glossed siblings",
+    "date": "2026-11-06"
+   }
+  ]
+ }
+}

@@ -14684,6 +14684,9 @@
   },
   "falkenberg1631": {
    "skip": "Not on DECODE: Riksarkivet SE/RA/1133/1133.07/~/10, image R0000785_00133 (Falkenberg to Gustav II Adolf, 28 March 1631) has no DECODE record (known.py: only leads 1126 and 1127); nothing to send while the target is in progress."
+  },
+  "milan1494": {
+   "skip": "Not on DECODE: ASF Mediceo avanti il Principato LXXIV docs. 96, 112, 113, 115 and the key sheet LXXII 183 have no DECODE record (catalogue 2381 and 2382 vetting, 6 Nov 2026: the DECODE dumps in the repository hold no ASF MAP ciphertext record); nothing to send while the target is in progress."
   }
  }
 }
