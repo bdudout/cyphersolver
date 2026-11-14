@@ -1,0 +1,3 @@
+# 29 May 1940: English translation, by Jacob Houtrouw (issue #602), copied from the issue as posted on 14 Nov 2026
+
+Secret command matter. II Platoon, Light Reserve Flak Battery 453, changed position from Freudenstadt to Forbach-Gausbach station to protect an army unit and has been ready to fire since 27 May 1940. The composite platoon in position south of Rheinweiler was dissolved on 28 May 1940; the guns went back to their units. IV Platoon, Reserve Anti-Aircraft Machine-Gun Company 305, changed position from Hechingen to map reference R 3464760 H 5352850 west of Hochmössingen and has been ready to fire since 18.40 on 28 May 1940. Flak Command Black Forest, I c, No. 209/40, secret command matter.

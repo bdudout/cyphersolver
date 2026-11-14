@@ -1,0 +1,10 @@
+# 26 May 1940: what the key of the day (keys.txt) gives from 1940-05-26_transcription.txt, part by part (decode.py; the project's own decoder, 14 Nov 2026).
+# "ind" is the number of leading letters left out as the indicator group. Line 1 of each part: the letters the key gives. Line 2: the contributor's text
+# with each letter set to what its word wants; ^ marks the places where the two differ (slips of the sheet, or ? for a lost letter).
+[part 1, frames 917-918, stated 212] ind=5 letters=207 lost=0 differing=1
+GEHEIMEKOMMANDOSAQEXVIERSTRIQDREIZWEIEINSXKLAMMEREISKLAMMERHATAMXZWEIFUENFXFUENFXVIERNULLXSTELLUNGSWEQSELVONXKARLSRNHEXNAQXOFFENBURGXGEMAQTUNDISTSEITXZWEISEQSXFUENFXVIERNULLXNULLFUENFNULLNULLXUHRFEUERBEREITX
+GEHEIMEKOMMANDOSAQEXVIERSTRIQDREIZWEIEINSXKLAMMEREISKLAMMERHATAMXZWEIFUENFXFUENFXVIERNULLXSTELLUNGSWEQSELVONXKARLSRUHEXNAQXOFFENBURGXGEMAQTUNDISTSEITXZWEISEQSXFUENFXVIERNULLXNULLFUENFNULLNULLXUHRFEUERBEREITX
+                                                                                                                   ^
+[part 2, frame 918, stated 81] ind=5 letters=76 lost=0 differing=0
+FLUGABWEHRKDOSQWARZWALDROEMEINSCAESARNRXFRITZXEINSNEUNNEUNSTRIQVIERNULLGKDOS
+FLUGABWEHRKDOSQWARZWALDROEMEINSCAESARNRXFRITZXEINSNEUNNEUNSTRIQVIERNULLGKDOS

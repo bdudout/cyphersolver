@@ -1583,7 +1583,7 @@ PAGES = [
          rights='Journal: Landesarchiv Th&uuml;ringen &ndash; Staatsarchiv Altenburg, Sch&ouml;nbergische Sammlung Nr. 107 (ThULB Jena, CC BY 3.0); key and reading by Brice Dudout'),
     dict(slug='flak1940', label='Flak Command Black Forest 1940', year='1940', y=1940.4, place='Munich &rarr; Black Forest', st='solved', stt='key from adjacent plaintext',
          title='Radio messages of the Flak Command Black Forest, 17 May 1940',
-         blurb='Two Luftwaffe radio messages in a double columnar transposition (24 and 28 columns), read after Harumi-Matsuba recovered the day&rsquo;s keys from the recipient&rsquo;s fair copy: platoons of Reserve Light Flak Battalion 932 handed over to the command. 1,016 of 1,023 letters are right as plaintext. A third message, of 4 June 1940, was added on 12 November 2026.',
+         blurb='Two Luftwaffe radio messages in a double columnar transposition (24 and 28 columns), read after Harumi-Matsuba recovered the day&rsquo;s keys from the recipient&rsquo;s fair copy: platoons of Reserve Light Flak Battalion 932 handed over to the command. 1,016 of 1,023 letters are right as plaintext. A third message, of 4 June 1940, was added on 12 November 2026, and the keys of nineteen more days, found by Jacob Houtrouw, on 14 November 2026.',
          quote='&ldquo;GEHEIME KOMMANDOSACHE&rdquo;',
          rights='Messages: National Archives, RG 242, T405 roll 9 (US government work); keys and reading by Harumi-Matsuba'),
     dict(slug='toledo1479', label='Cipher letter from Toledo 1479', year='1479', y=1479.7, place='Toledo &rarr; Florence', st='partial', stt='key from the ciphertext',
