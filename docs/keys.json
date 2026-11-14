@@ -9789,7 +9789,7 @@
   "devil1539": "Not a cipher: the characters are a pictorial omen (tridents); no key exists. Amadi's demon-named sign table (c. 1588) was tested as values and gives no text.",
   "costabili1493": "Not a cipher: three clear Italian originals, no key.",
   "papai1710": "not solved: a graphic-sign alphabet with no key; Pápai's numeric key R580 does not cover it",
-  "beatrice1482": "text read from the 1877 printed decipherment; key rebuilt from the period clear copies by Brice Dudout (PR #620, targets/beatrice1482/vestigia/K_V.json), partial; the same alphabet as matthias1482 with three values in dispute, so no key entry until the two targets are reconciled",
+  "beatrice1482": "text read from the printed decipherments of 1877 and 1895; key rebuilt from the period clear copies by Brice Dudout (PR #620, targets/beatrice1482/vestigia/K_V.json), partial; the king's letter R1156 is in the same key (folded in 14 Nov 2026) and its further signs are recorded in the notes only, so no key entry yet",
   "beatrice1486": "read from the 1878 printed decipherment; the old cipher is not the 1482 key (tested, PR #620) and is not rebuilt; the new one it encloses is not identified",
   "beatrice1486b": "read from the contemporary slips and the 1877 print; no key identified or rebuilt",
   "beatrice1505": "not a cipher",

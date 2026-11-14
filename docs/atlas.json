@@ -973,6 +973,28 @@
    "label": "Beatrice d’Aragona"
   },
   {
+   "slug": "beatrice1482",
+   "doc": "R1156",
+   "year": 1482.42,
+   "date": "1482-06-01",
+   "from": "Pozsony",
+   "to": "Ferrara",
+   "st": "found",
+   "label": "Matthias Corvinus",
+   "who": [
+    {
+     "role": "sender",
+     "name": "Matthias Corvinus",
+     "img": "portrait_matthias-corvinus.jpg"
+    },
+    {
+     "role": "recipient",
+     "name": "Ercole I d'Este",
+     "img": "portrait_ercole-i-d-este.jpg"
+    }
+   ]
+  },
+  {
    "slug": "sadoleto1482",
    "doc": "R1101",
    "year": 1482.54,
@@ -6541,17 +6563,6 @@
    "to": "Florence",
    "st": "partial",
    "label": "Cipher letter from Toledo 1479",
-   "src": "profile"
-  },
-  {
-   "slug": "matthias1482",
-   "doc": "R1156",
-   "year": 1482.42,
-   "date": "1 Jun 1482",
-   "from": "Pozsony",
-   "to": "Ferrara",
-   "st": "solved",
-   "label": "Matthias 1482",
    "src": "profile"
   },
   {

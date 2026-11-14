@@ -582,7 +582,7 @@ Ranked by how firmly the negative is established and how prominent the item was.
 
 **Dirk van Hogendorp (St Petersburg) → Maarten van der Goes (1803; catalogue 227)** — content identified from Sillem&rsquo;s 1890 account and its explicit footnote to ciphered dispatch no. 12; the matching archive codebook was found, but the 286 groups have not been aligned to a verbatim plaintext. This is ranked as source identification, not as a cryptanalytic solve. [Write-up](https://dbourdeau.github.io/cyphersolver/r1942.html).
 
-**Beatrice d'Aragona (1482–1505; catalogue 160; four entries since 14 Oct 2026)** — source identification, not ranked as a new cryptanalytic solve. Readings in MDE III–IV (1877–78) for the 1482 letters ([beatrice1482](https://dbourdeau.github.io/cyphersolver/beatrice1482.html)), 8 March 1486 ([beatrice1486](https://dbourdeau.github.io/cyphersolver/beatrice1486.html)) and 2 May 1486 ([beatrice1486b](https://dbourdeau.github.io/cyphersolver/beatrice1486b.html)); R1154 plain and dated 1505, with Berzeviczy (1914) no. CCCII as control ([beatrice1505](https://dbourdeau.github.io/cyphersolver/beatrice1505.html)). The March Virtus/Fortis/M. come from the cipher itself (probably nulls); 1482 key rebuilt from R1140, its period clear copy and the 1877 print by Brice Dudout (PR #620, 14 Nov 2026), key recovered from external plaintext, partial, text already in print.
+**Beatrice d'Aragona (1482–1505; catalogue 160; four entries since 14 Oct 2026)** — source identification, not ranked as a new cryptanalytic solve. Readings in MDE III–IV (1877–78) for the 1482 letters ([beatrice1482](https://dbourdeau.github.io/cyphersolver/beatrice1482.html)), 8 March 1486 ([beatrice1486](https://dbourdeau.github.io/cyphersolver/beatrice1486.html)) and 2 May 1486 ([beatrice1486b](https://dbourdeau.github.io/cyphersolver/beatrice1486b.html)); R1154 plain and dated 1505, with Berzeviczy (1914) no. CCCII as control ([beatrice1505](https://dbourdeau.github.io/cyphersolver/beatrice1505.html)). The March Virtus/Fortis/M. come from the cipher itself (probably nulls); 1482 key rebuilt from R1140, its period clear copy and the 1877 print by Brice Dudout (PR #620, 14 Nov 2026), key recovered from external plaintext, partial, text already in print. The king's letter of 1 June 1482 (R1156) is in the same key and is part of beatrice1482 since 14 Nov 2026.
 
 Ordered by how much this repo added.
 
@@ -592,6 +592,9 @@ Ordered by how much this repo added.
    in 1895. The cipher runs re-read from the image and a working key rebuilt; four garbled passages of the print
    corrected (*valent*, *gentibus*, the closing *Speramus cito nos res nostras ita disposituros…*, and the "regest"
    shown to be the letter's own last sentence).
+   Since 14 Nov 2026 part of the beatrice1482 entry (one key: 9 = d and 2 = g confirmed on its image). A clear copy
+   of the time on Vestigia (document 2627) already has these readings, with *sentibus* for *gentibus*, and adds
+   *electos*.
 3. **Segreteria di Stato (Rome) to the Nuncio in Spain, 1718–1720, ASV Segr. Stato Spagna 364D (DECODE R154–R177).**
    Solved by George Lasry in October 2020; his reconstructed key and his segmented decipherment of the whole Spagna 364
    corpus are attached to every one of the 24 records, so the despatches were readable throughout. Measured here token by
