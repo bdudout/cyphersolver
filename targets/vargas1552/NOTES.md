@@ -30,7 +30,7 @@ Catalogue entry 197 removed on 21 Sept 2026. DECODE status correction queued (`d
 ## Remaining gaps
 
 - eight words of the marginal decipherment and the legate's name ([?Mignanelo]) - blocker: illegible; small margin hand at DECODE's 1850 x 2600 px (PARES lower); only the AGS originals would settle them
-- sign-by-sign check of the spelled cipher runs - blocker: no-key-material; the Imperial Cipher of 1544-1554 key is not in the repository; clear words and code groups were checked instead
+- sign-by-sign check of the spelled cipher runs - blocker: not-attempted; the cipher runs are not transcribed. Key material for it now exists: the sign tables of `targets/gonzaga1549/` (3 Nov 2026) and `targets/ferrante1549/`, and the Simancas reconstruction of 1866, AGS D/00203 no. 243 (issue #618, 14 Nov 2026; see `targets/gonzaga1549/NOTES.md`). Its code list has Cardenal ager and Papa pollo, as `texts/R9967_code_check.tsv` found on the letter (ager three times, pollo four)
 - closed 23 Oct 2026 (b36): the marginal decipherment fetched, transcribed and read
 
 ## Escalation
@@ -38,6 +38,7 @@ Catalogue entry 197 removed on 21 Sept 2026. DECODE status correction queued (`d
 - [x] siblings: Juan de Vega R9964 uses the same Imperial Cipher of 1544-1554 (Tomokiyo)
 - [x] clear-pages: 23 Oct 2026 (b36) the decipherment on the leaves transcribed in full; neighbours R9966, R9968 are other letters
 - [x] known-keys: the Imperial Cipher of 1544-1554 identified by Tomokiyo
+- [ ] known-keys, 14 Nov 2026 (issue #618, Brice Dudout): the Simancas reconstruction of 1866 and the two sign tables in the repository are available; the cipher runs are not yet transcribed and checked with them
 - [x] print: Tomokiyo gives no edition; not needed, the decipherment on the leaves is complete
 - [n/a] key-rebuild: the key is known
 - [x] retry: 23 Oct 2026 (b36) the letter read from the decipherment

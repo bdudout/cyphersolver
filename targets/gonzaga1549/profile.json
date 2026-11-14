@@ -519,7 +519,8 @@
    ],
    "what": "c.64r last two lines: dropping signs with dots below as nulls does not give Spanish.",
    "result": "failed"
-  }
+  },
+  {"date": "2026-11-14", "kind": "key from source", "technique": ["key matching"], "what": "Issue #618 (Brice Dudout): the Simancas sheet AGS D/00203 no. 243 opened. It is a reconstruction made in 1866 by the archivist Nemesio Ruiz de Alday from deciphered letters of 1545 in Estado, Flandes, leg. 501, not a table of the period. Its code list gives Papa pollo, para mus, Su Santidad inta, Franceses em, Vuestra gien, Francia nec; all six frozen code words of targets/ferrante1549/key.tsv (from contemporary decipherments) have the same value on it. Five of the nine open code words of this target are settled or confirmed (16 of 21 uses); inta and em change from 'the Church' to Su Santidad and Franceses. vela/bela, et ud and tu stay open. Reading files, codes_open and read share not changed in this round.", "result": "partial"}
  ],
  "outcome": {
   "validation": {
@@ -614,7 +615,9 @@
     "who": "contemporary",
     "role": "key or decipherment used",
     "note": "The imperial chancery's decipherments on the slip c.29 and on c.77, and the clerk's margin notes on c.64v and c.50r."
-   }
+   },
+   {"who": "dudout", "role": "pointer", "note": "the Simancas sheet AGS D/00203 no. 243 applied to the open code words (Pollo, mus, inta, em, gien); checked here on the PDF and against ferrante1549's key", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/issues/618", "published": true},
+   {"who": "tomokiyo", "role": "pointer", "note": "located the Simancas reconstruction of 1866 for this cipher (Cryptiana, spanish2.htm, note of July 2020)", "date": "2020-07", "source": "https://cryptiana.web.fc2.com/code/spanish2.htm", "published": true}
   ],
   "texts": [
    {

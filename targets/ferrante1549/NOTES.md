@@ -194,8 +194,44 @@ Lodovico images (plain requests, no bot check, one every two seconds).
 
 Neither new letter is transcribed here. They are added to the gaps and to the escalation list.
 
+## 14 Nov 2026: issue #618 (Brice Dudout), the Simancas sheet of 1866 and this target's code words
+
+The sheet is described in `targets/gonzaga1549/NOTES.md` (section of the same date): AGS, Biblioteca, D/00203 no. 243, a
+reconstruction made at Simancas in 1866 from deciphered letters of 1545, not a table of the period; public PDF,
+reproduction prohibited. Read here from the PDF and set against `key.tsv`:
+
+| `key.tsv` | status there | sheet of 1866 | result |
+|---|---|---|---|
+| dide Su Magestad | frozen | Su Magestad dide | same |
+| quod Embaxador | frozen | Embajador quod | same |
+| gien vuestra | frozen | Vuestra gien | same |
+| em franceses | frozen | Franceses em | same |
+| gaces Rey de Francia | frozen | Rey de Francia gacez | same |
+| mus para | frozen | para mus | same |
+| Pollo [Papa] | context, firm | Papa pollo | same |
+| inta [?la Yglesia] | context, doubtful | Su Santidad inta (Iglesia is sor) | corrected to Su Santidad |
+| nep [?Francia] | context, doubtful | Francia nec, with an end mark | sense confirmed; the letters want a look at the image |
+| vela [?Roma] | context, doubtful | not on the sheet | open |
+
+Six of six frozen code values, which came from the contemporary decipherments of Philip's letters, agree with a list
+drawn in 1866 from other letters: the two are independent, so this is a check of both. The hole at A16 (`et ud y tu`)
+is not cured: the sheet has "Embajador de Inglaterra et ud" and "lea tu", and its nulls note names `et`; none gives
+sense there.
+
+Brice Dudout reran `scripts/check_marks.py` on a copy of the 14 Nov reading with inta = Su Santidad, nec/nep = Francia,
+pollo = Papa and et = null and reports 867 of 908 words (95.5%) against 864 of 910 (94.9%) "with repairs". That figure
+is his and his file was not sent. By the strict rule of this project (sure words only; a marked repair is not a read
+word) the letter stands at 811 of 910 verbatim (89.1%), and at most six words move, so it stays read in part.
+`key.tsv` and the reading are not changed in this round.
+
+**The same letters are in `targets/gonzaga1549/`** (the project's own reading of 3 Nov 2026, on the site): Charles V
+of 14 Nov 1549 and the passages of 13 May, 30 Sep and 20 Nov. The two were made apart, from separate transcriptions and
+separate tables, and neither cited the other. That makes a second reading of one letter, to be compared line by line,
+and one key in two folders. The recommendation to the owner is in the round's report (R14_ib.md); nothing is merged here.
+
 ## Remaining gaps
 
+- 14 Nov, code words: inta is Su Santidad and nep is Francia by the Simancas sheet of 1866 (issue #618); not yet written into `key.tsv` and the reading; a line-by-line comparison with the reading in `targets/gonzaga1549/` is not done - blocker: not-attempted; waits for the decision on one entry for this key.
 - 14 Nov, three holes (A03 `5 a a`, A14 `lalgunte`, A16 `et ud y tu`) and 43 proposals, among them `[?inoue]` (E02) and the words touched by `9`, `c`, `vela`, `inta`, `nep` - blocker: open-codes; no key sheet found, context alone does not settle them.
 - 14 Nov, sign differences of pass 2 (19.2% of A08-D23) not all settled; A00-A07 one pass - blocker: not-attempted; a zoom reading of A00-D13 would likely cure more of the 53 repairs.
 - c. 10r, c. 26r, c. 28r: one primary pass each; the vicariate passage on c. 26r needs a second pass before anyone relies on it - blocker: not-attempted; budget.
@@ -211,6 +247,7 @@ Neither new letter is transcribed here. They are added to the gaps and to the es
 - [x] siblings: all listed letters of both entries were fetched; the key was built on the siblings with a decipherment (c. 12r, cc. 9r-9v) and tested on c. 30r, 30 Sep and 20 Nov
 - [x] clear-pages: clear pages checked; marginal decipherments found on c. 28r and c. 64v that the catalogue does not list
 - [x] known-keys (6 Nov 2026): the repo keys were checked for a same-family key. `mendoza1548/key_1548.md` is the same Spanish chancery syllabary (Bucuré 2025, reconstructed from Neapolitan letters of 1547; Bertomeu Masiá 2009 places it in the correspondence of Granvela, Mendoza and Ferrante Gonzaga). Two code groups agree with `key.tsv`: `dide` = Su Majestad, and `nego:` = franceses, against our `em` franceses and doubtful `nep` Francia. Not done: a value-by-value comparison of the two tables, which could settle the doubtful `9`, `c`, `vela`, `inta`, `nep`, and Bucuré 2025 and Masiá 2009 themselves, which are not opened. The 1556 key cannot express these signs; `charles1536` is a different syllable system; `philip1574` and `gonzaga1590` are other letters. `gonzaga1549/` holds separate work on catalogue 1560 (its own tables of 13 May, 14 Nov, 20 Nov 1549).
+- [ ] known-keys, 14 Nov 2026 (issue #618): the Simancas reconstruction of 1866 (AGS D/00203 no. 243) agrees with the six frozen code words and Pollo, and corrects inta; its syllable rows not compared with `key.tsv`; `targets/gonzaga1549/sign_table.tsv` not compared either
 - [ ] print: CSP Spain IX, CSP Venice V and the DBI opened; Corpus documental III, Druffel and the Simancas minutes not
 - [x] key-rebuild: table extended on 14 Nov from what reads, by context and on the images; each value marked
 - [ ] retry: done for the lines listed under "Blind checks of the readings"; not yet for A00-D13 as a whole

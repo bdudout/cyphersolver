@@ -560,7 +560,8 @@
       "what": "Repo keys checked for a same-family key: mendoza1548 key_1548.md is the same Spanish chancery syllabary (Bucuré 2025; Bertomeu Masiá 2009 places it in the Granvela/Mendoza/Ferrante Gonzaga correspondence). Code groups dide (Su Majestad) and nego: (franceses) agree with key.tsv. No value-by-value comparison yet; Bucuré 2025 and Masiá 2009 not opened.",
       "result": "partial"
     },
-    {"date": "2026-11-14", "kind": "access", "what": "Issue #615 (Brice Dudout). Checked in the repository: cc. 131-132 are targets/renard1549 (another key); 11 Aug 1542 is targets/gonzaga1542 (another cipher); Charles 23 Dec and 15 Jul 1549 are described in targets/gonzaga1549, which reads the same 14 Nov 1549 letter. Checked on the Lodovico images: Felipe II sfasc. I cc. 15-17 (record 50aa71f4) has ten lines of cipher in this sign set on c. 15r and a clear slip of eight lines on c. 17r (the Emperor's courier, the enterprise against Dragut, Figueroa); cc. 32-34 (record 897e61b7) is dated Monzon 6 Oct 1552 on c. 34r, with cipher on cc. 32r and 34r and no decipherment seen. Neither letter transcribed here; the 18 Mar 1549 date of cc. 15-17 is his.", "result": "worked"}
+    {"date": "2026-11-14", "kind": "access", "what": "Issue #615 (Brice Dudout). Checked in the repository: cc. 131-132 are targets/renard1549 (another key); 11 Aug 1542 is targets/gonzaga1542 (another cipher); Charles 23 Dec and 15 Jul 1549 are described in targets/gonzaga1549, which reads the same 14 Nov 1549 letter. Checked on the Lodovico images: Felipe II sfasc. I cc. 15-17 (record 50aa71f4) has ten lines of cipher in this sign set on c. 15r and a clear slip of eight lines on c. 17r (the Emperor's courier, the enterprise against Dragut, Figueroa); cc. 32-34 (record 897e61b7) is dated Monzon 6 Oct 1552 on c. 34r, with cipher on cc. 32r and 34r and no decipherment seen. Neither letter transcribed here; the 18 Mar 1549 date of cc. 15-17 is his.", "result": "worked"},
+    {"date": "2026-11-14", "kind": "key from source", "technique": ["key matching"], "what": "Issue #618 (Brice Dudout): the Simancas sheet AGS D/00203 no. 243 (a reconstruction of 1866 from deciphered letters of 1545, not a period table) read from the public PDF and compared with key.tsv. The six frozen code words (dide, quod, gien, em, gaces, mus) and Pollo have the same value on it; inta is Su Santidad there (key.tsv: doubtful la Yglesia); Francia is nec (key.tsv: doubtful nep); vela is not on it. His rerun of check_marks.py (95.5% with repairs) is his own figure; verbatim stays 811 of 910. key.tsv and the reading unchanged. Noted: targets/gonzaga1549 reads the same letter of 14 Nov 1549.", "result": "partial"}
   ],
   "outcome": {
     "class": "read in part",
@@ -594,7 +595,8 @@
         "note": "the cipher of twelve letters from the Estense images, some by one rough pass",
         "date": "2026-11-03"
       },
-      {"who": "dudout", "role": "pointer", "note": "cc. 131-132 located; two Philip letters not in the list (sfasc. I cc. 15-17 with a clear slip, cc. 32-34 of 6 Oct 1552); cross-links to gonzaga1549 and gonzaga1542", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/issues/615", "published": true}
+      {"who": "dudout", "role": "pointer", "note": "cc. 131-132 located; two Philip letters not in the list (sfasc. I cc. 15-17 with a clear slip, cc. 32-34 of 6 Oct 1552); cross-links to gonzaga1549 and gonzaga1542", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/issues/615", "published": true},
+      {"who": "dudout", "role": "pointer", "note": "the Simancas sheet AGS D/00203 no. 243 applied to the doubtful code words inta, nep, pollo and et; checked here on the PDF", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/issues/618", "published": true}
     ],
     "gaps": [
       {
