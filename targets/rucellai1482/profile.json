@@ -317,6 +317,12 @@
    "kind": "reading",
    "what": "196, 200, 202, 206, 211 read word by word: sure + probable words cover 52-66 % of the decoded letters of the cipher runs; Ascanio, the Duke of Calabria, Montferrat, France, Genoa, Castelnuovo, Parma and the Ferrarese named.",
    "result": "partial"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "what": "Integration check of PR #617: own second decoder from key/K_HP_v1.json identical to the six decryption files; fit on 207/208 recomputed 0.800 (stated 0.8093); strict shares recounted (sure words only): 49.2, 40.0, 25.0, 61.0 and 45.1% of units, 20.8-53.2% of decoded letters; ASF image of 207 recto fetched (1272 px), about 120 signs of lines 0-2 compared, two doubtful; MAP LXXII 183 (issue #589) compared by sign descriptions: same conventions for five signs, not the same key. The two failed tests cannot be rerun (their files are not in the folder).",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -340,9 +346,9 @@
    "file": "validation.txt",
    "notes": "Contributor's tests (not docs/_validate.py). Only protocol figure for the system: 0.6018 vs at most 0.2281 (204 against 205, earlier key K_T, 6 Nov 2026), below the 0.85 set in advance; 0.5088 vs 0.2832 on 201 (13 Nov). K_HP_v1 itself has no fresh test: fit 0.8093 on its training pair 207/208; lexical coverage 0.374 vs at most 0.122 for 200 shuffled keys on 200, 202, 206, 211 (consistency check)."
   },
-  "fraction_read": 0.6,
-  "fraction_read_method": "estimated",
-  "fraction_read_source": "reading/lxxii*.md (14 Nov 2026): sure + probable words cover 52-66 % of the decoded letters of the cipher runs per letter (196 64 %, 200 66 %, 202 52 %, 206 66 %, 211 53 %); clear words of the letters not counted.",
+  "fraction_read": 0.37,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "Strict recount of reading/lxxii*.md at integration (14 Nov 2026): sure words only, 406 of 1089 decoded letters of the cipher runs (196 35.7%, 200 38.6%, 202 20.8%, 206 53.2%, 211 35.3%); the contributor's figure, sure + probable words, is 52-66% per letter. Clear words of the letters not counted.",
   "provenance": "project",
   "credits": [
    {
@@ -389,6 +395,11 @@
     "item": "sign shapes at 1272 px (b/6/t, d/b, o/Q, q/9)",
     "blocker": "needs-physical-access",
     "detail": "higher-resolution images from the ASF would settle doubtful forms"
+   },
+   {
+    "item": "routes to a fresh test not yet taken: HP letters with a clear or gloss in MAP XLVIII (catalogue 2377) or LXXII 189-215; Comanducci 1996, Appendix III",
+    "blocker": "not-attempted",
+    "detail": "validation.txt point 5; a workable gap, so the target stays in progress"
    }
   ],
   "texts": [

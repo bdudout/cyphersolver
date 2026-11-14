@@ -1,6 +1,8 @@
 # rucellai1482: notes
 
-Catalogue 2350 (ASF MAP LXXII 196, 200, 202, 206) and lead 2323 (LXXII 211): Bernardo Rucellai's 1482 letters from Milan in his "HP" sign cipher. Proposed as **read in part, key partial**. No images: the ASF MAP scans are cited, not reproduced.
+Status: in progress. Folder integrated 14 Nov 2026 without a page: the key has no validation figure and the gaps are workable (strict shares of sure words 25-61% per letter; see Integration check).
+
+Catalogue 2350 and 2323 (ASF MAP LXXII 196, 200, 202, 206; and LXXII 211, which the PR calls lead 2323): Bernardo Rucellai's 1482 letters from Milan in his "HP" sign cipher. Proposed as **read in part, key partial**. No images: the ASF MAP scans are cited, not reproduced.
 
 ## Material
 - Key pair: LXXII 207 (cipher) and 208 ("Decifrato della n. 207", contemporary decipherment).
@@ -24,3 +26,35 @@ Catalogue 2350 (ASF MAP LXXII 196, 200, 202, 206) and lead 2323 (LXXII 211): Ber
 
 ## Prior art
 No decipherment of 196, 200, 202, 206 or 211 found (catalogue vetting of 6 Nov 2026; repository searched 14 Nov 2026: no target, PR or issue on these letters except our status notes). Mallett's edition of Lorenzo's Lettere cites only 204-205.
+
+## Remaining gaps
+- Key not validated: the one protocol test of the system failed (0.6018 against a 0.85 bar, earlier key K_T, 204 against 205), the second too (0.5088 on the glosses of 201); K_HP_v1 has no fresh test. Blocker: not-attempted as long as the routes under Escalation are open (a further HP letter with a clear or a gloss; Comanducci 1996, Appendix III).
+- Unresolved stretches: 19, 12, 10, 10 and 17 in 196, 200, 202, 206, 211. Blocker: open-codes (B, crossed equals, dotted o, "e d", l with small o) and doubtful shapes at 1272 px (b/6/t, d/b, o/Q, q/9).
+- Images: the ASF server gives 1272 px at most; higher resolution needs an order to the ASF (needs-physical-access).
+- No second reader has compared the five bare letters with the images (the integration check sampled 207 only).
+
+## Escalation
+- [ ] siblings: catalogue 2377 lists Rucellai's pieces in MAP XLVIII with glosses on about 60 pages and four filed decipherments; `targets/mediceo1483` found XLVIII 294 (Feb 1485) in another sign family ("##"), so which XLVIII pieces of 1482 are in the HP cipher is not yet known. MAP LXXII 189-215 and XLVIII have not been surveyed sign by sign (validation.txt, point 5). This is the workable route to a fresh test.
+- [x] clear pages: 208 (of 207) used for the key; 205 (of 204) and the glosses of 201 used for the two failed tests.
+- [ ] known keys: MAP LXXII 183 (the Milan embassy key of the 1490s, issue #589) compared by sign description only, see Integration check: same family of conventions, not the same key; not tried on the images. Gabbrielli's Dieci key no. 14 (1484-85) is another system (contributor).
+- [ ] print: R. M. Comanducci, *Il carteggio di Bernardo Rucellai: inventario* (Olschki 1996), pp. XXIX-XXXI and Appendix III (Rucellai's keys), not seen.
+- [ ] key rebuild / retry: after one of the above.
+
+## Integration check (14 Nov 2026)
+- Second decoder, written for this check from `key/K_HP_v1.json` (pairs longest first, the two context rules, singles): identical to all six files in `decryption/` (196, 200, 202, 206, 207, 211; 1608 decoded letters).
+- Fit on the training pair: 0.800 by my count (1 - Levenshtein / 535 letters of 208, letters only) against the stated 0.8093; the difference is in the normalisation. It is a fit, not a test, as the contributor says.
+- The two failed tests (0.6018 and 0.5088) cannot be rerun: the transcriptions of 204, 205 and 201 and the earlier keys are not in the folder. They are published as failed, by the contributor's record.
+- Strict shares, recounted from the cards in `reading/` (sure words only; probable, restored and unresolved are holes; an unresolved stretch counted as one word, so the word shares are upper bounds; clear words of the letters not counted):
+
+  | letter | sure / all units | strict word share | sure letters / decoded letters | contributor (sure + probable letters) |
+  |---|---|---|---|---|
+  | 196 | 32 / 65 | 49.2% | 119 / 333 = 35.7% | 64% |
+  | 200 | 16 / 40 | 40.0% | 64 / 166 = 38.6% | 66% |
+  | 202 | 5 / 20 | 25.0% | 27 / 130 = 20.8% | 52% |
+  | 206 | 25 / 41 | 61.0% | 100 / 188 = 53.2% | 66% |
+  | 211 | 23 / 51 | 45.1% | 96 / 272 = 35.3% | 53% |
+
+  All five are far below the 95% bar: read in part at most, and with a key that is not validated the sure words are words the key gives, not a checked reading. `python docs/_check_reading.py rucellai1482`: clean share 0.473, the raw decodings "not a reading".
+- Images: the ASF viewer and its IIP server answered on 14 Nov 2026 (`.../map/riproduzione/?id=79608`, 1272 x 1778 px). LXXII 207 recto, cipher lines 0-2 (about 120 signs) compared with `transcription/lxxii207.txt`: all agree except two doubtful shapes (the sign after `6` in L01, written P, has a barred descender; the two signs after `&` in L02, written c c). The five bare letters were not sampled.
+- MAP LXXII 183 (issue #589, Andrew Aymeloglu; key sheet "Cifra con Paulantonio Soderini", used in 1494) against K_HP_v1, by the sign descriptions of the two key files only: shared values for two short strokes = a, pi = o, one short stroke = u, o with a lead-in stroke = e, the n sign (= / ÷); different for 9 (null here, r in 183), looped x (u here, x = m in 183), crossed b (s here, l in 183), B (null or a name here, *che* in 183), and the null pair H P has no counterpart in 183. The Medici chancery conventions are shared; it is not the same key. No other target holds these documents (`mazzinghi1478`, `toledo1479`, `mediceo1483`, `pandolfini1514/1515` are other systems or other documents).
+- Catalogue: 2350 and 2323 stay (in progress, claimed from this folder).
