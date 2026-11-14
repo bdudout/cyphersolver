@@ -1,0 +1,74 @@
+# Pass B — blind shape transcription, BNE MSS/20211/61 (1473), recto d61p1-000.jpg
+# Labels from passB/SHAPES.md ; ? = uncertain sign ; / = writer's stroke between groups
+# Line 1 = "Recebi la carta de V.S." ; cipher runs on recto lines 7-18 only.
+# Crops: bne61/passB_crops/B_*.png (z07..z18 = 8x/10x zooms)
+#
+# R07a after "esta arto fermino:" before (end of line; next line starts in cipher)
+R07a h 1 + 4 O x 9 d F qo b? 3 o Y? # b o Y? oo H p b H b /
+# R08a after (start of line) before "e nos fara"
+R08a o 4 P o 6 H 8 b P? 3 b d 4 8 T qo TT /
+# R08b after "e nos fara" before "de sevilla"
+R08b / 4 O d q 1? oo / -o- 9 b o b 2 + o P 6 # 4 o- m
+# R09a after "tiene muy grande" before (end of line; next line starts in cipher)
+R09a / 1 F d a h b m o x / P q F 8 + / a o- b x O 1 [1.]? 4 d / p 2 +
+# R10a after (start of line) before "e se fazen la guerra"
+R10a Y? FI?
+# R10b after "tiene concertado" before "para"
+R10b 4 1 m q O b H o- 4 -o- 9 3- / P 6 9 4 2 m
+# R11a after "nro sennor" before "es verdat"
+R11a 1 P oo b p F o /
+# R11b after "ha menester" before (end of line; next line starts in cipher)
+R11b x O 2 m? b qo qo? + 1 b o- T / 4 2 TT
+# R12a after (start of line) before "me sirve entodo caso"
+R12a x O o + d TT?
+# R12b after "le enbie por que" before (end of line; next line "puede fazer")
+R12b T? Y F 8 + / b T F 6 F Y # F 2 P P b o
+# R13a after "quato nos da en" before "y" (end of line)
+R13a 3 o- O 8 b / 2 x 9 1 + o P Y # 4 2 m /
+# R14a after "mucho mas en" before "nro sennor lo que no se"
+R14a / P oo F b d b O? o- T / 8 + 4 6 p 3-? p 4 9 x # 8 /
+# R15a after "no le enbiando" before "por ende yo suplico"
+R15a + o T? 4 -o P 3 o- T? q 2 + 8 b o b /
+# R16a after "special luego made" before (end of line; next line starts in cipher)
+R16a Y? b o- + 4 / P 3 9 o- 4 O x 9 8
+# R17a after (start of line) before "vra senoria pues ya no son tanto"
+R17a x # 2 m b oo q o + 8 b. o? b 4 1 TT 2 TT 4 d
+# R17b after "pues ya no son tanto" before (end of line; continues on line 18)
+R17b F 8 9 1
+# R18a after (start of line) before "e que alo menos"
+R18a 4 o 2 T 6 o T d F 4 8 /
+# R18b after "e que alo menos" before (end of line; line 19 "se faran enlo sussodicho" is clear)
+R18b O o 3 2 F / H o b o- 1 b m 2 b.? o oo 2 3 9 F a 1 b
+#
+# VERSO (d61p2-000.jpg): no cipher seen — clear Castilian text with marginal notes and
+# deletions; no V runs.
+#
+# NOTES
+# - Runs: 18 ; signs: 279 (counting each label, separators "/" excluded, bracketed [1.] counted).
+# - Interlinear glosses were NOT read; some of their strokes cross cipher signs. Where a
+#   cross-bar on a b-stem may belong to the gloss underline rather than the sign, I wrote
+#   T? / TT? (R08a, R12a, R12b, R15a twice). Elsewhere b-stems crossed only by the gloss
+#   underline were written plain b (R14a checked at 10x).
+# - "2 joined to f with long descender" (F) is very frequent; at low zoom it looks like
+#   "3- 4" or "z f" — all such were read F. Its descender sometimes curls into a small loop
+#   (R09a 2nd F).
+# - Y vs h vs 4: closed-triangle 4 written 4; open ч/ɥ-shapes written Y. Line-initial
+#   R10a and R16a first sign is an ɥ with long descender, could be h (cf. R07a first sign,
+#   a hooked h with closed lower loop).
+# - R07a: a small b is written ABOVE qo (interlinear, same ink as cipher) — placed after qo.
+#   The two "Y?" in R07a are crossed by a long slanting stroke (probably a gloss descender).
+# - R08a: first o has a long thin stroke reaching it from the left (probably gloss bracket).
+#   "P?" = a ring sitting at gloss height on a long stem descending through the line,
+#   may belong to the gloss rather than the cipher.
+# - R08b: "1?" after q is a short stroke with a dot (i-like).
+# - R09a: [1.] = short upright stroke with a dot/hook at top between 1 and 4 — new label,
+#   may be just a gloss descender.
+# - R10a: FI? = two tall long-s strokes joined by a cross-bar ("ff").
+# - R11b: "m?" partly hidden under a gloss g-loop; "qo qo?" = q, small low o, q, o.
+# - R12b: the 6 after F is a small bowl with a tail to the right, a thick gloss stroke
+#   crosses just before it.
+# - R14a: O? = o # followed by a ring on a long stem (third element P-like, not a plain o).
+# - R17a: 2 has a dot after it ("2·-"); b. = b with a dot after; o? half hidden by gloss.
+# - R18b: b.? = dot written just before a b whose stem is crossed by the gloss.
+# - Runs R07a→R08a, R09a→R10a, R11b→R12a, R16a→R17a, R17b→R18a are continuous across
+#   the line break.

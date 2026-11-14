@@ -1,0 +1,17 @@
+# Glose interlinéaire d'époque de BNE MSS/20211/61 r°, lue par moi (passe A) sur l'image 120 ppi à 4-6x, 14/11.
+# Rattachée aux passages de la passe B (mêmes ID). Seuls les mots lisibles sans recours au chiffre sont gardés.
+# Exclus (douteux) : l.7 « ya a » ; l.8 début « e heredero? » ; l.9 « empuxar? » et mot barré ; l.10 début « cadiz? » (barré) ;
+#   l.11 « e rozena? » ; l.12 début « las quales? » ; l.14 mot barré ; l.15 suite « golfos/galeotes? » ; l.16 mot barré ;
+#   l.17 mots barrés ; l.18 « rayan? », « retra…? » ; marge l.17 « necessarios ».
+R07a el duque nos ha enviado | principes
+R08b luego | la ciudad
+R09a marques
+R10b de tomar la dicha ciudad
+R11b quatro galeras
+R12b e sin ellas ninguna cosa
+R13a hazer | aquella ciudad
+R14a el dicho duque
+R15a los dich
+R16a al dicho duque
+R17a quanto
+R18b para | hun mes
