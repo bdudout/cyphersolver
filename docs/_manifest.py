@@ -2958,7 +2958,7 @@ PAGES = [
          author='George Lasry'),
     dict(slug='anover1610', label='Philip III to A&ntilde;over 1610', year='1610', y=1610.38, place='Lerma &rarr; the Count of A&ntilde;over', st='partial', stt='read in part',
          title='Philip III to the Count of A&ntilde;over, Lerma, 20 May 1610',
-         blurb='A royal order of ten ciphered lines with no decipherment bound in. Alberto Garv&iacute;a Garc&iacute;a rebuilt a partial key from the clear texts of four sibling letters and applied it: Dutchmen have set up a factory at Pinda on the coast of Angola, against the truce, and the count is to see it remedied and report. 77 of the 89 words are sure; eight groups have no sure value, and the transcription has not been compared with the manuscript by the project. Read in part.',
+         blurb='A royal order of ten ciphered lines with no decipherment bound in. Alberto Garv&iacute;a Garc&iacute;a rebuilt a partial key from the clear texts of four sibling letters and applied it: Dutchmen have gone to set up a factory at Pinda on the coast of Angola, against the truce, and the count is to see it remedied and report. 77 of the 89 words are sure; eight groups have no sure value, and the transcription has not been compared with the manuscript by the project. Read in part.',
          quote='&ldquo;olandeses han ydo a asentar fatoria &hellip; en la costa de Angola&rdquo;',
          rights='Letter: Biblioteca Hist&oacute;rica Municipal de Madrid (Ayuntamiento de Madrid), I 242,29; transcription, key and reading by Alberto Garv&iacute;a Garc&iacute;a'),
     dict(slug='breves1610', label='Br&egrave;ves 1610', year='1610', y=1610.8, place='Paris &rarr; Rome', st='partial', stt='read in part',

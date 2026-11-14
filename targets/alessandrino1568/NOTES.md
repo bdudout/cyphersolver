@@ -229,8 +229,9 @@ Spain, 1567–69, and a letter of 1572".
   Its 2010 stands for the Pope (the Emperor in the letters of 1568), which fits a revised code list.
 - Not stated anywhere as fact: that Alessandrino was away on his legation, that the letter was "written in his
   absence" (the manifest blurb said so; removed), or that the writer belonged to the papal secretariat. The headings
-  of `texts/R115_reading.md` and `R115_en.md` ("The papal secretariat (not Alessandrino) …") are left as filed with
-  PR #604; no source in this folder establishes the office of the writer.
+  of `texts/R115_reading.md` and `R115_en.md`, filed with PR #604 as "The papal secretariat (not Alessandrino) …", were
+  changed on 14 Nov 2026 to "Not Alessandrino (writer not established)"; no source in this folder establishes the
+  office of the writer.
 - Surfaces changed: `docs/_manifest.py` (title, year, blurb), the page, this file, `profile.json` (title, document
   dates), README row, `SOLVED_CATALOGUE.md`, `SOLVED_RANKING.md`, `CATALOGUE.md`, the findings line,
   `decode_updates/queue.json` (R115 sender).

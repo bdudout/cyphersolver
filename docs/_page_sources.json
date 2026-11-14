@@ -46,7 +46,7 @@
  },
  "alessandrino1568": {
   "claims": "2026-11-14",
-  "digest": "6266b7481c4c7e3fd11f650ec698c0080e1ce1de",
+  "digest": "c793494119f7c8ffa2d676d0f9d64fe1f0852b33",
   "reviewed": "2026-11-14"
  },
  "alfonso1576": {
@@ -83,6 +83,11 @@
   "claims": "2026-11-07",
   "digest": "0f35037022432a19571d8b34dcf0380040370f30",
   "reviewed": "2026-11-07"
+ },
+ "anover1610": {
+  "claims": "2026-11-14",
+  "digest": "9634e699e6444579cfebc123e3e9a03b00943ebb",
+  "reviewed": "2026-11-14"
  },
  "arabia1916": {
   "claims": "2026-11-07",
@@ -1924,8 +1929,8 @@
  },
  "nuncio1566": {
   "claims": "2026-11-07",
-  "digest": "d859c6f34214f4da6ea738af7c18477865a92859",
-  "reviewed": "2026-11-07"
+  "digest": "dee1990469ee5e62dbd96b685306b2154208e561",
+  "reviewed": "2026-11-14"
  },
  "nunez1899": {
   "claims": "2026-11-12",

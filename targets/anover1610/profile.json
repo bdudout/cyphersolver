@@ -144,7 +144,7 @@
    "technique": [
     "key matching"
    ],
-   "what": "Issue #499 comments of 13 Nov 2026: the contributor's 211-token analytical layer and his control windows A01-D06, E01-E04 saved in contributor/; all 211 tokens have a value in key.tsv and decode to his reading letter for letter; the 74-entry graded table equals key.tsv. Dudout's independent transcription comparison (all digit strings of L01-L10 agree; L05 bo/60 doubtful) recorded. Memoria de Madrid still 403, images not seen. No open code closed; strict share unchanged (88.6%).",
+   "what": "Issue #499 comments of 13 Nov 2026: the contributor's 211-token analytical layer and his control windows A01-D06, E01-E04 saved in contributor/; all 211 tokens have a value in key.tsv and decode to his reading letter for letter; the 74-entry graded table equals key.tsv. Dudout's independent transcription comparison (all digit strings of L01-L10 agree; L05 bo/60 doubtful) recorded. Memoria de Madrid still 403, images not seen. No open code closed; the contributor's own word count unchanged (78 of 88 words, 88.6%; the project's strict recount of 14 Nov is 77 of 89, 86.5%).",
    "result": "worked"
   },
   {
@@ -178,7 +178,7 @@
   {
    "date": "2026-11-14",
    "kind": "verification",
-   "what": "Strict recount of the read share from reading.md, word by word: 89 words in the ten lines; 10 are marked holes (buena, aviso, puerto, otras, entablando, trato, capitulado, bien, disimulacion, persona: a context-only code, a single-parallel value, a doubtful null inside the word or the otraas anomaly) and 2 more rest on a sign the transcriptions do not settle (mando, the sign printed gel{b?}; porque in line 5, bo in one transcription and 60 in the other). 77 of 89 words sure = 86.5%. The contributor's own count is 78 of 88 words (88.6%).",
+   "what": "Strict recount of the read share from reading.md, word by word: 89 words in the ten lines; 10 are marked holes (buena, aviso, puerto, otras, entablando, trato, capitulado, bien, disimulacion, persona: a context-only code, a revisable transfer with no direct parallel (fo = so, grade M), a doubtful null inside the word or the otraas anomaly) and 2 more rest on a sign the transcriptions do not settle (mando, the sign printed gel{b?}; porque in line 5, bo in one transcription and 60 in the other). 77 of 89 words sure = 86.5%. The contributor's own count is 78 of 88 words (88.6%).",
    "result": "worked"
   },
   {
@@ -272,7 +272,7 @@
   ],
   "fraction_read": 0.865,
   "fraction_read_method": "measured",
-  "fraction_read_source": "Strict count from reading.md, word by word (14 Nov 2026): 89 words; 77 sure. Holes: the 10 words the reading brackets (buena U01, aviso 101, trato 241, bien 114: context-only codes; disimulacion: e = mu from context; persona: fo = so from a single parallel; puerto, entablando, capitulado: a doubtful null 28~ or 58~ inside the word; otras: the otraas anomaly) and 2 words on a sign the transcriptions do not settle (mando, gel{b?}; porque in line 5, bo or 60). The contributor's own figure is 78 of 88 words = 0.886 (his looser ones: 173 of 211 group occurrences in firm words, 202 of 211 with a table equivalence).",
+  "fraction_read_source": "Strict count from reading.md, word by word (14 Nov 2026): 89 words; 77 sure. Holes: the 10 words the reading brackets (buena U01, aviso 101, trato 241, bien 114: context-only codes; disimulacion: e = mu from context; persona: fo = so, a revisable transfer, grade M, no direct parallel in key.tsv; puerto, entablando, capitulado: a doubtful null 28~ or 58~ inside the word; otras: the otraas anomaly) and 2 words on a sign the transcriptions do not settle (mando, gel{b?}; porque in line 5, bo or 60). The contributor's own figure is 78 of 88 words = 0.886 (his looser ones: 173 of 211 group occurrences in firm words, 202 of 211 with a table equivalence).",
   "key_file": "key.tsv",
   "notes": "Written up as read in part on 14 Nov 2026 (owner's decision). Ten lines of f. 53r read in part from a key rebuilt from sibling letters; 77 of 89 words sure. The transcription and the sibling parallels are unchecked against the images by the project (Memoria de Madrid refuses scripted requests; page 2 was seen once in a browser on 2 Nov 2026, no copy kept). The open codes are still workable from the unglossed and further glossed letters of the series, which belong to catalogue 1988.",
   "gaps": [
@@ -289,7 +289,7 @@
    {
     "item": "U01 (buena), 101 (aviso), 114 (bien), 241 (trato), e = mu, fo = so (persona), the nulls 28~ and 58~, the otraas anomaly",
     "blocker": "open-codes",
-    "detail": "values from context or a single parallel; tried against the glossed letter I 243,18 (Brice Dudout's alignment, 14 Nov 2026): none of them occurs in it. Still workable from further glossed letters of the series (I 242,66 and others) once they are transcribed."
+    "detail": "values from context or by a revisable transfer (fo = so, grade M, no direct parallel); tried against the glossed letter I 243,18 (Brice Dudout's alignment, 14 Nov 2026): none of them occurs in it. Still workable from further glossed letters of the series (I 242,66 and others) once a transcription of them is available."
    },
    {
     "item": "Devos 1950 and any complete key sheet of the series",
@@ -307,7 +307,7 @@
     "language": "es",
     "state": "read in part",
     "read_share": 0.865,
-    "summary": "Philip III learns that Dutch merchants are setting up a factory at Pinda on the coast of Angola, against the truce, and charges the Count of Añover to remedy it without sending anyone to the Islands, and to report.",
+    "summary": "Philip III learns that Dutchmen have gone to set up a factory at Pinda on the coast of Angola, against the truce, and charges the Count of Añover to remedy it without sending anyone to the Islands, and to report.",
     "translation": "translation.md",
     "reading_review": {
      "grade": "A",

@@ -2,7 +2,7 @@
  "slug": "anover1610",
  "anchor": "key",
  "title": "The ten lines, group by group",
- "caption": "The whole ciphered body of f. 53r in order, each group of the contributor's transcription replaced by its value in his key table. Amber groups carry a value from the context or from a single parallel (U01, written 11+? here, 101, 114, 241, e, fo) or stand on a sign in question (gelb, clu at the end of line 4, bo in line 5); the two looped signs 28~ and 58~ are taken as nulls. Not compared with the manuscript by the project.",
+ "caption": "The whole ciphered body of f. 53r in order, each group of the contributor's transcription replaced by its value in his key table. Amber groups carry a value from the context or by a revisable transfer (U01, written 11+? here, 101, 114, 241, e, fo) or stand on a sign in question (gelb, clu at the end of line 4, bo in line 5); the two looped signs 28~ and 58~ are taken as nulls. Not compared with the manuscript by the project.",
  "unit": "groups",
  "key_note": "key.tsv (Alberto Garvía García)",
  "tokens": [
