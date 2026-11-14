@@ -1,6 +1,6 @@
 # anover1610: Philip III to the Count of Añover, Lerma, 20 May 1610 (Madrid, Biblioteca Histórica Municipal, I 242,29), a partial key rebuilt from sibling letters
 
-Status: in progress (Alberto Garvía García, issue #499, 12 Nov 2026; checked and filed 13 Nov 2026). A reading of the ten ciphered lines exists in the contributor's report and reproduces from his transcription and key table; the transcription and the sibling parallels could not be checked against the manuscripts, the images being behind a bot block this session, and the gaps below are workable. No page yet.
+Status: read in part, codes open (Alberto Garvía García, issue #499, 12 Nov 2026; checked here 13 and 14 Nov 2026; written up 14 Nov 2026 by the owner's decision). The ten ciphered lines of f. 53r are read from a key rebuilt from the sibling letters: by the README word rule 77 of 89 words are sure (86.5%), under the 95% bar; key partial. The reading reproduces from the contributor's transcription and key table; the project has not compared it with the manuscript (Memoria de Madrid refuses scripted requests; page 2 was seen once in a browser at the catalogue sweep of 2 Nov 2026, no copy kept), and the open codes are still workable from letters of the series that nobody has transcribed yet (see Remaining gaps).
 
 Catalogue 1988 (Philip III's real cédulas in cipher to Rodrigo Niño Laso, conde de Añover, Consejo de Guerra; four leaves of the series have no decipherment bound in, and I 242,29 is one). Language Spanish. The catalogue's own route was: read the glossed siblings for a key, then apply it to I 242,29 (Hispana idBib 58678726, Memoria de Madrid 424541).
 
@@ -23,24 +23,34 @@ Issue #499 (alberto-garvia, 12 Nov 2026) carries a summary and figures; the tran
 
 ## Strict count
 
-The contributor's figures (his, not the README bar): 173 of 211 cipher-group occurrences in firmly readable words (81.99%), 202 of 211 with an equivalence in the table (95.73%), 78 of 88 words firm (88.6%). The word share recorded here is 88.6%: below the 95% bar, so read in part. Key: partial (some values rest on context, grade I, or on a single parallel, grade M; the nulls 28~ and 58~ are doubtful).
+Recounted here on 14 Nov 2026 from `reading.md`, word by word, by the README rule (sure words only). The ten lines hold 89 words. Holes, 12:
+
+- 10 that the reading itself brackets: *buena* (U01), *aviso* (101), *trato* (241), *bien* (114), four codes with a value from the context only; *disimulación* (e = mu, from the context); *persona* (fo = so, a single parallel); *puerto*, *entablando*, *capitulado* (a doubtful null 28~ or 58~ inside the word; in *capitulado* also the clu/du question below); *otras* (the sign m = as gives "otraas").
+- 2 on a sign the transcriptions do not settle: *mando* (line 6, the sign printed `gel{b?}`, value from control A09) and *porque* (line 5, `bo` in the contributor's transcription and `60` in Brice Dudout's; the contributor confirms `bo` on the images, Dudout marks his own reading doubtful).
+
+77 of 89 words sure = **86.5%**, under the 95% bar: read in part. The contributor's own figures (his, once): 78 of 88 words firm (88.6%), 173 of 211 cipher-group occurrences in firmly readable words (81.99%), 202 of 211 with an equivalence in the table (95.73%). Key: partial (8 of the 74 groups of the table have no sure value: U01, 101, 114, 241, e, fo, 28~, 58~; 9 occurrences).
+
+Statistical check (`python docs/_validate.py anover1610`, `validation.tsv`, 14 Nov 2026): the reading scores -1.948 per letter in the Spanish 4-gram model against -3.627 on average for 200 random keys of the same structure (best -3.001, z 7.7), and -2.176 at best for a key annealed onto the shuffled ciphertext (z 10.4); verdict pass, on 205 tokens and 68 types. The key came from the sibling clear texts, not from this text. The control of 13 Nov (digit values permuted, inconclusive) is superseded by it.
 
 ## Remaining gaps
 
-- The transcription of f. 53r against the manuscript (Memoria de Madrid 424541), and of the sibling parallels A01-A14 etc. - blocker: needs-physical-access (the viewer refuses scripted requests, 403 again on 14 Nov 2026; a Claude in Chrome pass is needed). Two independent AI transcriptions of f. 53r now agree on every digit string (the contributor's and Brice Dudout's, frozen 3 Nov 2026 by his record); one doubt stands: L05 `bo 32` or `60 32` (por fits the sense only)
-- U01 (buena), 101, 114 and 241 (context-only codes), e = mu, fo = so (persona), the nulls 28~/58~ and the otraas anomaly - blocker: open-codes
-- The three other cipher-only leaves of catalogue 1988 and the rest of the series (Hispana idBib 58438217, 58438218, 58678720; I 242,66 as a further parallel) are not transcribed - blocker: not-attempted. Named by Dudout (issue #499, 13 Nov 2026) in the same table family: unglossed I 242,35 (MdM 424529, cipher copy of the King's letter to the Archduke of 19 Jun 1610), I 242,59 (425639) and I 242,60 (425637), both Lerma 10 May 1610; the contributor reports work on 35/59/60 in his dossier that settles no target value; which of these are the catalogue's unglossed identifiers is not mapped
-- I 243,18 (MdM 425791, Lerma 30 Apr 1610), the glossed letter of the same table family named by Dudout, was tried on 14 Nov 2026 (section at the end): none of the open codes (U01, 101, 114, 241, e, fo) occurs in it, so it closes nothing - blocker: open-codes; the codes have no other occurrence in a glossed letter seen so far
+- The transcription of f. 53r against the manuscript (Memoria de Madrid 424541), and of the sibling parallels A01-A14 etc. - blocker: needs-physical-access; the viewer answers scripted requests with an Access Denied page (a bot check, recorded on 13 and 14 Nov 2026, not got round), so it needs a person at a browser or the contributor's images as files. Two independent AI transcriptions of f. 53r agree on every digit string (the contributor's and Brice Dudout's, frozen 3 Nov 2026 by his record); one doubt stands: L05 `bo 32` or `60 32` (por fits the sense only)
+- The last sign of line 4, `clu` = tu in the contributor's reading (capi-tu-lado, control B02), written `du` by Brice Dudout, whose `du` is glossed *conde* twice in I 243,18 - blocker: needs-physical-access; one sign or two can only be settled on the images of both letters; asked of both in issue #499, no answer yet
+- U01 (buena), 101, 114 and 241 (context-only codes), e = mu, fo = so (persona), the nulls 28~/58~ and the otraas anomaly - blocker: open-codes; tried on 14 Nov 2026 against the glossed letter I 243,18 (MdM 425791, Lerma 30 Apr 1610; section at the end): none of them occurs in it. This gap is workable, not blocked from outside: the further letters of the series (below) may carry these codes with a gloss
 - Devos 1950 and any complete nomenclator sheet of the series: not seen by anyone - blocker: no-key-material
+
+## Other leaves of catalogue 1988 (not part of this target)
+
+This folder and its page cover one letter, I 242,29. The catalogue entry 1988 stays open, narrowed, for the three other cipher-only leaves (Hispana idBib 58438217, 58438218, 58678720), which nobody has transcribed. Named by Dudout (issue #499, 13 Nov 2026) in the same table family: unglossed I 242,35 (MdM 424529, cipher copy of the King's letter to the Archduke of 19 Jun 1610), I 242,59 (425639) and I 242,60 (425637), both Lerma 10 May 1610; the contributor reports work on 35/59/60 in his dossier that settles no value of I 242,29; which of these are the catalogue's unglossed identifiers is not mapped. I 242,66 is a further glossed parallel, not used. If they are read with this table they join this target (one key, one entry).
 
 ## Escalation
 
-- [x] siblings: I 242,33, 42, 47, 48 (and 71 as a control) matched by the contributor; their decipherments were not seen here
+- [x] siblings: I 242,33, 42, 47, 48 (and 71 as a control) matched by the contributor; I 243,18 aligned by Brice Dudout; their decipherments were not seen here
 - [x] clear-pages: the letter has no decipherment bound in; its reverse carries an archival note about Angola
 - [x] known-keys: Tomokiyo's page on Spanish seventeenth-century ciphers and DECODE searched by the contributor: no key for this series
-- [ ] print: Devos 1950 not consulted; Retortillo Atienza 2019 consulted by the contributor
+- [x] print: Retortillo Atienza 2019 and the Correia thesis searched by the contributor; Brásio, Monumenta Missionária Africana V p. 587 opened by him (a different letter of 31 May 1610 on Pinda); a web search here found no printed reading. Devos 1950 is identified but no copy was seen by anyone (it treats Philip II's ciphers)
 - [x] key-rebuild: the contributor's table (the material of this folder)
-- [ ] retry: I 243,18 tried on 14 Nov 2026 without result for the open codes; the unglossed I 242,35, 59 and 60 are not transcribed
+- [x] retry: the open codes run against Brice Dudout's alignment of the glossed I 243,18 on 14 Nov 2026: none occurs, no value changed; the unglossed I 242,35, 59 and 60 are not transcribed by anyone and belong to catalogue 1988
 
 ## Issue #499 comments of 13 Nov 2026 (checked 14 Nov 2026)
 
@@ -85,6 +95,7 @@ Alberto Garvía García (issue #499; report with AI assistance, ChatGPT/Codex as
 | `reading.md` | the contributor's line-by-line reading, translation and notes |
 | `translation.md` | the contributor's line-by-line English translation of `reading.md`, holes kept (PR #547) |
 | `profile.json` | the target profile |
+| `validation.tsv` | the 211 tokens with their values, input of `docs/_validate.py` (14 Nov 2026) |
 | `contributor/tokenization_211.txt` | the contributor's 211-token analytical layer (issue #499, 13 Nov 2026) |
 | `contributor/controls.tsv` | his sibling control windows A01-D06 and E01-E04 (issue #499, 13 Nov 2026) |
 | `contributor/i243_18_dudout_alignment.txt` | Brice Dudout's token-by-gloss alignment of I 243,18 (issue #499, 14 Nov 2026) |
@@ -110,3 +121,13 @@ Two new comments after the project's reply of 14 Nov, 01:53 UTC:
 2. **Alberto Garvía García, 10:58 UTC:** he has checked line 5 again on the manuscript images himself and confirms `fal 242 37 bo 32` (*por*), with Brice Dudout's `60` noted as the alternative; he has reviewed I 243,18 and finds, as above, that it confirms correspondences and resolves none of the open codes; he attaches a publication package and a complement of controls (two zip files: both return 403 to this session, so they were not seen) and asks again for publication as read in part.
 
 Where this leaves the target: the transcription is supported by two independent AI transcriptions that agree on every digit string and by the contributor's own second look at line 5; the open codes have now been tried against the one further glossed letter of the family that was named, without result. What is left is outside the project's reach from here (the images behind the bot check; Devos 1950) or belongs to other leaves of catalogue 1988. The page as read in part is the owner's decision: the reply of 14 Nov said it could be written once I 243,18 gave nothing. The two zip files should come as a pull request or as text, since attachments cannot be fetched here.
+
+## Write-up (14 Nov 2026)
+
+Written up as read in part by the owner's decision, after the reply of 14 Nov that the page could follow once I 243,18 had been tried. What the page has to say plainly, and does:
+
+- No image of the manuscript is shown: Memoria de Madrid refuses scripted requests (a bot check, not got round), and the reuse terms of the images were not checked. The project's only sight of the leaf is page 2 in a browser at the catalogue sweep of 2 Nov 2026 (catalogue 1988, vetting block): no copy was kept, and the opening groups noted then (`5411 5 ba 32 de je 2110 cle 6857101 s 55 fal 2854 je 332110283757`) agree with line 1 of the contributor's transcription, digit for digit, the letter signs written differently. The transcription is the contributor's, supported by Brice Dudout's independent one; the project has not compared it with the image.
+- The contributor's two zip packages of 14 Nov (publication package, complement of controls) returned 403 and were not seen; nothing on the page rests on them.
+- Open question, put to both: whether Dudout's sign `du` (glossed *conde* in I 243,18) is the sign the contributor reads `clu` = tu at the end of line 4 of I 242,29.
+- The checker's test for "read in part" asks that every gap be blocked from outside. Here one gap (the open codes) is workable from letters of the series that are not transcribed; the page says so under "What remains uncertain".
+

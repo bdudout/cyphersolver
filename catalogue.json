@@ -60031,23 +60031,23 @@
    "id": 1988,
    "counted": true,
    "year": 1610,
-   "date": "1610-1611 (four undated-in-print leaves; others of the series 27 Jan - 23 Jul 1610/11)",
-   "title": "Philip III → Rodrigo Niño Laso, conde de Añover: reales cédulas in cipher (four with no decipherment bound in)",
+   "date": "1610-1611 (three undated-in-print leaves; others of the series 27 Jan - 23 Jul 1610/11)",
+   "title": "Philip III → Rodrigo Niño Laso, conde de Añover: reales cédulas in cipher (three with no decipherment bound in, after I 242,29)",
    "correspondents": "Philip III (secretary Antonio de Aróstegui) → Rodrigo Niño Laso, conde de Añover, Consejo de Guerra",
    "place": "Lerma / Madrid",
    "language": "Spanish",
    "region": "Spain",
    "period": "1598-1610",
-   "shelfmark": "Madrid, Biblioteca Histórica (Ayuntamiento de Madrid), I 242,29 (Hispana idBib 58678726, Memoria de Madrid 424541); siblings Hispana idBib 58438217, 58438218, 58678720",
+   "shelfmark": "Madrid, Biblioteca Histórica (Ayuntamiento de Madrid), three cipher-only leaves of the series, Hispana idBib 58438217, 58438218, 58678720; the fourth, I 242,29 (Hispana idBib 58678726, Memoria de Madrid 424541), is written up as anover1610",
    "folio_note": "I 242,29 = 2 leaves, ff. 53 and 60 of the bound volume; 5-page PDF; 12 lines; numeric groups with a few letter syllables",
    "cls": "B",
-   "status": "Hispana/Memoria de Madrid records 'Real cédula cifrada'. Page 2 of the scan viewed: whole page of 2-4 digit groups mixed with a few letters (la, de, fal, ba), no interlinear or banderilla decipherment. Eight sibling cédulas of the same series have the decipherment bound in on a slip (banderilla), which gives cribs. Narrowed 13 Nov 2026 (issue #499, Alberto Garvía García): I 242,29 (20 May 1610) read in part from a key rebuilt from the siblings I 242,33, 42, 47 and 48 (ten lines of f. 53r; transcription not checked against the images; targets/anover1610, in progress, no page); the other three leaves of the entry are still open.",
+   "status": "Hispana/Memoria de Madrid records 'Real cédula cifrada'. Page 2 of the scan viewed: whole page of 2-4 digit groups mixed with a few letters (la, de, fal, ba), no interlinear or banderilla decipherment. Eight sibling cédulas of the same series have the decipherment bound in on a slip (banderilla), which gives cribs. Narrowed 13 Nov 2026 (issue #499, Alberto Garvía García): I 242,29 (20 May 1610) is deciphered in part with a key he rebuilt from the siblings I 242,33, 42, 47 and 48 and is written up (targets/anover1610, 77 of 89 words sure; transcription not checked against the images by the project). The other three leaves of the entry are still open and untranscribed; Brice Dudout names unglossed I 242,35, 59 and 60 and the glossed I 243,18 in the same table family (which of them are these three identifiers is not mapped), and the partial key table is in targets/anover1610/key.tsv.",
    "why": "Philip III's cipher to the Spanish commander in Flanders during the Condé flight and the Dutch truce talks; same series has eight glossed leaves, so a key can be rebuilt from siblings.",
    "importance": 3,
    "solvability": 4,
    "difficulty": 2,
    "score_note": "Scored from the scan (page 2 of I 242,29 viewed in Chrome, 2 Nov 2026) and from the Hispana records of the series",
-   "verify": "Read the glossed siblings (idBib 58438206, 58438211, 58438294, 58678722, 58678826, 58678829, 58678890, 58678891) for a key, then apply it to 58678726, 58438217, 58438218, 58678720.",
+   "verify": "Transcribe the three leaves (58438217, 58438218, 58678720) and apply targets/anover1610/key.tsv; read further glossed siblings (I 242,66 and idBib 58438206, 58438211, 58438294, 58678722, 58678826, 58678829, 58678890, 58678891) for the values still open (U01, 101, 114, 241, e, fo).",
    "links": [
     {
      "label": "Memoria de Madrid viewer",
@@ -60086,7 +60086,8 @@
     "verdict": "open"
    },
    "access": "online",
-   "repository": "bhmm"
+   "repository": "bhmm",
+   "outcome": "attempted, open"
   },
   {
    "id": 1989,
