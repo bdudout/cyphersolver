@@ -941,7 +941,7 @@
   {
    "date": "2026-11-14",
    "kind": "verification",
-   "what": "Integration check (14 Nov 2026): an own decoder (houtrouw/decode.py) written from the keys and transcriptions in issue #602 gives, for all nineteen days, the contributor's plain texts: 13,215 letters, 8 lost from the film and 79 that do not make their words, the same places and counts as he lists day by day. Trigram control: the nineteen real key pairs score 44 to 321 on 30 common German trigrams, the best of 300 shuffled key pairs per day 10 to 41. Two cipher frames compared with the NARA images (1114, 2 May part 2: 98 of 98 letters; 0931, 23 May message 1 part 5: 89 of 90, the other a letter he changed from i to c after the key was known, which looks like i on the sheet) and one clear copy (frame 1112, 2 May: the text of his reading). Not checked: the other 110 cipher frames, the other clear copies, the sealed plans and their timestamps, the search itself.",
+   "what": "Integration check (14 Nov 2026): an own decoder (houtrouw/decode.py) written from the keys and transcriptions in issue #602 gives, for all nineteen days, the contributor's plain texts: 13,215 letters, 8 lost from the film and 79 that do not make their words, the same places and counts as he lists day by day. Trigram control: the nineteen real key pairs score 44 to 321 on 30 common German trigrams, the best of 300 shuffled key pairs per day 10 to 41. Two cipher frames compared with the NARA images (1114, 2 May part 2: 98 of 98 letters; 0931, 23 May message 1 part 5: 89 of 90, the other a letter he changed from i to c after the key was known, which looks like i on the sheet) and one clear copy (frame 1112, 2 May: the text of his reading). Not checked: the other 82 cipher frames, the other clear copies, the sealed plans and their timestamps, the search itself.",
    "result": "worked",
    "technique": [
     "key matching"
@@ -1044,7 +1044,7 @@
    {
     "item": "a human check of the nineteen days' transcriptions against the NARA frame images",
     "blocker": "needs-physical-access",
-    "detail": "112 cipher frames; the project compared two of them (1114 and 0931) and has no human reader for the rest"
+    "detail": "84 cipher frames; the project compared two of them (1114 and 0931) and has no human reader for the rest"
    },
    {
     "item": "3 May (frames 1100-1105), the second message of 9 April (frames 1120-1121) and 28 May (frames 905-906): the contributor's sealed attempts found no key",
