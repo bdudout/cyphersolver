@@ -1,6 +1,6 @@
 # flak1940: radio messages of Flugabwehrkommando Schwarzwald, 17 May 1940, and the key of the day (NARA RG 242, T405 roll 9)
 
-Status: read (9 Nov 2026). Contributed by Harumi-Matsuba (issue #364; repository `Harumi-Matsuba/flak1940-public`, commit a181cd7, per the contributor's licence file), who worked with AI agents (one a blind second reader, another for image judgements). **No human has checked the transcriptions**; the project has seen no 17 May image, and of the 4 June message only frame 0863 was compared with the NARA image (parts 2-5 not); what the project checked is the keys against the contributor's own transcriptions (`VERIFICATION.md`).
+Status: read (9 Nov 2026; the message of 4 June added 12 Nov, nineteen more days added 14 Nov 2026, see the two Contribution sections). Contributed by Harumi-Matsuba (issue #364; repository `Harumi-Matsuba/flak1940-public`, commit a181cd7, per the contributor's licence file), who worked with AI agents (one a blind second reader, another for image judgements). **No human has checked the transcriptions**; the project has seen no 17 May image, and of the 4 June message only frame 0863 was compared with the NARA image (parts 2-5 not); what the project checked is the keys against the contributor's own transcriptions (`VERIFICATION.md`).
 
 ## The documents
 
@@ -30,10 +30,13 @@ Frame 0993: Flakgruppe Friedrichshafen hands over to Flugabwehrkommando Schwarzw
 - Seven of the 1,023 letters are wrong as plaintext (BATBERIE, TRANSPORTIWRT, FERNNUENDLIQER, the X and Q of part 4 of frame 0993, VIENULL and the final H of frame 1027); the contributor takes five of them for errors of the sender or the relay, since they are in the typed cipher text, and has no way to check - blocker: illegible; the typed text is the only witness here and the hand-written ones (e or R, h or k) cannot be settled from the handwriting
 - A human check of both transcriptions against the NARA frame images - blocker: needs-physical-access; NARA is not reachable from the project
 - How the key follows from the indicator group (the first five letters of each part) - blocker: no-key-material; the 1939 key card lists four three-letter Kenngruppen but no rule for this day is known
+- 79 of the 13,215 letters of the nineteen days of issue #602 do not make their words as transcribed, and 8 letters are lost (2 on 21 May, 3 on 23 May, 3 on 24 May) - blocker: illegible; the contributor judged the 79 slips of the sheets from the images after the key was known, and the lost letters are on sheet backs that were not filmed
+- A human check of the nineteen days' transcriptions against the NARA frames (84 cipher frames; the project compared frames 1114 and 0931) - blocker: needs-physical-access; no human reader of the frames is available to the project
+- 3 May (frames 1100-1105), the second message of 9 April (frames 1120-1121) and 28 May (frames 905-906): the contributor's sealed attempts with the clear copies as cribs found no key - blocker: no-key-material; these and the other unread days are other keys and stay with catalogue 704
 
 ## Escalation
 
-- [x] siblings: the recipient's fair copy (frames 0994-0995), the teleprinter original of the second message (frame 1024) and the 1939 exercise message with its key card (frames 349-350) used; the other days of the reel (9 April, 3, 8, 16 and 20 May, 4 June and others) are other keys and were not read
+- [x] siblings: the recipient's fair copy (frames 0994-0995), the teleprinter original of the second message (frame 1024) and the 1939 exercise message with its key card (frames 349-350) used; the other days of the reel are other keys; 4 June was added on 12 Nov and nineteen more days on 14 Nov 2026 (sections below), and 3 May, the second message of 9 April and 28 May were tried by Jacob Houtrouw without a key
 - [x] clear-pages: the fair copy and the teleprinter original are the plaintexts beside the ciphertext, and were used for the key
 - [x] known-keys: the 1939 key card gave the system and tested the tools; its keys (21 and 19 long) do not apply to 1940
 - [x] print: the contributor searched this ledger (all issues and pull requests at the time), Cryptiana, Cryptoole, Schmeh's blog, GitHub and the web (`contributor_prior_check.md`): nothing on the key or the messages
@@ -49,6 +52,7 @@ Frame 0993: Flakgruppe Friedrichshafen hands over to Flugabwehrkommando Schwarzw
 | `key.txt` | the two keys of 17 May 1940 |
 | `contributor_*.md` | the contributor's reading, method, open points, prior-art search, README and sources |
 | `VERIFICATION.md` | what the project re-checked |
+| `houtrouw/` | the nineteen days of issue #602: keys, transcriptions, decryptions, readings, the contributor's text and the project's decoder |
 | `profile.json` | the target profile |
 
 ## Contribution: the message of 4 June 1940 (Brice Dudout, 12 Nov 2026)
@@ -60,3 +64,41 @@ The five-part radio message of 4 June 1940 on frames 0863-0867 (179, 190, 194, 1
 - An own decoder written from `dudout/key_0604.txt` decrypts all five parts to the contributor's strings, letter for letter (928 letters). The SHA-256 values of the frozen files match. All 179 letters of frame 0863 (part 1) agree with the NARA image (catalog.archives.gov, reachable); parts 2-5 were not compared with the images.
 - The read share is recounted by the README rule: the five probable words are guessed words, so 124 of 129 words read (96.1%), still over the bar. The contributor's own figure is 129 of 129 words read as sense.
 - The key was public before the contributor's test (Harumi-Matsuba, 11 Nov 2026, 08:28 UTC; issue comment 10:41 UTC), and the K2 search uses the idea of his public `kpb.c`. That the search and the test came first, and that the comment was found only on 12 Nov, rests on the contributor's record (a single commit of 12 Nov 00:25 +0100, self-declared times). The 'held-out' agreement of 0.989 is a comparison with the text of the teleprinter copy on frame 0862, so it shows that the key is right and does not read a new text. Credit for the key of 4 June stays with Harumi-Matsuba (prior solution); this is a same-day re-derivation.
+
+## Contribution: the keys of nineteen more days, 9 April to 1 June 1940 (Jacob Houtrouw, issue #602, 14 Nov 2026)
+
+Jacob Houtrouw (writing as Jake Tschakka), working with AI models that read the images, made the cribs, ran the search and wrote the readings, posted in issue #602 the keys of nineteen more days of the reel with, for each day, the transcription of the cipher sheets, the two keys, the plain text, a reading and an English translation: 9 April, 2, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 21, 23, 24, 26 and 29 May and 1 June 1940 (21 messages, 78 parts). Each key was found by a known-plaintext search with the clear copy of the message on the reel as the crib, the second key first as in Harumi-Matsuba's method; by his record each run followed a plan hashed beforehand. The messages are reports of Flak units changing position and the hour from which each was ready to fire, one order of Luftgaukommando VII to raise readiness (9 April) and one list of new reference points (23 May). The texts were known from the clear copies; the keys are the new result. Everything is in `houtrouw/` (`houtrouw/README.md`), copied from the issue; Brice Dudout's earlier attempts on six of these messages had found no key (`dudout/README.md`).
+
+| Day (1940) | Frames | Messages | Letters read | Letters that do not make their words | Keys A / B | Trigram control (real / best of 300 shuffled) |
+|---|---|---|---|---|---|---|
+| 9 April | 1186-1187 | 1 msg, 5 parts | 874 | 7 | 23 / 27 | 90 / 22 |
+| 2 May | 1112-1114 | 1 msg, 2 parts | 258 | 6 | 19 / 24 | 46 / 10 |
+| 6 May | 1091-1092 | 1 msg, 2 parts | 349 | 1 | 18 / 22 | 60 / 12 |
+| 8 May | 1084-1085 | 1 msg, 2 parts | 364 | 1 | 23 / 27 | 56 / 12 |
+| 9 May | 1077-1081 | 1 msg, 4 parts | 714 | 8 | 17 / 20 | 119 / 20 |
+| 10 May | 1069-1071 | 1 msg, 3 parts | 472 | 1 | 29 / 26 | 61 / 12 |
+| 11 May | 1062-1065 | 1 msg, 4 parts | 653 | 2 | 25 / 21 | 101 / 18 |
+| 12 May | 1055-1057 | 1 msg, 2 parts | 363 | 3 | 24 / 28 | 65 / 12 |
+| 13 May | 1051-1054 | 1 msg, 3 parts | 505 | 0 | 23 / 19 | 79 / 15 |
+| 14 May | 1048-1050 | 1 msg, 2 parts | 347 | 1 | 22 / 27 | 52 / 11 |
+| 15 May | 1038-1040 | 1 msg, 2 parts | 316 | 1 | 29 / 26 | 50 / 13 |
+| 16 May | 1028-1035 | 1 msg, 7 parts | 1,159 | 2 | 20 / 25 | 210 / 33 |
+| 20 May | 0977-1003 | 2 msg, 11 parts | 1,954 | 7 | 27 / 23 | 321 / 41 |
+| 21 May | 0963-0970 | 1 msg, 6 parts | 1,070 + 2 lost | 9 | 25 / 21 | 172 / 23 |
+| 23 May | 0925-0937 | 2 msg, 8 parts | 1,435 + 3 lost | 10 | 26 / 22 | 179 / 28 |
+| 24 May | 919-923 | 1 msg, 3 parts | 513 + 3 lost | 1 | 25 / 29 | 97 / 13 |
+| 26 May | 916-918 | 1 msg, 2 parts | 283 | 1 | 27 / 21 | 44 / 10 |
+| 29 May | 0898-0901 | 1 msg, 4 parts | 683 | 1 | 18 / 22 | 95 / 15 |
+| 1 June | 0888-0894 | 1 msg, 6 parts | 903 | 17 | 21 / 26 | 138 / 23 |
+
+He also reports the attempts that found no key: 3 May (frames 1100-1105), the second message of 9 April (frames 1120-1121) and 28 May (frames 905-906), two sealed attempts each, and inside the nineteen days the first attempts on 11 and 12 May, the first run on 29 May and the first framing of part 2 of 6 May.
+
+### Integration check (14 Nov 2026)
+
+- An own decoder, written from the keys and transcriptions in the issue (`houtrouw/decode.py`), gives his plain text for all nineteen days: 13,215 letters, 8 lost from the film and 79 that do not make their words as transcribed, at the places and in the numbers he lists for each day. The indicator rule is not uniform: parts 2 onward of 6, 10 and 11 May have no indicator group, and part 3 of 9 May has one of six letters.
+- Control: on 30 common German trigrams the real keys score 44 to 321 per day; the best of 300 shuffled key pairs per day scores 10 to 41 (table above).
+- Images (catalog.archives.gov, reachable): frame 1114 (2 May, part 2) agrees with his transcription in 98 of 98 letters; frame 0931 (23 May, message 1, part 5) in 89 of 90, the other being a letter he changed from i to c after the key was known and that looks like i on the sheet, so it is rather a slip of the sheet than a misreading; frame 1112, the clear copy of 2 May, carries the text of his reading (4./R 321 (Eisb.), Bad Krozingen, 2.5.1940 05.00 Uhr, F 96/40 g.Kdos.). The other 82 cipher frames and the other clear copies were not compared.
+- Read share by letters, the measure this target uses: per day 0.977 (2 May) to 1.000 (13 May), counting a letter that does not make its word and a lost letter as holes; every day is over the bar. For the whole target, 15,074 of 15,174 letters (99.3%).
+- By the contributor's record only: the sealed plans and their times (no plan or timestamp file was sent), the search and its scores, the agreement with the clear copies and with NARA's machine reading, and which model worked which day.
+- The four pairs of days with the same key lengths (9 April and 8 May, 6 and 29 May, 10 and 15 May, 11 and 21 May) have different keys.
+- `python docs/_check_reading.py flak1940` grades these files like the earlier ones of this target (spelled-out radio text is not what it measures).

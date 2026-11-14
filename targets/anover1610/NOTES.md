@@ -30,7 +30,7 @@ The contributor's figures (his, not the README bar): 173 of 211 cipher-group occ
 - The transcription of f. 53r against the manuscript (Memoria de Madrid 424541), and of the sibling parallels A01-A14 etc. - blocker: needs-physical-access (the viewer refuses scripted requests, 403 again on 14 Nov 2026; a Claude in Chrome pass is needed). Two independent AI transcriptions of f. 53r now agree on every digit string (the contributor's and Brice Dudout's, frozen 3 Nov 2026 by his record); one doubt stands: L05 `bo 32` or `60 32` (por fits the sense only)
 - U01 (buena), 101, 114 and 241 (context-only codes), e = mu, fo = so (persona), the nulls 28~/58~ and the otraas anomaly - blocker: open-codes
 - The three other cipher-only leaves of catalogue 1988 and the rest of the series (Hispana idBib 58438217, 58438218, 58678720; I 242,66 as a further parallel) are not transcribed - blocker: not-attempted. Named by Dudout (issue #499, 13 Nov 2026) in the same table family: unglossed I 242,35 (MdM 424529, cipher copy of the King's letter to the Archduke of 19 Jun 1610), I 242,59 (425639) and I 242,60 (425637), both Lerma 10 May 1610; the contributor reports work on 35/59/60 in his dossier that settles no target value; which of these are the catalogue's unglossed identifiers is not mapped
-- I 243,18 (MdM 425791, Lerma 30 Apr 1610), a glossed letter of the same table family named by Dudout, is not among the contributor's controls; it may give 101, 114, 241, e or fo - blocker: not-attempted
+- I 243,18 (MdM 425791, Lerma 30 Apr 1610), the glossed letter of the same table family named by Dudout, was tried on 14 Nov 2026 (section at the end): none of the open codes (U01, 101, 114, 241, e, fo) occurs in it, so it closes nothing - blocker: open-codes; the codes have no other occurrence in a glossed letter seen so far
 - Devos 1950 and any complete nomenclator sheet of the series: not seen by anyone - blocker: no-key-material
 
 ## Escalation
@@ -40,7 +40,7 @@ The contributor's figures (his, not the README bar): 173 of 211 cipher-group occ
 - [x] known-keys: Tomokiyo's page on Spanish seventeenth-century ciphers and DECODE searched by the contributor: no key for this series
 - [ ] print: Devos 1950 not consulted; Retortillo Atienza 2019 consulted by the contributor
 - [x] key-rebuild: the contributor's table (the material of this folder)
-- [ ] retry: waits for the manuscript images
+- [ ] retry: I 243,18 tried on 14 Nov 2026 without result for the open codes; the unglossed I 242,35, 59 and 60 are not transcribed
 
 ## Issue #499 comments of 13 Nov 2026 (checked 14 Nov 2026)
 
@@ -87,6 +87,7 @@ Alberto Garvía García (issue #499; report with AI assistance, ChatGPT/Codex as
 | `profile.json` | the target profile |
 | `contributor/tokenization_211.txt` | the contributor's 211-token analytical layer (issue #499, 13 Nov 2026) |
 | `contributor/controls.tsv` | his sibling control windows A01-D06 and E01-E04 (issue #499, 13 Nov 2026) |
+| `contributor/i243_18_dudout_alignment.txt` | Brice Dudout's token-by-gloss alignment of I 243,18 (issue #499, 14 Nov 2026) |
 
 
 ## Documentary and transcription update (13 November 2026)
@@ -99,3 +100,13 @@ A subsequent AI-assisted review by Alberto Garvía García is available in the u
 - **Remaining work:** Devos (1950) has been identified bibliographically but not consulted in full. Independent palaeographic verification, unresolved code groups and the remaining cipher-only letters are still outstanding.
 
 The decipherment remains **read in part / key partial**. The contributor's strict figures are unchanged: 173/211 cipher occurrences in firmly read words (81.99%) and 78/88 editorial words firm (88.64%).
+
+## Issue #499 comments of 14 Nov 2026 (checked 14 Nov 2026, afternoon)
+
+Two new comments after the project's reply of 14 Nov, 01:53 UTC:
+
+1. **Brice Dudout, 09:25 UTC: his alignment of the glossed letter I 243,18** (Memoria de Madrid 425791, Lerma, 30 Apr 1610), 114 token = value pairs on six manuscript lines, made on 3 Nov 2026 by his record, offered for the open codes; saved as `contributor/i243_18_dudout_alignment.txt`. Checked here against `key.tsv`: of the pairs whose token is in the table and whose gloss he read, 71 agree and 1 does not (`mel` glossed once *or* beside *er* in the same line, which looks like a slip of the alignment). 24 tokens of the letter are not in the table for I 242,29 (among them `du` = conde, `gul` = muy, `ja` = sa, `ju` = su, `cli` = ti, `yal` = ga, 99 = assi, 255 = vra). None of the open codes of I 242,29 (U01, 101, 114, 241, e, fo) occurs in it. So the letter supports the table and closes no open code. The alignment was not compared with the image.
+   One point to settle: in his own notation the last sign of line 4 of I 242,29 is `du`, the ligature the contributor writes `clu` (= tu, from control B02, giving capi-tu-lado), and in I 243,18 his `du` is glossed *conde* twice. Either the two are different signs in different hands, or the value of the sign in I 242,29 needs a second look. Asked of both in the draft reply.
+2. **Alberto Garvía García, 10:58 UTC:** he has checked line 5 again on the manuscript images himself and confirms `fal 242 37 bo 32` (*por*), with Brice Dudout's `60` noted as the alternative; he has reviewed I 243,18 and finds, as above, that it confirms correspondences and resolves none of the open codes; he attaches a publication package and a complement of controls (two zip files: both return 403 to this session, so they were not seen) and asks again for publication as read in part.
+
+Where this leaves the target: the transcription is supported by two independent AI transcriptions that agree on every digit string and by the contributor's own second look at line 5; the open codes have now been tried against the one further glossed letter of the family that was named, without result. What is left is outside the project's reach from here (the images behind the bot check; Devos 1950) or belongs to other leaves of catalogue 1988. The page as read in part is the owner's decision: the reply of 14 Nov said it could be written once I 243,18 gave nothing. The two zip files should come as a pull request or as text, since attachments cannot be fetched here.

@@ -1,14 +1,31 @@
 {
  "slug": "limantour1909",
  "anchor": "the-key",
- "title": "The letter of 15 July 1909, segments B and D to H",
- "caption": "Cipher groups of the letter, each decoded with the key (a group whose value is one of the contributor’s 28 strict values is shown plainly; groups whose value was fixed on the letter’s own words, and the typed 48 in the fifth word, are shown as uncertain). The words are: enemigo, te pronuncies, temor, situación, calma, prudencia.",
+ "title": "The letter of 15 July 1909, whole: the typed clear words and the cipher groups in their order",
+ "caption": "The whole letter in the order of the page: the words typed in clear stand as they are, and each cipher group is decoded with the key. A group whose value is one of the strict values is shown plainly; groups whose value was fixed on the telegram of 15 July or on the letter’s own words are shown as uncertain, as are the 24 in the group after “queja,” (n-d-c-s-e, read tentatively as the end of quejándose) and the typed 48 in situación; the codes 79 and 77 are not read. The cipher words are: enemigo, te pronuncies, temor, situación, calma, prudencia, oficios, clubs, Guadalajara.",
  "unit": "code groups",
  "key_note": "key.tsv",
  "tokens": [
   {
+   "g": "",
+   "p": "Muy estimado amigo: He sabido de buena fuente que",
+   "cls": "plain"
+  },
+  {
+   "g": "79",
+   "p": "?",
+   "cls": "unk",
+   "w": 1
+  },
+  {
+   "g": "",
+   "p": "habla de tí como de un",
+   "cls": "plain"
+  },
+  {
    "g": "2",
-   "p": "e"
+   "p": "e",
+   "w": 1
   },
   {
    "g": "27",
@@ -38,12 +55,42 @@
   },
   {
    "g": "",
-   "p": " ",
+   "p": "queja,",
+   "cls": "plain"
+  },
+  {
+   "g": "28",
+   "p": "n",
+   "cls": "unc",
+   "w": 1
+  },
+  {
+   "g": "23",
+   "p": "d",
+   "cls": "unc"
+  },
+  {
+   "g": "24",
+   "p": "c",
+   "cls": "unc"
+  },
+  {
+   "g": "54",
+   "p": "s"
+  },
+  {
+   "g": "2",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": "de que no",
    "cls": "plain"
   },
   {
    "g": "62",
-   "p": "t"
+   "p": "t",
+   "w": 1
   },
   {
    "g": "1",
@@ -51,7 +98,8 @@
   },
   {
    "g": "48",
-   "p": "p"
+   "p": "p",
+   "w": 1
   },
   {
    "g": "38",
@@ -96,12 +144,13 @@
   },
   {
    "g": "",
-   "p": " ",
+   "p": "de una vez. Me inspira",
    "cls": "plain"
   },
   {
    "g": "62",
-   "p": "t"
+   "p": "t",
+   "w": 1
   },
   {
    "g": "2",
@@ -121,12 +170,13 @@
   },
   {
    "g": "",
-   "p": " ",
+   "p": "tú",
    "cls": "plain"
   },
   {
    "g": "54",
-   "p": "s"
+   "p": "s",
+   "w": 1
   },
   {
    "g": "19",
@@ -166,12 +216,13 @@
   },
   {
    "g": "",
-   "p": " ",
+   "p": "Hay que tener",
    "cls": "plain"
   },
   {
    "g": "24",
-   "p": "c"
+   "p": "c",
+   "w": 1
   },
   {
    "g": "16",
@@ -191,12 +242,13 @@
   },
   {
    "g": "",
-   "p": " ",
+   "p": "y",
    "cls": "plain"
   },
   {
    "g": "48",
-   "p": "p"
+   "p": "p",
+   "w": 1
   },
   {
    "g": "37",
@@ -235,7 +287,137 @@
   },
   {
    "g": "",
-   "p": " ",
+   "p": "Cuídate mucho para que sanes pronto.",
+   "cls": "plain"
+  },
+  {
+   "g": "77",
+   "p": "?",
+   "cls": "unk",
+   "w": 1
+  },
+  {
+   "g": "",
+   "p": "s",
+   "cls": "plain"
+  },
+  {
+   "g": "45",
+   "p": "o",
+   "cls": "unc",
+   "w": 1
+  },
+  {
+   "g": "6",
+   "p": "f",
+   "cls": "unc"
+  },
+  {
+   "g": "19",
+   "p": "i",
+   "cls": "unc"
+  },
+  {
+   "g": "24",
+   "p": "c"
+  },
+  {
+   "g": "20",
+   "p": "i",
+   "cls": "unc"
+  },
+  {
+   "g": "45",
+   "p": "o",
+   "cls": "unc"
+  },
+  {
+   "g": "54",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": "s desencadenados. Otros",
+   "cls": "plain"
+  },
+  {
+   "g": "24",
+   "p": "c",
+   "w": 1
+  },
+  {
+   "g": "31",
+   "p": "l"
+  },
+  {
+   "g": "57",
+   "p": "u"
+  },
+  {
+   "g": "14",
+   "p": "b",
+   "cls": "unc"
+  },
+  {
+   "g": "55",
+   "p": "s"
+  },
+  {
+   "g": "",
+   "p": "de",
+   "cls": "plain"
+  },
+  {
+   "g": "10",
+   "p": "g",
+   "cls": "unc",
+   "w": 1
+  },
+  {
+   "g": "56",
+   "p": "u"
+  },
+  {
+   "g": "16",
+   "p": "a"
+  },
+  {
+   "g": "22",
+   "p": "d"
+  },
+  {
+   "g": "15",
+   "p": "a"
+  },
+  {
+   "g": "33",
+   "p": "l",
+   "cls": "unc"
+  },
+  {
+   "g": "17",
+   "p": "a"
+  },
+  {
+   "g": "35",
+   "p": "j",
+   "cls": "unc"
+  },
+  {
+   "g": "15",
+   "p": "a"
+  },
+  {
+   "g": "38",
+   "p": "r"
+  },
+  {
+   "g": "17",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": "te escribirán. Hoy te dirijo un mensaje suplicatorio. Con memorias afectuosas para todos los tuyos, me repito tu viejo servidor y leal amigo q. b. t. m.",
    "cls": "plain"
   }
  ]

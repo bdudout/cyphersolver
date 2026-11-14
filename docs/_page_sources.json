@@ -980,8 +980,8 @@
  },
  "flak1940": {
   "claims": "2026-11-12",
-  "digest": "bdcd801fb5c679a475fc717245d341be0fdf8043",
-  "reviewed": "2026-11-12"
+  "digest": "f2aae0fccf0b707abb92d81d05476f044752daa7",
+  "reviewed": "2026-11-14"
  },
  "florence1429": {
   "claims": "2026-11-07",
@@ -1984,7 +1984,7 @@
  },
  "ottobon": {
   "claims": "2026-11-14",
-  "digest": "402dcf7502aea9018558195b6babd9b1c1f1fafd",
+  "digest": "a60f5608bc8d2e0023c93813241966f92f723888",
   "reviewed": "2026-11-14"
  },
  "oxenstierna1633": {
@@ -2459,7 +2459,7 @@
  },
  "rupert": {
   "claims": "2026-11-14",
-  "digest": "881415e9b0ba75dbe390bb19f44034222f89755c",
+  "digest": "a76278ccf04465db4904b04b857f52f327f8c882",
   "reviewed": "2026-11-14"
  },
  "rupert1645": {
