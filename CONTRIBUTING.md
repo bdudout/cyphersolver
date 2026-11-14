@@ -35,9 +35,10 @@ reading is accepted, it must show for each document (George Lasry, 22 Oct 2026):
 
 A document counts as read only when 95% of its words read as sense (the README read bar); one that builds coherent
 sentences under that is marked "read in part". Holes are counted by words: `[...]` is one unread word, and a hole that
-covers more carries its size, `[... 4]` for four unread words (README Conventions, "Holes are counted by words"). In a code read with its surviving key, a group one digit away from the
-value the sense wants counts as read when it sits inside a word whose other groups are read from that key; mark it
-in the reading (`cer{+tain}ly`) and list it (README Conventions, 14 Nov 2026). A document that decodes but does not yet build sentences can still be
+covers more carries its size, `[... 4]` for four unread words; where groups do not map to words the size is the least number of words the decode shows, said to be an estimate in the reading's notes, and a mark whose extent you cannot tell stays bare and is listed there as "extent unknown" (README Conventions, "Holes are counted by words"). In a code read with its surviving key, a group one digit away from the
+value the sense wants counts as read when it sits inside a word whose other groups are read from that key, the corrected groups spell the
+whole word, and the slip is seen on the image (a group that is a whole word does not qualify); mark it
+in the reading (`cer{+tain}ly`) and list it with what the image shows (README Conventions, 14 Nov 2026). A document that decodes but does not yet build sentences can still be
 sent, marked "decoded, not read": it is shown
 for others to improve, and is not counted as read. Key sheets, code lists and worksheets are marked "not prose".
 `python docs/_check_reading.py <folder>` measures the share of sentences without holes and shows the weak ones; please

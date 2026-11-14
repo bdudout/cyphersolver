@@ -19,7 +19,7 @@ One-digit slips (the group on the image, the sheet value the word wants):
 - exp{+ect}ation: 295 exp, **818** (sheet: del) for 518 ect, 864 ation. The first digit has a closed lower loop like the 8 of 864 beside it; a blotted 5 is not excluded, and then the group is the sheet's own. Read either way.
 - {+adv}ice: **1575** (sheet: oe) for 1515 adv, 1405 ice. The image reads 1575, the third digit has the bar of a 7. Adams's slip.
 - {?Alexander}: 1585 (sheet: ok) where 1535 al is wanted, then 1549 an, 828 der. The third digit is written over another and cannot be told (3 or 8), and the word as written lacks ex (289; the remainder has 1535 289 1549 828). A stroke cut by the gutter follows 1585 at the line end. Not counted as read.
-- [...]: after 908 with the plural mark (*Chancellor's*) the line runs into the gutter and a pen stroke of a further group is visible; the sentence wants a noun there (the Chancellor's ... and advice). Not in gap88.txt; counted as one lost word. Without it the count is 97 of 99 = 0.980.
+- [...]: after 908 with the plural mark (*Chancellor's*) the line runs into the gutter and a pen stroke of a further group is visible; the sentence wants a noun there (the Chancellor's ... and advice). Not in gap88.txt; extent unknown (one stroke of one group is all the film shows), counted as one lost word. Without it the count is 97 of 99 = 0.980.
 - [there]: 1398 is thirty on the sheet; restored.
 - *impaired* is kept as read: the catchword 1102 at the foot of the left leaf is the group Adams meant, and No. 83 has un-im-pa-ir-ed (NOTES section 3).
 

@@ -15,7 +15,7 @@ a closing section "Holes counted by words". Sizes are counts of decode fragments
 | 20 Oct 1569 | "par […] le comte […]" | 2 and 4 | 0.944 | 0.926 | read in part |
 | 4 Sep 1568 (Queen) | "d'Espaigne […] le mariaige" (two groups, thirty letters) | 2 | 0.943 | 0.942 | read in part |
 
-Extent not recorded, left as one hole: "que […] bien qu'il" (11 Oct 1567), the marks of 17 Jul 1568, 4 Sep 1568 (King)
+Extent unknown (not recorded in the logs), left as one hole each: "que […] bien qu'il" (11 Oct 1567), the marks of 17 Jul 1568, 4 Sep 1568 (King)
 and 6 Mar 1568 (all three letters already read in part). The readings now hold 11,615 words and 574 holes (561 before);
 `fraction_read` 0.873 -> 0.872.
 

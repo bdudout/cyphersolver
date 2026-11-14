@@ -495,6 +495,16 @@ README had said 58 and 59. In the profile, frame 0039's `read_share` is now this
 read in part; one sure word more would not be enough either (33 of 34 is 0.971, so it needs one of [?present] and
 [?prudent] settled: the blotted group on frame 0111 or another occurrence of 1159). The target stays read in part.
 
+**One-digit rule not applied; a workable next step (claims review, 14 Nov 2026).** Three of the 65 holes are one
+digit away from the sheet value the word wants: No. 13 `sour[?ce]` (510 cape for 516 ce) and `vis[?it]` (146 jur for
+140 it), No. 24 `[?Sir]` (593 shall for 598 si before 813 R). The one-digit rule (README Conventions, 14 Nov 2026) asks
+that the slip be seen on the image, so that it is the writer's slip and not a misreading here. The contributors'
+transcriptions give 510 and 146 as written in both copies of No. 13
+(`beling/letters/1814-04-11_No13/first_reader_line_by_line_both_short_letters.md`) and 593 on frame 0220, but the
+project has not looked at the three places on the frames for this rule, so the rule is not applied and they are
+counted as holes. Next step: look at the three places on the frames. If they are confirmed: No. 13 72 of 72, No. 24
+128 of 130 (0.985), 62 holes in 2,609 words (0.976); the class does not change (No. 17 stays at 0.941).
+
 **Credit.** The observation is Brice Dudout's (PR #570). The image check, the count and the change are the
 project's. Andrew Beling's transcription of the sheet and WAINUT's block reversal are as before.
 

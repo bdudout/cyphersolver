@@ -58,6 +58,8 @@ ofrece que decir a V.S. del congreso.
   pesco": con, por, la and a noun), 4; before "el dolor" (nine groups, "y vando se le cr as de o si"), 4; after "por
   el" (dul, de, Burgomayne), 3; between "critico" and "el estado" ("que", an unread sign, "en e"), 2; after
   "persistan en" (ten groups, p-e-l-i-co-s-a-ni-en-a), 4; after "sino" ("esta de vien"), 2. The other five marks
-  stand for one word each. 27 unread words under the marks, 31 holes with [al]eses and the three [?word]s, against
+  ("lo que [...] caminando", "con los [...]", "propias de [...]", "cortes de [...]", "la [...] de estas manos") stay bare
+  and count as one word each. For "propias de [...]" no groups are recorded here: extent unknown. For the other four
+  the groups are listed above (xi 20 36; 25 B; the C sign; 188 r xi 28) and the decode shows no more than one word. 27 unread words under the marks, 31 holes with [al]eses and the three [?word]s, against
   330 words read: read share 0.914 by words (0.954 by marks).
 - Context: Ghent fell to Louis XIV on 9-12 March 1678; Konigsmarck commanded the Swedish forces in Pomerania.
