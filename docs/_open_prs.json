@@ -1,6 +1,18 @@
 [
  {
   "author": {
+   "id": "U_kgDOFP6PgA",
+   "is_bot": false,
+   "login": "alberto-garvia",
+   "name": "Alberto Garvía García"
+  },
+  "number": 627,
+  "title": "anover1610: Add supporting evidence and manuscript references",
+  "updatedAt": "2026-11-14T16:30:28Z",
+  "url": "https://github.com/dbourdeau/cyphersolver/pull/627"
+ },
+ {
+  "author": {
    "id": "MDQ6VXNlcjE4NTEyMTM=",
    "is_bot": false,
    "login": "dbourdeau",
