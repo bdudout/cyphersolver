@@ -7,12 +7,12 @@
    "id": "quemnovit_1627-07-20",
    "read": "read in part",
    "shelfmark": "Copenhagen, Rigsarkivet, TKUA, Speciel del, Nederlandene B.41 (1608-34), Arkivalieronline unit 261377, image 443 (right page)",
-   "date": "'den 20 Iulii anno currentis', no year; 1627 if the writer is Christian Wilhelm of Brandenburg (proposed, not proved), 1628 from the filing order",
+   "date": "'den 20 Iulii anno currentis', no year. A sibling letter in the same hand and key (images 465-466) is dated in cipher 25 July 1627 and reports the arrival after a galley voyage, which points to 1627 for this letter too (inference from the sequence; the filing order pointed to 1628)",
    "year": 1627,
    "country": "Denmark",
-   "route": "unnamed writer signing 'Quem novit', at a place coded 118 (Venice likely, not proved), to King Christian IV",
+   "route": "unnamed writer signing 'Quem novit', at a place the letter does not name (the Signoria and the galleys point to Venice, not proved), to King Christian IV",
    "places": {
-    "from": "[118] (Venice likely, not proved)",
+    "from": "not named (Venice likely, not proved)",
     "to": "Copenhagen"
    },
    "language": "German",
@@ -94,7 +94,7 @@
   ],
   "sessions": 4,
   "first_date": "2026-11-12",
-  "last_date": "2026-11-12"
+  "last_date": "2026-11-14"
  },
  "solution": [
   {
@@ -192,6 +192,21 @@
    ],
    "what": "Integration check (R4): independent decoder from key_B.txt and reader 1's transcription reproduces the decode; 100 cipher words, 60 are words of a German vocabulary built from the repository's German corpora (len 3+), 0 of 3,000 shuffled keys reach 60 (best 6). adjudicated.tsv decoded with my own code: 88 units decode fully, 70 equal a form in s_forms.txt = 70/103. Image 443 and 447 fetched from the archive API and compared; the g/q tail distinction could not be settled at this resolution.",
    "result": "worked"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "literature search",
+   "what": "Correction by the contributor (PR #588) after Mark Vladimir Prizmic's comment on issue #450 and his preprint (doi:10.5281/zenodo.24210516): images 465-466 of the same unit hold a second letter in this hand and key, dated in cipher 25 July 1627, found and read by Prizmic. The sweep of images 426-475 had reported no sibling in this key; that was wrong. The gloss of code 118 as the place of writing (Venice likely) is withdrawn: 118 stands in the dating line of both letters, written at different places.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "other"
+   ],
+   "what": "Integration check of PR #588: images 465 and 466 (api.rigsarkivet.dk/ao/v1/images/48900949 and 48900950, 4473 x 3436) fetched and looked at. Same hand and sign repertoire as image 443; closing page signed 'Quem novit E.'. key_B.txt unchanged reads the opening 'gnedigster konig', then 'in den siebenden tagk' and 'wegen', and the dating line '.118. den 25 iulii an[no] tausendt 6 c. undt zwantzigk sieben' (about 12 cipher words read by eye; the body was not transcribed). In the number word the sign n, which has no value in key_B, stands twice where 'zwantzigk' needs z, so n = z is supported on the image; key_B.txt is left as stamped and no count for image 443 changes. The second letter is Prizmic's reading and is not added to this folder. A further independent key for the same letters was reported on the issue by Brice Dudout (16 of 16 shared letter values equal to key_B, value z proposed for the sign without a value); no files were sent, so it is recorded as reported, not checked.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -236,13 +251,20 @@
     "role": "transcription",
     "note": "three transcriptions of image 443 (one by the breaker, two blind) by separate AI sessions",
     "date": "2026-11-12"
+   },
+   {
+    "who": "prizmic",
+    "role": "pointer",
+    "note": "found and read the sibling letter of 25 July 1627 at images 465-466 of the same unit (same hand, same key), which corrects the sibling sweep and the gloss of code 118 as the place of writing; issue #450 comment of 14 Nov 2026",
+    "date": "2026-11-14",
+    "source": "https://doi.org/10.5281/zenodo.24210516"
    }
   ],
   "gaps": [
    {
     "item": "Codes 117 (twice) and 118: no value",
     "blocker": "no-key-material",
-    "detail": "Three tokens; no other leaf in this code is known. 118 is the place of writing, Venice likely, not proved. The chancery sheet at image 447 is for another code."
+    "detail": "Three tokens here. 118 also stands in the dating line of the sibling letter of 25 July 1627 (images 465-466: '.118. den 25 iulii', seen on the image 14 Nov 2026), which reports an arrival after a voyage and so was written at another place: 118 is a word of the dating formula, not the place of writing (corrected 14 Nov 2026 after M. V. Prizmic, issue #450). Neither letter gives it a value. The chancery sheet at image 447 is for another code."
    },
    {
     "item": "g/q sign class (13 units) and pi/Z/n, c/e classes (7 units) disputed between readers",
@@ -253,7 +275,7 @@
   "texts": [
    {
     "doc": "quemnovit_1627-07-20",
-    "label": "'Quem novit' to Christian IV, [118], 20 July [1627 or 1628]",
+    "label": "'Quem novit' to Christian IV, 20 July [1627 or 1628]",
     "transcription": [
      "transcriptions/reader1_frozen.txt",
      "transcriptions/reader2_blind.txt",
@@ -266,7 +288,7 @@
     "language": "de",
     "state": "read in part",
     "read_share": 0.68,
-    "summary": "The writer (H.) tells the King he has waited at [118] into a third week for a galley, at cost and to his vexation; small galleys were there but nobody, [117] least of all, would advise risking them; the Signoria has now assigned a large one, which came yesterday, and he leaves today. He has borrowed another 3,000 thalers and asks the King to have them paid, to be deducted later. [117] has resolved nothing on his proposal, but he hopes W. will declare themselves better. Context: the Signoria and the galleys point to Venice (not proved), in the Thirty Years' War (1627 or 1628); the writer is not identified.",
+    "summary": "The writer (H.) tells the King he has waited into a third week for a galley, at cost and to his vexation; small galleys were there but nobody, [117] least of all, would advise risking them; the Signoria has now assigned a large one, which came yesterday, and he leaves today. He has borrowed another 3,000 thalers and asks the King to have them paid, to be deducted later. [117] has resolved nothing on his proposal, but he hopes W. will declare themselves better. Context: the Signoria and the galleys point to Venice (not proved), in the Thirty Years' War; the writer is not identified. The code 118 stands in the dating line and is not the place of writing. A sibling letter of 25 July 1627 (images 465-466, read by Mark Vladimir Prizmic) points to 1627.",
     "reading_review": {
      "grade": "B",
      "by": "an AI model, for Malcolm McBratney: a model reading, not a person, and not independent (the session that prepared these files). A person's review is still owed.",
