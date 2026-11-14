@@ -204,6 +204,15 @@
    "kind": "literature search",
    "what": "Integration check: two more web searches (Reyes/Revueltas clave cifrada 1886 edition; Narváez on Mexican cryptography with Reyes, Garza Galán, Cervantes). Nothing names this letter or key; Narváez 2019 (SRE) and the Ríos Vázquez thesis not opened.",
    "result": "partial"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "key matching"
+   ],
+   "what": "Issue #608 (Brice Dudout): the pair DLI.4.631.1 attests 23 = n and 65 = ñ. Read again on the public CEHM image: the last 25 groups align letter for letter with 'á colocacion del Sr. Lozano' (Sr. spelled out as señor in the cipher). The integration check had recorded both values; the strict count now follows: pendiente and señor count as read, 7 of 12 words (0.583). Groups 12, 20, 40, 53, 82 stay on context alone.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -245,9 +254,9 @@
    "transcription",
    "key recovered"
   ],
-  "fraction_read": 0.417,
+  "fraction_read": 0.583,
   "fraction_read_method": "measured",
-  "fraction_read_source": "Strict count by the README read bar: 5 of the 12 cipher words (su, miedo, conducta, dejar, eso) are read from the signs with the frozen key; the other 7 rest on letters given by the context alone (groups not in the key; eight groups, two of them in provechoso) and count as not read: 5/12 = 0.417. All 12 words are identified and none is a hole. The contributor's earlier field gave 1.0 (all runs given a value).",
+  "fraction_read_source": "Strict count by the README read bar, since 14 Nov 2026: 7 of the 12 cipher words count as read. Five (su, miedo, conducta, dejar, eso) are read from the signs with the frozen key; two more (pendiente, señor) have one group each outside the frozen key, 23 = n and 65 = ñ, and both values are attested by the contemporary translation on DLI.4.631.1 (23 also on DLI.3.416.1). The other 5 (provechoso, viaje, capital, ranchero, dicho) rest on letters given by the context alone (groups 12, 20, 40, 53, 82) and count as not read: 7/12 = 0.583. It was 5/12 = 0.417 at the integration of 12 Nov 2026, which counted with the frozen key only. All 12 words are identified and none is a hole. The contributor's earlier field gave 1.0 (all runs given a value).",
   "verification": [
    "contemporary decipherment",
    "matched control",
@@ -275,6 +284,13 @@
     "role": "transcription",
     "note": "DLI.4.634.1 (two passes) and the key pairs of DLI.3.524.1, from CEHM images",
     "date": "2026-11-12"
+   },
+   {
+    "who": "dudout",
+    "role": "pointer",
+    "note": "pointed out that the contemporary pair DLI.4.631.1 attests 23 = n and 65 = ñ, so pendiente and señor count as read (7 of 12 words)",
+    "date": "2026-11-14",
+    "source": "https://github.com/dbourdeau/cyphersolver/issues/608"
    }
   ],
   "texts": [
@@ -288,8 +304,8 @@
     "language": "es",
     "state": "not prose",
     "summary": "Garza Galán, since his arrival, is moving towards a reconciliation with General Cervantes, which shows Reyes how useful his journey to the capital was; but since Reyes fears a 'ranchero' more than a politician, he will keep watch on that gentleman's conduct, without ceasing to draw their relations closer.",
-    "note": "Not prose: 10 short cipher runs (one or two words each, 12 words) set into a letter written in clear Spanish; given with our decode with key_frozen.tsv and an English gloss. The runs form no sentence of their own; the sentence is carried by the clear text around them. Words: 5 verbatim from the signs (su, miedo, conducta, dejar, eso), 7 with letters filled from context on groups not in the frozen key (eight groups, two of them in provechoso: provechoso, viaje, capital, ranchero, pendiente, dicho, señor; 82 = ch holds at both of its places), ranchero also with the writer's dropped a restored. No holes. The cipher words carry Reyes's distrust of Garza Galán; the clear text carries the reconciliation news. Independent blind review (12 Nov 2026): 50 of 68 groups checked against the image, all agree; check_marks and the held-out test reproduced; set to not prose (grade B) on the ralamb1657 rule for short runs inside clear letters.",
-    "read_share": 0.417
+    "note": "Not prose: 10 short cipher runs (one or two words each, 12 words) set into a letter written in clear Spanish; given with our decode with key_frozen.tsv and an English gloss. The runs form no sentence of their own; the sentence is carried by the clear text around them. Words: 5 verbatim from the signs (su, miedo, conducta, dejar, eso), 7 with letters filled from context on groups not in the frozen key (eight groups, two of them in provechoso: provechoso, viaje, capital, ranchero, pendiente, dicho, señor; 82 = ch holds at both of its places), ranchero also with the writer's dropped a restored. No holes. The cipher words carry Reyes's distrust of Garza Galán; the clear text carries the reconciliation news. Independent blind review (12 Nov 2026): 50 of 68 groups checked against the image, all agree; check_marks and the held-out test reproduced; set to not prose (grade B) on the ralamb1657 rule for short runs inside clear letters. Since 14 Nov 2026 pendiente and señor count as read (23 = n and 65 = ñ attested on DLI.4.631.1): 7 of 12 words.",
+    "read_share": 0.583
    },
    {
     "doc": "dli_3_524_1",

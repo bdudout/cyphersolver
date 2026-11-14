@@ -1,6 +1,6 @@
 # reyes1886: Bernardo Reyes to Ignacio Revueltas, Monterrey, 1 April 1886 (catalogue 1447)
 
-Read in part (strict share 5 of 12 cipher words, 41.7%), 12 Nov 2026. Written up on the site (reyes1886.html) at the
+Read in part (strict share 7 of 12 cipher words, 58.3%, since 14 Nov 2026; 5 of 12, 41.7%, at the integration of 12 Nov 2026). Written up on the site (reyes1886.html) at the
 integration of PR #472.
 
 ## Document
@@ -82,7 +82,8 @@ cipher is 10 runs of one or two words each (12 words, 68 groups) set into a lett
 form no sentence of their own, and the sentence is carried by the clear text. This is the shape of ralamb1657
 (images 104 and 114), where short runs inside clear letters are marked not prose. The runs are given with our decode
 with key_frozen.tsv and an English gloss. Every cipher word is identified, but 7 of the 12 rest on one context-filled
-letter each (41.7% verbatim from the signs).
+letter each (41.7% verbatim from the signs with the frozen key; 58.3% since 14 Nov 2026, when pendiente and señor were
+counted on the values the sibling telegrams attest: see the section of 14 Nov 2026).
 
 ## Review
 
@@ -173,3 +174,28 @@ confirms the key against the contemporary translation.
 Signs transcribed twice from the image (pass 1 at 1x, pass 2 from fresh 2x crops), reconciled in
 `transcription_634.txt` (68/68 agree). Work by AI language-model agents for WAINUT; no target-specific human
 intervention.
+
+## Strict count after the attested 23 = n and 65 = ñ (issue #608, 14 Nov 2026)
+
+Brice Dudout (issue #608) points to DLI.4.631.1 (Revueltas to Reyes, 24 Mar 1886, "Clave antigua", with its
+"Traducción") as a contemporary pair that attests 23 = n and 65 = ñ, and counts 7 of 12 words. The pair is the one
+the integration check of 12 Nov had already read (above): the attestation was on record, the count had not followed.
+
+- Checked again on the public image (`http://visor.cehm.org.mx/assets/docx/fondos/jzd/DLI/4/631/1/DLI.4.631.1.0001.jpg`,
+  1770 x 2298). The last 25 groups, after the clear words "asunto relativo", read here
+  `17 | 86 21 68 61 46 87 16 89 31 33 | 14 13 38 | 78 43 65 31 97 | 28 21 98 17 23 27`, against the translation
+  "á colocacion del Sr. Lozano": a | c-o-l-o-c-a-c-i-o-n | d-e-l | s-e-ñ-o-r | l-o-z-a-n-o. The 14 groups the issue
+  quotes are the same. 23 stands for the n of Lozano. 65 stands between s-e and o-r where the translation
+  abbreviates "Sr.": the cipher spells the word out in five groups, four of them in the frozen key (78 s, 43 e, 31 o,
+  97 r), so the fifth is ñ. This is one occurrence each on this sheet; the integration check found 23 = n a second
+  time on DLI.3.416.1.
+- The same lines give 86 c, 46 c, 38 l, 28 l, 98 z, 27 o (not in the frozen key, not used in 634.1), as the issue says.
+- Count. In 634.1 the group 23 is the only context letter of pendiente (R6) and 65 the only one of señor (R8, second
+  word). With both values attested by a contemporary decipherment outside 634.1, neither word rests on the sense
+  alone any more, so by the README rule they count as read: 7 of 12 words (su, miedo, pendiente, conducta, señor,
+  dejar, eso), 58.3%. Five words stay not read, each with a group valued from context only: provechoso (53, 82),
+  viaje (40), capital (20), ranchero (12, and the dropped a), dicho (82). Class unchanged: read in part; state of the
+  runs unchanged: not prose.
+- `key_frozen.tsv`, `key.tsv` and the marks in `reading_634.md` are left as they are (the frozen key is the 524.1
+  key; the marks show what it gives). The earlier sections keep the count of their day (5 of 12, 41.7%).
+- Still not attested: 12, 20, 40, 53, 82 (Remaining gaps).
