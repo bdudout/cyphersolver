@@ -1,6 +1,18 @@
 [
  {
   "author": {
+   "id": "MDQ6VXNlcjM2ODc1MzQ=",
+   "is_bot": false,
+   "login": "bdudout",
+   "name": "Brice Dudout"
+  },
+  "number": 625,
+  "title": "tranchedini1448: 1448 table from ital. 1585 f. 28, held-out test on f. 30, tests on f. 134 / f. 139 (#616)",
+  "updatedAt": "2026-11-14T16:08:15Z",
+  "url": "https://github.com/dbourdeau/cyphersolver/pull/625"
+ },
+ {
+  "author": {
    "id": "MDQ6VXNlcjE4NTEyMTM=",
    "is_bot": false,
    "login": "dbourdeau",
