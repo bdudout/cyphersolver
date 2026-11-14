@@ -1948,7 +1948,7 @@ PAGES = [
          rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
     dict(slug='bethune', label='B&eacute;thune 1601', year='1601', y=1601, place='Paris &rarr; Rome', st='partial', stt='solved in part',
          title='Henri IV to Philippe de B&eacute;thune, November 1601',
-         blurb='Three letters of Henri IV to his ambassador in Rome (BnF fr. 3484) with no decipherment. The key was recovered by aligning the 10 November letter with its clear minute in the same volume and with marginal decipherments of other letters; that letter is deciphered in full. The 22 November letter is transcribed with its cipher runs decrypted in fragments, and the 9 November letter is decrypted at about six words in ten, the limit its transcription allows.',
+         blurb='Three letters of Henri IV to his ambassador in Rome (BnF fr. 3484) with no decipherment. The key was recovered by aligning the 10 November letter with its clear minute in the same volume and with marginal decipherments of other letters; that letter is deciphered in full. The 22 November letter is transcribed with its cipher runs decrypted in fragments, and the 9 November letter is decrypted at about six words in ten, the limit its transcription allows. A contributor reports that Halphen&rsquo;s edition of 1889 prints both in clear; it was not seen here.',
          quote='&ldquo;car j&rsquo;affectionne led. Cardinal et desire m&rsquo;acquitter de lad. promesse que je luy ay faicte&rdquo;',
          rights='Manuscript rights: Biblioth&egrave;que nationale de France'),
     dict(slug='randolph1570', label='Randolph to Sussex 1570', year='1570', y=1570.51, place='Edinburgh &rarr; the Earl of Sussex', st='found', stt='read at the time',

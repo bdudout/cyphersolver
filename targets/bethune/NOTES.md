@@ -1,6 +1,43 @@
 # Henri IV to Philippe de Béthune (Rome), 9, 10 and 22 November 1601 — BnF fr. 3484 nos. 7, 8, 12 (catalogue item 22)
 
-Status: in progress (23 Oct 2026, consistency pass: the Halphen 1889 edition is not yet opened, a gap marked not-attempted; the print, key-rebuild and retry escalation steps are not done)
+Status: in progress (14 Nov 2026, integration of pull requests #597 and #603: Halphen 1889 prints the 9 and 22 Nov letters in clear by the contributor's record, but its text is not in the repository and was not seen here; bringing it in and correcting reading_22nov.md is a workable gap)
+
+**Outcome applied at integration, 14 Nov 2026 (see "Integration check, pull request #603" below).** Read in part, as
+before: the 10 Nov letter reads from its minute; the 9 and 22 Nov letters are decoded, not read here. They are in print
+in clear in Halphen 1889 (pp. 16-18 and 33-40) by the contributor's record, so the entry is split: the key and the
+10 Nov letter under *key recovered based on adjacent plaintext*, the 9 and 22 Nov letters under *read from existing
+decipherment*, in part, until the printed text is in the folder. The two pre-registered measurements against the print
+(0.507 and 0.535) **failed** their declared 0.85 bar. The cipher alone confirms 0.37 of the printed words (sure words).
+The two paragraphs that follow are the contributor's own account and proposed status ("read"), kept as filed.
+
+**14 Nov 2026 (later): read. Halphen pp. 35–40 print the rest of the 22 Nov letter, so all three letters have a clear
+text.** A second pre-registered measurement on a fresh portion (ff. 46v–47v, 1,062 tokens, key K' frozen) scores 0.535
+against a best of 0.319 for 200 shuffled keys. The default 0.85 bar is not met; the key-signal bar is. Strict count on
+the 371 printed words: 136 sure, 107 probable, 128 restored. The target is read from an existing decipherment
+(Halphen 1889 for 9 and 22 Nov, the minute f. 36 for 10 Nov). The cipher alone supports about two thirds of the words
+(`halphen_check.md`).
+
+**14 Nov 2026, Halphen 1889 opened (`halphen_check.md`): the 9 Nov letter is in print, and so is most of f. 46r.**
+E. Halphen, *Lettres inédites du roi Henri IV à M. de Béthune* (Paris, 1889), pp. 16–18, prints the whole ciphered
+passage of f. 33 in clear, from the original. pp. 33–34 print f. 46r of the 22 Nov letter up to l. 28. The cipher
+is not marked as such. One pre-registered measurement of the frozen key on f. 33 against his text scores 0.507
+(best of 200 shuffled keys 0.291). That misses the default 0.85 bar, as the transcription ceiling predicts, but shows
+the key carries his text. 130 of his 353 words are confirmed letter by letter by the decode, 105 in part, 118
+restored from the print. The 9 Nov letter is therefore read from an existing decipherment (printed edition). The
+print fixes 12 = le Grand Duc, 20 = la Seigneurie de Venise, 28 = Espagne, 26 = France, 27 = Italie,
+44 = Prince(s), 45 = Duc and 70 = partant; 69 and 67 are tentative. Halphen also dates the glossed letter ff. 30–31
+to 9 Nov, not 8 Nov. Still to do: open Halphen pp. 35 ff. for ff. 46v–47v, and re-read the clear of f. 46r against
+his text (the September transcription has errors).
+
+**14 Nov 2026, verification pass (Claude Opus 5.5): three code groups fixed, letters still read in part.** The eight
+cipher lines of f. 53r, block 1, were transcribed and aligned with their verbatim marginal gloss
+(`f53r_alignment.md`): **72 = vous** (four aligned occurrences, which settles the proposal below and the D1
+counter-indication), **6, standing as a word, = Sa Sainteté** (three), **66 = sa** (one); also `3:` = faire, `+.` = de,
+`n,` = nous. A pre-registered check on glossed blocks not used for the derivation (f. 56r, f. 50r) found only one
+locatable occurrence (72 under *que je vous*, agrees): not conclusive; the protocol measurement is not applicable to
+groups this rare. Three 22 Nov runs give sense with the new values and the clear frames (*vostre negotiation*,
+*…correspondance … discretion*, *le respect*), probable only. The 9 and 22 Nov letters stay decoded, not read;
+Halphen 1889 is still behind HathiTrust's human check (403 on 14 Nov) and not elsewhere online.
 
 **Status, 17 Sept 2026 (third pass): partly read; the 22 Nov letter (ff. 46r-47v) now transcribed in full.** The 10 November letter (f. 34) is read in full, because its minute survives in
 clear four leaves on (f. 36, the notice's "copie du n° précédent"); that pair, six glossed passages of the 8 November
@@ -37,7 +74,7 @@ Xivrey and Bazeries downloads) are gitignored; `fetch.py` / `fetch_full.py` refe
 
 | item | date | folios | canvases | cipher | decipherment |
 |---|---|---|---|---|---|
-| 6 | Paris, 8 Nov 1601 | 30r–31v | 67–70 | six passages, 1–5 lines each | numbered marginal glosses in a smaller hand (paraphrase, near-verbatim) |
+| 6 | Paris, 9 Nov 1601 (corrected 14 Nov 2026: the leaf map had 8 Nov; f. 31v reads *le ix.me jour de Novembre*, and Halphen dates it the 9th; older sections of these notes still call it the 8 Nov letter) | 30r–31v | 67–70 | six passages, 1–5 lines each | numbered marginal glosses in a smaller hand (paraphrase, near-verbatim) |
 | 7 | Paris, 9 Nov 1601 | **33r** | 73 | 22 full lines, one passage after "il me mande qu'il est certain que" | **none** |
 | 8 | Paris, 10 Nov 1601 | **34r–v** | 75–76 | 4 + 8 + 2 + 3 lines in four passages | **none on the leaf; the minute f. 36r–v (item 9) is in clear** |
 | 9 | "Du Xe 9bre 1601" | 36r–v | 79–80 | none | the minute of no. 8, with corrections |
@@ -433,14 +470,77 @@ d'Espaigne, Archiduc, Fuentes).
 Not in Tomokiyo (his Béthune ciphers are fr. 15975 for 1602–05 and fr. 15972 for 1606–08), not in DECODE
 (search "Bethune" returns only Charost 1673), not in Xivrey (t. V has no Béthune letter for Nov 1601).
 
+## Integration check (14 Nov 2026), pull request #597 (Brice Dudout)
+
+The f. 53r alignment (`f53r_alignment.md`) was checked here on the Gallica image (ark btv1b52523722c, canvas 113,
+`openapi.bnf.fr` IIIF route, 3909 x 5340 px, the eight cipher lines and the margin gloss cut at full size). About forty
+groups of lines 2, 3 and 5 to 8 were compared with the transcription, the anchors first:
+
+- **72** stands where the gloss has *vous* four times: l. 2 `x, 72 , T 63` (*que vous pre-*), l. 3 `g a x; 72` (*ny que
+  vous*), l. 7 `72` before the clear word (*vous [s]avez*), l. 8 `6 72` (*sa Saincteté vous*). All four seen. The repo's
+  own corpus already had a fifth: block D1 of f. 49v (`corpus_v2.txt`) runs `x, d, 72 4 d` under *que ie vous ay*.
+- **6** as a figure standing alone is seen three times (l. 3 after the line-head sign, l. 6 after the dotted cross,
+  l. 8 after the doubling sign), each where the gloss has *sa Sain.té*.
+- **66** is seen once, l. 3, before `p + S f ...` (*sa volonté*). One occurrence: medium, as the contributor grades it.
+- Small differences that change no value: the two marks the file gives as `. .` near the end of l. 7 look like a small
+  raised `a o`; the first sign of *sçavoir* (given as `9`) can also be read as the looped g.
+
+The pre-registered check on other glossed blocks found one occurrence (n = 1): **not conclusive, by the rule declared**,
+and the declaration's hash is stated in the file but the declaration itself is not in the repository, so its order of
+events is by the contributor's record. The values rest on the verbatim gloss, which is the stronger evidence here. The
+three probable readings in the 22 Nov runs are not counted as read. `python docs/_check_profile.py bethune`: valid.
+
+## Integration check (14 Nov 2026), pull request #603 (Brice Dudout)
+
+**What could and could not be checked.**
+
+- *Halphen 1889 itself: not seen here.* HathiTrust (iau.31858014633857) answers 403 to a script and was left at that;
+  archive.org has other Halphen editions (Bellièvre, Sillery) but not this one; the Gallica search answered with its bot
+  check. Everything the edition is said to print is **by the contributor's record** (a person opened it in a browser).
+- *The two measurements: not re-run.* `halphen_check.md` gives SHA-256 values for two declarations, two scripts and a
+  segmentation, but none of those files, and no reference text, is in the pull request. The hashes cannot be recomputed
+  and the scores cannot be reproduced; "frozen before decoding" is by the contributor's record.
+- *The strict word counts: not recounted*, for the same reason (they are counts against the printed text).
+- *The code groups from the print: checked for consistency with the cipher.* A first-value decoder written here from
+  `key.tsv` puts the eight groups where the quoted phrases need them, beside spelled-out words that agree:
+  `r 44 ff g, x Cm r 4 g ff` gives *. Prince .. mirane* (*du Prince de la Mirande*), `g, p t a ff x 28` *la voie . Espagne*
+  (*par la voye d'Espagne*), `26 x, B S 28` *France que l l Espagne* (*à la France qu'à l'Espagne*), `70 72` *partant
+  vous*, `f, 45 t: u t ...` *le Duc de ao...* (*le Duc de Modane*), `g 27 q, R2 t g` *Italie pour so.* (*en Italie pour son
+  service*), `20 x f, S 12` before the clear *qui sont douez de toute prudence*. 67 and 69 are low and stay open.
+- *The quoted corrections to `reading_22nov.md`: checked on the image* (Gallica canvas 99, `openapi.bnf.fr` IIIF). L. 10
+  reads *et pareillement* and l. 24 *que Je veux*, as the print is quoted. L. 4 reads *que des com.ns que Je vous ay
+  faict* (the contributor quotes the print as *que des commandemens que j'ay faict*; the leaf has *vous*). The three
+  places are corrected in `reading_22nov.md` from the image. This also shows the quotations are real readings of the leaf.
+- *The date of ff. 30-31:* f. 31v (canvas 70) reads *Escript a Paris le ix.me jour de No.bre 1601*: 9 Nov, as Halphen
+  has it. Leaf map corrected.
+
+**The two measurements, published as failed.** Declared: similarity (1 − Levenshtein / max length) of the frozen-key
+decode to Halphen's text at least 0.85 and at least 0.30 above the best of 200 shuffled keys. Scores: **0.507** on f. 33
+(970 tokens) and **0.535** on ff. 46v-47v (1,062 tokens, which did not build the key). **Both failed.** Stated
+separately: the best shuffled key scored 0.291 and 0.319, so the key and transcription carry the printed text well
+above chance (+0.22 both times, over the contributor's second threshold of +0.15). That is evidence that the print is
+the text of these leaves; it is not a reading of them from the cipher.
+
+**How much the cipher alone supports** (the contributor's strict count, words of the print whose letters the decode
+matches at 75% or more): 9 Nov **130 of 353 (0.368)**; 22 Nov, measured runs, **136 of 371 (0.367)**. The contributor's
+looser figure, sure plus probable, is 235 of 353 (0.67) and 243 of 371 (0.65).
+
+**Outcome.** Not "read". The read bar needs the text of every document in the folder, measured; here the text of two
+letters is in a print that is cited, not held, and was not seen at integration, and the cipher alone gives 0.37. The
+print is public domain (1889), so transcribing pp. 16-18 and 33-40 into the folder is a workable gap, not an outside
+blocker: `Status: in progress`, class read in part, `fraction_read` 0.2 unchanged. The entry is split (`outcome.parts`):
+the key and the 10 Nov letter stay under *key recovered based on adjacent plaintext*; the 9 and 22 Nov letters go under
+*read from existing decipherment*, extent partial, with Eugène Halphen credited as the prior solution. When the printed
+text is in the folder and aligned with the decode, those two letters can be classed read from the existing decipherment.
+`codes_open` is 10 (2, 3, 5, 8, 9, 31, 62, 80, and 67, 69 with low proposals), not 8.
+
 ## Remaining gaps
 
 The 9 Nov 1601 (f. 33) and 22 Nov 1601 cipher runs are decoded, not read (2,849 tokens; reading audit 22 Oct 2026); the two letter lines below carry their blockers. The glyph transcription (~70% accurate) caps the decode; re-transcribe on full-resolution crops, using the glossed leaves ff. 49v-50r, 53r, 56r to fix the confusable glyphs.
 
-- 9 Nov 1601 letter, f. 33 (about half the words) - blocker: illegible; third pass measured the ceiling as set by the glyph transcription (similar glyphs differ by a hook), not by the key
-- 22 Nov 1601 letter, 80 ciphered runs (ff. 46-47) - blocker: illegible; decode2.py gives fragments only, the same transcription ceiling
-- code groups 2, 5, 6, 8, 9, 12, 20, 26-28, 31, 44, 45, 62, 66, 67, 69, 72, 80 - blocker: no-key-material; glossed leaves ff. 49v-50r, 53r, 56r carry verbatim decipherments containing 66 and 72, but the eight cipher lines of f. 53r were never transcribed/aligned
-- Halphen 1889 (HathiTrust iau.31858014633857, full view): may print the 9 and 22 Nov letters in clear - blocker: not-attempted; behind a human-verification page, to be opened by a person
+- 9 Nov 1601 letter, f. 33: the text printed in Halphen 1889, pp. 16-18, is not in the repository - blocker: not-attempted; the cipher alone gives 130 sure words of 353 (the contributor's count); the edition (public domain, HathiTrust iau.31858014633857, behind a human check) is to be transcribed by a person and aligned with the decode word by word
+- 22 Nov 1601 letter, 80 ciphered runs (ff. 46-47): the text printed in Halphen 1889, pp. 33-40, is not in the repository - blocker: not-attempted; 136 sure words of 371 on the measured runs (the contributor's count); reading_22nov.md's clear text still has errors against the print (three corrected from the image on 14 Nov 2026)
+- code groups 2, 3, 5, 8, 9, 31, 62, 67, 69, 80 - blocker: no-key-material; 6, 66, 72 fixed from the f. 53r gloss and 12, 20, 26, 27, 28, 44, 45, 70 from the frames quoted from Halphen 1889 (14 Nov 2026); 67 and 69 have low proposals; the f. 56r blocks and the second f. 53r block are not yet aligned
 - clear copies in BnF Cinq cents de Colbert 346 - blocker: needs-physical-access; copy register 23 Aug 1601 - 22 Nov 1602, not digitised (Gallica SRU no record)
 
 ## Escalation
@@ -448,6 +548,6 @@ The 9 Nov 1601 (f. 33) and 22 Nov 1601 cipher runs are decoded, not read (2,849 
 - [x] siblings: f. 36 minute read the 10 Nov letter; glossed leaves ff. 49v-50r, 53r, 56r-57r examined
 - [x] clear-pages: f. 36 is the clear minute of f. 34; marginal glosses on ff. 53r, 56r found verbatim
 - [x] known-keys: Bazeries 1901 key for Bethune 1599 compared: same design, different values
-- [ ] print: Halphen, Lettres inedites ... 18 oct - 24 dec 1601 located 22 Oct 2026 in full view on HathiTrust (iau.31858014633857) but behind human verification, not opened; Xivrey, Colbert 17, fr. 3677/3678, Tomokiyo, DECODE checked
-- [ ] key-rebuild: not done - align the eight f. 53r cipher lines (cut.py 113 ...) and the f. 56r block against their verbatim glosses to fix 66, 72 and the name figures
+- [ ] print: partly done - Halphen 1889 opened by the contributor on 14 Nov 2026 (pp. 8-42; by the contributor's record): prints 9 Nov f. 33 and the whole 22 Nov letter in clear; its text is not yet transcribed into the folder
+- [ ] key-rebuild: partly done 14 Nov 2026 - f. 53r block 1 aligned (72, 6, 66 fixed); the f. 56r blocks and f. 53r block 2 not yet aligned
 - [ ] retry: not done - rerun em_align.py / decode2.py on f. 33 and ff. 46-47 after the gloss alignments

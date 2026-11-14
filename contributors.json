@@ -361,6 +361,15 @@
    ]
   },
   {
+   "id": "halphen",
+   "name": "Eugène Halphen",
+   "kind": "historical",
+   "aliases": [
+    "Halphen"
+   ],
+   "note": "Editor of Lettres inédites du roi Henri IV à monsieur de Béthune, ambassadeur de France à Rome, du 18 octobre au 24 décembre 1601 (Paris, 1889), printed from the originals in BnF fr. 3484."
+  },
+  {
    "id": "meister",
    "name": "Aloys Meister",
    "kind": "historical",
