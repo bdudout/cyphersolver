@@ -294,7 +294,8 @@
       "kind": "access",
       "what": "Project: JACAR images could not be fetched from this session (proxy refused the host); digits not checked against the images.",
       "result": "failed"
-    }
+    },
+    {"date": "2026-11-14", "kind": "verification", "technique": ["other"], "what": "Issue #611 (Brice Dudout): his independent transcription of the five drafts (28 Oct 2026) collated by him with the contributor's. Two drafts identical; in C09122810100 his 42211 agrees with the contributor's re-reading, his 41199 falls outside the grid where the contributor's 41109 reads, his 94427 is the contributor's first reading (re-read 94421); C09122809400 first group 99606 against 99506, both outside the grid. Nothing new read. Images not looked at here (JACAR access-restriction page, 14 Nov 2026).", "result": "partial"}
   ],
   "outcome": {
     "class": "read in part",
@@ -368,7 +369,8 @@
         "date": "2026-11-10",
         "source": "https://github.com/Harumi-Matsuba/kagigo1901-public",
         "published": true
-      }
+      },
+      {"who": "dudout", "role": "verification", "note": "Collation of his own transcription of the five drafts (28 Oct 2026) with the contributor's: two identical, four groups compared; by his report, file not sent", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/issues/611", "published": true}
     ],
     "texts": [
       {

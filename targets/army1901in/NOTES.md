@@ -48,12 +48,27 @@ cut into pairs.
 - Prior work: contributor's search of 10 Nov 2026 (Cryptiana meijiarmy.htm, meijiarmy2.htm, meijijapan2.htm, unsolved.htm;
   this repository; GitHub; web) found no earlier reconstruction. Not checked: the books of Nagata, Sasaki and Ōno; NIDS originals.
 
+## 14 Nov 2026: issue #611 (Brice Dudout), a possible eighth telegram
+
+Brice Dudout reports from his own transcription of 28 Oct 2026 (digits and readings sent, no images): JACAR C09122810200,
+Taku, Lt-Gen. Yamaguchi to the Chief of the General Staff, 8 Mar 1901 (frame 0353), with the contemporary translation on
+frames 0350-0351, 「号外 機密費一万円更ニ増加アリタシ」. The run `16253 222`, cut 16 25 32 22, gives キミツヒ (機密費) with this
+target's table. Checked here: the four pairs decoded with the table of `decode.py`, 16 キ, 25 ミ, 32 ツ, 22 ヒ, 4 of 4;
+the 1902-04 table gives チヌ?ユ for the same pairs. The record is already in the repository as a gist crib for the
+outgoing drafts (`research/jacar/README.md`, lead L23 vetting). Not checked: the digits on the image. JACAR answered 403
+with its access-restriction page (アクセス制限のお知らせ) to two requests from this session on 14 Nov 2026 and was left
+alone. The telegram is therefore not added to the table of telegrams or to the 77 of 80 count; it is a test waiting for
+an image check and for the rest of the telegram's digits (only one run was sent).
+
 ## Remaining gaps
 - C09122806100 values 91 (twice) and 69 - blocker: no-key-material; outside the table, 91 apparently a code for ニ就キ; no code list found
 - C09122724200 three digits re-read with the table in hand (first readings 72542, 45075, 02948) - blocker: illegible; poor image, and JACAR was not reachable from this session to look again
 
+- C09122810200 (8 Mar 1901, Yamaguchi), one run キミツヒ 4 of 4 by Brice Dudout's transcription (issue #611) - blocker: needs-physical-access; the image has not been seen here (JACAR access-restriction page, 14 Nov 2026), and only one run of the telegram was sent
+
 ## Escalation
 - [x] siblings: the contributor viewed the 1901 telegram files; the outgoing drafts of the same months use another table (army1901)
+- [x] siblings, 14 Nov 2026: C09122810200 reported by Brice Dudout (issue #611) as an eighth telegram in this table, one run 4 of 4 by his digits; image not seen here
 - [x] clear-pages: the filed translations of all seven telegrams used as cribs or checks
 - [x] known-keys: the 1902-04 table (army1902) does not read C09122806100 (army1902 NOTES); the outgoing grid (army1901) is a different arrangement, not tried on these
 - [x] print: contributor's prior-work list (PRIOR_CHECK.en.md); Cryptiana pages; nothing found
