@@ -101,9 +101,42 @@ See `WORKLOG.md`. Short version: images copied from the it1583 worktree, five le
 - **Word signs after clear function words:** none; no sign repeats twice after the same clear word.
 - **Next:** the 301 unmatched signs. Candidates: transcribe f. 134 runs 1-6 against their glosses for more values (gente d'arme in Toscana is spelled), and f. 147 (Sforza's reply, clear) for the content words; re-do the f. 139 transcription of the unmatched shapes with the cluster inventory, since @NN labels split look-alikes.
 
+## 14 Nov 2026: issue #616 (Brice Dudout), two cipher and clear pairs of February 1448 by the same envoy
+
+Brice Dudout points to BnF italien 1585 (Gallica `btv1b52525947w`): f. 28 (cipher) with f. 27 (clear), 19 Feb 1448, and
+f. 30 (cipher) with f. 29 (clear), 22 Feb 1448, as the aligned pair that the entry of 5 Nov above says is needed.
+
+Checked here:
+- **The pairs are real and already in the repository**, under lead 1317 (`research/leads.json`; Nicodemo Tranchedini to
+  Francesco Sforza, 1447-49) and in `research/venice_milan_print/ital1584_copies_B.md` (leaf-by-leaf check of
+  29 Oct 2026, itself after a pointer of Brice Dudout's of that day): f. 28 = canvas 54, f. 27 = canvas 52, f. 30 =
+  canvases 58-59, f. 29 = canvases 56-57. This file did not cite them; it does now.
+- Canvases 52 and 54 fetched again from openapi.bnf.fr (IIIF, no bot check): f. 28 is a slip of 20 lines signed
+  "Idem Nicodemus", "Florentie 19 februarii 1448", about 13 lines of cipher runs between clear words; f. 27 is its text
+  in clear from "essendo Cosimo et l'altri in camera" to "qualche altro bel tracto".
+- **What kind of clear text it is:** not a decipherment of 1448. Ff. 27 and 29 are neat copies in an 18th- or
+  19th-century hand with a French date in the margin ("1448. 19 février"). Where the copyist could not read a sign he
+  left a dash and drew the sign in the margin: two on f. 27 ("et dice — Cosimo", "de' — Milanesi"), about six on f. 29
+  ("fiorini —", "Ragona —", "Fiorentini — Milanesi", "facto —"). So the copies are an existing decipherment of the
+  spelled text and of most word signs, and they are silent exactly on some nomenclator signs.
+- The sign shapes of f. 28 look like those of f. 139 on a first look (the double comb, 8, inverted T and V, the dotted
+  slash, the long runs of small o); not compared sign by sign.
+
+What it is good for here: a 1448 table built on f. 28 against f. 27 and tested on f. 30 against f. 29 would be fifteen
+months later than f. 139, against six and eight years for the tables of Lasry (1452) and Domnina (1454) that give
+62% of its signs a value. Word signs for Cosimo, Fiorentini, Venetiani, Milanesi, the Signor Sigismondo and sums of
+money are the kind f. 139 lacks. Whether the 1446 and 1448 nomenclators agree is not known: f. 134's gloss signs for
+*stantie* and *Fiorentini* are the first test.
+
+Where it belongs: the 1448 letters are lead 1317, not this target. If the 1448 table proves to be this target's key,
+one key, one entry applies and the letters join one folder; if not, the table is a neighbour's key used as a start,
+and 1317 gets its own target. Brice Dudout offers to build the table with the sign labels of `texts/f134_signs.md`,
+learning on f. 28 and keeping f. 30 held out. Not attempted here.
+
 ## Remaining gaps
 
 - f. 139: every cipher run (863 narrow signs in 73 clustered types, no key values) - blocker: none outside; needs one common sign inventory, a 1446 key table from the glosses of f. 134 and the clear words around the runs, and the f. 147 reply as external plaintext for the sense
+- A 1448 table from BnF ital. 1585 f. 28 with its later clear copy f. 27, tested on f. 30 with f. 29 (lead 1317; issue #616), then applied to f. 139: not built - blocker: none outside; the images are public on Gallica and the pairs are confirmed
 - f. 134: seven short runs transcribed sign by sign (texts/f134_signs.md) but only partly aligned to the glosses (span marks approximate) - blocker: none outside
 - f. 145 (R7909, Duke's slip, key R5323): not read; belongs to visconti1446 - blocker: none outside (Gallica ital. 1597 canvas 160 holds a 19th-c. copy)
 
@@ -114,6 +147,7 @@ See `WORKLOG.md`. Short version: images copied from the it1583 worktree, five le
 - [x] known-keys: Domnina's key and Lasry's table applied to f. 139 (table_test.py, corrected: z 3.9 with the no-space model); no 1446 key sheet found; cart. 1597 headings not searched for Nicodemo
 - [x] print: web search; no edition found
 - [x] key-rebuild: attempted; solvers fail held-out controls (solver.py, solver2.py, heldout.py); content words are nomenclator signs (cribs.py)
+- [ ] siblings and clear-pages, 14 Nov 2026 (issue #616, Brice Dudout): the same envoy's letters of 19 and 22 Feb 1448 (BnF ital. 1585 ff. 28, 30; lead 1317) have later clear copies beside them (ff. 27, 29) with a few word signs left blank; confirmed on Gallica; the 1448 table is not built yet
 - [x] retry: f. 134 transcribed (duca, Fiorentini, compagnie), f. 139 relabelled with them and l (z 4.0, 62% of signs valued); 301 signs open
 
 ## For visconti1446 (not edited there)

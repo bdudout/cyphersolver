@@ -314,7 +314,8 @@
    ],
    "what": "f. 139 relabelled with duca, Fiorentini and the 9-shape sign (@12/@102 unified) and rescored (relabel.py): stretch score of the table letters -2.204 (353 letters) -> -2.149 (456 letters) with @12 = l and duca/fiorentini as words; z 4.0 against 100 shuffled assignments of the table values. Single-sign scans over 55 candidate values: @12 (32 uses) best l (z 2.3 among the 55; next i); @101 (18 uses) best e (z 1.8, weak); other shapes <= 9 uses show no clear best. Control (hide a table sign, scan): signs with >= 16 uses come back at rank 1-2 (u, a, e, i, o); rarer ones do not (re, te, p, c, n rank 2-26), so only @12 is accepted (tentative) and @101 is not. Decoded runs then show 'e lo duca' six times, 'duca in', 'cento mila hor.', 'hauete che'. 487 of 788 run signs carry a value (62%); 301 unmatched or ambiguous. Rotated V at L5 (first sign, left-pointing triangle with circles on its right edge) looks like the Fiorentini sign turned on its side; unconfirmed. No sign always follows the same clear function word (checked, none repeats twice).",
    "result": "partial"
-  }
+  },
+  {"date": "2026-11-14", "kind": "access", "what": "Issue #616 (Brice Dudout): BnF ital. 1585 f. 28 (cipher) with f. 27 (clear), 19 Feb 1448, and f. 30 with f. 29, 22 Feb 1448, by the same envoy, proposed as the aligned pair needed for the word signs. Confirmed: the pairs are lead 1317 and were checked leaf by leaf on 29 Oct 2026 (research/venice_milan_print/ital1584_copies_B.md); canvases 52 and 54 fetched again from openapi.bnf.fr. The clear leaves are 18th- or 19th-century copies that leave some word signs blank with the sign drawn in the margin, not decipherments of 1448. No table built; whether the 1448 nomenclator is that of 1446 is not known.", "result": "worked"}
  ],
  "outcome": {
   "method": "not solved",
@@ -326,6 +327,12 @@
   "fraction_read": 0,
   "verification": [
    "none"
+  ],
+  "credits": [
+   {"who": "dudout", "role": "pointer", "note": "BnF ital. 1585 ff. 27-30 (Tranchedini, 19 and 22 Feb 1448, cipher with later clear copies) as an aligned pair for the 1446 word signs", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/issues/616", "published": true}
+  ],
+  "gaps": [
+   {"item": "A 1448 table from BnF ital. 1585 f. 28 against f. 27, tested on f. 30 against f. 29, then applied to f. 139", "blocker": "not-attempted", "detail": "lead 1317; pairs confirmed on Gallica (issue #616, Brice Dudout); the clear leaves are later copies with a few word signs blank"}
   ],
   "notes": "In progress: f. 139 transcribed twice; table letters fit (z 3.9, no-space model) and give readable fragments; f. 134 glosses give duca (bar-o-bar-o) and Fiorentini (V with two circles); with them the clear context of f. 139 reads as a letter urging Sforza to the Duke's side, but the cipher runs are still mostly unread (word signs and unmatched shapes). Relabelled with duca, Fiorentini and l (@12, 9-shape): z 4.0 on the table letters, 62% of run signs valued, 'e lo duca' six times; 301 run signs unmatched. Solvers fail held-out controls."
  }
