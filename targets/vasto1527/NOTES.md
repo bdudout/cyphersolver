@@ -77,17 +77,17 @@ current one.
 
 ## Remaining gaps
 
-- No. 6 code groups dnh, bnq, rar (x2), car, cny, bny, beb, bnc, ge+, and der at 17va.2 (11 tokens; 10 group types) - blocker: no-key-material; one or two contexts each, and none fits a single value. rar is Florencia or Luca ("ganar en el camino a [rar] y ponella debaxo el mando de V. M."). ge+ may be a stop. dnh ("segun la [dnh]") does not fit Roma. Further contexts are in no. 19 ff. 41–43, which have not been transcribed.
+- No. 6 code groups dnh, bnq, rar (x2), car, cny, bny, beb, bnc, ge+, and der at 17va.2 (11 tokens; 10 group types) - blocker: no-key-material; one or two contexts each, and none fits a single value. rar is Florencia or Luca ("ganar en el camino a [rar] y ponella debaxo el mando de V. M."). ge+ may be a stop. dnh ("segun la [dnh]") does not fit Roma. No. 19 ff. 41r–42r, transcribed 14 Nov 2026 by Brice Dudout (PR #600), give new contexts for rar, cnt, bnq and dnh and settle none; the other six groups do not occur there.
 - No. 6 stretches "y y por [mq]" at the head of f. 16v, "es [en de las los] que mas se ha de trabajar", "el duque de Urbino [es de] otro exercito", "servira [que de con] mil [cny]", "ira [que l] camino", "la principal de [der de] pais" (der = poca does not fit here), "en [cnt] parte" (ninguna or otra), "esperar [es] mas ventaja", "apuntamiento [es] [bnc]" (23 tokens besides the codes) - blocker: no-key-material; the signs are transcribed, but the syllable-code values that make sense elsewhere do not make sense here. Probably Lasry's labels merge different glyphs, as they do for es/en and con/tan/ellos. Needs a glyph-level retranscription of these words.
 
 ## Escalation
 
-- [x] siblings: no. 19 (ff. 40–43, same key). Lasry's decryption of f. 40 was used for contexts. ff. 41r and 41v were scanned on the images for the open groups, which gave bet = dello and the at/quia markers. ff. 41–43 were not transcribed in full.
+- [x] siblings: no. 19 (ff. 40–43, same key). Lasry's decryption of f. 40 was used for contexts. ff. 41r and 41v were scanned on the images for the open groups, which gave bet = dello and the at/quia markers. ff. 41r–42r were transcribed in full on 14 Nov 2026 by Brice Dudout (PR #600; 612 groups, `n19_transcription.txt`) and decoded with Lasry's key at letter level (`texts/no19_ff41-42_decryption.txt`); an edited reading of them is not made yet.
 - [x] clear-pages: the clear passages of no. 6 (ff. 16r–17r) frame the cipher and fixed its date and the at/quia markers. No clear duplicate of the cipher exists; CSP Spain III.2 no. 233 summarises only no. 19.
 - [x] known-keys: Lasry's Cipher 2 key (prior/BnF_fr3022_f16.png). Its syllable-sign row was corrected against the glyphs (boz, bab, bar, bop, bopt, bie, bis, bep).
 - [n/a] print: no. 6 is not calendared. CSP Spain III.2 covers no. 19 only.
 - [x] key-rebuild: code values were inferred from context across nos. 6 and 19 (grade I).
-- [x] retry: the 22 Sept pass re-read no. 6 against the images wherever a reading turned on a glyph (views 32–34), and measured it. Still to do: a full glyph-level transcription of no. 6 and of no. 19 ff. 41–43. That would settle the merged syllable signs and give more contexts for the 10 open groups.
+- [x] retry: the 22 Sept pass re-read no. 6 against the images wherever a reading turned on a glyph (views 32–34), and measured it. Still to do: a full glyph-level transcription of no. 6, and an edited reading of no. 19 ff. 41r–42r (transcribed 14 Nov 2026). That would settle the merged syllable signs and give more contexts for the 10 open groups.
 
 ## Files
 
@@ -112,3 +112,63 @@ here; it is kept as a cross-reference only and no longer counted as part of this
 del Vasto's December letter in Cipher 2, with no. 19 as its sibling: read, 98.0% measured. The image tools
 (`blocks*.py`, `grid*.py`, `crop20.py`, `halves.py`, `lines.py`, `seg.py`, `sheet.py`, `slowfetch.py`) work on the
 fr. 3022 scans and stay here.
+
+## 14 Nov 2026: no. 19 ff. 41r–42r transcribed; Lasry's key passes a held-out check
+
+Images: Gallica btv1b90601558, views 79–82 (Source gallica.bnf.fr / BnF). View 80 is f. 41r, view 81 is f. 41v and view 82 is f. 42r.
+
+**Transcription.** The cipher passages of no. 19 after f. 40v had never been transcribed. They are now: 63 lines, 612 groups, in `n19_transcription.txt`.
+- The transcription was done in two passes. Pass A (`n19_passA.txt`) used 3-line crops at 1:1. Pass B (`n19_passB.txt`) used 4-line strips at 0.6 scale and did not consult pass A.
+- The two passes differ in 4 lines, settled on the image (`gl` in 41r.05; `nnbtt` in 41r.28; `To qpsxb` = *inporta* in 41r.29; `LHpmhBttfo` = *holgasen* in 42r.08).
+- Pass B was made by the same reader, so it is not an independent transcription.
+
+**Held-out check of Lasry's key.** Neither his key nor this target's code values had ever seen these folios. A single pre-registered test was run (`PREREG_n19.md`, `n19_decode.py`, `n19_measure.md`):
+- 232 letter-only words were scored against the repository Spanish lexicon;
+- Lasry's key: 0.591; 200 shuffled keys: best 0.164;
+- **PASS** (threshold ≥ 0.50 and ≥ best control + 0.30).
+
+Decoded output is in `texts/no19_ff41-42_decryption.txt`. Strict count by sense: 565 of 612 groups read (0.923).
+
+**Content (6 Nov 1527).**
+- Del Vasto hopes for relief and asks the Emperor for a quick provision.
+- He reports that the Germans will not leave without their pay ("los alemanes no [quieren] salir en [cnt] manera …").
+- He plans to march out with the army "hasta que salgamos juntos", and to go and look for food.
+- He closes: "procuraremos que se vaya la [bog] de [rar]".
+- The second half of f. 41v is a personal plea to the Emperor ("como el menor criado y vasallo suyo").
+
+**Lasry's f. 40v.** At line 5, "caminamos por [bog] de no de venirse aca" has **[rar]**, not "no". On the image the group ends in r, unlike "ras" (= no) earlier on the same line. So: "si nosotros caminamos la buelta de [rar], de venirse aca".
+
+**Open groups of no. 6: new contexts, no value settled.** The list below was frozen (SHA-256 f51d12b2…) before any count:
+- **rar**: the destination of the imperial army's march. f. 40v reads "si nosotros caminamos la buelta de [rar]"; f. 42r reads "si querran caminar, procuraremos que se vaya la buelta de [rar]". Read with no. 6 ("ganar en el camino a [rar] y ponella debaxo el mando de V. M. … pues bastara a sustentar el exercito"), it is Florencia (a homophone of cac?) or Toscana. Luca is now unlikely. Open.
+- **cnt**: f. 42r has "los alemanes no [daf]n salir en [cnt] manera [el mundo?] si [bnq] …"; no. 6 has "si caminara en [cnt] parte". Alguna or otra. Open.
+- **bnq**: f. 42r, "si [bnq] y que dar …". f. 41v has a separate group **baq**: "podriamos si no tener por muy [baq] la vitoria". Open.
+- **dnh**: f. 41r, "la [der] [dnh] que [das]n (= tienen) de [?] la guerra". Roma, suggested by f. 40v, does not fit here. Open.
+- **car, cny, bny, beb, bnc, ge+**: they do not occur in ff. 41r–42r. Open.
+
+New code groups in no. 19, unread:
+- fab ×4: "para la [fab] casi ruinada", "en tranquilidad que [fab] si ruina", "holgasen de salir de tan … [fab]";
+- coh ×2, dig ×2, de ×2;
+- cot, bat, cil, dez, be, bob;
+- dob: "de tan gran [dob]".
+
+The no. 6 count is unchanged (0.980).
+
+## Integration check, 14 Nov 2026 (PR #600, Brice Dudout)
+
+- The three hashes in `n19_measure.md` match the files. `python3 -I n19_decode.py n19_transcription.txt --lexicon
+  lang/lexicons/es.json.gz --measure` gives 612 groups, 232 letter-only words, 0.591, controls mean 0.045 and best 0.164:
+  pass, as stated. `texts/no19_ff41-42_decryption.txt` is that script's output. The test was declared before it was run
+  by the contributor's record (one commit holds the declaration, the script and the result).
+- Images (Gallica btv1b90601558 through openapi.bnf.fr IIIF, full-size crops of view 80, lines 1–5): 50 groups compared
+  with `n19_transcription.txt`, 49 agree; `mffttb` in 41r.03 is doubtful on the image (it decodes to "leesa", one of
+  the contributor's 25 unread letter words). View 79, f. 40v line 5: the group after "bog bis" ends in r, unlike the
+  two "ras" at the heads of lines 4 and 5: [rar], as the contributor says, not Lasry's "no". Views 81 and 82 not sampled.
+- What the 0.923 is. It is the contributor's count by sense on a letter-level stream, by one reader, and it counts the
+  196 syllable signs and the 68 code groups with a value as read. Counted without a reader, 403 of 612 groups (0.66)
+  are a syllable sign, a code group with a value, or a letter word in the Spanish lexicon. There is no edited reading
+  and no word count for these folios yet, so they are **decoded, not read**; nothing in the gap is blocked from
+  outside. No. 6, the letter this entry measures, is unchanged (read, 0.980 of tokens, 0.963 of words).
+- No. 19 is not a document of `profile.json` and this target's class does not depend on it. Whether it becomes one
+  (the class would then follow its reading) is for the owner.
+- No new code value. rar: Florencia or Toscana (Luca less likely after f. 42r); the candidates stay open.
+
