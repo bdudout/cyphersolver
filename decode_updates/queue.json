@@ -784,7 +784,9 @@
      "sent": false,
      "fields": {
       "start_year": 1572,
-      "start_month": 1
+      "start_month": 1,
+      "sender": "not Cardinal Alessandrino; writer not established (the archive's description of ff. 584-674 names Cardinal Rusticucci and Ugolino Gualterucci beside him)",
+      "receiver": "Giovan Battista Castagna, nuncio in Spain"
      }
     }
    }
