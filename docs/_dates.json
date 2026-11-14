@@ -241,6 +241,7 @@
   "filippo sega, paris, 26 nov 1590 and 16 jan 1591": "2026-10-30",
   "five cipher passages in cardinal d’este’s cipher, rome 1584–85": "2026-11-14",
   "flak command black forest, 17 may 1940": "2026-11-09",
+  "flak command black forest, april to june 1940": "2026-11-14",
   "four cipher letters to gianfrancesco gonzaga, rome and forlì, 1428–30": "2026-09-22",
   "fr. pedro de vico to guillem carbonell, avignon, 4 december 1398": "2026-10-15",
   "fra giovanni di lucca to the emperor, 1644": "2026-09-16",
@@ -1476,7 +1477,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "7ad60e0174c9",
+   "hash": "aea9f9713526",
    "posted": "2026-10-13T18:37:37Z",
    "updated": "2026-11-14"
   },
@@ -1926,13 +1927,13 @@
   },
   "findings": {
    "first": "2026-11-05",
-   "hash": "fbc9984d4ca1",
+   "hash": "63c263cefaa3",
    "posted": "2026-11-05T16:05:39Z",
    "updated": "2026-11-14"
   },
   "flak1940": {
    "first": "2026-11-09",
-   "hash": "f24f8cc44e35",
+   "hash": "c09b16b7f546",
    "posted": "2026-11-09T20:24:50Z",
    "updated": "2026-11-14"
   },
@@ -4728,7 +4729,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "02d83600450b",
+   "hash": "85a7a3e66923",
    "posted": "2026-09-18T16:29:53Z",
    "updated": "2026-11-14"
   },

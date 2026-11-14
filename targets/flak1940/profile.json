@@ -756,7 +756,7 @@
   "types": [
    "transposition"
   ],
-  "summary": "Double columnar transposition: plaintext written in rows in a 24-column grid, read off by the key numbers, the result written in a 28-column grid and read off the same way; the first five-letter group of each part is the indicator group and is not text; X separates words in the plaintext.",
+  "summary": "Double columnar transposition: plaintext written in rows in a grid as wide as the first key, read off by the key numbers, the result written in a grid as wide as the second key and read off the same way. The two keys change every day: 24 and 28 columns on 17 May 1940, 19 and 22 on 4 June, 17 to 29 columns on the nineteen other days. The first five-letter group of a part is usually the indicator group and is not text (on 6, 10 and 11 May only the first part has one, and part 3 of 9 May has one of six letters); X separates words in the plaintext.",
   "symbol_kind": "letters",
   "distinct_symbols": 26,
   "diacritics": {
@@ -786,7 +786,7 @@
    "known plaintext"
   ],
   "attack": "known plaintext",
-  "human_role": "Harumi-Matsuba set the task and the rules and directed the checks; Anthropic Claude (Claude Fable 5.1) transcribed the images, fitted the plaintext, wrote the known-plaintext tools and decrypted; OpenAI Codex read the images blind as a second reader. No human has checked the transcriptions. The project re-ran the decryption with its own code and a random-key control; it has not seen the images.",
+  "human_role": "Harumi-Matsuba set the task and the rules and directed the checks; Anthropic Claude (Claude Fable 5.1) transcribed the images, fitted the plaintext, wrote the known-plaintext tools and decrypted; OpenAI Codex read the images blind as a second reader. That is the work on 17 May 1940. 4 June 1940: Brice Dudout directed Claude Opus agents, which transcribed frames 0863-0867 from the images, wrote the solver, ran the held-out test and wrote the reading (dudout/README.md). Nineteen days, 9 April to 1 June 1940: Jacob Houtrouw directed the work, designed the tests and verified; AI models (Claude Opus 5.5 and Claude Fable 5.2, named per day in houtrouw/<day>_issue.md) read the frame images, made the cribs, wrote and ran the search and wrote the readings. No human has checked the transcriptions. The project re-ran the decryption of all twenty-one days with its own code, with trigram controls for 17 May and the nineteen days; it has seen no 17 May image, and compared frame 0863 (4 June) and frames 1114 and 0931 (2 and 23 May) with the NARA images.",
   "models": [
    "Claude",
    "GPT"
@@ -962,7 +962,7 @@
   ],
   "method": "key recovered based on adjacent plaintext",
   "key": "recovered",
-  "method_basis": "Contributor's method: the plaintext beside the ciphertext (the recipient's fair copy of frame 0993) was fitted to the letter counts and a known-plaintext search recovered the keys from part 4; the project verified that the keys decrypt all six parts with its own code, but did not repeat the search or see the images.",
+  "method_basis": "Contributors' method, the same on all twenty-one days: the plaintext beside the ciphertext on the reel was fitted to the letter counts and a known-plaintext search recovered the two keys of the day. 17 May 1940 (Harumi-Matsuba): from the recipient's fair copy of frame 0993, keys from part 4; the project verified that the keys decrypt all six parts with its own code, but did not repeat the search or see the images. 4 June 1940: key published first by Harumi-Matsuba; Brice Dudout, by his record, recovered it the same day from the teleprinter copy on frame 0862 (parts 1 and 2) and tested it on part 4, held out; the project's decoder gives his strings and frame 0863 agrees with the NARA image. Nineteen days, 9 April to 1 June 1940 (Jacob Houtrouw, issue #602): the clear copy of each message as the crib, second key first; the project's decoder gives his plain texts on every day and two cipher frames of 84 were compared with the images; the search was not repeated.",
   "contribution": [
    "key recovered",
    "transcription"
@@ -1034,7 +1034,7 @@
    {
     "item": "how the key follows from the indicator group",
     "blocker": "no-key-material",
-    "detail": "the 1939 key card lists four three-letter Kenngruppen but no rule for 17 May 1940 is known"
+    "detail": "the 1939 key card lists four three-letter Kenngruppen but no rule for any of the twenty-one days is known"
    },
    {
     "item": "79 of the 13,215 letters of the nineteen days of issue #602 do not make their words as transcribed, and 8 letters are lost (21, 23 and 24 May)",

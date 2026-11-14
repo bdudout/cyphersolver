@@ -1,4 +1,4 @@
-# flak1940: radio messages of Flugabwehrkommando Schwarzwald, 17 May 1940, and the key of the day (NARA RG 242, T405 roll 9)
+# flak1940: radio messages of Flugabwehrkommando Schwarzwald, April to June 1940, and the keys of twenty-one days (NARA RG 242, T405 roll 9)
 
 Status: read (9 Nov 2026; the message of 4 June added 12 Nov, nineteen more days added 14 Nov 2026, see the two Contribution sections). Contributed by Harumi-Matsuba (issue #364; repository `Harumi-Matsuba/flak1940-public`, commit a181cd7, per the contributor's licence file), who worked with AI agents (one a blind second reader, another for image judgements). **No human has checked the transcriptions**; the project has seen no 17 May image, and of the 4 June message only frame 0863 was compared with the NARA image (parts 2-5 not); what the project checked is the keys against the contributor's own transcriptions (`VERIFICATION.md`).
 
@@ -29,7 +29,7 @@ Frame 0993: Flakgruppe Friedrichshafen hands over to Flugabwehrkommando Schwarzw
 
 - Seven of the 1,023 letters are wrong as plaintext (BATBERIE, TRANSPORTIWRT, FERNNUENDLIQER, the X and Q of part 4 of frame 0993, VIENULL and the final H of frame 1027); the contributor takes five of them for errors of the sender or the relay, since they are in the typed cipher text, and has no way to check - blocker: illegible; the typed text is the only witness here and the hand-written ones (e or R, h or k) cannot be settled from the handwriting
 - A human check of both transcriptions against the NARA frame images - blocker: needs-physical-access; NARA is not reachable from the project
-- How the key follows from the indicator group (the first five letters of each part) - blocker: no-key-material; the 1939 key card lists four three-letter Kenngruppen but no rule for this day is known
+- How the key follows from the indicator group (the first five letters of each part) - blocker: no-key-material; the 1939 key card lists four three-letter Kenngruppen but no rule for any of the twenty-one days is known
 - 79 of the 13,215 letters of the nineteen days of issue #602 do not make their words as transcribed, and 8 letters are lost (2 on 21 May, 3 on 23 May, 3 on 24 May) - blocker: illegible; the contributor judged the 79 slips of the sheets from the images after the key was known, and the lost letters are on sheet backs that were not filmed
 - A human check of the nineteen days' transcriptions against the NARA frames (84 cipher frames; the project compared frames 1114 and 0931) - blocker: needs-physical-access; no human reader of the frames is available to the project
 - 3 May (frames 1100-1105), the second message of 9 April (frames 1120-1121) and 28 May (frames 905-906): the contributor's sealed attempts with the clear copies as cribs found no key - blocker: no-key-material; these and the other unread days are other keys and stay with catalogue 704
