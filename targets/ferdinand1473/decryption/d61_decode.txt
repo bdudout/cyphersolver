@@ -1,0 +1,23 @@
+# MSS/20211/61 decoded with the 1473 key of /64 as published (dec1473.py, unchanged)
+
+Machine output: one letter per sign, {a|b} = a sign with two values in the key, [x] = sign not in the key.
+Not a reading. The note words are those of transcription/d61_transcription.md.
+
+R07a  ielduqvenorhaiuraiom{c|o|a}rmr            notes: el duque nos ha enviado | principes
+R08a  adcaamerchrederos                         notes: -
+R08b  duegeo ivraralacaudat                     notes: luego | la ciudad
+R09a  enemirtaq cgnel marque[[1.]]de {c|o|a}al  notes: marques
+R10a  ibarcelona                                notes: -
+R10b  detgurmadivy cavdat                       notes: de tomar la dicha ciudad
+R11a  ecor{c|o|a}na                             notes: -
+R11b  quatroolerar das                          notes: quatro galeras
+R12a  quales                                    notes: -
+R12b  rinel rrnaniunaccra                       notes: e sin ellas ninguna cosa
+R13a  hauer aqvelaciudat                        notes: hazer | aquella ciudad
+R14a  conreruar elda{c|o|a}y{c|o|a}dvque        notes: el dicho duque
+R15a  lard[-o]chargalerar                       notes: los dich
+R16a  irald chvaduqve                           notes: al dicho duque
+R17a  quatrogalerardesasde                      notes: quanto
+R17b  neve                                      notes: -
+R18a  daaraarende                               notes: -
+R18b  uahan maraertaraoahvnmer                  notes: para | hun mes

@@ -1,0 +1,27 @@
+line 2 | grandedispiacere || print: grande dispiacere
+line 3 | nehahouutomancodispiaczre || print: ne ha havuto mancho dispiacere
+line 3 | lacolpaatuctalalega || print: la colpa a tucta la liga
+line 4 | spendereconpocaspesahariahauutoattaiazto || print: spendere cum poca spesa havia havuto assai aiuto
+line 5 | [venetiani]dasuao[signorredehungaria]esa || print: 
+line 5 | defenderse || print: defenderle
+line 6 | auarichipersparagnareungruttoperdeloducato || print: avari che per sparagnare uno grosso perdeno lo ducato
+line 8 | quelloe?pediente || print: quello expediente
+line 9 | e?peditoetoptimo || print: expedito et optimo
+line 9 | legasefazadiligenciainmandarelidenariamilano || print: liga se facia diligentia in mandare dinari a milano
+line 10 | perderetempo || print: perdere tempo
+line 11 | capitanidesuizari || print: capitani de svizari
+line 12 | aprenderelopagamento || print: a prendere lo pagamento
+line 12 | decemiliapedonietsei?ilacaualli || print: dece milia pedoni et sei milia cavalli
+line 13 | e?efcitononintende || print: exercito non intende
+line 14 | persestetto || print: per se stesso
+line 16 | legaseuaraaitaredde[signorredehungaria]etfare || print: liga se vora aiutare del signor re de hungaria et fare
+line 17 | solosarabastantedesaluarelostatodelalegaetcastigare[venetiani] || print: solo sera bastante de salvare lo stato de la liga et castigare venetiani
+line 18 | ettalegaseintendaaltramentecon || print: epsa liga se intenda altramente cum
+line 19 | e?ercitodecentomiliapersonesiandosoccorsodedenarm || print: exercito de cento millia persone siando soccorso de dinari
+line 20 | som?malofaraprestoetdegentedelauita || print: summa lo fara presto et de gente dela vita
+line 21 | lalegaabonsen?no || print: la liga a bon senno
+line 22 | accrdarelegae?echetenequi || print: accordare le guerre che tiene qua
+line 22 | lalegaalopprettionede[venetiani] || print: la liga ala oppressione de venetiani
+line 23 | cimecteralofegnoetlaaitaarisico || print: ce mettera lo regno et la vita a risico
+line 24 | taliemoli || print: tali emuli
+line 24 | iocaredeba?a || print: iocare de balla

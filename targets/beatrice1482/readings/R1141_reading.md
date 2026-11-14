@@ -1,4 +1,4 @@
-<!-- Reading of DECODE R1141 (Claude Opus 5.5, 23 Oct 2026): the decipherment printed in Magyar Diplomácziai Emlékek III (1877) no. 12, pp. 16-17, from readings/r1141_mde3_ocr.txt with the OCR's misread letters restored to the printed word (e.g. Doniina = Domina, nie seriéi = me scrive, clie = che, liavesse = havesse, Turclio = Turcho, serivo = scrivo, coníimato = confirmato, cerclia = cercha, diedinarj in 11011 = de dinarj in non, holla = balla?, Yostra = Vostra); a word whose printed form the OCR does not let me restore with certainty is [?word]. Spelling otherwise kept. The print sets the ciphered lines in italics ("A dőlt betűkkel szedett sorok titkos jegyekkel irvák"); the OCR has lost the italics, so cipher and clear are not distinguished here. The Hungarian heading is left out. -->
+<!-- Reading of DECODE R1141 (Claude Opus 5.5, 23 Oct 2026): the decipherment printed in Magyar Diplomácziai Emlékek III (1877) no. 12, pp. 16-17, from readings/r1141_mde3_ocr.txt with the OCR's misread letters restored to the printed word (e.g. Doniina = Domina, nie seriéi = me scrive, clie = che, liavesse = havesse, Turclio = Turcho, serivo = scrivo, coníimato = confirmato, cerclia = cercha, diedinarj in 11011 = de dinarj in non, holla = balla?, Yostra = Vostra); a word whose printed form the OCR does not let me restore with certainty is [?word]. Spelling otherwise kept. The print sets the ciphered lines in italics ("A dőlt betűkkel szedett sorok titkos jegyekkel irvák"); the OCR has lost the italics, so cipher and clear are not distinguished here. The Hungarian heading is left out. Correction of 14 Nov 2026 (Brice Dudout, Claude Opus 5.5): "Venetiani da sua offesa", a cipher run left out of the 1877 print, restored from the period clear copy (Vestigia 1961, marginal addition) and confirmed by the rebuilt key (vestigia/README.md); "defenderse" (copy and cipher) for the print's "defenderle". -->
 
 # R1141, Beatrice of Aragon to Eleonora, Duchess of Ferrara, Pozsony, 8 June 1482
 
@@ -7,7 +7,8 @@
 Illustrissima Domina et soror mia colendissima. Inteso quanto Vostra Signoria [?me] [?scrive] per la sua lettere de 14
 del passato, et con grande dispiacere, il che tucto ho facto intendere al Serenissimo Signor Re mio Consorte, il quale non
 ne ha havuto mancho dispiacere; pero in parte ne dona la colpa a tucta la liga, quale, quando havesse voluto spendere, cum
-poca spesa havia havuto assai aiuto, et tale che non solamente havia tolto, ma li haria ridocti a carastia de defenderle;
+poca spesa havia havuto assai aiuto, et tale che non solamente havia tolto Venetiani da sua offesa, ma li haria ridocti a
+carastia de defenderse;
 et dice meritamente solere cosi intervenire ali avari, che per sparagnare uno grosso perdeno lo ducato. [?Hor] siando le
 cose qui, et Sua Maesta trovandosse cum duj exercitj, l'uno contra lo Turcho, l'altro contra lo Imperatore et Tedeschi,
 ha pensato quello expediente che per l'altre lettere qui alligate scrivo, quali e expedito et optimo. Resta che per la

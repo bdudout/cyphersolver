@@ -16,6 +16,10 @@ only. Every remaining gap has an outside blocker (see Remaining gaps).
 - **d56**, MSS/20211/56 (bdh0000186631), Dueñas, 12 Nov 1470: a third cipher (numbers and signs, probably
   syllabic) with a faint modern pencil decipherment; transcribed (`transcription/d56_transcription.md`), not
   attacked. Not in `profile.json` documents.
+- **d61**, MSS/20211/61, the same to the same, Alcalá, 13 March 1473: a sibling in the 1473 cipher of /64, found
+  by Brice Dudout (PR #619, 14 Nov 2026). Eighteen runs (279 signs) under interlinear notes; the 1473 key recovers
+  0.68 of the note letters against at most 0.40 for shuffled keys, under the 0.85 set beforehand, so the key is
+  not validated by it and no reading is claimed (see d61). Not in `profile.json` documents.
 
 Prior work: Galende Díaz, "La escritura cifrada durante el reinado de los Reyes Católicos y Carlos V", *Cuadernos
 de Estudios Medievales y Ciencias y Técnicas Historiográficas* 18-19 (1994) 159-178, lists /56 and /73 as ciphered
@@ -71,6 +75,54 @@ decodes with it (`decryption/d73_decode.txt`). Reading `decryption/d73_reading.m
 negotiated, and asks that if anyone is sent to Naples on the matter it be Mossèn Santcliment, so that his own
 affairs are handled with the others. (Juana married Ferrante I of Naples in 1476-77.)
 
+## d61 (Alcalá, 13 March 1473): a sibling in the 1473 cipher (added 14 Nov 2026, Brice Dudout's session)
+
+**Letter.** MSS/20211/61, Ferdinand to John II, Alcalá, 13 March 1473 (BNE record notes: "Notas interlineales"; not in
+Galende 1994, not in the sibling list below). Eighteen cipher runs in lines 7-18 of the recto (279 signs), set in the
+clear text, most of them under contemporary interlinear notes: *el duque nos ha enviado*, *luego*, *la ciudad*,
+*marques*, *de tomar la dicha ciudad*, *quatro galeras*, *e sin ellas ninguna cosa*, *aquella ciudad*, *el dicho
+duque*, *al dicho duque*, *un mes*. The verso has no cipher. Image 1 of 3, 1088 x 1456 px (about 120 ppi), CC BY 4.0.
+
+**Test of the 1473 key.** Written down before the decode: the runs were transcribed blind (a second agent with the
+shape table of `d64_transcription.md` only, no values, notes not used), the notes read separately and kept to words
+legible without the cipher, and `dec1473.py`'s key applied unchanged. Score: letters of each note matched to the
+best place in its run's decode (semi-global edit distance), against 200 keys made by shuffling the key's values
+among its signs. Result (`check61/result.json`): **0.68** of 166 note letters, shuffled keys at most **0.40** (mean
+0.31); 11 of 36 note words found exactly (shuffled at most 5). So /61 is in the cipher of /64 (`4` d, `1` e, `+` l,
+`m` t, `x` q, `O` u, `d` e, `b` r all give the note letters: `R07a` decodes *i el duqve nor ha ...*, `R13a` *hauer
+aqvelaciudat*, `R16a` *... al d chva duqve*). It does not reach the 0.85 set beforehand for a validation, and the
+glossed runs (232 signs) are under 300, so this is a sibling identification, not a validation of the key. The
+misses are mostly the 120-ppi transcription (`q`/`qo`, `O` against `o + + o`, `T`/`b`) and signs absent from the
+key.
+
+**Not done.** No reading of /61 is claimed: the notes are a contemporary decipherment (existing), and a reading
+would need a better image to settle the signs. The sign transcribed `FI?` in `R10a` (decoded *barcelona*) stands
+where a struck note seems to read *cadiz* after `p 2 + h` (*cal...*), next to *marques* (the marqués de Cádiz?):
+open. /56 (1470): only 95 of its 372 transcribed signs have a value in the 1473 key (0.26, numbers 8-93 absent), so
+the key does not apply; not decoded.
+
+Files: `transcription/d61_transcription.md` (runs and notes), `decryption/d61_decode.txt` (machine decode, not a
+reading), `check61/` (runs, notes, `score61.py`, result).
+
+### Integration check (14 Nov 2026, PR #619)
+
+- `check61/score61.py` re-run on the committed runs and notes with `dec1473.py` unchanged: 0.6807 of 166 note
+  letters, 11 of 36 words, shuffled keys at most 0.3976 (mean 0.307), `PASS: false`; the figures of `result.json`
+  reproduce exactly. A second control with 1,000 other shuffles: at most 0.404, mean 0.309. Per run the score runs
+  from 0.55 (`R10b`, `R12b`) to 0.86 (`R09a`).
+- A second decoder written from the key string of `dec1473.py` gives the same decode for all 18 runs (279 signs).
+- **The test set beforehand as a validation failed**: 0.68 against the bar of 0.85 (the margin over the controls,
+  +0.28, is also under the +0.30 the script asks). It is published as failed. What stands is the identification:
+  the decode is far above every shuffled key and gives *el duque*, *quatro ... galeras*, *aquela ciudat*, *duque*
+  under the notes that say so. The key of /64 is Michael Brackx's (PR #195) and is unchanged; the identification of
+  /61 and the test are Brice Dudout's (PR #619, with AI agents).
+- The order of events (protocol and blind transcription before the decode) is by the contributor's record: one
+  commit, no protocol file with an outside time stamp.
+- **Image not seen at integration**: BNE Digital answered 403 (its security block) to the one request made, so the
+  18 runs were not sampled against the image. The transcription is the contributor's blind pass, kept as made.
+- /61 is not added as a document of the profile and has no reading; the class and the read share of the target are
+  unchanged.
+
 ## Tried and ruled out (do not repeat)
 
 - The 1473 key on /73 and /56: different alphabets.
@@ -85,6 +137,7 @@ affairs are handled with the others. (Juana married Ferrante I of Naples in 1476
 - d64, the σ-like `6` (*a* in four words, *i/j* in *mios* and *juntos*) and the plain `p` (*c*, *o*, once *a*): values chosen by sense - blocker: illegible; the 1085-px scan does not separate the forms
 - d73, *rompido* (cipher first sign `2`, *c* elsewhere) and *promendo* (so in both texts; sense not settled) - blocker: illegible; a better image would settle the letters
 - d73, the place sign `fi` near *a Napols* (Barcelona in d64) and the signs met once or twice - blocker: too-short
+- d61 (MSS/20211/61), the 18 cipher runs: decoded by machine with the 1473 key, not read; the sign taken as `FI` in `R10a` under a struck note (*cadiz*?) - blocker: illegible; the 120-ppi image does not settle the signs (0.68 of the note letters recovered), and the notes above the runs are a decipherment of the time
 
 ## Escalation
 
@@ -95,7 +148,8 @@ affairs are handled with the others. (Juana married Ferrante I of Naples in 1476
 - [x] key-rebuild: d64 from the notes; d73 aligned on the clear text
 - [x] retry: transcription re-read at 8-16x after each round; decodes re-run without hand corrections
 - [ ] other Ferdinand -> John II letters in MSS/20211 (/57 1471, /80, /82 1475, /99 1476, /105 1477, /120,
-  /123 1478) not checked for cipher
+  /123 1478) not checked for cipher; /61 (13 Mar 1473) found in the 1473 cipher (14 Nov 2026, see d61); /54, /55,
+  /58-60, /62, /63, /66-72, /75 look clear at 45 ppi (contact sheets, not read in full)
 
 ## Next steps (ranked)
 
@@ -108,7 +162,8 @@ affairs are handled with the others. (Juana married Ferrante I of Naples in 1476
 
 `transcription/d64_transcription.md`, `d73_transcription.md`, `d56_transcription.md` (sign tables and the
 interlinear notes); `key_1473.md`, `key_1474.md`; `dec1473.py`, `dec1474.py`, `align1474.py`;
-`decryption/` (decodes, alignment, clear paragraph, readings, translations).
+`decryption/` (decodes, alignment, clear paragraph, readings, translations); `transcription/d61_transcription.md`,
+`decryption/d61_decode.txt`, `check61/` (the /61 sibling test).
 `validation.tsv`: the d73 pairs from `align1474.py` for `docs/_validate.py` (verdict "not applicable": polyphony
 0.2, the `4` and `q` signs carry more than one value).
 

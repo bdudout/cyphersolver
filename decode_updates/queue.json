@@ -3416,7 +3416,7 @@
   "beatrice1482": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/beatrice1482.html",
    "key": {
-    "none": "no key identified; the decipherments are in print"
+    "none": "the decipherments are in print; a partial key was rebuilt from the period clear copies (targets/beatrice1482/vestigia/K_V.json, Brice Dudout, PR #620), not yet offered as a DECODE key: three values differ from the key of R1156"
    },
    "cite": "I. Nagy and A. Nyáry (eds.), Magyar Diplomácziai Emlékek Mátyás király korából III (Budapest 1877), nos. 10 and 12, pp. 13-14, 16-17",
    "fields": {},
@@ -3424,7 +3424,7 @@
     "R1140": {
      "decode_status": "Partially decrypted",
      "proposed": "Decrypted",
-     "note": "Beatrice to Eleonora, Pozsony, 31 May 1482: the cipher passages are printed deciphered (in italics) in MDE III (1877) no. 10, pp. 13-14; matched to the images. A different alphabet from the 1486 letters R1142/R1143.",
+     "note": "Beatrice to Eleonora, Pozsony, 31 May 1482: the cipher passages are printed deciphered (in italics) in MDE III (1877) no. 10, pp. 13-14; matched to the images. A different alphabet from the 1486 letters R1142/R1143. Vestigia publishes the cipher original and a period clear copy (documents 1957, 1958); same alphabet as R1156 (Matthias to Ercole, 1 June 1482).",
      "reading": null,
      "reading_not_needed": true,
      "sent": false
@@ -3432,7 +3432,7 @@
     "R1141": {
      "decode_status": "Partially decrypted",
      "proposed": "Decrypted",
-     "note": "Beatrice to Eleonora, Pozsony, 8 June 1482 (not July): printed deciphered in MDE III (1877) no. 12, pp. 16-17; matched to the images. Holder given as 'Cancelleria, 1523' while the record name says 1623.",
+     "note": "Beatrice to Eleonora, Pozsony, 8 June 1482 (not July): printed deciphered in MDE III (1877) no. 12, pp. 16-17; matched to the images. Holder given as 'Cancelleria, 1523' while the record name says 1623. Vestigia documents 1960 (cipher) and 1961 (period clear copy); the copy's margin gives a cipher run the 1877 print leaves out: 'havia tolto Venetiani da sua offesa'.",
      "reading": null,
      "reading_not_needed": true,
      "sent": false
@@ -3450,7 +3450,7 @@
     "R1142": {
      "decode_status": "Partially decrypted",
      "proposed": "Decrypted",
-     "note": "Beatrice to Eleonora, Buda, 8 March 1486: cipher passages (first page) printed deciphered in MDE IV suppl. no. 45, the closing in MDE III no. 54, the plain body in Berzeviczy no. LVI; matched to the images. The closing says the letter uses the old cipher and encloses a new one. The print keeps unexplained 'Virtus', 'Fortis', 'M.'.",
+     "note": "Beatrice to Eleonora, Buda, 8 March 1486: cipher passages (first page) printed deciphered in MDE IV suppl. no. 45, the closing in MDE III no. 54, the plain body in Berzeviczy no. LVI; matched to the images. The closing says the letter uses the old cipher and encloses a new one. The printed 'Virtus', 'Fortis', 'M.' are words in Latin letters inside the cipher runs, underlined in the period clear copy (Vestigia documents 1967 cipher, 1998 copy); the key of the 1482 letters R1140/R1141 does not read this letter.",
      "reading": null,
      "reading_not_needed": true,
      "sent": false

@@ -1,0 +1,66 @@
+{
+ "classes": {
+  "multi": [
+   "3E",
+   "K",
+   "PSI",
+   "CURL",
+   "TT"
+  ],
+  "nomen": [
+   "G",
+   "W"
+  ]
+ },
+ "key": {
+  "1": "u",
+  "2": "g",
+  "3": "i",
+  "3E": "ll",
+  "6": "h",
+  "7": "o",
+  "8": "a",
+  "9": "d",
+  "=": "q",
+  "C": "c",
+  "CURL": "ff",
+  "E": "e",
+  "F": "f",
+  "G": "signorredehungaria",
+  "K": "ss",
+  "L": "s",
+  "LAMBDA": "o",
+  "LAMBDAFLAG": "?",
+  "P": "p",
+  "PI": "o",
+  "PSI": "ss",
+  "R": "r",
+  "T": "t",
+  "TT": "tt",
+  "U": "p",
+  "UPT": "u",
+  "V": "a",
+  "W": "venetiani",
+  "WEDGE": "?",
+  "X": "x",
+  "Z": "z",
+  "ZIG": "?",
+  "c": "n",
+  "d": "b",
+  "m": "m",
+  "n": "n",
+  "o": "l"
+ },
+ "relabel_R1140": {
+  "N1": "PSI",
+  "N2": "CURL",
+  "N3": "UPT"
+ },
+ "relabel_R1141": {
+  "N1": "LAMBDA",
+  "N2": "UPT",
+  "N3": "ZIG",
+  "N4": "WEDGE",
+  "N5": "LAMBDAFLAG"
+ }
+}

@@ -15,21 +15,23 @@
    "cleartext_in_document": "interspersed",
    "plaintext": {
     "location": [
+     "separate folio",
      "printed edition"
     ],
-    "source": "MDE III (1877), no. 10, pp. 13-14",
+    "source": "MDE III (1877), no. 10, pp. 13-14; period clear copy (1958 (period clear copy))",
     "partial": false
    },
    "length": {
-    "tokens": "unknown",
+    "tokens": 852,
     "unit": "symbols",
-    "measured": false
+    "measured": true,
+    "file": "vestigia/R1140_V1957_transcription.txt"
    },
    "transcription": {
-    "by": "published",
-    "source": "MDE III (1877), no. 10, pp. 13-14",
+    "by": "llm from images",
+    "source": "Vestigia 1957 (cipher) / 1958 (period clear copy); blind glyph transcription, vestigia/",
     "image_quality": "good",
-    "notes": "Published reading located and selected passages matched to manuscript; no fresh exhaustive glyph transcript."
+    "notes": "Full glyph transcription of the recto cipher runs made blind (shape labels only) from the Vestigia images, 14 Nov 2026."
    },
    "read": "read"
   },
@@ -45,46 +47,53 @@
    "cleartext_in_document": "interspersed",
    "plaintext": {
     "location": [
+     "separate folio",
      "printed edition"
     ],
-    "source": "MDE III (1877), no. 12, pp. 16-17",
+    "source": "MDE III (1877), no. 12, pp. 16-17; period clear copy (1961 (period clear copy))",
     "partial": false
    },
    "length": {
-    "tokens": "unknown",
+    "tokens": 648,
     "unit": "symbols",
-    "measured": false
+    "measured": true,
+    "file": "vestigia/R1141_V1960_transcription.txt"
    },
    "transcription": {
-    "by": "published",
-    "source": "MDE III (1877), no. 12, pp. 16-17",
+    "by": "llm from images",
+    "source": "Vestigia 1960 (cipher) / 1961 (period clear copy); blind glyph transcription, vestigia/",
     "image_quality": "good",
-    "notes": "Published reading located and selected passages matched to manuscript; no fresh exhaustive glyph transcript."
+    "notes": "Full glyph transcription of the recto cipher runs made blind (shape labels only) from the Vestigia images, 14 Nov 2026."
    },
    "read": "read"
   }
  ],
  "system": {
   "types": [
-   "undetermined"
+   "homophonic",
+   "nomenclator"
   ],
   "symbol_kind": "symbols",
-  "distinct_symbols": "unknown",
+  "distinct_symbols": 33,
   "diacritics": {
    "used": "unknown"
   },
   "homophones": {
-   "used": "unknown"
+   "used": true
   },
   "nomenclator": {
-   "present": "unknown"
+   "present": true,
+   "kinds": [
+    "names",
+    "titles"
+   ]
   },
   "nulls": {
    "present": "unknown"
   },
   "key_order": "unknown",
-  "summary": "A graphic substitution alphabet used for passages inside clear Italian letters of 1482; not reconstructed here.",
-  "notes": "The 1482 alphabet looks different from those of the 1486 letters (RESULT.md); R1142 (March 1486) says it uses the old cipher and encloses a new one. Split 14 Oct 2026: R1142 is beatrice1486, R1143 beatrice1486b, R1154 (not a cipher) beatrice1505."
+  "summary": "Graphic substitution alphabet with a few homophones (a, o, u, n), signs for doubled letters (tt, ss, ff, ll) and two nomenclator signs (King of Hungary, Venetians); the same alphabet as matthias1482.",
+  "notes": "The 1482 alphabet looks different from those of the 1486 letters (RESULT.md); R1142 (March 1486) says it uses the old cipher and encloses a new one. Split 14 Oct 2026: R1142 is beatrice1486, R1143 beatrice1486b, R1154 (not a cipher) beatrice1505. Key rebuilt 14 Nov 2026 from the Vestigia cipher/clear pairs (vestigia/README.md): 17 letter values shared with matthias1482; 9 = d and 2 = g here, against 9 = e and 2 = d/i in the matthias1482 key (open point there; one key by the evidence, the two targets not folded, owner's decision)."
  },
  "conditions": {
   "prior_solution": {
@@ -95,22 +104,25 @@
   },
   "inputs": [
    "images",
-   "published reading"
+   "known plaintext",
+   "published reading",
+   "transcription"
   ],
-  "attack": "none",
+  "attack": "known plaintext",
   "human_role": "Supplied target catalogue entry and pointed out available DECODE cookie.",
   "models": [
    "GPT-6",
    "claude-opus-5-5"
   ],
-  "sessions": 2,
+  "sessions": 3,
   "first_date": "2026-09-20",
-  "last_date": "2026-10-14",
+  "last_date": "2026-11-14",
   "tools": [
    "Python urllib (authorized DECODE downloads)",
    "pypdf source extraction",
    "pypdfium2 page rendering",
-   "Pillow manuscript previews"
+   "Pillow manuscript previews",
+   "Python alignment and Levenshtein scoring (vestigia/train_key.py, measure.py)"
   ]
  },
  "solution": [
@@ -155,21 +167,45 @@
    "kind": "verification",
    "what": "Full texts listed in outcome.texts (George Lasry's request of 22 Oct 2026): the OCR extracts of the 1877 printed decipherments (MDE III nos. 10, 12) as decryptions; no glyph transcription of either cipher exists (project work).",
    "result": "partial"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "plaintext matching",
+    "statistical test"
+   ],
+   "what": "Vestigia's period clear copies (1958, 1961) paired with the cipher originals (1957, 1960). Key K_V rebuilt from R1140 only, frozen by SHA-256 after a pre-registration, measured once on the whole of R1141 (648 signs, blind transcription): characters 0.900, precision 0.867, words 0.644, against best 0.290 of 200 keys shuffled within value classes; threshold 0.85 and +0.30 passed. Restores a cipher run of R1141 left out of the 1877 print ('Venetiani da sua offesa'). Same alphabet as matthias1482 (17 shared values, 2 contradictions).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "statistical test",
+    "plaintext matching"
+   ],
+   "what": "Integration check of PR #620. measure.py re-run with the relabel argument: 0.900 / 0.867 / 0.644, controls best 0.290 (0.891 without the relabelling); hashes of PREREG.md and K_V.json match; own scorer 0.901 against at most 0.346. train_key.py is seeded with 9 = d and 2 = g; re-run without them: 2 = g 10/10, 9 = d 29/33. matthias1482's values on R1141: 9 = e with 2 = d 0.833, with 2 = i 0.843. Vestigia images opened: 62 signs of R1141 agree with the transcription; the margin of the clear copy 1961 has the restored run. Key partial (three shapes without a value, 8 signs, and one unread sign). Order of events by the contributor's record. Guerra 2010 (listed by Vestigia) not opened.",
+   "result": "worked"
   }
  ],
  "outcome": {
   "method": "read from existing decipherment",
   "method_basis": "Both letters were already deciphered in print in Magyar Diplomácziai Emlékek III (1877), nos. 10 and 12, with the cipher passages in italics; the prints were matched to the DECODE images (clear wording, dates, cipher boundaries) and no key was applied.",
   "contribution": [
-   "catalogue correction"
+   "catalogue correction",
+   "key recovered",
+   "transcription"
   ],
   "class": "already solved",
   "fraction_read": "unknown",
   "verification": [
+   "contemporary decipherment",
+   "historical consistency",
    "independent clear copy",
-   "historical consistency"
+   "key confirms"
   ],
-  "notes": "Matthias's offer of Swiss and cavalry against Venice for money paid at Milan. No glyph transcription, key or measured coverage. Split on 14 Oct 2026 from the five-record group.",
+  "notes": "Matthias's offer of Swiss and cavalry against Venice for money paid at Milan. Split on 14 Oct 2026 from the five-record group. 14 Nov 2026: key rebuilt and validated on a held-out letter; one cipher run of R1141 missing from the 1877 print restored (vestigia/README.md).",
   "credits": [
    {
     "who": "nagy",
@@ -177,6 +213,18 @@
     "note": "printed decipherments in MDE III (1877) nos. 10 and 12, matched to the images",
     "date": "1877",
     "source": "Magyar Diplomácziai Emlékek III (1877), IV (1878)"
+   },
+   {
+    "who": "vestigia",
+    "role": "key or decipherment used",
+    "note": "documents 1958 and 1961, the period clear copies of R1140 and R1141, with the cipher originals 1957 and 1960",
+    "source": "https://www.vestigia.hu/documents/1958"
+   },
+   {
+    "who": "dudout",
+    "role": "verification",
+    "note": "PR #620: blind shape transcriptions of both letters from the Vestigia images, the 1482 key rebuilt from R1140 and its period clear copy and measured on R1141 held out (0.900 against 0.290; by the contributor's record for the order of events); the run missing from MDE III no. 12 restored; with AI agents",
+    "date": "2026-11-14"
    }
   ],
   "texts": [
@@ -188,7 +236,8 @@
     "reading": "readings/R1140_reading.md",
     "translation": "readings/R1140_en.md",
     "language": "it",
-    "read_share": 0.998
+    "read_share": 0.998,
+    "transcription": "vestigia/R1140_V1957_transcription.txt"
    },
    {
     "doc": "R1141",
@@ -198,7 +247,38 @@
     "reading": "readings/R1141_reading.md",
     "translation": "readings/R1141_en.md",
     "language": "it",
-    "read_share": 0.984
+    "read_share": 0.984,
+    "reading_review": {
+     "grade": "A",
+     "by": "integration review of PR #620 (AI agent)",
+     "date": "2026-11-14",
+     "note": "The corrected sentence read against the margin of the period clear copy (Vestigia 1961, image opened): 'et tale che non solamente havia tolto Venetiani da sua offesa ma li haria ridocti a carastia de defenderse'. The rest of the reading is the 1877 print as before; not re-read in full against the copy. The contributor's own review (same date) reported the same correction."
+    },
+    "transcription": "vestigia/R1141_V1960_transcription.txt"
+   }
+  ],
+  "key": "partial",
+  "key_file": "vestigia/K_V.json",
+  "codes_open": {
+   "open": 3,
+   "total": 37,
+   "tokens_open": 8
+  },
+  "provenance": "mixed",
+  "parts": [
+   {
+    "label": "The text of both letters",
+    "records": "R1140, R1141",
+    "method": "read from existing decipherment",
+    "extent": "complete",
+    "basis": "Printed decipherment in MDE III (1877) nos. 10 and 12; one run of R1141 missing from the print restored from the period clear copy (Vestigia 1961)."
+   },
+   {
+    "label": "The 1482 key",
+    "records": "R1140, R1141",
+    "method": "key recovered based on plaintext from external sources",
+    "extent": "partial",
+    "basis": "Brice Dudout (PR #620): rebuilt from R1140 aligned on its period clear copy and the print, measured on R1141 held out (0.900 against 0.290 for shuffled keys; order of events by the contributor's record); three shapes without a value."
    }
   ]
  }

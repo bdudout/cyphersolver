@@ -147,12 +147,25 @@
    "kind": "verification",
    "what": "Full texts listed in outcome.texts (George Lasry's request of 22 Oct 2026): the letter with its cipher runs as read from the glyphs (NOTES.md, copied to texts/R1156_decryption.md), Fraknói's 1895 printed text extracted from fraknoi_v2.txt (texts/R1156_fraknoi1895.txt), and the rebuilt key copied from NOTES.md (texts/key.md); the glyph sequence itself was never written out, so there is no transcription (project work)",
    "result": "partial"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "verification",
+   "technique": [
+    "key matching"
+   ],
+   "what": "Comparison with the key rebuilt for beatrice1482 (PR #620, Brice Dudout): seventeen letter values agree, three differ (d: 2 here, 9 there; g: hooked L here, 2 there; e: 5, 4, 9, ς here, one 5-like sign there). On R1141, held out, 9 = d and 2 = g give 0.900 against 0.833-0.843 for this key's values. Not settled for R1156: no sign-level transcription in this folder, images behind the DECODE login. Key left unchanged; open point in NOTES. Same key as beatrice1482 by the evidence; not folded (owner's decision).",
+   "result": "partial"
   }
  ],
  "outcome": {
   "method": "read from existing decipherment",
   "method_basis": "The letter was printed in full in Magyar diplomacziai emlekek III (1877) no. 14 and Fraknoi 1895 no. 131 from the Modena original; a working key was rebuilt here by aligning the cipher runs with the print and every run re-read from the glyphs, correcting four passages of the print.",
-  "contribution": ["transcription", "key recovered", "catalogue correction"],
+  "contribution": [
+   "transcription",
+   "key recovered",
+   "catalogue correction"
+  ],
   "class": "already solved",
   "key": "partial",
   "fraction_read_method": "estimated",
@@ -171,10 +184,28 @@
   ],
   "notes": "Printed 1877/1895; re-read here from the glyphs with four corrections to the print. NOTES Status says 'read'; the README lists it under 'Found already solved by others', which this class follows. codes_open counts the three identified name signs plus the two unread signs after 'regina' as 5 (the README row calls those two 'name signs'; NOTES only '2 signs').",
   "credits": [
-    {"who": "fraknoi", "role": "key or decipherment used", "note": "printed text (Mátyás király levelei II no. 131; also Magyar diplomácziai emlékek III no. 14, 1877) aligned to rebuild the key; four passages corrected", "date": "1895", "source": "Fraknói, Mátyás király levelei. Külügyi osztály II (1895), no. 131, pp. 232-233"}
+   {
+    "who": "fraknoi",
+    "role": "key or decipherment used",
+    "note": "printed text (Mátyás király levelei II no. 131; also Magyar diplomácziai emlékek III no. 14, 1877) aligned to rebuild the key; four passages corrected",
+    "date": "1895",
+    "source": "Fraknói, Mátyás király levelei. Külügyi osztály II (1895), no. 131, pp. 232-233"
+   }
   ],
   "texts": [
-   {"doc": "R1156", "label": "R1156, Pozsony, 1 June 1482", "decryption": ["texts/R1156_decryption.md", "texts/R1156_fraknoi1895.txt"], "summary": "King Matthias Corvinus to Duke Ercole I of Ferrara, his brother-in-law, five weeks after Venice opened the War of Ferrara: he and Queen Beatrix had resolved to send 500 horse, among them 100 hussars, but found no safe road; his captain Balázs Magyar goes to Croatia towards the Venetian border to gather troops. Printed by Fraknói (1895, no. 131); re-read here from the glyphs, correcting four passages of the print.", "reading": "texts/R1156_reading.md", "translation": "texts/R1156_en.md", "language": "la", "read_share": 0.989}
+   {
+    "doc": "R1156",
+    "label": "R1156, Pozsony, 1 June 1482",
+    "decryption": [
+     "texts/R1156_decryption.md",
+     "texts/R1156_fraknoi1895.txt"
+    ],
+    "summary": "King Matthias Corvinus to Duke Ercole I of Ferrara, his brother-in-law, five weeks after Venice opened the War of Ferrara: he and Queen Beatrix had resolved to send 500 horse, among them 100 hussars, but found no safe road; his captain Balázs Magyar goes to Croatia towards the Venetian border to gather troops. Printed by Fraknói (1895, no. 131); re-read here from the glyphs, correcting four passages of the print.",
+    "reading": "texts/R1156_reading.md",
+    "translation": "texts/R1156_en.md",
+    "language": "la",
+    "read_share": 0.989
+   }
   ],
   "key_file": "texts/key.md"
  }
