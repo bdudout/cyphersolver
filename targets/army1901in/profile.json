@@ -341,7 +341,8 @@
       "kind": "access",
       "what": "Project: JACAR images could not be fetched from this session (proxy); digits not checked against the images.",
       "result": "failed"
-    }
+    },
+    {"date": "2026-11-14", "kind": "verification", "technique": ["key matching"], "what": "Issue #611 (Brice Dudout): JACAR C09122810200 (8 Mar 1901, Taku, Yamaguchi to the Chief of the General Staff, fr. 0353; translation fr. 0350-0351) reported as an eighth telegram in this table. His run 16253 222 decoded here with the table of decode.py: 16 25 32 22 = ki mi tsu hi (kimitsuhi, secret funds), 4 of 4 against the translation; the 1902-04 table does not give it. The digits were not checked on the image: JACAR returned its access-restriction page (403) on 14 Nov 2026. Not added to the 77 of 80 count.", "result": "partial"}
   ],
   "outcome": {
     "class": "read in part",
@@ -380,7 +381,8 @@
         "item": "C09122724200 three digits re-read with the table in hand",
         "blocker": "illegible",
         "detail": "poor image; first readings 72542, 45075, 02948; JACAR unreachable from this session"
-      }
+      },
+      {"item": "C09122810200 (8 Mar 1901), reported eighth telegram", "blocker": "needs-physical-access", "detail": "one run, 4 of 4 by Brice Dudout's transcription (issue #611); the image was not seen here (JACAR access-restriction page, 14 Nov 2026) and the rest of the digits were not sent"}
     ],
     "notes": "Outside the LLM paper's scope (Japanese; contributed). The telegrams were read at the time; what is new is the table. AI transcriptions only.",
     "provenance": "contributed",
@@ -408,7 +410,8 @@
         "date": "2026",
         "source": "http://cryptiana.web.fc2.com/code/meijiarmy2.htm",
         "published": true
-      }
+      },
+      {"who": "dudout", "role": "pointer", "note": "JACAR C09122810200 as an eighth telegram in the serial table (one run, 4 of 4 by his transcription of 28 Oct 2026); image not checked here", "date": "2026-11-14", "source": "https://github.com/dbourdeau/cyphersolver/issues/611", "published": true}
     ],
     "texts": [
       {

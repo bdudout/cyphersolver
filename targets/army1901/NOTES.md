@@ -69,9 +69,19 @@ discussion, otherwise Kusunose, Shiba to be sent back; Li Hongzhang's reply to J
 Zhang Zhidong's request that the treaty not come into being, a telegram from Xi'an; the Field Marshal (Waldersee, per the
 contributor) wishes to visit Japan from Kiaochow Bay; someone to return home, the number of relief troops undecided.
 
+## 14 Nov 2026: issue #611 (Brice Dudout), a second transcription collated
+
+Brice Dudout collated his own transcription of the five drafts (28 Oct 2026, made before this target existed; digits
+only, not sent as a file) with the contributor's. By his report: C09122808300 and C09122812300 identical; in
+C09122810100 his 42211 agrees with the contributor's re-reading (42291 in the first transcription), his 41199 falls
+outside the grid where 41109 reads ハコ(ウ), and his 94427 is the contributor's first reading, re-read 94421;
+C09122809400 first group 99606 in his, 99506 here, both outside the grid. Nothing new is read.
+The first group of C09122809400 now has three readings (99506, 77306, 99606) and stays in the gaps below. None of these
+digits was looked at here: JACAR answered 403 with its access-restriction page on 14 Nov 2026.
+
 ## Remaining gaps
 - values 59, 60, 80, 89, 99 (ten occurrences in C09122809400, C09122810100, C09122812300) - blocker: no-key-material; outside the grid, apparently word codes; no code list found, and contexts only suggest (Russia, China, Germany, minister) without confirming
-- C09122809400 first group (99506 or 77306), 22652 (マ vs ヤ for 密約), re-read digits 43962/43162 and 16598/16593 - blocker: illegible; the blind second reader and the first transcription disagree, and JACAR was not reachable from this session to look again
+- C09122809400 first group (99506 or 77306; 99606 in Brice Dudout's transcription, issue #611), 22652 (マ vs ヤ for 密約), re-read digits 43962/43162 and 16598/16593 - blocker: illegible; the blind second reader and the first transcription disagree, and JACAR was not reachable from this session to look again
 - C09122810100 09626 (ミ vs マ for 漫遊) and 〔モチ〕 (92 16); C09122808300 〔ケ〕コウ (32) - blocker: illegible; the images, per the contributor, show these digits; drafter's slip or misreading cannot be settled without the originals at NIDS
 - the rest of the 通報綴 after C09122810000 (only C09122810100 and C09122812300 viewed) - blocker: needs-physical-access; JACAR unreachable from this session (proxy), so the sibling items could not be opened here
 - C09122806100 (18 Feb 1901, incoming) values 69 and 91 - blocker: no-key-material; outside the #371 incoming table, which reads the rest of it; a different key from this target's, to go with a separate #371 target not created in this session

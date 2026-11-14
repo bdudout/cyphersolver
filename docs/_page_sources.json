@@ -106,18 +106,18 @@
  },
  "army1901": {
   "claims": "2026-11-10",
-  "digest": "934fadeb798366db93902f2ae36d028a0fd543c3",
-  "reviewed": "2026-11-10"
+  "digest": "8376ec4b4fc87987ccaffb7c7ea8ab410adacafa",
+  "reviewed": "2026-11-14"
  },
  "army1901in": {
   "claims": "2026-11-10",
-  "digest": "b4e0e2d190becafcb43b49be00fdf6f7f10ee8d7",
-  "reviewed": "2026-11-10"
+  "digest": "64d87c5260ce6dbee65f9d68325278104dad2331",
+  "reviewed": "2026-11-14"
  },
  "army1902": {
   "claims": "2026-11-07",
-  "digest": "3922ce67da530c5587618db09b8d7c0ec62db36e",
-  "reviewed": "2026-11-10"
+  "digest": "196ab9d70a6143a4c0731d7bfe27b48a3f411e84",
+  "reviewed": "2026-11-14"
  },
  "asang1662": {
   "claims": "2026-11-07",
@@ -1109,8 +1109,8 @@
  },
  "gonzaga1549": {
   "claims": "2026-11-07",
-  "digest": "1fef2624787a4ef908873d72ffeb37e5d02cd3f2",
-  "reviewed": "2026-11-07"
+  "digest": "6985f214aa96aec5b2e06d40f816c2007bdf52b9",
+  "reviewed": "2026-11-14"
  },
  "gonzaga1590": {
   "claims": "2026-11-07",
@@ -3014,8 +3014,8 @@
  },
  "vargas1552": {
   "claims": "2026-11-07",
-  "digest": "7c9cb8f240e2029c06e0cfebe5f0edc5c821a1f1",
-  "reviewed": "2026-11-07"
+  "digest": "fb56ef83b74f5973715665c85610fc6854f3d19d",
+  "reviewed": "2026-11-14"
  },
  "vasto1527": {
   "claims": "2026-11-07",

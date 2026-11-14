@@ -88,14 +88,28 @@ sentence with no hole. Both keep read, grade B. C03020059400 (its reading alread
 - C09122909900: Tomokiyo reads the 2nd pair 14 (ヒ, カヒグン) where every AI reading has 17; not イ (19) either way, so
   11/12 stands; recorded, transcription unchanged.
 
+## 14 Nov 2026: issue #611 (Brice Dudout), the table reported in use in June 1901
+
+Brice Dudout reports from his own transcription of 28 Oct 2026 (digits and readings sent, no images): JACAR C09122800900,
+Tachibana, Taku, 6 Jun 1901 (frame 0152), `06192 72945 … 6810` beside 「隊数ノ変化上デ人事ハ如何」. Checked here with the
+table of `decode.py`: 06 19 27 29 45 = タイスウノ (隊数ノ) and 68 10 = ジン (人), 7 of 7; the 1901 serial table
+(`targets/army1901in/`) gives ダジウグテ and nothing for 68. If the digits stand on the image, the table was in use nine
+months before this target's earliest telegram (27 Mar 1902), and after the last serial-table telegram (22 Apr 1901), so
+the change of table would fall between late April and early June 1901. Not checked: the digits on the image. JACAR
+answered 403 with its access-restriction page (アクセス制限のお知らせ) on 14 Nov 2026 and was left alone. Until the frame
+is seen the telegram is not added to this target's four, the dates on the page stay 1902-04, and the middle of the
+telegram (the `…`) is not transcribed here.
+
 ## Remaining gaps
 - C09122909900 pair 2 (17 for イ) - blocker: needs-physical-access; the image shows 七, writer's or transmission error; binarised JBIG2 scan cannot settle the head of column 2 either
 - C03020059400 three cramped characters of the translation (frame 0118) - blocker: illegible; re-read on the JACAR scan 23 Oct 2026. Pairs 5 and 7 settled 25 Oct 2026: pair 5 = 04 (ハ) on Tomokiyo's reading of the image, pair 7 八八 (ゼ) read as ゼウ = 場 (Harumi-Matsuba, issue #97); 12/12 against the translation
+- C09122800900 (6 Jun 1901, Tachibana, Taku), 7 pairs タイスウノ … ジン by Brice Dudout's transcription (issue #611), which would date the table to June 1901 - blocker: needs-physical-access; the image has not been seen here (JACAR access-restriction page, 14 Nov 2026), and the middle of the telegram was not sent
 
 Closed (taken out of the open list, 23 Oct 2026): b24, 23 Oct 2026: C03020059400 decoded, not read (read with its filed translation, frame 0118)
 
 ## Escalation
 - [x] siblings: the contributor viewed about 420 items (1,088 frames) of the 1901-02 telegram files and 235 items of the 1904 Daijiki; C09123116600 found by a catalogue search for digit runs
+- [x] siblings, 14 Nov 2026: C09122800900 (6 Jun 1901) reported by Brice Dudout (issue #611) as an earlier telegram in this table, 7 of 7 pairs by his digits; image not seen here
 - [x] clear-pages: the filed translations (fr. 0108, 0078, the Daijiki text) and the outgoing draft C09122909800 used as cribs
 - [x] known-keys: Cryptiana's 1874 and 1894 Army coordinate ciphers (iroha order) do not fit; the 1902 table does not read C09122806100
 - [x] print: contributor's prior-work check (PRIOR_CHECK.md, 20 Oct 2026) found no earlier reading

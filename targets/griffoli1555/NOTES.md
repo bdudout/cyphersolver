@@ -180,11 +180,47 @@ Added after the check: the letter-level held-out score with a shuffled-key basel
 note on the c. 317 sign, the limits of the held-out test, and UTF-8 console output in every script.
 `VERIFY.md` is the check as written; its figures predate these changes.
 
+## 14 Nov 2026: issue #613 (Brice Dudout), six open places of 443 c. 315 tested
+
+Brice Dudout sent six readings for open places of c. 315 from his own transcription of the letter (two partial passes
+and a blind reading of single signs, 9 Nov 2026; the transcription itself was not sent). Each was tested here against
+`key.tsv` and against the ASF image (IIIF, 2000 px wide, the maximum; crops enlarged 4 to 7 times, one reader, no
+second pass). In every place the letters he proposes are the key values of the units already in
+`transcription_c315.txt`, once one stray digit is dropped; no new key value is needed.
+
+| place | transcription here | his reading | units under `key.tsv` | image, as read here | result |
+|---|---|---|---|---|---|
+| r09 | `53 43 0 74533 0 45` | si so fermi | 53 f, 43 e, 74 r, 33 m, 45 i; the 5 is over | 7, 4 and two 3-like signs before `0 45`; no separate 5 seen | fermi stands; `74533` is probably `7433` |
+| r20 | `52 55 45 0 65345 0 47222 0 39 72` | chi fida{r}no | 53 f, 45 i, 47 d, 22 a, 39 n, 72 o; the 6 and one 2 are over | after `45` one oval sign (a 0 with a blot, or a 6), then 5 3 4 5 0 4 7 2 2 2 | "in chi fidano" stands with no added r; the 6 is doubtful, the third 2 is on the page |
+| v01 | `39 0 477 0 72 0 32 23` | non riesendo la del medico | 47 d, 72 o; one 7 is over | 4, 7, then 0 7 2; a second 7 is not clear either way (show-through) | riesendo stands |
+| v02 | `45 0 72423 0 15` | si fugira | 74 r, 23 a | 7, 4, a blotted oval, 2, 3: `74 0 23` | fugira stands; `72423` is probably `74023` |
+| v03 | `52 0 722 0 34 74 0 45 0 74222 0 15` | si scoprira | 72 o, 74 r, 22 a; one 2 is over in each group | as transcribed: `72 2` and `74 22 2` | scoprira stands if the extra 2 is dropped in both groups |
+| v04 | `75 76 0 23 0 3` (line end) | stan (probable) | 39 n would need a 9 | after the 3 a small sign with a descender against the gutter, 9 or 7 | probable, as he says; `39` not certain |
+
+What follows from it:
+- The extra 2 after 22 or 72 (the joined "2_2" form) can be dropped in all four places where it stands inside a word
+  that then reads: r07 polizi-a (already so read), r20 fid-a-no, v03 sc-o-pri-r-a twice. Its value, a second null or a
+  pen habit, is still not settled, but "drop it" now holds at four of four.
+- The verso then runs on: "di modo che non riesendo la del medico, subito si fugirà in Montalcino per paura del
+  tratato. Si scoprirà in Siena, et racolti li dieci homini che stan là per noi in Montalcino subito si farà": two
+  futures after the plot is announced, where the reading had two past tenses and a hole. The translation's "someone
+  fled to Montalcino" and "something was discovered in Siena" are therefore doubtful and should become futures.
+- Not applied yet: `transcription_c315.txt`, `decryption_c315.txt`, `reading_c315.md`, `translation_c315.md` and the
+  word counts are unchanged. The three digit corrections (r09, r20, v02) rest on one reader at 2000 px against the
+  contributor's two passes, and need a second pass before the transcription is changed. Brice Dudout's own recount,
+  about 177 of 186 words (95%), is his and unmeasured; by the count of this folder the six places move about
+  ten words out of "decoded, not parsed", "context fill" and "with a hole" (159 verbatim of 187 now; about 169 of 187,
+  90%, if all ten became verbatim), which does not reach 95%; r05-r06 and "del orladino" stay unparsed.
+- His two unsettled digit readings are recorded for the same second pass: r10 `03946` here, `03976` or `03946` in
+  his; r06 `2387645` here, `2387643` or `2387645` in his.
+
 ## Remaining gaps
 
 - 451 c. 25v (about 19 lines) not transcribed; same key, should read on the same terms. (not attempted)
 - 451 c. 25r r04-r05, r17-r21 and the «...» stretches of 443 c. 315: decoded, not parsed. (not attempted)
 - Units 29, 71, 86, 97 and the single-place values 36, 78, 79, 83, 84, 88. (open codes)
+- 443 c. 315 r09, r20, v01-v04: six readings by Brice Dudout (issue #613) tested and supported, not yet written into
+  the transcription and the reading; three digit corrections wait for a second pass. (not attempted)
 - The joined "2_2" groups and the blotted digits on 451 c. 25r; the overwritten sign in r02 is read as 0, not
   certainly. (illegible in part)
 - The held-out test is small (24 words, 77 units). (too short)
@@ -198,4 +234,6 @@ note on the c. 317 sign, the limits of the held-out test, and UTF-8 console outp
 - [ ] known-keys: the ASF key (Cifrari II serie F. III) is named by the inventory but not online; not seen
 - [ ] print: web search only; Cantagalli, La guerra di Siena (1962), not seen
 - [ ] key-rebuild: units 29, 71, 86, 97 and the single-place values not rebuilt; 451 c. 25v would give more places
-- [ ] retry: blotted digits on 451 c. 25r and the odd groups not retried beyond the two places in the table above
+- [ ] retry: blotted digits on 451 c. 25r and the odd groups not retried beyond the two places in the table above.
+  14 Nov 2026: six places of 443 c. 315 retried with Brice Dudout's readings (issue #613), all six supported by the key
+  and the image (section above); still to do: a second pass on r09, r20 and v02, then the files and the recount

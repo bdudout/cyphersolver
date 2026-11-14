@@ -221,8 +221,78 @@ Keys saved in `ref/` (S. Tomokiyo's images; credit before any publication).
 - Corrections to earlier notes: c.64v line 1 is not a second series with dots below: its signs are plain (a Parma en nonbre de la yglesia). `saber` in 13may1549_decryption.txt is `haver`. 30sep: the signs do give `al prior de lombardia`, against the correction of 2 Nov, with the note in view.
 - Validation: `docs/_validate.py` against es-golden-age passes; figures in `profile.json` outcome.validation. It tests the key as a whole, not each word.
 
+## 14 Nov 2026: issue #618 (Brice Dudout), the Simancas sheet of 1866 for this cipher, and the code words
+
+The sheet (one page, PDF of the Archivo General de Simancas, Biblioteca, D/00203, no. 243, "Copias de las cifras
+originales"; reproduction prohibited, so only values are quoted here): `https://www.cultura.gob.es/dam/jcr:bfe499e7-ee87-4bdd-b172-d687f189a705/cifra.pdf`. Opened here
+14 Nov 2026. **It is not a table of the period.** Its heading reads "Secretaría de Estado = Flandes = Leg. n.º 501:
+folios 42 = 111, 157, 178, 181, 183, 187 y 188 = Abecedario y silabario sacado de documentos en cifras que hay en dichos
+folios, relativos á los Secretarios Ydiaquez y Vargas para descifrar su correspondencia, la de Granvela, del Emperador y
+del Principe Andrea Doria; formado por el oficial de 3.er grado Don Nemesio Ruiz de Alday en el Archivo general de
+Simancas á 6 de Marzo 1866", with "Es del año de 1545" beside it. So it is an archivist's reconstruction of 1866 from
+ciphered letters of 1545 that carry decipherments, which is how Satoshi Tomokiyo describes it (Cryptiana, spanish2.htm,
+note of July 2020 at the end of the section on the Imperial Cipher of 1544-1554: "a nineteenth century reconstruction of
+this cipher"). The issue calls it a period table; it is a second reconstruction, independent of Meister's and of
+Bertomeu Masiá's, and of the two made in this repository. The copy of Tomokiyo's page cached in
+`targets/vasto1527/prior/spanish2C_now.htm` has his later note (June 2026) on a sheet by the same archivist with the
+same date, under another link: he sets it beside the earlier cipher Lu.31 of 1537-39, where mus for para and dis for
+Armada are the same and the codes for Papa and Embajador are not. Why Luo's list and this sheet differ there is not
+known.
+
+It has an alphabet, the syllable rows, double letters, a note on nulls ("Nulo será todo lo que tubiere dos puntos debajo
+… y algunos otros signos como et") and a list of code words, read here from the PDF: Alemania mi, Armada dis,
+Cardenal ager, Concilio mens, dineros tus, Duque saa, Embajador quod, Embajador de Inglaterra et ud, Emperador sis,
+Españoles breues, Franceses em, Francia nec (with an end mark), guerra tem, Iglesia sor, Inglaterra ca, Italia ob,
+lea tu, legado ven, Levante brius, Milan mon, principe tac, necesidad tem, nuestro pre, Papa pollo, para mus, religion
+dot, reino ceet, Rey deco, Rey de Francia gacez, Rey de Inglaterra et fu, Rey de Romanos mori, Señor viru, Señoria dita,
+Serenissimo cia, Sicilia popli, Su Magestad dide, Su Santidad inta, tiempo du, tierra vre, tregua auze, Trento trio,
+Tunez dess, Venecia ams, voluntad (b)imi, Vuestra gien, V. S. vitis, gente sem, galera tum, persona mbel, cifra con
+(the rest not copied; small hand, one reader).
+
+**Checked against keys that do not depend on it.** `targets/ferrante1549/key.tsv` (WAINUT; built on Prince Philip's
+letters to the same Ferrante Gonzaga with their contemporary decipherments, frozen before the 14 Nov letter was read)
+has six code words learned from those decipherments: dide Su Magestad, quod Embaxador, gien vuestra, em franceses,
+gaces Rey de Francia, mus para. The sheet gives the same value for all six. Seen here on the Estense images as well:
+Philip's letter sfasc. I c. 15r has `dide`, `quod` and `tac` in the cipher where its clear slip c. 17r has "Su Magestad",
+"al Ambaxador Figueroa" and "al Prin[cipe]" (issue #615). In `targets/vargas1552/` the decipherment on the letter gives
+ager = Cardenal three times and pollo = Papa four times, as the sheet does.
+
+**The code words of this target** (counts from `14nov1549_reading.txt`; the issue's counts differ by one or two):
+
+| code | uses | read here | sheet of 1866 | other evidence | result |
+|---|---|---|---|---|---|
+| Pollo | 6 | the Pope, from the sense | Papa | vargas1552, decipherment of 1552 | confirmed |
+| mus, mms | 6 | para, from the sense | para | ferrante1549 frozen key | confirmed |
+| inta | 2 | "where the Church is expected" | Su Santidad | none | corrected: "fuera de las manos de Su Santidad", "que no fuesse Su Santidad o el Duque Ottavio" |
+| em | 1 | "where the Church is expected" | Franceses | ferrante1549 frozen key | corrected: "meterle dentro en nonbre de Franceses para hazer nos alli una frontera" |
+| gien | 1 | unexplained | Vuestra | ferrante1549 frozen key | settled: "con vuestra satisffacion" |
+| nerp | 1 | France, from the sense | Francia is `nec` with an end mark | ferrante1549 reads the same word `nep` | sense confirmed ("el rey de Francia"); the letters of the code word differ and want a look at the image |
+| et ud | 1 | unexplained | "Embajador de Inglaterra et ud"; the nulls note names `et` | none | open: neither gives sense in "las de la yglesia, de {et ud} y {tu}" |
+| tu | 1 | unexplained | "lea tu" | none | open (the issue reads lea as liga, doubtful) |
+| vela, bela | 2 | a place news comes from | not on the sheet | none | open |
+
+So of nine open code words, five are settled or confirmed (16 of 21 uses), one is confirmed in sense, three stay
+open. Two of the five change the reading of the 14 Nov letter: Orazio would be put into Parma "in the name of the
+French", not of the Church, and Parma is to stay in the hands "of His Holiness".
+
+**Dots below.** The sheet's note that everything with two dots beneath is null agrees with the rule kept here (dotted
+signs drop out inside a word). The counter-cases, c. 60r line 12 and the end of c. 64r, were not looked at again.
+
+**Sign shapes.** The sheet keeps `pre` (a syllable sign) apart from `de`, as `sign_table.tsv` does. Not compared row by
+row: that is the next step and it is workable, because the sheet is public.
+
+**Not done here, on purpose.** The reading files, `profile.json` `codes_open` and the read share are unchanged in this
+round: the three targets that hold this cipher are to be put in order together (below), and the code values should go
+into the readings once, with a strict recount, when that is decided.
+
+**One key, three folders.** `targets/ferrante1549/` (WAINUT, in progress) reads the same letter of 14 Nov 1549, and the
+passages of 13 May, 30 Sep and 20 Nov, from its own transcription and its own table, together with Philip's letters in
+the same cipher. Neither folder cited the other before today. `targets/vargas1552/` is a third letter in the cipher by
+Tomokiyo's identification and two code words. The recommendation written for the owner is in the round's report
+(R14_ib.md); nothing is merged here.
+
 ## Remaining gaps
-- Code words in clear: inta, em, vela/bela, nerp, gien, et ud, tu, with Pollo and mus/mms from the sense only - blocker: open-codes; no list of them in the key as pictured
+- Code words in clear: vela/bela, et ud, tu, and the letters of nerp - blocker: open-codes; not on the Simancas sheet of 1866 or not making sense with it. Pollo, mus/mms, inta, em and gien have values from that sheet and from ferrante1549 (section of 14 Nov 2026), not yet written into the reading files
 - c.60v lines 7-8 and 23-27, c.61r L4-5 and L16-18, c.61v L18 - blocker: open-codes; stretches that do not form sentences, signs not all fixed
 - 20 Nov 1549, last two lines of c.64r - blocker: open-codes; nearly every sign has dots below, and dropping them gives no Spanish
 - Bertomeu Masia 2009, the printed key and possibly these letters - blocker: needs-physical-access; book not online, listing only
@@ -231,6 +301,7 @@ Keys saved in `ref/` (S. Tomokiyo's images; credit before any publication).
 ## Escalation
 - [x] siblings: c.29, c.41, c.77 used; c.82-83 (1 Jul 1552) is another sign set; c.64v and c.50r margins used. The other letters of the 151 Karl V items were not all opened for more cipher.
 - [x] clear-pages: the slip c.29, c.77 and the margin notes are the decipherments; c.62r-62v clear text read for context; c.63 blank
+- [ ] known-keys, 14 Nov 2026 (issue #618): the Simancas reconstruction of 1866 (AGS D/00203 no. 243) opened, its code list read and five code words settled with it; its syllable rows not yet compared with `sign_table.tsv`
 - [x] known-keys: Meister and Masia/Tomokiyo images of the Imperial Cipher; the 1548 numeric key belongs to 15 Jul only
 - [x] print: Cryptiana read; web search for the letter and for Bertomeu Masia 2009 found only a listing; Corpus documental de Carlos V not checked page by page
 - [x] key-rebuild: table extended by hand across 3,000 signs to 277 sign names, `sign_values.tsv`; no annealing, because the reading is by sign shape and the validation already shows annealing does worse
