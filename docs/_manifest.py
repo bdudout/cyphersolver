@@ -2956,6 +2956,11 @@ PAGES = [
          blurb='Louis XIII nominates the Archbishop of Lyon for a cardinal’s hat, citing the services of his brother Richelieu.',
          quote='vous les fassiez valloir et peser à sa Saincteté y adjoustant de plus la recommandation de',
          author='George Lasry'),
+    dict(slug='anover1610', label='Philip III to A&ntilde;over 1610', year='1610', y=1610.38, place='Lerma &rarr; the Count of A&ntilde;over', st='partial', stt='read in part',
+         title='Philip III to the Count of A&ntilde;over, Lerma, 20 May 1610',
+         blurb='A royal order of ten ciphered lines with no decipherment bound in. Alberto Garv&iacute;a Garc&iacute;a rebuilt a partial key from the clear texts of four sibling letters and applied it: Dutchmen have set up a factory at Pinda on the coast of Angola, against the truce, and the count is to see it remedied and report. 77 of the 89 words are sure; eight groups have no sure value, and the transcription has not been compared with the manuscript by the project. Read in part.',
+         quote='&ldquo;olandeses han ydo a asentar fatoria &hellip; en la costa de Angola&rdquo;',
+         rights='Letter: Biblioteca Hist&oacute;rica Municipal de Madrid (Ayuntamiento de Madrid), I 242,29; transcription, key and reading by Alberto Garv&iacute;a Garc&iacute;a'),
     dict(slug='breves1610', label='Br&egrave;ves 1610', year='1610', y=1610.8, place='Paris &rarr; Rome', st='partial', stt='read in part',
          title='Marie de M&eacute;dicis to Savary de Br&egrave;ves, Rome, 1610',
          blurb='Two short ciphered passages in the regent&rsquo;s letters of 15 September and 10 November 1610 (BnF fr. 3789 ff. 17r, 19r). Brice Dudout deciphered them with Henri IV&rsquo;s 1610 key for Br&egrave;ves, which is on BnF fr. 3462 view 112 (R2077&rsquo;s note mistypes it as 3642). Checked here sign by sign: 96 of 98 glyphs supported, two signs conflict with the table. George Lasry contributed his CTTS key, with a repeat sign, and a second document in the same key (PR #61).',
@@ -3386,6 +3391,7 @@ IMAGES['gonzalez1913'] = ('gonzalez1913_lead.jpg', 'The first coded runs of the 
 IMAGES['carranza1914'] = ('carranza1914_lead.jpg', 'The first coded run and the lines after it, with the pencil loop across the text', 'CEHM-Carso, Fondo LXVIII-1, LXVIII-1.23.3165.1, image 0001, via visor.cehm.org.mx')
 IMAGES['fuentes1914'] = ('fuentes1914_lead.jpg', 'The note of 13 June [1914]: Spanish lines with runs of two-figure groups and the pencil loop', 'CEHM-Carso, Fondo LXVIII-1, LXVIII-1.17.2435.1, image 0001, via visor.cehm.org.mx')
 IMAGES['frankenthal1646'] = None
+IMAGES['anover1610'] = None
 IMAGES['blaufeldt1646'] = ('blaufeldt1646_lead.jpg', 'The cipher lines of inv. 24854, rotated upright: runs of two-figure groups with plain Italian between them', 'SOA Z&aacute;mrsk, Rodinn&yacute; archiv Piccolomin&#367; (N&aacute;chod), inv. 24854, photograph of a microfilm-reader screen from the appendix of Vlnas 2017 (theses.cz/id/p3p2kb)')
 IMAGES['juel1647'] = ('juel1647_lead.jpg', 'Register p. 5: the first nine lines of the run of numbers in the entry to the chancellor of 20 November 1647', 'Rigsarkivet, Copenhagen, TKUA, Speciel del, Sverige, Peder Juels og Mogens H&oslash;egs gesandtskabsarkiver, Ekstraktprotokol 1647-49, Arkivalieronline unit 261585, image 5 (p. 5)')
 IMAGES['hopken1740'] = ('hopken1740_lead.jpg', 'The start of the bare cipher copy of the comte de Castellane\'s letter, image 49: the heading row and the first rows', 'Riksarkivet, Stockholm, Diplomatica Turcica, SE/RA/2119/2119.1/I/9/27, image 49 (R0003636_00049), via Riksarkivet IIIF')

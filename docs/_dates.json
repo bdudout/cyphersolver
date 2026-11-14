@@ -473,6 +473,7 @@
   "philip ii to the nuncio ormanetto, 1573 (asv segr. stato spagna 7)": "2026-09-21",
   "philip ii to the nuncio ormanetto, 1573, re-measured": "2026-10-05",
   "philip ii → don juan of austria, madrid, 28 aug 1574": "2026-10-24",
+  "philip iii to the count of añover, lerma, 20 may 1610": "2026-11-14",
   "philip iv to the marquis of santa cruz, madrid, 6 dec 1630": "2026-10-30",
   "philip iv → cardinal albornoz, madrid, 24 july 1648": "2026-10-27",
   "philippe groffey (?) to ferenc rákóczi ii, 15 october 1707": "2026-09-20",
@@ -820,6 +821,12 @@
    "hash": "c39c1d16f8d4",
    "posted": "2026-09-21T18:38:12Z",
    "updated": "2026-11-07"
+  },
+  "anover1610": {
+   "first": "2026-11-14",
+   "hash": "6587e6b845fa",
+   "posted": "2026-11-14T15:35:28Z",
+   "updated": "2026-11-14"
   },
   "arabia1916": {
    "first": "2026-11-06",
@@ -1303,7 +1310,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "ed30336afaa6",
+   "hash": "bac0f4d71440",
    "posted": "2026-09-17T06:13:29Z",
    "updated": "2026-11-14"
   },
@@ -1477,7 +1484,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "aea9f9713526",
+   "hash": "e151679c0b7e",
    "posted": "2026-10-13T18:37:37Z",
    "updated": "2026-11-14"
   },
@@ -1927,7 +1934,7 @@
   },
   "findings": {
    "first": "2026-11-05",
-   "hash": "63c263cefaa3",
+   "hash": "a0564124655e",
    "posted": "2026-11-05T16:05:39Z",
    "updated": "2026-11-14"
   },
@@ -2017,7 +2024,7 @@
   },
   "further": {
    "first": "2026-10-26",
-   "hash": "3872cf5127fc",
+   "hash": "8ac27b9177ed",
    "posted": "2026-10-26T18:46:48Z",
    "updated": "2026-11-14"
   },
@@ -2071,9 +2078,9 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "5dac847c5476",
+   "hash": "c70f37fbfd5b",
    "posted": "2026-09-24T07:48:35Z",
-   "updated": "2026-11-13"
+   "updated": "2026-11-14"
   },
   "goldbar": {
    "first": "2026-09-15",
@@ -2371,7 +2378,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "e2bdddad12e3",
+   "hash": "6d4069a76e2f",
    "posted": "2026-09-14T23:01:27Z",
    "updated": "2026-11-14"
   },
@@ -4729,7 +4736,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "85a7a3e66923",
+   "hash": "c89fd5a611a9",
    "posted": "2026-09-18T16:29:53Z",
    "updated": "2026-11-14"
   },
