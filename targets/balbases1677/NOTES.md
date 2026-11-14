@@ -126,6 +126,13 @@ discursos; the figures give "politica" where the margin was transcribed "guerra"
 plain 0.333 and 0.417, because the es word list lacks the names, the period spellings (hazia, perjuyzio, zelos, oy) and
 ordinary words (garantia, dominios, potencias, progresos). Read as a reader every sentence holds: both keep read.
 
+## Key value al = despues, 14 Nov 2026
+
+Brice Dudout (PR #601, on ronquillo1676) pointed out that `key.json` had no value for the code group `al`. The margin of
+R986 glosses it twice: "[al] que franceses" stands under the margin's "despues que franceses", and "[r] [al] de [con]
+[cun]" under "y despues de haver hecho" (`read/R986.txt`). The same value is in the margins of ronquillo1676 R980 and
+R981. `al` = despues is now in `key.json`. No reading changes: R986 was read from its margin.
+
 ## Remaining gaps
 - R992, R996, R997, R998 decoded, not read (2,295 cipher tokens; partial readings 0.13-0.41 clean sentences, re-read 22 Oct 2026): rare groups with no value in the key (fol, 85, 150, 182, 187, 17, 189, bon, i8 ...) - blocker: no-key-material
 - the same four: stretches where the homophones do not segment and the 1616-px greyscale scans do not settle the doubtful figures (struck, overwritten) - blocker: needs-physical-access (originals at the AGR Brussels, SEG 2559)

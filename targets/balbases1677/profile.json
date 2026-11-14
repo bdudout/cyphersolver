@@ -228,7 +228,8 @@
    "what": "Verification 5 (plain-bar rows): R985 and R991 were scored as whole files (key stream plus margin lines). Margin decipherments written out as read/R985_reading.md and read/R991_reading.md (R991's second unread margin word filled from the figures, 'de estos discursos'). Plain 0.333 and 0.417, explicit 1.0: the plain shortfall is names, period spellings and ordinary words missing from the es word list; both keep read on reader judgement.",
    "result": "partial"
   },
-  {"date": "2026-10-24", "kind": "verification", "what": "Read bar applied per document (v10): 1 of 10 documents marked read measure under 95% of words read as sense (v2_score explicit holes) and are now read in part; read_share recorded for each.", "result": "partial"}
+  {"date": "2026-10-24", "kind": "verification", "what": "Read bar applied per document (v10): 1 of 10 documents marked read measure under 95% of words read as sense (v2_score explicit holes) and are now read in part; read_share recorded for each.", "result": "partial"},
+  {"date": "2026-11-14", "kind": "key from source", "what": "Code group al = despues added to key.json after Brice Dudout's pointer (PR #601): the R986 margin glosses it twice ('despues que franceses', 'y despues de haver hecho'), and so do ronquillo1676 R980 and R981. No reading changes.", "result": "worked"}
  ],
  "outcome": {
   "validation": {
@@ -280,6 +281,12 @@
     "who": "contemporary",
     "role": "key or decipherment used",
     "note": "marginal decipherments on 10 of the 14 letters, used to rebuild the key"
+   },
+   {
+    "who": "dudout",
+    "role": "pointer",
+    "note": "al = despues, glossed twice in the R986 margin, was missing from key.json; PR #601",
+    "date": "2026-11-14"
    }
   ],
   "texts": [

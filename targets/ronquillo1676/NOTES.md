@@ -1,6 +1,6 @@
 # Salinas (London) and Ronquillo (Nijmegen) to Fuenmayor, 1676–78 — DECODE R966–R984, R1001
 
-Status: read (14 Nov 2026: R982, the last letter under the 95% bar, re-read on the images, 0.919 -> 0.954; every letter now at or above 95% of words read as sense)
+Status: read in part (22 Oct 2026: all twenty letters read and translated, eighteen from their contemporary margins; 14 Nov 2026: R982 re-read by Brice Dudout, twelve holes closed, 0.919 -> 0.954 by hole marks, about 0.93 by words, so R982 stays under the bar; holes left in R983 f. 1, R982, R984 and single words, each with an outside blocker)
 
 14 Nov 2026 (verification, Claude Opus 5.5): R982, which has no margin, re-read on the full-resolution DECODE images
 (I5093-I5095) wherever the reading had a hole, with a second blind pass on the doubtful figures. Most holes came from
@@ -11,6 +11,32 @@ todas, aseguro, tan, ambiguedad, Mequelemburg, constitucion, puestos, abrogado, 
 from keyx.py are keyed: fin = ofrece (R975, R977, R981), al = despues (R980, R981; balbases1677 R986 twice), 91 = asist-
 (R981; gives "que asisten" in R984). read_share R982 0.954, R984 0.969. The balbases1677 key.json itself lacks al;
 its R986 margin glosses it twice.
+
+Integration check (14 Nov 2026, PR #601, Brice Dudout). The class change to read is **not applied**; the re-read and
+the three key values are kept.
+
+- Recount of `read/R982_reading.md` with `research/reading_audit/v10_relabel.share`: 330 words, 16 hole marks, 0.954,
+  as the pull request says (before: 0.919). R984: 505 words, 16 marks, 0.969.
+- That figure counts each `[...]` as one word. Seven of the thirteen `[...]` of R982 cover more than one word by the
+  reading's own Notes and `read/R982.dec.txt`: the opening groups (M 182 491), "corra [...]" (do y is 55 ed 28 do:
+  con, por, la and a noun), the words before "el dolor", "por el [...]" (dul + de bu-r-go-ma-y-ne), "critico [...] el
+  estado", "persistan en [...]" (ten groups) and "sino [...]". Counted at the least number of words those groups hold,
+  R982 has at least 26 unread words against 330 read: about 0.93 of its words. The bar is 95% of words, so R982 stays
+  read in part and the target with it. The 0.954 is recorded as `read_share` with that reservation.
+- "ambiguedad" has an unidentified sign and no figures for its ending in the Notes ("kept for the fixed pair"), and the
+  blind pass gave "puestos" low confidence; both are kept as the contributor read them. One more hole mark leaves the
+  mark count at 0.951, two at 0.948: the margin is one word.
+- Not checked here: the figures on the images. DECODE serves the full-size images of R982 only to an account
+  ("Insufficient permissions"; the 200-px thumbnails are public). The twelve closures therefore rest on the
+  contributor's record, and on the fact that each gives a Spanish word that fits its clause. `tx/R982.txt`, `read2/`
+  and `read/R982.dec.txt` still hold the old figures: the corrected figures are only in the reading's Notes.
+- The three key values were checked against the DECODE margin transcriptions and the readings: fin = ofrece (R975
+  "ofrecen los mediadores", R977 "los papeles que ofrece", R981 "ofrecer montes y valles"), al = despues (R980, R981
+  twice; balbases1677 R986 "[al] que franceses" under the margin's "despues que franceses" and "[r] [al] de [con] [cun]"
+  under "y despues de haver hecho"), 91 = asist- (R981 "ha asistido", "el asistirnos"). `al` is now also in
+  `targets/balbases1677/key.json`.
+- A suggestion, not applied: "informado por el [dul] de bu-r-go-ma-y-ne", in a sentence on England, would be the
+  marques de Borgomanero, Spanish ambassador in London, which would make dul = marques. No margin glosses dul.
 
 22 Oct 2026, later (re-read, batch ronq; REREAD_BRIEF.md): **all twenty letters read and translated.** For each
 letter the contemporary decipherment in the left margin was transcribed from the DECODE images (full-resolution
@@ -130,7 +156,7 @@ DECODE's margin transcription where there is one). 22 Oct 2026: `keyx.py` (key +
 ## Remaining gaps
 
 - R983 f. 1 passage, many holes - blocker: illegible; the margin is faded almost to nothing on the DECODE scan and groups l, c, 1q, L2, pA, 11, 300 are not in the key
-- R982 opening groups and about 12 phrase-level holes; R984 about 12 code groups (138, 91, 113, 460, cus, 600, dul, al, lop, fin, 109, bc) - blocker: no-key-material; no margin on either letter and no gloss for these codes in the eighteen margins; R982 is a soft scan (4/7/9 not distinguishable)
+- R982 opening groups and about ten phrase-level holes (16 hole marks, at least 26 words); R984 about 11 code groups (M, 491, 36, dul, lop, 188, the al of "los [al]eses", 113, 138, cus, 600) - blocker: no-key-material; no margin on either letter and no gloss that fits these codes in the eighteen margins; [?habra] and [?tenemos] hang on figures (21/31, bc/oc) that two readings of the image did not settle
 - single uncertain words in R966, R967, R968, R971/R972, R976, R977, R979, R981, R1001 - blocker: illegible; margin faded or blotted at that word and the figures do not settle it
 
 ## Escalation
@@ -140,4 +166,5 @@ DECODE's margin transcription where there is one). 22 Oct 2026: `keyx.py` (key +
 - [x] known-keys: Balbases 1677 key (with hernannunez1674 additions) fits unchanged
 - [n/a] print: no printed edition of Fuenmayor's incoming letters is known from the sibling targets
 - [x] key-rebuild: 22 Oct 2026, about 60 code values from the margins added to keyx.py (conflicting groups left as they were, listed above)
+- [x] retry (14 Nov 2026, Brice Dudout, PR #601): R982 re-read on the full-size images where it had holes; twelve closed; fin, al, 91 keyed from the sibling margins
 - [x] retry: 22 Oct 2026, every letter built into sentences and translated; R982 and R984 re-transcribed from the images and read with the key (read/R*_reading.md, _en.md)
