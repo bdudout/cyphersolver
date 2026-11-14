@@ -92,3 +92,26 @@ fr-1600-letters: every key gives gibberish (-4.6 to -8.6 per char; coverage 8-84
 Rusdorff R4333-R4337: images fetched to `decode/` (git-ignored); the numbers run in dotted groups inside clear German
 and go above 100 (e.g. 110, 103 on R4333 p.1), beyond the range of every A23-311 letter key, so these keys are ruled
 out without a full transcription.
+
+## Bremen 1631: verification of 14 Nov 2026 (Brice Dudout, PR #599) and integration check
+
+Brice Dudout re-read the open words of `bremen1631_reading.md` on crops of the eight DECODE photographs (public file
+addresses, no login), twice, the second time by a reader that saw only the crops (by the contributor's record), and
+changed a word only where both readings agree. Details are in the notes at the end of the reading file.
+
+- Gained: *wolgeneigtem* twice (was *[?wolgewogenem]*), *sich*, *schantze*, *Unglück* (gloss over 81), *unserm
+  verhoffen nach* and *zubelangen* in the postscript, and *hulff{+s}chickunge* (the figures are one letter short).
+- **19 = Cologne**, from the gloss over it (*Colonien:*): the Cologne troops beside Gronsfeld's and the Minden ones.
+- Not adopted, one reading only: 31 = *Hameln*, 82 = *Creutz*, 86 = *Ungemach*, and about fifteen clear words.
+- Read share (v10 rule): 0.931 -> **0.942** (777 words, 48 holes). Under 95%: still read in part. Key unchanged.
+
+Checked here: the count reproduces (777 words, 48 holes; the in-word emendation keeps its word under the rule of 14
+Nov 2026). Image 2 of R4330 was fetched from DECODE and three places looked at. The salutation reads *wolgeneigtem*.
+*dan sich dahero* is as read. Over the name number 19 the gloss has two words before *trouppen*: the first is
+uncertain (*Stark:* or *Chur:*), the second reads *Colonien:* or *Cölnisch:*; `bremen_transcription.txt` already had
+"stark: ... Colonien: ... troppen" on that line, and the figures after 19 (21 81 32 36 98 72 76) spell *troupen* by
+the key, so the two gloss words belong to 19. Either lettering names Cologne (with *Chur:*, the Electorate's troops);
+the value is accepted, the lettering stays open. R4331 and the other gains were not looked at here.
+
+Open after this: the name numbers 18, 31, 82, 86 (and 42 in R4330), `[...]` after *westpfelische*, and about 25 clear
+words marked `[?word]`; the phone photographs are the limit (blocker: illegible / no-key-material, as in the profile).

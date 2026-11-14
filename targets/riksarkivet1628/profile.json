@@ -202,6 +202,12 @@
       ],
       "what": "Verification of the 24 Oct partial reading (Brice Dudout with Claude Opus 5.5): DECODE R4330 and R4331 fetched at full size from the public image URLs (no login); the open words re-read on crops twice, the second reading blind, and a word changed only where both readings agree. Gained: wolgeneigtem (twice), sich, schantze, Unglück (gloss over 81, both readings), unserm verhoffen nach and zubelangen in the postscript, hulff{+s}chickunge as a one-letter emendation of the figures, and code 19 = Cologne (gloss 'Colonien:' over it, both readings). Key unchanged; no measurement. v10 read share 0.931 -> 0.942 (777 words, 48 holes): still under 95%, read in part. Proposed by one reading only and not adopted: 31 Hameln, 82 Creutz, 86 Ungemach.",
       "result": "partial"
+    },
+    {
+      "date": "2026-11-14",
+      "kind": "verification",
+      "what": "Integration check of PR #599: the read share recounted with the v10 rule, 777 words and 48 holes, 0.942, as stated (the in-word emendation hulff{+s}chickunge keeps its word). DECODE R4330 image 2 fetched from the public file address (no login) and three places looked at: the salutation reads wolgeneigtem; 'dan sich dahero' is as read; the gloss over the name number 19 has two words before 'trouppen', the second 'Colonien:' or 'Cölnisch:' (the transcription of September already had 'stark: ... Colonien: ... troppen' there, and 21 81 32 36 98 72 76 spell troupen by the key). 19 = Cologne is accepted from the gloss; the exact lettering stays open. The blind second reading is the contributor's record. R4331 was not looked at here.",
+      "result": "partial"
     }
   ],
   "outcome": {
@@ -277,6 +283,12 @@
         "who": "contemporary",
         "role": "key or decipherment used",
         "note": "the clerk's interlinear glosses on the Bremen 1631 letters (~80% of groups), aligned to rebuild the band key"
+      },
+      {
+        "who": "dudout",
+        "role": "verification",
+        "date": "2026-11-14",
+        "note": "open words of the Bremen 1631 reading re-read twice on the DECODE photographs, the second time blind; seven words gained and the name number 19 read as Cologne from its gloss; read share 0.931 -> 0.942 (PR #599)"
       }
     ],
     "texts": [
