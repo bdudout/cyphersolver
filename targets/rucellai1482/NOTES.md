@@ -28,17 +28,18 @@ Catalogue 2350 and 2323 (ASF MAP LXXII 196, 200, 202, 206; and LXXII 211, which 
 No decipherment of 196, 200, 202, 206 or 211 found (catalogue vetting of 6 Nov 2026; repository searched 14 Nov 2026: no target, PR or issue on these letters except our status notes). Mallett's edition of Lorenzo's Lettere cites only 204-205.
 
 ## Remaining gaps
-- Key not validated: the one protocol test of the system failed (0.6018 against a 0.85 bar, earlier key K_T, 204 against 205), the second too (0.5088 on the glosses of 201); K_HP_v1 has no fresh test. Blocker: not-attempted as long as the routes under Escalation are open (a further HP letter with a clear or a gloss; Comanducci 1996, Appendix III).
-- Unresolved stretches: 19, 12, 10, 10 and 17 in 196, 200, 202, 206, 211. Blocker: open-codes (B, crossed equals, dotted o, "e d", l with small o) and doubtful shapes at 1272 px (b/6/t, d/b, o/Q, q/9).
-- Images: the ASF server gives 1272 px at most; higher resolution needs an order to the ASF (needs-physical-access).
-- No second reader has compared the five bare letters with the images (the integration check sampled 207 only).
+- Key not validated - blocker: not-attempted; the one protocol test of the system failed (0.6018 against a 0.85 bar, earlier key K_T, 204 against 205), the second too (0.5088 on the glosses of 201); K_HP_v1 has no fresh test. The routes under Escalation are still open (a further HP letter with a clear or a gloss; Comanducci 1996, Appendix III).
+- Unresolved stretches - blocker: open-codes; 19, 12, 10, 10 and 17 in 196, 200, 202, 206, 211 (B, crossed equals, dotted o, "e d", l with small o) and doubtful shapes at 1272 px (b/6/t, d/b, o/Q, q/9).
+- Images - blocker: needs-physical-access; the ASF server gives 1272 px at most, higher resolution needs an order to the ASF.
+- Second reader - blocker: not-attempted; nobody has compared the five bare letters with the images (the integration check sampled 207 only).
 
 ## Escalation
 - [ ] siblings: catalogue 2377 lists Rucellai's pieces in MAP XLVIII with glosses on about 60 pages and four filed decipherments; `targets/mediceo1483` found XLVIII 294 (Feb 1485) in another sign family ("##"), so which XLVIII pieces of 1482 are in the HP cipher is not yet known. MAP LXXII 189-215 and XLVIII have not been surveyed sign by sign (validation.txt, point 5). This is the workable route to a fresh test.
-- [x] clear pages: 208 (of 207) used for the key; 205 (of 204) and the glosses of 201 used for the two failed tests.
-- [ ] known keys: MAP LXXII 183 (the Milan embassy key of the 1490s, issue #589) compared by sign description only, see Integration check: same family of conventions, not the same key; not tried on the images. Gabbrielli's Dieci key no. 14 (1484-85) is another system (contributor).
+- [x] clear-pages: 208 (of 207) used for the key; 205 (of 204) and the glosses of 201 used for the two failed tests.
+- [ ] known-keys: MAP LXXII 183 (the Milan embassy key of the 1490s, issue #589) compared by sign description only, see Integration check: same family of conventions, not the same key; not tried on the images. Gabbrielli's Dieci key no. 14 (1484-85) is another system (contributor).
 - [ ] print: R. M. Comanducci, *Il carteggio di Bernardo Rucellai: inventario* (Olschki 1996), pp. XXIX-XXXI and Appendix III (Rucellai's keys), not seen.
-- [ ] key rebuild / retry: after one of the above.
+- [ ] key-rebuild: after one of the above.
+- [ ] retry: after one of the above.
 
 ## Integration check (14 Nov 2026)
 - Second decoder, written for this check from `key/K_HP_v1.json` (pairs longest first, the two context rules, singles): identical to all six files in `decryption/` (196, 200, 202, 206, 207, 211; 1608 decoded letters).
