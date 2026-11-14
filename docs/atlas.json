@@ -6797,6 +6797,17 @@
    "src": "profile"
   },
   {
+   "slug": "gonzaga1549",
+   "doc": "ph1546",
+   "year": 1546.48,
+   "date": "25 Jun 1546",
+   "from": "Madrid",
+   "to": "Milan",
+   "st": "partial",
+   "label": "Charles V to Gonzaga 1549",
+   "src": "profile"
+  },
+  {
    "slug": "huyson1547",
    "doc": "turkei-i-7-2-18",
    "year": 1547.19,
@@ -6808,6 +6819,17 @@
    "src": "profile"
   },
   {
+   "slug": "gonzaga1549",
+   "doc": "ph1547-c09",
+   "year": 1547.39,
+   "date": "23 May 1547",
+   "from": "Madrid",
+   "to": "Milan",
+   "st": "partial",
+   "label": "Charles V to Gonzaga 1549",
+   "src": "profile"
+  },
+  {
    "slug": "farnese1547",
    "doc": "asf-mdp384-c76r",
    "year": 1547.61,
@@ -6816,6 +6838,28 @@
    "to": "Florence",
    "st": "partial",
    "label": "French ambassador at Rome 1547",
+   "src": "profile"
+  },
+  {
+   "slug": "gonzaga1549",
+   "doc": "ph1548-c10r",
+   "year": 1548.59,
+   "date": "4 Aug 1548",
+   "from": "Valladolid",
+   "to": "Milan",
+   "st": "partial",
+   "label": "Charles V to Gonzaga 1549",
+   "src": "profile"
+  },
+  {
+   "slug": "gonzaga1549",
+   "doc": "ph1549-c12r",
+   "year": 1549.19,
+   "date": "8 Mar 1549",
+   "from": "Heidelberg",
+   "to": "Milan",
+   "st": "partial",
+   "label": "Charles V to Gonzaga 1549",
    "src": "profile"
   },
   {
@@ -6893,6 +6937,50 @@
    "to": "Milan",
    "st": "partial",
    "label": "Muzio to Ferrante Gonzaga 1550",
+   "src": "profile"
+  },
+  {
+   "slug": "gonzaga1549",
+   "doc": "ph15xx-c24",
+   "year": 1551.46,
+   "date": "catalogued 16 Jun 1563; opens \"El Principe\", so before January 1556",
+   "from": "Madrid",
+   "to": "Milan",
+   "st": "partial",
+   "label": "Charles V to Gonzaga 1549",
+   "src": "profile"
+  },
+  {
+   "slug": "gonzaga1549",
+   "doc": "ph1551-c28r",
+   "year": 1551.9,
+   "date": "24 Nov 1551",
+   "from": "Madrid",
+   "to": "Milan",
+   "st": "partial",
+   "label": "Charles V to Gonzaga 1549",
+   "src": "profile"
+  },
+  {
+   "slug": "gonzaga1549",
+   "doc": "ph1551-c26r",
+   "year": 1551.9,
+   "date": "24 Nov 1551",
+   "from": "Madrid",
+   "to": "Milan",
+   "st": "partial",
+   "label": "Charles V to Gonzaga 1549",
+   "src": "profile"
+  },
+  {
+   "slug": "gonzaga1549",
+   "doc": "ph1553",
+   "year": 1553.2,
+   "date": "14 Mar 1553",
+   "from": "Madrid",
+   "to": "Milan",
+   "st": "partial",
+   "label": "Charles V to Gonzaga 1549",
    "src": "profile"
   },
   {

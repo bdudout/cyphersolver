@@ -131,6 +131,7 @@
   "burghley to walsingham, early 1573": "2026-09-22",
   "camus de pontcarré → villeroy, 1586": "2026-10-23",
   "cardinal alessandrino to the nuncio in spain, 1567": "2026-09-21",
+  "cardinal alessandrino to the nuncio in spain, 1567–69, and a letter of 1572": "2026-11-14",
   "cardinal alessandrino to the nuncio in spain, 1568–69": "2026-09-21",
   "cardinal campeggio to francis i, c. 1534": "2026-09-21",
   "cardinal caracciolo to charles v, 14 november 1537": "2026-09-21",
@@ -776,7 +777,7 @@
   },
   "alessandrino1568": {
    "first": "2026-09-21",
-   "hash": "92e2987bbe0e",
+   "hash": "36a16150aa84",
    "posted": "2026-09-21T11:06:53Z",
    "updated": "2026-11-14"
   },
@@ -824,7 +825,7 @@
   },
   "anover1610": {
    "first": "2026-11-14",
-   "hash": "6587e6b845fa",
+   "hash": "76208678b8e0",
    "posted": "2026-11-14T15:35:28Z",
    "updated": "2026-11-14"
   },
@@ -980,7 +981,7 @@
   },
   "beatrice1482": {
    "first": "2026-09-20",
-   "hash": "56a4aa50c5ef",
+   "hash": "0fd9573fd4ba",
    "posted": "2026-09-20T22:58:03Z",
    "updated": "2026-11-14"
   },
@@ -1310,7 +1311,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "df11439b9f6e",
+   "hash": "513a70958e05",
    "posted": "2026-09-17T06:13:29Z",
    "updated": "2026-11-14"
   },
@@ -1484,7 +1485,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "2b218024107a",
+   "hash": "613d55724570",
    "posted": "2026-10-13T18:37:37Z",
    "updated": "2026-11-14"
   },
@@ -1934,7 +1935,7 @@
   },
   "findings": {
    "first": "2026-11-05",
-   "hash": "e35de2fe6159",
+   "hash": "c3b036b013de",
    "posted": "2026-11-05T16:05:39Z",
    "updated": "2026-11-14"
   },
@@ -2024,7 +2025,7 @@
   },
   "further": {
    "first": "2026-10-26",
-   "hash": "799ccccb427c",
+   "hash": "5fb4244238ea",
    "posted": "2026-10-26T18:46:48Z",
    "updated": "2026-11-14"
   },
@@ -2078,7 +2079,7 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "116b4f6e2ddc",
+   "hash": "8a2529236875",
    "posted": "2026-09-24T07:48:35Z",
    "updated": "2026-11-14"
   },
@@ -2108,7 +2109,7 @@
   },
   "gonzaga1549": {
    "first": "2026-11-03",
-   "hash": "32f52c15873c",
+   "hash": "e77562a7d22b",
    "posted": "2026-11-03T14:41:38Z",
    "updated": "2026-11-14"
   },
@@ -2378,7 +2379,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "07548d91c123",
+   "hash": "8d07cd87ffa1",
    "posted": "2026-09-14T23:01:27Z",
    "updated": "2026-11-14"
   },
@@ -4736,7 +4737,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "2a483496b664",
+   "hash": "93637b8f1107",
    "posted": "2026-09-18T16:29:53Z",
    "updated": "2026-11-14"
   },
